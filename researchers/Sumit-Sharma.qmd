@@ -1,0 +1,25 @@
+---
+title: "Sumit Sharma"
+categories:
+  - PhD
+  - MSC
+  - Data Quality
+  - Simulation Models
+  - Computer Vision
+author: "Sumit Sharma"
+date: 06/05/2025
+format: html
+editor: visual
+---
+
+### Who am I:
+![](/files/img/headshots/Sumit_Sharma.jpg){fig-align="right" width="100"}
+
+Hi! I am Sumit, an incoming PhD student at CALS, Cornell. I am a veterinarian with a Master of Veterinary Science (M.V.Sc.) in Physiology and a B.V.Sc. & A.H. (equivalent to DVM) from the Agriculture and Forestry University (AFU), Nepal.
+Over time, and coming from a veterinary background, my interests have gradually expanded to the intersection of animal health and production, data science, and digital dairy systems, leading me to develop a growing curiosity for programming and analytical tools. I find working with data both challenging and rewarding; translating complexity into clarity. I am especially drawn to how emerging technologies like artificial intelligence and machine learning can drive smarter, more sustainable approaches to livestock management.
+Outside of research, I enjoy being in nature, trying new sports, following whatever catches my curiosity, and learning music at my own pace. Whether it’s playing football or ping pong, discussing world affairs, or picking up a new tune, I like to keep life active, creative, and open to new experiences.
+
+
+### My work at Bovi-Analytics
+
+At Bovi-Analytics, I focus on applying AI and machine learning to precision livestock farming, turning complex data into practical insights. I am also exploring and learning about a wide range of approaches, including data quality assessment, simulation and digital twin models, and computer vision etc.
