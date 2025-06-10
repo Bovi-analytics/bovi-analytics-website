@@ -39,6 +39,7 @@ jobs:
 
       - name: Restore R environment
         run: |
+          options(pkgType = "binary")
           install.packages("renv")
           renv::restore()
         shell: Rscript {0}
