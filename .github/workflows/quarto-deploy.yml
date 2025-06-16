@@ -2,11 +2,15 @@ name: Quarto Website CI/CD
 
 on:
   push:
-    branches: [ main ]  # Change if your default branch is different
+    branches: [ main ]
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
+
+    env:
+      CFLAGS: "-std=gnu99"
+      CXXFLAGS: "-std=gnu++14"
 
     steps:
       - name: Checkout Repo
@@ -35,12 +39,6 @@ jobs:
             libpng-dev \
             libtiff5-dev \
             libjpeg-dev
-
-      - name: Create Makevars to fix digest compilation
-        run: |
-          mkdir -p ~/.R
-          echo 'CFLAGS=-std=gnu99' >> ~/.R/Makevars
-          echo 'CXXFLAGS=-std=gnu++14' >> ~/.R/Makevars
 
       - name: Restore R environment
         run: |
