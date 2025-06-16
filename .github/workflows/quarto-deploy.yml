@@ -1,52 +1,21 @@
-name: Quarto Website CI/CD
+name: Quarto Publish
 
 on:
   push:
     branches: [ main ]
 
 jobs:
-  deploy:
+  publish:
     runs-on: ubuntu-latest
 
-    env:
-      CFLAGS: "-std=gnu99"
-      CXXFLAGS: "-std=gnu++14"
-
     steps:
-      - name: Checkout Repo
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v3
 
-      - name: Set up Quarto
-        uses: quarto-dev/quarto-actions/setup@v2
+      - uses: quarto-dev/quarto-actions/setup@v2
         with:
           version: '1.4.550'
 
-      - name: Install R and Packages
-        uses: r-lib/actions/setup-r@v2
-
-      - name: Install system dependencies
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y \
-            build-essential \
-            r-base \
-            r-base-dev \
-            libssl-dev \
-            libcurl4-openssl-dev \
-            libxml2-dev \
-            libfontconfig1-dev \
-            libfreetype6-dev \
-            libpng-dev \
-            libtiff5-dev \
-            libjpeg-dev
-
-      - name: Restore R environment
-        run: |
-          install.packages("renv")
-          renv::restore()
-        shell: Rscript {0}
-
-      - name: Publish Site to GitHub Pages
+      - name: Publish to GitHub Pages
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
