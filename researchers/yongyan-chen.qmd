@@ -27,7 +27,7 @@ There are four chapters in my phd thesis:
 -   Prediction of persistency at day 305 in lactation at the moment of the insemination decision
 -   Association between pregnancy stage and lactation persistency in dairy cattle
 
-![](/files/img/researchers/yongyan-chen-bio.png)
+![](/files/img/researcher-docs/yongyan-chen-bio.png)
 
 # Publications finished
 

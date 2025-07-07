@@ -13,7 +13,7 @@ course-logo: /files/img/Bovi-Analytics-SmallLogo.png
 
 ## Senior researchers
 
-::::: {.grid .senior-researchers}
+::::::: {.grid .senior-researchers}
 ::: {.g-col-12 .g-col-sm-6 .g-col-md-4 .enhong-liu}
 ### Miel Hostens
 
@@ -25,17 +25,23 @@ course-logo: /files/img/Bovi-Analytics-SmallLogo.png
 
 [![](/files/img/headshots/EnhongLiu.png){fig-align="left" width="200"}](enhong-liu.html)
 :::
-:::::
+
+::: {.g-col-12 .g-col-sm-6 .g-col-md-4 .enhong-liu}
+### Puchun Niu
+
+[![](/files/img/headshots/PuchunNiu.png){fig-align="left" width="200"}](enhong-liu.html)
+:::
+
+::: {.g-col-12 .g-col-sm-6 .g-col-md-4 .enhong-liu}
+### Hanlu Zhang
+
+[![](/files/img/headshots/HanluZhang.png){fig-align="left" width="200"}](enhong-liu.html)
+:::
+:::::::
 
 ## Graduate students PhD
 
 :::::::::: {.grid .graduate-students-phd}
-::: {.g-col-12 .g-col-sm-6 .g-col-md-4 .matthieu-salamone}
-### Matthieu Salamone
-
-[![](/files/img/headshots/MatthieuSalamone.png){fig-align="left" width="200"}](mattieu-salamone.html)
-:::
-
 ::: {.g-col-12 .g-col-md-4 .kristof-hermans}
 ### Kristof Hermans
 
@@ -54,12 +60,6 @@ course-logo: /files/img/Bovi-Analytics-SmallLogo.png
 [![](/files/img/headshots/SabaNoor.png){fig-align="left" width="200"}](saba-noor.html)
 :::
 
-::: {.g-col-12 .g-col-md-4 .lucia-trapenese}
-### Lucia Trapenese
-
-[![](/files/img/headshots/LuciaTrapenese.png){fig-align="left" width="200"}](lucia-trapenese.html)
-:::
-
 ::: {.g-col-12 .g-col-md-4 .sonam-yang}
 ### Sonam Yang
 
@@ -71,6 +71,18 @@ course-logo: /files/img/Bovi-Analytics-SmallLogo.png
 
 [![](/files/img/headshots/MeikeVanLeerdam.png){fig-align="left" width="200"}](meike-van-leerdam.html)
 :::
+
+::: {.g-col-12 .g-col-md-4 .sumit-sharma}
+### Sumit Sharma
+
+[![](/files/img/headshots/SumitSharma.png){fig-align="left" width="200"}](sumit-sharma.html)
+:::
+
+::: {.g-col-12 .g-col-md-4 .sebastien-franceschini}
+### Sebastien Franceschini
+
+[![](/files/img/headshots/SebastienFranceschini.png){fig-align="left" width="200"}](sebastien-franceschini.html)
+:::
 ::::::::::
 
 ## Graduate students MsC
@@ -79,7 +91,7 @@ course-logo: /files/img/Bovi-Analytics-SmallLogo.png
 ::: {.g-col-12 .g-col-md-4 .muhammad-azam}
 ### Muhammad Azam
 
-[![](/files/img/headshots/Missing.png){width="100"}](aslam-muhammad-azam.html)
+[![](/files/img/headshots/AslamMuhammadAzam.png){width="200"}](aslam-muhammad-azam.html)
 :::
 
 ::: {.g-col-12 .g-col-md-4 .irene-gonzalez-ortega-Villena}
@@ -111,7 +123,7 @@ course-logo: /files/img/Bovi-Analytics-SmallLogo.png
 
 ## Lab alumni
 
-:::::::::: {.grid .alumni}
+:::::::::::: {.grid .alumni}
 ::: {.g-col-12 .g-col-md-4 .yongyan-chen}
 ### YongYan Chen
 
@@ -153,4 +165,16 @@ course-logo: /files/img/Bovi-Analytics-SmallLogo.png
 
 [![](/files/img/headshots/ArnoLiseune.png){fig-align="left" width="200"}](arno-liseune.html)
 :::
-::::::::::
+
+::: {.g-col-12 .g-col-sm-6 .g-col-md-4 .matthieu-salamone}
+### Matthieu Salamone
+
+[![](/files/img/headshots/MatthieuSalamone.png){fig-align="left" width="200"}](mattieu-salamone.html)
+:::
+
+::: {.g-col-12 .g-col-md-4 .lucia-trapenese}
+### Lucia Trapenese
+
+[![](/files/img/headshots/LuciaTrapenese.png){fig-align="left" width="200"}](lucia-trapenese.html)
+:::
+::::::::::::
