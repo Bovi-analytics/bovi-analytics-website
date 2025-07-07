@@ -1,13 +1,8 @@
 ---
 title: "Curriculum Vitae - Miel Hostens"
 subtitle: "Robert and Anne Everett Associate Professor of Digital Dairy Management"
-categories:
-  - PhD
-  - Veterinarian
-  - DataScience
+date: today
 author: Miel Hostens
-date: 01/26/24
-toc: true
 image: /files/img/researchers/miel-hostens-bio-2024.jpg
 image-alt: "Miel Hostens"
 #Publication block
@@ -19,13 +14,19 @@ csl : "https://www.zotero.org/styles/journal-of-dairy-science"
 refs: |
    ::: {#refs}
    :::
+format:
+  pdf:
+    toc: false
+    number-sections: false
+    colorlinks: true
+    papersize: letter
 ---
+
+![](images/clipboard-853805812.jpeg)
 
 ## Current position
 
 **Robert and Anne Everett Associate Professor of Digital Dairy Management and Data Analytics** at Department of Animal Science, College of Agriculture and Life Sciences, Cornell University (9 months position) and at Department of Laboratory for Animal Nutrition and Animal Product Quality (0.1 FTE -- Ghent University) focusing on the creation of methodologies using precision dairy farming to monitor sustainable food production systems from a global perspective.
-
-![](/files/img/researchers/miel-hostens-bio-2024.jpg)
 
 ## Biographical sketch
 
@@ -33,13 +34,13 @@ refs: |
 
 ## Motivational insights
 
-Understanding what somebody does often starts by understanding one's motivational insights. [You can read my motivational insights](/files/pdfs/miel-hostens-insights.pdf) (created in 2022, I might have changed a little bit meanwhile :). Most of the ideas in the report can be found in the absolutely must-read "[Surrounded by Idiots](https://www.surroundedbyidiots.com/en/books/surrounded-by-idiots/)" by Thomas Erikson. His book and my own motivational insights have been a personal and academic game changer for me.
+Understanding what somebody does often starts by understanding one's motivational insights. [You can read my motivational insights](https://bovi-analytics.com/files/pdfs/miel-hostens-insights.pdf) (created in 2022, I might have changed a little bit meanwhile :). Most of the ideas in the report can be found in the absolutely must-read "[Surrounded by Idiots](https://www.surroundedbyidiots.com/en/books/surrounded-by-idiots/)" by Thomas Erikson. His book and my own motivational insights have been a personal and academic game changer for me.
 
 ## Education
 
 -   PhD in Veterinary Medicine, University of Ghent, 2013:
 
-    -   "[Health and Fertility Challenges in High Yielding Dairy Cows during the Transition Period and the Use of Dietary Fatty Acids as an Optimization Strategy](/files/pdfs/miel-hostens-cv.pdf)"
+    -   "[Health and Fertility Challenges in High Yielding Dairy Cows during the Transition Period and the Use of Dietary Fatty Acids as an Optimization Strategy](https://bovi-analytics.com/files/pdfs/miel-hostens-cv.pdf)"
 
 -   Master in Veterinary Medicine, University of Ghent, 2006 (*cum laude*).
 
@@ -79,17 +80,19 @@ Understanding what somebody does often starts by understanding one's motivationa
 | **PhD pre-applicant** forthe Institute for the Promotion of Innovation by Science and Technology in Flanders on the topic of “Polyunsaturated fatty acids in dairy cattle nutrition and the consequences for follicle, egg and embryo quality.”                                                       | Department of Reproduction, Obstetrics and Herd Health, Ghent University                           | 1/7/2006  | 31/12/2006   |
 +-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------+-----------+--------------+
 
+: {tbl-colwidths="\[40,40,10,10\]"}
+
 ## Graduate research experience
 
 ### Finalized PhDs
 
 -   **Jenne De Koster** (2016), PhD title: "Influence of body condition score of dairy cows at the end of pregnancy on peripheral tissue insulin response and metabolic properties of adipose tissue".
 
--   [**Peter Hut**](peter-hut.html) (2022), PhD title: "Sense of Sensors -- Monitoring Behaviour of Dairy Cows" focusing on using sensor technology in transition dairy cows.
+-   [**Peter Hut**](https://bovi-analytics.com/researchers/peter-hut.html) (2022), PhD title: "Sense of Sensors -- Monitoring Behaviour of Dairy Cows" focusing on using sensor technology in transition dairy cows.
 
--   [**Arno Liseune**](arno-liseune.html) (2022), PhD title: "Using deep learning for animal monitoring to improve animal welfare in dairy cattle".
+-   [**Arno Liseune**](https://bovi-analytics.com/researchers/arno-liseune.html) (2022), PhD title: "Using deep learning for animal monitoring to improve animal welfare in dairy cattle".
 
--   [**Chen YongYan**](yongyan-chen.html) (2024), a PhD focusing on the non-linear lactation curve and weight loss modelling in dairy cows.
+-   [**Chen YongYan**](https://bovi-analytics.com/researchers/yongyan-chen.html) (2024), a PhD focusing on the non-linear lactation curve and weight loss modelling in dairy cows.
 
 ### Regular supervision
 
@@ -155,6 +158,8 @@ Understanding what somebody does often starts by understanding one's motivationa
 | -   Co-organiser of the 2016 ADSA Discover Conference on Big Data for Dairy (Chicago, USA).                                                                                                                                                                    | 2016           |
 +----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------+
 
+: {tbl-colwidths="\[80,20\]"}
+
 ### Professional membership
 
 -   Member of the American Dairy Science Association.
@@ -167,6 +172,7 @@ Understanding what somebody does often starts by understanding one's motivationa
 
 ### Professionalization of education
 
+-   **Research Leadership Development Programme** for talented researchers at Centre for Academic Teaching and Learning, Utrecht, The Netherlands
 -   **University Teaching Qualification** at Centre for Academic Teaching and Learning, Utrecht, The Netherlands, 2021
 
 ### Teaching experience
@@ -253,32 +259,55 @@ Understanding what somebody does often starts by understanding one's motivationa
 | Summer school – Professional Certificate in Bioinformatics                                                                                                                                       | 2017          | *An introduction to scalable data analytics in animal science*                                                                                                                                                             |
 +--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
+: {tbl-colwidths="\[30,20,50\]"}
+
 ## Funding and project acquisition
 
 ### Finished projects
 
-|  |  |  |  |
-|----|----|----|----|
-| [**Project Description**]{.underline} | [**Role**]{.underline} | [**Year**]{.underline} | [**Budget**]{.underline} |
-| GplusE was an FP7 project funded by the European Union. It was a five-year project from 2014 and 2018 executed by 15 research and industry partners. The project covered the interaction between genotype and environment contributing to the sustainability of dairy cow production systems. This was achieved through the optimal integration of genomic selection and novel management protocols based on the development and exploitation of genomic data and supporting novel phenotyping approaches. | CoPI | 2014 | €9,000,000 |
-| In the SUMMERFAIR project (SUMmarizing transmission data to Enable data Reanalysis and predictions by FAIR data use) we tackle the issue of lack of a common terminology and need for repetition of costly experiments by developing a shared vocabulary (domain-ontology) and a workflow enabling reuse and combination of transmission data. The project running from 2021-2022 was granted by the dutch ZoNMW. | CoPI | 2021 | €250,000 |
-| VEERKRACHT/Resilience – The transition period as a window and metabolic resilience to monitor of dairy cattle, granted by national Belgian VLAIO 2018 is a project that aims at creating tools to monitor the transition success of dairy cows at individual level and herd level. These tools allow the farmer to monitor individual animals at risk, in addition to allow individualized preventive measures. This will reduce the development of transition associated problems, which will increase productivity and animal welfare. | CoPI | 2018 | €1,300,000 |
-| CLAWHEALTH.NL – A project sponsored by the Dutch Foundation WakkerDier to map the prevalence of leg and hoof problems in Dutch dairy cows, and to uncover the risk factors for leg and claw problems in the Netherlands using AI driven systematic reviews. | PI | 2023 | €100,000 |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------+------------------------+--------------------------+
+| [**Project Description**]{.underline}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | [**Role**]{.underline} | [**Year**]{.underline} | [**Budget**]{.underline} |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------+------------------------+--------------------------+
+| GplusE was an FP7 project funded by the European Union. It was a five-year project from 2014 and 2018 executed by 15 research and industry partners. The project covered the interaction between genotype and environment contributing to the sustainability of dairy cow production systems. This was achieved through the optimal integration of genomic selection and novel management protocols based on the development and exploitation of genomic data and supporting novel phenotyping approaches.                               | CoPI                   | 2014                   | €9,000,000               |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------+------------------------+--------------------------+
+| In the SUMMERFAIR project (SUMmarizing transmission data to Enable data Reanalysis and predictions by FAIR data use) we tackle the issue of lack of a common terminology and need for repetition of costly experiments by developing a shared vocabulary (domain-ontology) and a workflow enabling reuse and combination of transmission data. The project running from 2021-2022 was granted by the dutch ZoNMW.                                                                                                                        | CoPI                   | 2021                   | €250,000                 |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------+------------------------+--------------------------+
+| VEERKRACHT/Resilience – The transition period as a window and metabolic resilience to monitor of dairy cattle, granted by national Belgian VLAIO 2018 is a project that aims at creating tools to monitor the transition success of dairy cows at individual level and herd level. These tools allow the farmer to monitor individual animals at risk, in addition to allow individualized preventive measures. This will reduce the development of transition associated problems, which will increase productivity and animal welfare. | CoPI                   | 2018                   | €1,300,000               |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------+------------------------+--------------------------+
+| CLAWHEALTH.NL – A project sponsored by the Dutch Foundation WakkerDier to map the prevalence of leg and hoof problems in Dutch dairy cows, and to uncover the risk factors for leg and claw problems in the Netherlands using AI driven systematic reviews.                                                                                                                                                                                                                                                                              | PI                     | 2023                   | €100,000                 |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------+------------------------+--------------------------+
+
+: {tbl-colwidths="\[70,10,10,10\]"}
 
 ### Current projects
 
-|  |  |  |  |
-|----|----|----|----|
-| [**Project Description**]{.underline} | [**Role**]{.underline} | [**Year**]{.underline} | [**Budget**]{.underline} |
-| DECIDE, Horizon Europe H2020-SFS-2018-2020 / 101000494, is a five-year Horizon 2020 project running from 2021 to 2025. It will develop data-driven decision support tools that offer robust and early signals of disease emergence and options for diagnostic confirmation. Moreover, options will be provided for controlling the disease along with their implications in terms of disease spread, economic burden and animal welfare. | CoPI | 2021 | €9,998,805 |
-| PLAY BEHAVIOR CALVES IN EUROPE – A project funded by the Dutch dairy organization ZuivelNL to detect play behaviour in relation to space allowance using accelerometer and video analytics in dairy calves. | PI | 2023 | €100,000 |
-| PLAY BEHAVIOR CALVES IN THE US – A project funded by the Cornell Institute for Digital Agriculture to detect play behaviour in relation to space allowance using accelerometer and video analytics in dairy calves. | PI | 2023 | €100,000 |
-| GLOBAL GREENFEED PROJECT – A project funded by the Global Methane Hub to accurately measure and collect gas emissions from cattle with the GreenFeed system. | PI | 2024 | \$3,279,652 |
-| AI-Driven Pandemic Preparedness in Dairy Farming: Enhancing Health Monitoring and Disease Management through Generative AI and Data Integration (Don Bennink Endowment). | PI | 2025 | \$249,175 |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------+------------------------+--------------------------+
+| [**Project Description**]{.underline}                                                                                                                                                                                                                                                                                                                                                                                                    | [**Role**]{.underline} | [**Year**]{.underline} | [**Budget**]{.underline} |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------+------------------------+--------------------------+
+| DECIDE, Horizon Europe H2020-SFS-2018-2020 / 101000494, is a five-year Horizon 2020 project running from 2021 to 2025. It will develop data-driven decision support tools that offer robust and early signals of disease emergence and options for diagnostic confirmation. Moreover, options will be provided for controlling the disease along with their implications in terms of disease spread, economic burden and animal welfare. | CoPI                   | 2021                   | €9,998,805               |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------+------------------------+--------------------------+
+| PLAY BEHAVIOR CALVES IN EUROPE – A project funded by the Dutch dairy organization ZuivelNL to detect play behaviour in relation to space allowance using accelerometer and video analytics in dairy calves.                                                                                                                                                                                                                              | PI                     | 2023                   | €100,000                 |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------+------------------------+--------------------------+
+| PLAY BEHAVIOR CALVES IN THE US – A project funded by the Cornell Institute for Digital Agriculture to detect play behaviour in relation to space allowance using accelerometer and video analytics in dairy calves.                                                                                                                                                                                                                      | PI                     | 2023                   | €100,000                 |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------+------------------------+--------------------------+
+| GLOBAL GREENFEED PROJECT – A project funded by the Global Methane Hub to accurately measure and collect gas emissions from cattle with the GreenFeed system.                                                                                                                                                                                                                                                                             | PI                     | 2024                   | \$3,279,652              |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------+------------------------+--------------------------+
+| AI-Driven Pandemic Preparedness in Dairy Farming: Enhancing Health Monitoring and Disease Management through Generative AI and Data Integration (Don Bennink Endowment).                                                                                                                                                                                                                                                                 | PI                     | 2025                   | \$249,175                |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------+------------------------+--------------------------+
+
+: {tbl-colwidths="\[70,10,10,10\]"}
 
 ## Intellectual property and knowledge transfer
 
 In 2013, intellectual property created by my group on data processing and visualisation for dairy reproduction data, co-developed between Uniform-Agri (Assen, the Netherlands) and Ghent University, was transferred towards [www.DairyDataWarehouse.com](http://www.DairyDataWarehouse.com) (2007-2013). Dairy Data Warehouse nowadays is a specialist dairy data company providing digital solutions for a sustainable, profitable future for dairy farmers and stakeholders throughout the dairy industry.
+
+## Awards
+
+-   In 2014 and 2018, I was twice awarded the Microsoft Azure Research award (2014 - €150,000 and 2018 - €25,000) to accelerate the adoption of scalable machine learning techniques to monitor sustainable agriculture practices.
+
+-   In 2022, I was awarded the ‘Applied data science award’ (€ 5,000) from the Utrecht University to create the first LoraWAN network at the faculty of Veterinary Medicine allowing real time monitoring of PLF data from the research farm ‘De Tolakker’.
+
+-   In 2024, I was awarded the ‘CIDA Summer Research Award’ (\$25,000) to advance calve welfare monitoring using computer vision.
 
 ## Extension services
 
@@ -300,8 +329,6 @@ Active involvement in extension services for several Belgian, European and globa
 | -   [www.pahc.com](http://www.pahc.com/)          |                                                  |                                                         |
 |                                                   |                                                  |                                                         |
 | -   www.nutrivice.com                             |                                                  |                                                         |
-|                                                   |                                                  |                                                         |
-| -                                                 |                                                  |                                                         |
 +---------------------------------------------------+--------------------------------------------------+---------------------------------------------------------+
 | **Pharmaceuticals**                               | **Dairy cooperations**                           | **Precision dairy farming technologies**                |
 +---------------------------------------------------+--------------------------------------------------+---------------------------------------------------------+
@@ -313,6 +340,8 @@ Active involvement in extension services for several Belgian, European and globa
 |                                                   |                                                  |                                                         |
 |                                                   |                                                  | -   [www.mmmooogle.com](http://www.mmmooogle.com)       |
 +---------------------------------------------------+--------------------------------------------------+---------------------------------------------------------+
+
+: {tbl-colwidths="\[33,34,33\]"}
 
 ## Presentations published online
 
@@ -548,173 +577,169 @@ Active involvement in extension services for several Belgian, European and globa
 
 ## Professional supplementary training and education
 
-+-------------------------------------------------------------------------------------------------------------------------------------------+-----------+
-| ### Leadership domain                                                                                                                     |           |
-+-------------------------------------------------------------------------------------------------------------------------------------------+-----------+
-| University Teaching Qualification at Centre for Academic Teaching and Learning, Utrecht, The Netherlands                                  | 2019      |
-+-------------------------------------------------------------------------------------------------------------------------------------------+-----------+
-| Research Leadership Development Programme for talented researchers at Centre for Academic Teaching and Learning, Utrecht, The Netherlands | 2021      |
-+-------------------------------------------------------------------------------------------------------------------------------------------+-----------+
-| ### Dairy science domain                                                                                                                  |           |
-+-------------------------------------------------------------------------------------------------------------------------------------------+-----------+
-| Cursus rundveevoeding: recente ontwikkelingen en nieuwe inzichten, Wageningen Business School, The Netherlands                            | 2007      |
-+-------------------------------------------------------------------------------------------------------------------------------------------+-----------+
-| BASF, Tagungsveranstaltung, Haus Riswick, Germany                                                                                         | 2007      |
-+-------------------------------------------------------------------------------------------------------------------------------------------+-----------+
-| WIAS Seminar: Strategies to improve health and fertility in dairy cows, Wageningen, The Netherlands                                       | 2008      |
-+-------------------------------------------------------------------------------------------------------------------------------------------+-----------+
-| ITB Schulung Februar, DSP Agrosoft, Verden, Germany                                                                                       | 2008      |
-+-------------------------------------------------------------------------------------------------------------------------------------------+-----------+
-| 14^th^ DISCOVER Conference: Lipids for Dairy Cattle: Today's Issues, Tomorrow's Challenges, Nashville, Indiana, United States             | 2008      |
-+-------------------------------------------------------------------------------------------------------------------------------------------+-----------+
-| 25^th^ World Buiatrics Congress, Budapest, Hungary                                                                                        | 2008      |
-+-------------------------------------------------------------------------------------------------------------------------------------------+-----------+
-| International symposium: Nutritional strategies to manage the challenges of today's dairy cows, Wageningen, The Netherlands               | 2009      |
-+-------------------------------------------------------------------------------------------------------------------------------------------+-----------+
-| International Symposium on Ruminant Physiology, Clermont-Ferrand, France                                                                  | 2009      |
-+-------------------------------------------------------------------------------------------------------------------------------------------+-----------+
-| Rindergesundheitstag -- Milch und gute Fruchtbarkeit: Die besten Strategien, Leipzig, Germany                                             | 2009      |
-+-------------------------------------------------------------------------------------------------------------------------------------------+-----------+
-| ITB Schulung August, DSP Agrosoft, Verden, Germany                                                                                        | 2009      |
-+-------------------------------------------------------------------------------------------------------------------------------------------+-----------+
-| 17^th^ DISCOVER Conference: Dairy Herd Analytics, Nashville, United States                                                                | 2009      |
-+-------------------------------------------------------------------------------------------------------------------------------------------+-----------+
-| 20^th^ Discover Conference: The Transition Cow: Biology and Management, Champaign, United States                                          | 2010      |
-+-------------------------------------------------------------------------------------------------------------------------------------------+-----------+
-| Dairy Solutions Symposium -- Rumen Health : A 360° Analysis, Utrecht, The Netherlands                                                     | 2010      |
-+-------------------------------------------------------------------------------------------------------------------------------------------+-----------+
-| Alta Value Services Konferenz, Bremen, Germany                                                                                            | 2010      |
-+-------------------------------------------------------------------------------------------------------------------------------------------+-----------+
-| 14^th^ International Conference on Production Diseases in Farm Animals, Ghent, Belgium                                                    | 2010      |
-+-------------------------------------------------------------------------------------------------------------------------------------------+-----------+
-| International Reproduction Conference, Anchorage, United States                                                                           | 2010      |
-+-------------------------------------------------------------------------------------------------------------------------------------------+-----------+
-| Bovine Professionals Meeting, Fertility and Rumen Health, Hofheim, Germany                                                                | 2010      |
-+-------------------------------------------------------------------------------------------------------------------------------------------+-----------+
-| 21^st^ Discover Conference: Improving Reproductive Efficiency of Lactating Dairy Cattle, United States                                    | 2011      |
-+-------------------------------------------------------------------------------------------------------------------------------------------+-----------+
-| 22^nd^ Discover Conference: Milk Components: Opportunities for Maximizing Farm Gate Returns, Chicago, United States                       | 2011      |
-+-------------------------------------------------------------------------------------------------------------------------------------------+-----------+
-| Rindergesundheitstag, Giesen, Germany                                                                                                     | 2011      |
-+-------------------------------------------------------------------------------------------------------------------------------------------+-----------+
-| European Buiatrics Forum, Marseille, France                                                                                               | 2011      |
-+-------------------------------------------------------------------------------------------------------------------------------------------+-----------+
-| Meeting American Association for Bovine Practitioners, Louisville, United States                                                          | 2011      |
-+-------------------------------------------------------------------------------------------------------------------------------------------+-----------+
-| 25^th^ Discover Conference: New Developments in Immunity, Nutrition, and Management of the Preruminant Calf, Chicago, United States       | 2012      |
-+-------------------------------------------------------------------------------------------------------------------------------------------+-----------+
-| 27^th^ World Buiatrics Congress, Lisbon, Portugal                                                                                         | 2012      |
-+-------------------------------------------------------------------------------------------------------------------------------------------+-----------+
-| Meeting American Association for Bovine Practitioners, Toronto, Canada                                                                    | 2012      |
-+-------------------------------------------------------------------------------------------------------------------------------------------+-----------+
-| 14^th^ international congress of sivar ,Cremona, Italy                                                                                    | 2012      |
-+-------------------------------------------------------------------------------------------------------------------------------------------+-----------+
-| Bovine Professionals Meeting, Claw Health and Transition Management, Hofheim, Germany                                                     | 2012      |
-+-------------------------------------------------------------------------------------------------------------------------------------------+-----------+
-| 26^th^ Discover Conference: Dairy Feed Efficiency, United States                                                                          | 2013      |
-+-------------------------------------------------------------------------------------------------------------------------------------------+-----------+
-| Meeting of the European Society for Domestic Animal Reproduction, Milano, Italy                                                           | 2013      |
-+-------------------------------------------------------------------------------------------------------------------------------------------+-----------+
-| Dairyland Initiative Meeting on Transition Cow and Positive Pressure Tube Ventilation, Madison, United States                             | 2013      |
-+-------------------------------------------------------------------------------------------------------------------------------------------+-----------+
-| 28^th^ Discover Conference: Starch for Ruminants, Chicago, United States                                                                  | 2014      |
-+-------------------------------------------------------------------------------------------------------------------------------------------+-----------+
-| Joint ASA-ADSA Annual Meeting, Kansas City, United States                                                                                 | 2014      |
-+-------------------------------------------------------------------------------------------------------------------------------------------+-----------+
-| 65^th^ Annual Conference of the European Federation of Animal Science, Copenhagen, Denmark                                                | 2014      |
-+-------------------------------------------------------------------------------------------------------------------------------------------+-----------+
-| Blanca Reproduction Workshop, Barcelona, Spain                                                                                            | 2015      |
-+-------------------------------------------------------------------------------------------------------------------------------------------+-----------+
-| ICAR Technical meeting, Cracow, Poland                                                                                                    | 2015      |
-+-------------------------------------------------------------------------------------------------------------------------------------------+-----------+
-| 66^th^ Annual Conference of the European Federation of Animal Science, Warshau, Poland                                                    | 2015      |
-+-------------------------------------------------------------------------------------------------------------------------------------------+-----------+
-| 7^th^ European Conference on Precision Livestock Farming, Milan, Italy                                                                    | 2015      |
-+-------------------------------------------------------------------------------------------------------------------------------------------+-----------+
-| Large Dairy Herd Management Conference, Chicage, United States                                                                            | 2016      |
-+-------------------------------------------------------------------------------------------------------------------------------------------+-----------+
-| 67^th^ Annual Conference of the European Federation of Animal Science, Belfast, United Kingdom.                                           | 2016      |
-+-------------------------------------------------------------------------------------------------------------------------------------------+-----------+
-| 68^th^ Annual Conference of the European Federation of Animal Science, Tallinn, Estonia.                                                  | 2017      |
-+-------------------------------------------------------------------------------------------------------------------------------------------+-----------+
-| 70^th^ Annual Conference of the European Federation of Animal Science, Ghent, Belgium.                                                    | 2019      |
-+-------------------------------------------------------------------------------------------------------------------------------------------+-----------+
-| ADSA Annual meeting, Cincinnati, Ohio                                                                                                     | 2019      |
-+-------------------------------------------------------------------------------------------------------------------------------------------+-----------+
-| 9^th^ European Conference on Precision Livestock Farming Cork, Ireland.                                                                   | 2019      |
-+-------------------------------------------------------------------------------------------------------------------------------------------+-----------+
-| European Bovine Congress                                                                                                                  | 2019      |
-+-------------------------------------------------------------------------------------------------------------------------------------------+-----------+
-| Annual ICAR meeting, Prague, Czech Republic.                                                                                              | 2019      |
-+-------------------------------------------------------------------------------------------------------------------------------------------+-----------+
-| 9^th^ European Conference on Precision Livestock Farming Cork, Ireland                                                                    | 2019      |
-+-------------------------------------------------------------------------------------------------------------------------------------------+-----------+
-| 39^th^ Discover Conference: The Transition Period -- From physiology to management, online meetings                                       | 2020      |
-+-------------------------------------------------------------------------------------------------------------------------------------------+-----------+
-| Annual ICAR conference, Leeuwarden, The Netherlands                                                                                       | 2021      |
-+-------------------------------------------------------------------------------------------------------------------------------------------+-----------+
-| Dairy InnovCongress, Namur, Belgium                                                                                                       | 2022      |
-+-------------------------------------------------------------------------------------------------------------------------------------------+-----------+
-| Annual ICAR conference, Montreal, Canada                                                                                                  | 2022      |
-+-------------------------------------------------------------------------------------------------------------------------------------------+-----------+
-| 10^th^ European Conference on Precision Livestock Farming, Vienna, Austria                                                                | 2022      |
-+-------------------------------------------------------------------------------------------------------------------------------------------+-----------+
-| 43th Discover Conference: Dairy Cattle Reproduction -- Lessons learned and future frontiers                                               | 2022      |
-+-------------------------------------------------------------------------------------------------------------------------------------------+-----------+
-| Joint Committee for Dairy Diagnostics, Rome, Italy                                                                                        | 2022      |
-+-------------------------------------------------------------------------------------------------------------------------------------------+-----------+
-| ### Informatics, Data science and statistical domain                                                                                      |           |
-+-------------------------------------------------------------------------------------------------------------------------------------------+-----------+
-| Post-graduate courses in applied informatics at Hogent                                                                                    | 2007-2010 |
-|                                                                                                                                           |           |
-| (<https://www.hogent.be/en/future-student/postgraduate-non-degrees/>).                                                                    |           |
-+-------------------------------------------------------------------------------------------------------------------------------------------+-----------+
-| EPI on the Island 2009: An introduction to multilevel modeling, Prince Edward Island, Canada                                              | 2009      |
-+-------------------------------------------------------------------------------------------------------------------------------------------+-----------+
-| Introduction to SAS, Institute for Continued Education, Ghent, Belgium                                                                    | 2009      |
-+-------------------------------------------------------------------------------------------------------------------------------------------+-----------+
-| Introductory Statistics. Basics of Statistical Inference, Institute for Continued Education, Ghent, Belgium                               | 2009      |
-+-------------------------------------------------------------------------------------------------------------------------------------------+-----------+
-| Analysis of Variance, Institute for Continued Education, Ghent, Belgium                                                                   | 2009      |
-+-------------------------------------------------------------------------------------------------------------------------------------------+-----------+
-| Applied Linear Regression, Institute for Continued Education, Ghent, Belgium                                                              | 2010      |
-+-------------------------------------------------------------------------------------------------------------------------------------------+-----------+
-| Applied Logistic Regression, Institute for Continued Education, Ghent, Belgium                                                            | 2011      |
-+-------------------------------------------------------------------------------------------------------------------------------------------+-----------+
-| Multilevel Analysis for Grouped and Longitudinal Data, Institute for Continued Education, Ghent, Belgium                                  | 2011      |
-+-------------------------------------------------------------------------------------------------------------------------------------------+-----------+
-| Design and Analysis of Clinical Trials, UGhent, Belgium                                                                                   | 2011      |
-+-------------------------------------------------------------------------------------------------------------------------------------------+-----------+
-| Survival Analysis, UGhent, Belgium                                                                                                        | 2012      |
-+-------------------------------------------------------------------------------------------------------------------------------------------+-----------+
-| Introduction to R, Institute for Continued Education, Ghent, Belgium                                                                      | 2013      |
-+-------------------------------------------------------------------------------------------------------------------------------------------+-----------+
-| Tech Transfer Skills Workshop, Institute for Continued Education, Ghent, Belgium                                                          | 2013      |
-+-------------------------------------------------------------------------------------------------------------------------------------------+-----------+
-| Multivariate data analysis, Institute for Continued Education, Ghent, Belgium                                                             | 2014      |
-+-------------------------------------------------------------------------------------------------------------------------------------------+-----------+
-| An Introduction to Big Data, Institute for Continued Education, Ghent, Belgium                                                            | 2015      |
-+-------------------------------------------------------------------------------------------------------------------------------------------+-----------+
-| Professional Certificate in Bioinformatics, University College Dublin, Ireland                                                            | 2016      |
-+-------------------------------------------------------------------------------------------------------------------------------------------+-----------+
-| Principles of Statistical Data Analysis, Ghent, Belgium                                                                                   | 2016      |
-+-------------------------------------------------------------------------------------------------------------------------------------------+-----------+
-| Statistical Modelling, Ghent, Belgium                                                                                                     | 2016      |
-+-------------------------------------------------------------------------------------------------------------------------------------------+-----------+
-| Data + AI summit. Brussels. Belgium.                                                                                                      | 2016      |
-+-------------------------------------------------------------------------------------------------------------------------------------------+-----------+
-| Big Data Science, Ghent, Belgium                                                                                                          | 2017      |
-+-------------------------------------------------------------------------------------------------------------------------------------------+-----------+
-| Computer-intensive Statistical Methods, Ghent, Belgium                                                                                    | 2017      |
-+-------------------------------------------------------------------------------------------------------------------------------------------+-----------+
-| Databases, Ghent, Belgium                                                                                                                 | 2017      |
-+-------------------------------------------------------------------------------------------------------------------------------------------+-----------+
-| Programming and Algorithms, Ghent, Belgium                                                                                                | 2017      |
-+-------------------------------------------------------------------------------------------------------------------------------------------+-----------+
-| Statistical Computing, Ghent, Belgium                                                                                                     | 2017      |
-+-------------------------------------------------------------------------------------------------------------------------------------------+-----------+
-| Data + AI summit. Dublin. Ireland.                                                                                                        | 2017      |
-+-------------------------------------------------------------------------------------------------------------------------------------------+-----------+
++-----------------------------------------------------------------------------------------------------------------------------------------+-----------+
+| ### Dairy science domain                                                                                                                |           |
++-----------------------------------------------------------------------------------------------------------------------------------------+-----------+
+| -   Cursus rundveevoeding: recente ontwikkelingen en nieuwe inzichten, Wageningen Business School, The Netherlands                      | 2007      |
++-----------------------------------------------------------------------------------------------------------------------------------------+-----------+
+| -   BASF, Tagungsveranstaltung, Haus Riswick, Germany                                                                                   | 2007      |
++-----------------------------------------------------------------------------------------------------------------------------------------+-----------+
+| -   WIAS Seminar: Strategies to improve health and fertility in dairy cows, Wageningen, The Netherlands                                 | 2008      |
++-----------------------------------------------------------------------------------------------------------------------------------------+-----------+
+| -   ITB Schulung Februar, DSP Agrosoft, Verden, Germany                                                                                 | 2008      |
++-----------------------------------------------------------------------------------------------------------------------------------------+-----------+
+| -   14^th^ DISCOVER Conference: Lipids for Dairy Cattle: Today's Issues, Tomorrow's Challenges, Nashville, Indiana, United States       | 2008      |
++-----------------------------------------------------------------------------------------------------------------------------------------+-----------+
+| -   25^th^ World Buiatrics Congress, Budapest, Hungary                                                                                  | 2008      |
++-----------------------------------------------------------------------------------------------------------------------------------------+-----------+
+| -   International symposium: Nutritional strategies to manage the challenges of today's dairy cows, Wageningen, The Netherlands         | 2009      |
++-----------------------------------------------------------------------------------------------------------------------------------------+-----------+
+| -   International Symposium on Ruminant Physiology, Clermont-Ferrand, France                                                            | 2009      |
++-----------------------------------------------------------------------------------------------------------------------------------------+-----------+
+| -   Rindergesundheitstag -- Milch und gute Fruchtbarkeit: Die besten Strategien, Leipzig, Germany                                       | 2009      |
++-----------------------------------------------------------------------------------------------------------------------------------------+-----------+
+| -   ITB Schulung August, DSP Agrosoft, Verden, Germany                                                                                  | 2009      |
++-----------------------------------------------------------------------------------------------------------------------------------------+-----------+
+| -   17^th^ DISCOVER Conference: Dairy Herd Analytics, Nashville, United States                                                          | 2009      |
++-----------------------------------------------------------------------------------------------------------------------------------------+-----------+
+| -   20^th^ Discover Conference: The Transition Cow: Biology and Management, Champaign, United States                                    | 2010      |
++-----------------------------------------------------------------------------------------------------------------------------------------+-----------+
+| -   Dairy Solutions Symposium -- Rumen Health : A 360° Analysis, Utrecht, The Netherlands                                               | 2010      |
++-----------------------------------------------------------------------------------------------------------------------------------------+-----------+
+| -   Alta Value Services Konferenz, Bremen, Germany                                                                                      | 2010      |
++-----------------------------------------------------------------------------------------------------------------------------------------+-----------+
+| -   14^th^ International Conference on Production Diseases in Farm Animals, Ghent, Belgium                                              | 2010      |
++-----------------------------------------------------------------------------------------------------------------------------------------+-----------+
+| -   International Reproduction Conference, Anchorage, United States                                                                     | 2010      |
++-----------------------------------------------------------------------------------------------------------------------------------------+-----------+
+| -   Bovine Professionals Meeting, Fertility and Rumen Health, Hofheim, Germany                                                          | 2010      |
++-----------------------------------------------------------------------------------------------------------------------------------------+-----------+
+| -   21^st^ Discover Conference: Improving Reproductive Efficiency of Lactating Dairy Cattle, United States                              | 2011      |
++-----------------------------------------------------------------------------------------------------------------------------------------+-----------+
+| -   22^nd^ Discover Conference: Milk Components: Opportunities for Maximizing Farm Gate Returns, Chicago, United States                 | 2011      |
++-----------------------------------------------------------------------------------------------------------------------------------------+-----------+
+| -   Rindergesundheitstag, Giesen, Germany                                                                                               | 2011      |
++-----------------------------------------------------------------------------------------------------------------------------------------+-----------+
+| -   European Buiatrics Forum, Marseille, France                                                                                         | 2011      |
++-----------------------------------------------------------------------------------------------------------------------------------------+-----------+
+| -   Meeting American Association for Bovine Practitioners, Louisville, United States                                                    | 2011      |
++-----------------------------------------------------------------------------------------------------------------------------------------+-----------+
+| -   25^th^ Discover Conference: New Developments in Immunity, Nutrition, and Management of the Preruminant Calf, Chicago, United States | 2012      |
++-----------------------------------------------------------------------------------------------------------------------------------------+-----------+
+| -   27^th^ World Buiatrics Congress, Lisbon, Portugal                                                                                   | 2012      |
++-----------------------------------------------------------------------------------------------------------------------------------------+-----------+
+| -   Meeting American Association for Bovine Practitioners, Toronto, Canada                                                              | 2012      |
++-----------------------------------------------------------------------------------------------------------------------------------------+-----------+
+| -   14^th^ international congress of sivar ,Cremona, Italy                                                                              | 2012      |
++-----------------------------------------------------------------------------------------------------------------------------------------+-----------+
+| -   Bovine Professionals Meeting, Claw Health and Transition Management, Hofheim, Germany                                               | 2012      |
++-----------------------------------------------------------------------------------------------------------------------------------------+-----------+
+| -   26^th^ Discover Conference: Dairy Feed Efficiency, United States                                                                    | 2013      |
++-----------------------------------------------------------------------------------------------------------------------------------------+-----------+
+| -   Meeting of the European Society for Domestic Animal Reproduction, Milano, Italy                                                     | 2013      |
++-----------------------------------------------------------------------------------------------------------------------------------------+-----------+
+| -   Dairyland Initiative Meeting on Transition Cow and Positive Pressure Tube Ventilation, Madison, United States                       | 2013      |
++-----------------------------------------------------------------------------------------------------------------------------------------+-----------+
+| -   28^th^ Discover Conference: Starch for Ruminants, Chicago, United States                                                            | 2014      |
++-----------------------------------------------------------------------------------------------------------------------------------------+-----------+
+| -   Joint ASA-ADSA Annual Meeting, Kansas City, United States                                                                           | 2014      |
++-----------------------------------------------------------------------------------------------------------------------------------------+-----------+
+| -   65^th^ Annual Conference of the European Federation of Animal Science, Copenhagen, Denmark                                          | 2014      |
++-----------------------------------------------------------------------------------------------------------------------------------------+-----------+
+| -   Blanca Reproduction Workshop, Barcelona, Spain                                                                                      | 2015      |
++-----------------------------------------------------------------------------------------------------------------------------------------+-----------+
+| -   ICAR Technical meeting, Cracow, Poland                                                                                              | 2015      |
++-----------------------------------------------------------------------------------------------------------------------------------------+-----------+
+| -   66^th^ Annual Conference of the European Federation of Animal Science, Warshau, Poland                                              | 2015      |
++-----------------------------------------------------------------------------------------------------------------------------------------+-----------+
+| -   7^th^ European Conference on Precision Livestock Farming, Milan, Italy                                                              | 2015      |
++-----------------------------------------------------------------------------------------------------------------------------------------+-----------+
+| -   Large Dairy Herd Management Conference, Chicage, United States                                                                      | 2016      |
++-----------------------------------------------------------------------------------------------------------------------------------------+-----------+
+| -   67^th^ Annual Conference of the European Federation of Animal Science, Belfast, United Kingdom.                                     | 2016      |
++-----------------------------------------------------------------------------------------------------------------------------------------+-----------+
+| -   68^th^ Annual Conference of the European Federation of Animal Science, Tallinn, Estonia.                                            | 2017      |
++-----------------------------------------------------------------------------------------------------------------------------------------+-----------+
+| -   70^th^ Annual Conference of the European Federation of Animal Science, Ghent, Belgium.                                              | 2019      |
++-----------------------------------------------------------------------------------------------------------------------------------------+-----------+
+| -   ADSA Annual meeting, Cincinnati, Ohio                                                                                               | 2019      |
++-----------------------------------------------------------------------------------------------------------------------------------------+-----------+
+| -   9^th^ European Conference on Precision Livestock Farming Cork, Ireland.                                                             | 2019      |
++-----------------------------------------------------------------------------------------------------------------------------------------+-----------+
+| -   European Bovine Congress                                                                                                            | 2019      |
++-----------------------------------------------------------------------------------------------------------------------------------------+-----------+
+| -   Annual ICAR meeting, Prague, Czech Republic.                                                                                        | 2019      |
++-----------------------------------------------------------------------------------------------------------------------------------------+-----------+
+| -   9^th^ European Conference on Precision Livestock Farming Cork, Ireland                                                              | 2019      |
++-----------------------------------------------------------------------------------------------------------------------------------------+-----------+
+| -   39^th^ Discover Conference: The Transition Period -- From physiology to management, online meetings                                 | 2020      |
++-----------------------------------------------------------------------------------------------------------------------------------------+-----------+
+| -   Annual ICAR conference, Leeuwarden, The Netherlands                                                                                 | 2021      |
++-----------------------------------------------------------------------------------------------------------------------------------------+-----------+
+| -   Dairy InnovCongress, Namur, Belgium                                                                                                 | 2022      |
++-----------------------------------------------------------------------------------------------------------------------------------------+-----------+
+| -   Annual ICAR conference, Montreal, Canada                                                                                            | 2022      |
++-----------------------------------------------------------------------------------------------------------------------------------------+-----------+
+| -   10^th^ European Conference on Precision Livestock Farming, Vienna, Austria                                                          | 2022      |
++-----------------------------------------------------------------------------------------------------------------------------------------+-----------+
+| -   43th Discover Conference: Dairy Cattle Reproduction -- Lessons learned and future frontiers                                         | 2022      |
++-----------------------------------------------------------------------------------------------------------------------------------------+-----------+
+| -   Joint Committee for Dairy Diagnostics, Rome, Italy                                                                                  | 2022      |
++-----------------------------------------------------------------------------------------------------------------------------------------+-----------+
+| ### Informatics, Data science and statistical domain                                                                                    |           |
++-----------------------------------------------------------------------------------------------------------------------------------------+-----------+
+| -   Post-graduate courses in applied informatics at Hogent                                                                              | 2007-2010 |
+|                                                                                                                                         |           |
+| (<https://www.hogent.be/en/future-student/postgraduate-non-degrees/>).                                                                  |           |
++-----------------------------------------------------------------------------------------------------------------------------------------+-----------+
+| -   EPI on the Island 2009: An introduction to multilevel modeling, Prince Edward Island, Canada                                        | 2009      |
++-----------------------------------------------------------------------------------------------------------------------------------------+-----------+
+| -   Introduction to SAS, Institute for Continued Education, Ghent, Belgium                                                              | 2009      |
++-----------------------------------------------------------------------------------------------------------------------------------------+-----------+
+| -   Introductory Statistics. Basics of Statistical Inference, Institute for Continued Education, Ghent, Belgium                         | 2009      |
++-----------------------------------------------------------------------------------------------------------------------------------------+-----------+
+| -   Analysis of Variance, Institute for Continued Education, Ghent, Belgium                                                             | 2009      |
++-----------------------------------------------------------------------------------------------------------------------------------------+-----------+
+| -   Applied Linear Regression, Institute for Continued Education, Ghent, Belgium                                                        | 2010      |
++-----------------------------------------------------------------------------------------------------------------------------------------+-----------+
+| -   Applied Logistic Regression, Institute for Continued Education, Ghent, Belgium                                                      | 2011      |
++-----------------------------------------------------------------------------------------------------------------------------------------+-----------+
+| -   Multilevel Analysis for Grouped and Longitudinal Data, Institute for Continued Education, Ghent, Belgium                            | 2011      |
++-----------------------------------------------------------------------------------------------------------------------------------------+-----------+
+| -   Design and Analysis of Clinical Trials, UGhent, Belgium                                                                             | 2011      |
++-----------------------------------------------------------------------------------------------------------------------------------------+-----------+
+| -   Survival Analysis, UGhent, Belgium                                                                                                  | 2012      |
++-----------------------------------------------------------------------------------------------------------------------------------------+-----------+
+| -   Introduction to R, Institute for Continued Education, Ghent, Belgium                                                                | 2013      |
++-----------------------------------------------------------------------------------------------------------------------------------------+-----------+
+| -   Tech Transfer Skills Workshop, Institute for Continued Education, Ghent, Belgium                                                    | 2013      |
++-----------------------------------------------------------------------------------------------------------------------------------------+-----------+
+| -   Multivariate data analysis, Institute for Continued Education, Ghent, Belgium                                                       | 2014      |
++-----------------------------------------------------------------------------------------------------------------------------------------+-----------+
+| -   An Introduction to Big Data, Institute for Continued Education, Ghent, Belgium                                                      | 2015      |
++-----------------------------------------------------------------------------------------------------------------------------------------+-----------+
+| -   Professional Certificate in Bioinformatics, University College Dublin, Ireland                                                      | 2016      |
++-----------------------------------------------------------------------------------------------------------------------------------------+-----------+
+| -   Principles of Statistical Data Analysis, Ghent, Belgium                                                                             | 2016      |
++-----------------------------------------------------------------------------------------------------------------------------------------+-----------+
+| -   Statistical Modelling, Ghent, Belgium                                                                                               | 2016      |
++-----------------------------------------------------------------------------------------------------------------------------------------+-----------+
+| -   Data + AI summit. Brussels. Belgium.                                                                                                | 2016      |
++-----------------------------------------------------------------------------------------------------------------------------------------+-----------+
+| -   Big Data Science, Ghent, Belgium                                                                                                    | 2017      |
++-----------------------------------------------------------------------------------------------------------------------------------------+-----------+
+| -   Computer-intensive Statistical Methods, Ghent, Belgium                                                                              | 2017      |
++-----------------------------------------------------------------------------------------------------------------------------------------+-----------+
+| -   Databases, Ghent, Belgium                                                                                                           | 2017      |
++-----------------------------------------------------------------------------------------------------------------------------------------+-----------+
+| -   Programming and Algorithms, Ghent, Belgium                                                                                          | 2017      |
++-----------------------------------------------------------------------------------------------------------------------------------------+-----------+
+| -   Statistical Computing, Ghent, Belgium                                                                                               | 2017      |
++-----------------------------------------------------------------------------------------------------------------------------------------+-----------+
+| -   Data + AI summit. Dublin. Ireland.                                                                                                  | 2017      |
++-----------------------------------------------------------------------------------------------------------------------------------------+-----------+
+
+: {tbl-colwidths="\[80,20\]"}
 
 ## Natural Languages
 
@@ -766,30 +791,7 @@ Other:
 | TheThingsNetwork       |                          |                            |
 +------------------------+--------------------------+----------------------------+
 
-## Citations
-
-```{r, echo=FALSE, results='hide'}
-library(scholar)
-library(ggplot2)
-library(here)
-cit <- get_citation_history('fZ1xfdQAAAAJ')
-citation_plot <- ggplot(cit,aes(x=year,y=cites))+
-    geom_bar(stat='identity')+
-    labs(x = "", y = "") +
-    theme_bw()+
-    annotate('text',label=format(Sys.time(), "%Y-%m-%d %H:%M:%S %Z"),x=-Inf,y=Inf,vjust=1.5,hjust=-0.05,size=3,colour='gray')
-ggsave(
-  filename = here('files/img/', 'scholar_citations_miel_hostens.png'),
-  citation_plot,
-  width = 1200,
-  height = 630,
-  units = "px",
-  dpi = 300,
-  create.dir = TRUE
-)
-```
-
-![](/files/img/scholar_citations_miel_hostens.png)
+: {tbl-colwidths="\[33,34,33\]"}
 
 ## Publications
 
