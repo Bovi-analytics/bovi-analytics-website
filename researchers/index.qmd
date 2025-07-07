@@ -85,7 +85,7 @@ course-logo: /files/img/Bovi-Analytics-SmallLogo.png
 ::: {.g-col-12 .g-col-md-4 .irene-gonzalez-ortega-Villena}
 ### Irene Gonzalez Ortega Villena
 
-![](/files/img/headshots/Missing.png){width="100"}
+![](/files/img/headshots/IreneGonzalez.png){width="200"}
 :::
 :::::
 
