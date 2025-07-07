@@ -1,0 +1,13 @@
+---
+title: "Irene Gonzalez Ortega Villena"
+author: "Irene Gonzalez Ortega Villena"
+editor: visual
+---
+
+### Who am I
+
+Hi I'm Irene! I am a student in the Master Programme in Bioinformatics at Utrecht University. I studied Biochemistry at the Universidad Autónoma de Madrid (Spain). In that way, I have experience with R and Python programming. Additionally, my Final Project Degree consisted of using ImageJ for the quantification of immunohistochemistry images. Furthermore, I compared my results with data from magnetic resonance imaging, so I know the main concepts of that technique too. As personal achievements, I'd like to improve my programming skills and gain a deep understanding of how to present research results in a more understandable way.
+
+### My work here
+
+I will spend nine months working creating a framework for data processing and data flows, such as RStudio or Python, which will be combined with visualization framework, such as Tableau, to create more explainable models and insights about rare events in dairy cows.
