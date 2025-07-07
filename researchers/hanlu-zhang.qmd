@@ -1,0 +1,20 @@
+---
+  title: "Hanlu Zhang"
+categories:
+- PhD
+- Animal Science 
+- Project Management
+- Data Management
+author: "Hanlu Zhang"
+date: 06/05/25
+format: html
+editor: visual
+---
+
+\### Who am I
+
+I began my academic journey in Animal Science at China Agricultural University and continued with a Master’s and PhD in Animal Nutrition at Wageningen University. During my PhD, which focused on developing an in vitro model of protein fermentation, I developed a strong interest in data analysis.
+
+### My work at Bovi-Analytics
+
+I joined Bovi-Analytics as a postdoctoral researcher, where my main responsibilities include project management and data management for the project *Accurate Gas Emissions Measures from Cattle with the GreenFeed System*. This project aims to develop international standards and guidelines for estimating greenhouse gas emissions from beef and dairy cattle using the GreenFeed system across various production scenarios.
