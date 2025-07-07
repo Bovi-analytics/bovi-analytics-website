@@ -25,6 +25,8 @@ website:
         file: researchers/index.qmd
       - text: "Open positions"
         file: open-positions/index.qmd
+      - text: "Portal"
+        href: "https://portal.bovi-analytics.com"
       - text: "Projects"
         file: projects/index.qmd
       - text: "Tutorials"
