@@ -1,0 +1,16 @@
+---
+title: "Naming convention within Bovi-Analytics Lab for Databricks compute"
+execute:
+  eval: false
+categories:
+  - Databricks
+authors: Miel Hostens, et al.
+date: 5/2/24
+toc: true
+---
+
+# Tagging Databricks Compute
+
+When using compute within Databricks make sure to **tag each compute you create.** This allows to track costs from specific projects.
+
+![](images/clipboard-2689299655.png)

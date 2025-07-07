@@ -53,6 +53,10 @@ First of all, probably you know but for each of the universities I work with the
 
 -   Make a clear distinction between the materials&methods and results section. Try to split these 2 clearly.
 
+-   Tables have a caption ABOVE the table. Easiest to create a row on top of the table, merge all cells to one and add the title in there.
+
+    -   
+
 -   When adding figures in word, use a 1-column, 2-row table (with transparent borders) where you put the figure in the first cell, the figure caption in the second cell, that way they will always move together, and it's more easy to format.
 
 -   Work on your graphics (see [this](https://bvajournals.onlinelibrary.wiley.com/doi/10.1136/inp.k2166) article for some guidance). Make sure to make use of the data-to-ink-ratio concept.
