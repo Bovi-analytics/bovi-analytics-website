@@ -1,10 +1,10 @@
 ---
-  title: "Hanlu Zhang"
+title: "Hanlu Zhang"
 categories:
-- PhD
-- Animal Science 
-- Project Management
-- Data Management
+  - PhD
+  - Animal Science 
+  - Project Management
+  - Data Management
 author: "Hanlu Zhang"
 date: 06/05/25
 format: html
