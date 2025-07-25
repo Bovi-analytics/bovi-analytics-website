@@ -110,8 +110,14 @@ font-style: inherit;">&gt;</span>_secret)</span></code></pre></div>
 <td>bovi_analytics_secrets_scope</td>
 <td>azure-bovi-analytics-playbehavior-eu</td>
 </tr>
+<tr class="odd">
+<td>methanedata</td>
+<td>bovi_analytics_secrets_scope</td>
+<td>azure-bovi-analytics-methanedata-us</td>
+</tr>
 </tbody>
 </table>
+<p>azure-bovi-analytics-methanedata-us</p>
 </section>
 <section id="real-example-accessing-bovi-analytics-data-from-azure-blob-storage" class="level2">
 <h2 class="anchored" data-anchor-id="real-example-accessing-bovi-analytics-data-from-azure-blob-storage">Real Example: Accessing Bovi-Analytics Data from Azure Blob Storage</h2>
@@ -151,7 +157,7 @@ background-color: null;
 font-style: inherit;">/</span> Set the Azure Blob Storage account key using the Databricks secret</span>
 <span id="cb3-3"><span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">spark.sparkContext.hadoopConfiguration.set</span>(</span>
+font-style: inherit;">spark.conf.set</span>(</span>
 <span id="cb3-4">   <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"fs.azure.account.key.blob-storage-account.blob.core.windows.net"</span>,</span>
@@ -1902,7 +1908,7 @@ font-style: inherit;">print</span>(e)</span></code></pre></div>
 
  ]]></description>
   <guid>https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/tools.html</guid>
-  <pubDate>Fri, 25 Jul 2025 14:09:36 GMT</pubDate>
+  <pubDate>Fri, 25 Jul 2025 15:01:03 GMT</pubDate>
 </item>
 </channel>
 </rss>
