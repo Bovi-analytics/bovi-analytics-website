@@ -10,7 +10,198 @@
 <atom:link href="https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.6.42</generator>
-<lastBuildDate>Sat, 02 Nov 2024 04:00:00 GMT</lastBuildDate>
+<lastBuildDate>Fri, 25 Jul 2025 04:00:00 GMT</lastBuildDate>
+<item>
+  <title>Storing and Accessing Secrets in Azure Key Vault</title>
+  <link>https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/databricks-secrets.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Before accessing the secret in Databricks, make sure to:</p>
+<ol type="1">
+<li>✅ Talk to <strong>Enhong</strong> or <strong>Miel</strong> to store the key in the Azure Key Vault.</li>
+<li>✅ Use the secret scope <code>bovi_analytics_secrets_scope</code> in Databricks.</li>
+</ol>
+<hr>
+<section id="access-the-key-in-databricks" class="level2">
+<h2 class="anchored" data-anchor-id="access-the-key-in-databricks">🔐 Access the Key in Databricks</h2>
+<p>Use the following code snippet to retrieve the secret:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Retrieve secret from Azure Key Vault via Databricks Secret Scope</span></span>
+<span id="cb1-2">    <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Replace &lt;data&gt; with the actual data name you want to access</span></span>
+<span id="cb1-3">    <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Replace &lt;your-key-name&gt; with the actual key name you want to access.</span></span>
+<span id="cb1-4"><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&lt;</span>data<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&gt;</span>_secret <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">=</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">dbutils.secrets.get</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">scope=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"bovi_analytics_secrets_scope"</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">key=</span> <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&lt;</span>your<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span>key<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span>name<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&gt;</span> )</span>
+<span id="cb1-5"></span>
+<span id="cb1-6"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Print the secret (only for debugging; avoid in production)</span></span>
+<span id="cb1-7"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">print</span>(<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&lt;</span>data<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&gt;</span>_secret)</span></code></pre></div>
+</div>
+</section>
+<section id="overview-of-blob-storage-accounts-and-keys" class="level2">
+<h2 class="anchored" data-anchor-id="overview-of-blob-storage-accounts-and-keys">Overview of blob storage accounts and keys</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 24%">
+<col style="width: 33%">
+<col style="width: 42%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>blob-storage-account</th>
+<th>scope</th>
+<th>key</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>lab-us</td>
+<td>bovi_analytics_secrets_scope</td>
+<td>azure-bovi-analytics-lab-us</td>
+</tr>
+<tr class="even">
+<td>lab-eu</td>
+<td>bovi_analytics_secrets_scope</td>
+<td>azure-bovi-analytics-lab-eu</td>
+</tr>
+<tr class="odd">
+<td>gpluse</td>
+<td>bovi_analytics_secrets_scope</td>
+<td>azure-bovi-analytics-gpluse-eu</td>
+</tr>
+<tr class="even">
+<td>playbehavior</td>
+<td>bovi_analytics_secrets_scope</td>
+<td>azure-bovi-analytics-playbehavior-eu</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="real-example-accessing-bovi-analytics-data-from-azure-blob-storage" class="level2">
+<h2 class="anchored" data-anchor-id="real-example-accessing-bovi-analytics-data-from-azure-blob-storage">Real Example: Accessing Bovi-Analytics Data from Azure Blob Storage</h2>
+<p>In this example, we use a secret stored in Azure Key Vault (retrieved via Databricks Secret Scope) to authenticate and access data stored in an Azure Blob Storage account.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1">%scala</span>
+<span id="cb2-2"><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">/</span><span class="er" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">/</span> Set the Azure Blob Storage account key using the Databricks secret</span>
+<span id="cb2-3"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">spark.sparkContext.hadoopConfiguration.set</span>(</span>
+<span id="cb2-4">   <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"fs.azure.account.key.blob-storage-account.blob.core.windows.net"</span>,</span>
+<span id="cb2-5">   <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">dbutils.secrets.get</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">scope=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"bovi_analytics_secrets_scope"</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">key=</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"key"</span>)</span>
+<span id="cb2-6">   )</span></code></pre></div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1">%python</span>
+<span id="cb3-2"><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">/</span><span class="er" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">/</span> Set the Azure Blob Storage account key using the Databricks secret</span>
+<span id="cb3-3"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">spark.sparkContext.hadoopConfiguration.set</span>(</span>
+<span id="cb3-4">   <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"fs.azure.account.key.blob-storage-account.blob.core.windows.net"</span>,</span>
+<span id="cb3-5">   <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">dbutils.secrets.get</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">scope=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"bovi_analytics_secrets_scope"</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">key=</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"key"</span>)</span>
+<span id="cb3-6">   )</span></code></pre></div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Accessing farm data stored in blob storage</span></span>
+<span id="cb4-2">file_location <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">=</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"wasbs://container-name@blob-storage-acount.blob.core.windows.net/path-to-file/"</span></span>
+<span id="cb4-3">file_type <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">=</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"txt"</span></span>
+<span id="cb4-4">data_set <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">=</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">spark.read.format</span>(file_type)<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">.load</span>(file_location)</span>
+<span id="cb4-5"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">display</span>(data_set)</span></code></pre></div>
+</div>
+
+
+</section>
+
+ ]]></description>
+  <category>Slack</category>
+  <guid>https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/databricks-secrets.html</guid>
+  <pubDate>Fri, 25 Jul 2025 04:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Research paper guidelines</title>
   <link>https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/master-thesis-guide.html</link>
@@ -1711,7 +1902,7 @@ font-style: inherit;">print</span>(e)</span></code></pre></div>
 
  ]]></description>
   <guid>https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/tools.html</guid>
-  <pubDate>Tue, 15 Jul 2025 20:56:48 GMT</pubDate>
+  <pubDate>Fri, 25 Jul 2025 14:09:36 GMT</pubDate>
 </item>
 </channel>
 </rss>

@@ -3,6 +3,7 @@
     "listing": "/tutorials/index.html",
     "items": [
       "/tutorials/tools.html",
+      "/tutorials/databricks-secrets.html",
       "/tutorials/master-thesis-guide.html",
       "/tutorials/github-r-zenodo.html",
       "/tutorials/onboarding-guide.html",
@@ -17,16 +18,16 @@
     ]
   },
   {
+    "listing": "/open-positions/index.html",
+    "items": [
+      "/open-positions/internship.html"
+    ]
+  },
+  {
     "listing": "/projects/index.html",
     "items": [
       "/projects/decide.html",
       "/projects/veerkracht.html"
-    ]
-  },
-  {
-    "listing": "/open-positions/index.html",
-    "items": [
-      "/open-positions/internship.html"
     ]
   }
 ]

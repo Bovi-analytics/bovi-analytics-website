@@ -161,32 +161,270 @@
     "text": "Adhering to naming conventions is crucial for writing clean and maintainable code. Each programming language has its own conventions, but the general principles of descriptive and consistent naming apply universally. Following these conventions will improve code readability, make it easier for others to collaborate with you, and ensure that your codebase remains maintainable in the long term. Happy coding!"
   },
   {
-    "objectID": "tutorials/databricks-naming-convention-compute.html",
-    "href": "tutorials/databricks-naming-convention-compute.html",
-    "title": "Naming convention within Bovi-Analytics Lab for Databricks compute",
+    "objectID": "tutorials/databricks-secrets.html",
+    "href": "tutorials/databricks-secrets.html",
+    "title": "Storing and Accessing Secrets in Azure Key Vault",
     "section": "",
-    "text": "Tagging Databricks Compute\nWhen using compute within Databricks make sure to tag each compute you create. This allows to track costs from specific projects."
+    "text": "Before accessing the secret in Databricks, make sure to:"
   },
   {
-    "objectID": "researchers/sumit-sharma.html",
-    "href": "researchers/sumit-sharma.html",
-    "title": "Sumit Sharma",
-    "section": "",
-    "text": "Who am I:\n\n\n\n\n\nHi! I am Sumit, an incoming PhD student at CALS, Cornell. I am a veterinarian with a Master of Veterinary Science (M.V.Sc.) in Physiology and a B.V.Sc. & A.H. (equivalent to DVM) from the Agriculture and Forestry University (AFU), Nepal. Over time, and coming from a veterinary background, my interests have gradually expanded to the intersection of animal health and production, data science, and digital dairy systems, leading me to develop a growing curiosity for programming and analytical tools. I find working with data both challenging and rewarding; translating complexity into clarity. I am especially drawn to how emerging technologies like artificial intelligence and machine learning can drive smarter, more sustainable approaches to livestock management. Outside of research, I enjoy being in nature, trying new sports, following whatever catches my curiosity, and learning music at my own pace. Whether it’s playing football or ping pong, discussing world affairs, or picking up a new tune, I like to keep life active, creative, and open to new experiences.\n\n\nMy work at Bovi-Analytics\nAt Bovi-Analytics, I focus on applying AI and machine learning to precision livestock farming, turning complex data into practical insights. I am also exploring and learning about a wide range of approaches, including data quality assessment, simulation and digital twin models, and computer vision etc."
+    "objectID": "tutorials/databricks-secrets.html#access-the-key-in-databricks",
+    "href": "tutorials/databricks-secrets.html#access-the-key-in-databricks",
+    "title": "Storing and Accessing Secrets in Azure Key Vault",
+    "section": "🔐 Access the Key in Databricks",
+    "text": "🔐 Access the Key in Databricks\nUse the following code snippet to retrieve the secret:\n\n# Retrieve secret from Azure Key Vault via Databricks Secret Scope\n    # Replace &lt;data&gt; with the actual data name you want to access\n    # Replace &lt;your-key-name&gt; with the actual key name you want to access.\n&lt;data&gt;_secret = dbutils.secrets.get(scope=\"bovi_analytics_secrets_scope\", key= &lt;your-key-name&gt; )\n\n# Print the secret (only for debugging; avoid in production)\nprint(&lt;data&gt;_secret)"
   },
   {
-    "objectID": "researchers/sebastien-franceschini.html",
-    "href": "researchers/sebastien-franceschini.html",
-    "title": "Sébastien Franceschini",
-    "section": "",
-    "text": "Who am I:\nI am a visiting researcher from Belgium, currently working with Professor Hélène Soyeurt at the University of Liège, Gembloux Agro-Bio Tech. I have always been fascinated by the stories that can be uncovered from data. This curiosity led me from a background in biology to biostatistics, and eventually to animal science. My research aims to enhance the value of mid-infrared milk data routinely collected in the dairy industry. To achieve this, I apply data mining techniques—primarily unsupervised learning methods—to large spectral datasets.\n\n\nMy work at Bovi-Analytics\nI am spending six months at Cornell University, collaborating on the integration of on-farm data with mid-infrared spectral data. Through this integration, we aim to better understand and validate patterns observed in extensive Belgian datasets."
+    "objectID": "tutorials/databricks-secrets.html#overview-of-blob-storage-accounts-and-keys",
+    "href": "tutorials/databricks-secrets.html#overview-of-blob-storage-accounts-and-keys",
+    "title": "Storing and Accessing Secrets in Azure Key Vault",
+    "section": "Overview of blob storage accounts and keys",
+    "text": "Overview of blob storage accounts and keys\n\n\n\n\n\n\n\n\nblob-storage-account\nscope\nkey\n\n\n\n\nlab-us\nbovi_analytics_secrets_scope\nazure-bovi-analytics-lab-us\n\n\nlab-eu\nbovi_analytics_secrets_scope\nazure-bovi-analytics-lab-eu\n\n\ngpluse\nbovi_analytics_secrets_scope\nazure-bovi-analytics-gpluse-eu\n\n\nplaybehavior\nbovi_analytics_secrets_scope\nazure-bovi-analytics-playbehavior-eu"
   },
   {
-    "objectID": "researchers/puchun-niu.html",
-    "href": "researchers/puchun-niu.html",
-    "title": "Puchun Niu",
+    "objectID": "tutorials/databricks-secrets.html#real-example-accessing-bovi-analytics-data-from-azure-blob-storage",
+    "href": "tutorials/databricks-secrets.html#real-example-accessing-bovi-analytics-data-from-azure-blob-storage",
+    "title": "Storing and Accessing Secrets in Azure Key Vault",
+    "section": "Real Example: Accessing Bovi-Analytics Data from Azure Blob Storage",
+    "text": "Real Example: Accessing Bovi-Analytics Data from Azure Blob Storage\nIn this example, we use a secret stored in Azure Key Vault (retrieved via Databricks Secret Scope) to authenticate and access data stored in an Azure Blob Storage account.\n\n%scala\n// Set the Azure Blob Storage account key using the Databricks secret\nspark.sparkContext.hadoopConfiguration.set(\n   \"fs.azure.account.key.blob-storage-account.blob.core.windows.net\",\n   dbutils.secrets.get(scope=\"bovi_analytics_secrets_scope\", key= \"key\")\n   )\n\n\n%python\n// Set the Azure Blob Storage account key using the Databricks secret\nspark.sparkContext.hadoopConfiguration.set(\n   \"fs.azure.account.key.blob-storage-account.blob.core.windows.net\",\n   dbutils.secrets.get(scope=\"bovi_analytics_secrets_scope\", key= \"key\")\n   )\n\n\n# Accessing farm data stored in blob storage\nfile_location = \"wasbs://container-name@blob-storage-acount.blob.core.windows.net/path-to-file/\"\nfile_type = \"txt\"\ndata_set = spark.read.format(file_type).load(file_location)\ndisplay(data_set)"
+  },
+  {
+    "objectID": "researchers/yongyan-chen.html",
+    "href": "researchers/yongyan-chen.html",
+    "title": "Curriculum Vitae - Yongyan Chen",
     "section": "",
-    "text": "Who am I\nI’m a postdoctoral associate at Cornell University. I earned my Ph.D. in Animal Science from the Norwegian University of Life Sciences, where I worked on strategies to reduce methane emissions from ruminants, especially dairy cattle. My research has focused on building prediction models for the Norwegian national methane inventories, testing feed additives, and exploring the rumen microbiome using meta-omics tools. Originally from China, I spent almost a decade living and working in Norway before moving to the U.S. in spring 2025. It’s been another exciting transition, and I’m looking forward to what’s ahead.\n\n\nMy work at Bovi-Analytics\nI’m currently working on the project Accurate Gas Emissions Measures from Cattle with the GreenFeed System. The goal of this project is to develop international standards and guidelines for estimating gas emissions from beef and dairy cattle using the GreenFeed system across a range of production scenarios. Right now, I’m focused on building the framework for an international database of gas emissions measured using the GreenFeed technique. This is based on existing studies in both dairy and beef systems, and I’m actively reaching out to collaborators to contribute experimental data."
+    "text": "Hi I am Yongyan Chen. I came from China and started my phd at December 2019. My research focus is on the usefulness of lactation curve modelling."
+  },
+  {
+    "objectID": "researchers/yongyan-chen.html#phd-thesis",
+    "href": "researchers/yongyan-chen.html#phd-thesis",
+    "title": "Curriculum Vitae - Yongyan Chen",
+    "section": "PhD thesis",
+    "text": "PhD thesis\nPhD Chen YongYan"
+  },
+  {
+    "objectID": "researchers/yongyan-chen.html#scholarly-publications",
+    "href": "researchers/yongyan-chen.html#scholarly-publications",
+    "title": "Curriculum Vitae - Yongyan Chen",
+    "section": "Scholarly publications",
+    "text": "Scholarly publications\nChen, Y., M. Hostens, M. Nielen, J. Ehrlich, and W. Steeneveld. 2022c. Herd level economic comparison between the shape of the lactation curve and 305 d milk production. Front. Vet. Sci. 9. doi:10.3389/fvets.2022.997962."
+  },
+  {
+    "objectID": "researchers/yongyan-chen.html#conference-proceedings-and-posters",
+    "href": "researchers/yongyan-chen.html#conference-proceedings-and-posters",
+    "title": "Curriculum Vitae - Yongyan Chen",
+    "section": "Conference proceedings and posters",
+    "text": "Conference proceedings and posters\nChen, Y., M. Hostens, M. Nielen, J. Ehrlich, and W. Steeneveld. 2021. An Empirical Analysis on the Association between Persistency of Dairy Cows and Economic Herd Performance. Page 72 in Isessah.\nChen, Y., M. Hostens, M. Nielen, J. Ehrlich, and W. Steeneveld. 2022a. An empirical analysis of economic herd performance in relation to herd lactation curve characteristics. Page 35 in Dair’Innov congress 2022.\nChen, Y., M. Hostens, M. Nielen, J. Ehrlich, and W. Steeneveld. 2022b. An empirical analysis of economic herd performance in relation to herd lactation curve characteristics. Pages 728–736 in European Conference on Precision Livestock Farming & International Conference on Precision Dairy Farming 2022."
+  },
+  {
+    "objectID": "researchers/sonam-yang.html",
+    "href": "researchers/sonam-yang.html",
+    "title": "Sonam Yang",
+    "section": "",
+    "text": "Who am I:\n\n\n\n\n\nMy name is Sonam Yang, and I am currently pursuing a Ph.D. in Animal Science with a research focus on large language models (LLMs), computer vision, and federated learning. My work integrates deep learning techniques to revolutionize traditional farm management systems. As an enthusiastic user of LLMs, I am deeply convinced that these models can dramatically reshape the way we work, allowing individuals to engage in more creative work, rather than mundane and repetitive tasks.\nOne of the critical issues in the adoption of LLMs is their potential to infringe on users’ privacy. This is where federated learning comes into play, offering a solution that provides customized and secure AI services without compromising user privacy.\nI also have a strong interest in different languages and religions, and I believe there is fascinating potential in integrating these rich cultural and human elements with deep learning techniques. Combining AI with linguistic and religious knowledge could open up new, meaningful ways of understanding and preserving these human treasures.\n\n\nMy work at Bovi-Analytics\nMy research focuses on developing federated LLMs for farm management systems to modernize traditional approaches and promote greater adoption of AI technologies in the field of animal science. I envision a future where farmers can easily interact with AI models, whether by taking a picture or asking a question, and receive tailored, farm-specific solutions without privacy concerns. This would serve as a powerful blend of a secretary, a professional veterinarian, and a trusted advisor, all in one tool.\nFeel free to reach out to me if you’d like to share ideas or collaborate on related projects."
+  },
+  {
+    "objectID": "researchers/saba-noor.html",
+    "href": "researchers/saba-noor.html",
+    "title": "Saba Noor Trapenese",
+    "section": "",
+    "text": "Hi I am Saba Noor. I came from Pakistan and started my phd at Feburay 2023. My research focus is on Ontology driven animal health – a prerequisite towards federated learning."
+  },
+  {
+    "objectID": "researchers/saba-noor.html#scholarly-publications",
+    "href": "researchers/saba-noor.html#scholarly-publications",
+    "title": "Saba Noor Trapenese",
+    "section": "Scholarly publications",
+    "text": "Scholarly publications\n• Noor, Saba, et al. “Ontology for attack detection: Semantic-based approach for genomic data security.” Journal of Medical Imaging and Health Informatics 7.6 (2017): 1309-1323. [DOI: https://doi.org/10.1166/jmihi.2017.2221]\n• Noor, S., AKRAM, W., & AHMED, T. (2020). Predicting COVID-19 Incidence Using Data Mining Techniques: A case study of Pakistan. BRAIN. Broad Research in Artificial Intelligence and Neuroscience, 11(4), 168-184.\n• AKRAM, W., Noor, S, & MANZOOR, A. (2020). The State of the Art in Smart Grid Domain: A Network Modeling Approach. BRAIN. Broad Research in Artificial Intelligence and Neuroscience, 11(4), 201-230."
+  },
+  {
+    "objectID": "researchers/saba-noor.html#conference-proceedings-and-posters",
+    "href": "researchers/saba-noor.html#conference-proceedings-and-posters",
+    "title": "Saba Noor Trapenese",
+    "section": "Conference proceedings and posters",
+    "text": "Conference proceedings and posters\n• The 4th International Conference of Computer Science and Allied Technologies (ICCSAT) 2021 held on 7-8 Dec 2021 at Lahore Pakistan\n• The 3rd International Conference of Computer Science and Allied Technologies (ICCSAT) 2020 at Lahore Pakistan 3rd National Conference CS&IT 2019\n• Attending the 14th International Conference on Frontiers of Information Technology (FIT 2016), held on Dec 19-21 at Islamabad Pakistan.\n• Participating in Poster Presentation of Advanced Artificial Intelligence (AAI 2016) held on Dec, 27 at CIIT Islamabad Pakistan.\n• Got a certificate of Best Presenter in Advanced Artificial Intelligence (AAI 2016) Conference held on Dec, 27 at CIIT Islamabad Pakistan.\n• Attending the workshop on Web Mining & Semantics held on May 30, 2015 at Islamabad Pakistan."
+  },
+  {
+    "objectID": "researchers/peter-hut.html",
+    "href": "researchers/peter-hut.html",
+    "title": "Curriculum Vitae - Peter Hut",
+    "section": "",
+    "text": "PhD project\nPhD Peter Hut"
+  },
+  {
+    "objectID": "researchers/meike-van-leerdam.html",
+    "href": "researchers/meike-van-leerdam.html",
+    "title": "Meike van Leerdam",
+    "section": "",
+    "text": "Who am I:\nHi! My name is Meike, and I’m from the Netherlands. I’m a PhD student at Cornell University. My research combines two of my passions: cows and data. Although I still have much to learn, I enjoy programming, as it feels like solving puzzles. Thanks to my veterinary background, I’ve spent considerable time caring for cows and working to improve their welfare, which is something I find very important.\n\n\nMy work at Bovi-Analytics\nI am currently working on everything surrounding lactation curves of Dairy Cows. Improving their accuracy not only gives us more reliable information about cows, it also opens up many opportunities for cool new applications. For my master’s thesis, I developed an LSTM model to predict cows at risk of hypocalcemia using behavioral sensor data. The idea is that an improved version of the model could be used to monitor herd calcium status and identify animals at risk of transition diseases. This approach could help make proactive dairy management possible, ultimately improving animal health."
+  },
+  {
+    "objectID": "researchers/lucia-trapenese.html",
+    "href": "researchers/lucia-trapenese.html",
+    "title": "Lucia Trapenese",
+    "section": "",
+    "text": "Who am I\nHi I’m Lucia! I’m from Italy and I’m a PhD student in “Artificial Intelligence for Agrifood and Environment”. My work is focused on the application of machine learning algorithms in ruminant breeding to enhance their management, production, and reproduction performances. Although my focus is on these topics, I am interested in all activities exploiting machine learning, or more generally data analysis, to improve livestock management and animal welfare.\n\n\nMy work at Utrecht University\nI will spend six months at Utrecht University as a visiting PhD where I’m working on the application of deep learning algorithms in the cow domain. In particular, the project aims to explore the relationship between activity and productivity data."
+  },
+  {
+    "objectID": "researchers/index.html",
+    "href": "researchers/index.html",
+    "title": "\n            Researchers\n        ",
+    "section": "",
+    "text": "This is a list of all active researchers and alumni of the lab"
+  },
+  {
+    "objectID": "researchers/index.html#senior-researchers",
+    "href": "researchers/index.html#senior-researchers",
+    "title": "\n            Researchers\n        ",
+    "section": "Senior researchers",
+    "text": "Senior researchers\n\n\nMiel Hostens\n\n\n\n\n\n\n\nEnhong Liu\n\n\n\n\n\n\n\nPuchun Niu\n\n\n\n\n\n\n\nHanlu Zhang"
+  },
+  {
+    "objectID": "researchers/index.html#graduate-students-phd",
+    "href": "researchers/index.html#graduate-students-phd",
+    "title": "\n            Researchers\n        ",
+    "section": "Graduate students PhD",
+    "text": "Graduate students PhD\n\n\nKristof Hermans\n\n\n\n\n\n\n\nYara Sleghers\n\n\n\n\n\n\n\nSaba Noor\n\n\n\n\n\n\n\nSonam Yang\n\n\n\n\n\n\n\nMeike van Leerdam\n\n\n\n\n\n\n\nSumit Sharma\n\n\n\n\n\n\n\nSebastien Franceschini"
+  },
+  {
+    "objectID": "researchers/index.html#graduate-students-msc",
+    "href": "researchers/index.html#graduate-students-msc",
+    "title": "\n            Researchers\n        ",
+    "section": "Graduate students MsC",
+    "text": "Graduate students MsC\n\n\nMuhammad Azam\n\n\n\nIrene Gonzalez Ortega Villena"
+  },
+  {
+    "objectID": "researchers/index.html#undergraduate-students",
+    "href": "researchers/index.html#undergraduate-students",
+    "title": "\n            Researchers\n        ",
+    "section": "Undergraduate students",
+    "text": "Undergraduate students\n\n\nDavey Seeman"
+  },
+  {
+    "objectID": "researchers/index.html#research-interns",
+    "href": "researchers/index.html#research-interns",
+    "title": "\n            Researchers\n        ",
+    "section": "Research interns",
+    "text": "Research interns\n\n\nOpen position"
+  },
+  {
+    "objectID": "researchers/index.html#lab-alumni",
+    "href": "researchers/index.html#lab-alumni",
+    "title": "\n            Researchers\n        ",
+    "section": "Lab alumni",
+    "text": "Lab alumni\n\n\nYongYan Chen\n\n\n\n\n\n\n\nHadi Atashi\n\n\n\nJenne De Koster\n\n\n\nOsvaldo Bogado Pascottini\n\n\n\nMonica Probo\n\n\n\nPeter Hut\n\n\n\n\n\n\n\nArno Liseune\n\n\n\n\n\n\n\nMatthieu Salamone\n\n\n\n\n\n\n\nLucia Trapenese"
+  },
+  {
+    "objectID": "researchers/enhong-liu.html",
+    "href": "researchers/enhong-liu.html",
+    "title": "Enhong Liu",
+    "section": "",
+    "text": "Who am I\nI’m Enhong Liu, holding a Ph.D. in Animal Science and an M.S. in Data Science. I firmly believe that digitalization can play a pivotal role in transforming the dairy industry into a more efficient and intelligent system. The current advancements in AI provide a significant opportunity to make this vision a reality. However, while AI continues to evolve and new, more powerful models emerge daily from tech giants and startups, it’s crucial to ensure that AI genuinely adds value and solves real-world problems, rather than merely appearing impressive or superficial. This demands AI researchers and developers to have not only a solid understanding of algorithms, models, and architectures but, more importantly, a deep comprehension of the industry in which these technologies will be applied, along with the specific challenges they are designed to address. My graduate training and work experience in both fields positions me uniquely to add value to the lab. My background in Animal Science gives me a comprehensive understanding of dairy cattle physiology and management principles, and my M.S. in Data Science (formally known as Computational Data Analytics) equips me with cutting-edge knowledge of AI techniques. This combination enables me to continue lifelong learning in the fast-paced, ever-evolving AI landscape.\n\n\nMy work at Bovi-Analytics\nMy current focus is on projects related to generative AI, large language models (LLMs), and federated learning. While general-purpose LLMs-based chatbot like ChatGPT have made tremendous progress in answering generic questions, they often struggle to provide accurate and factually correct answers when it comes to private data or domain-specific inquiries—especially in industries like dairy, where high-quality training data may not be publicly available during their initial model training. Hallucinations in AI responses can undermine trust and hinder AI adoption in agriculture and the dairy industry. Currently, I am collaborating with Dr. Miel Hostens and other professionals in Computer Science to develop a data governance framework, which is critical for managing large, heterogeneous datasets from various sources and formats, ensuring the availability of high-quality data for LLMs. Additionally, I am working on fine-tuning language models and leveraging retrieval-augmented generation techniques to create solutions that can effectively interact with databases containing both structured and unstructured data."
+  },
+  {
+    "objectID": "researchers/aslam-muhammad-azam.html",
+    "href": "researchers/aslam-muhammad-azam.html",
+    "title": "Muhammad Azam Aslam",
+    "section": "",
+    "text": "Who am I\nHi, I’m Muhammad Azam Aslam, currently on a Data Science adventure in Italy, pursuing my Master’s at the Università Degli Studi Di Napoli Federico II. After nearly eight years in the world of Electrical and Electronics Engineering—balancing both academic and professional hats—I decided it was time to give in to my curiosity (or obsession?) with Data Science. I’ve got a serious soft spot for IoT, and robots are one of my great loves. I’m passionate about Data Science and automating anything I can get my hands on, which is what eventually led me to Artificial Intelligence—because who doesn’t want smart robots doing all the work for them?\n\n\nMy work at Bovi-Analytics\nI joined Bovi-Analytics as a research intern, where my job is to dive into mountains of data tossed my way by the Bovi team. My mission? To spot patterns in cow behavior and natural cycles and figure out how this influence their lactation periods—because who wouldn’t want to be a cow data detective? Fingers crossed that I’ll build a model to make this process smoother… and maybe keep me from drowning in data!"
+  },
+  {
+    "objectID": "projects/veerkracht.html",
+    "href": "projects/veerkracht.html",
+    "title": "Veerkracht project",
+    "section": "",
+    "text": "From an economic point of view, the 60 to 90 day period around calving has a major impact. This project therefore aims to create tools for the individual and dynamic follow-up of the transition success. These tools will enable the farmer to specifically identify and monitor risk animals and to take individual prevention measures to reduce the risk of problems during the transition period and to increase productivity and animal welfare. In the course of this project, the knowledge platform www.koesensor.be will be further expanded with information about indicators, sensor technology and biomarkers to support transition management."
+  },
+  {
+    "objectID": "projects/veerkracht.html#summary",
+    "href": "projects/veerkracht.html#summary",
+    "title": "Veerkracht project",
+    "section": "",
+    "text": "From an economic point of view, the 60 to 90 day period around calving has a major impact. This project therefore aims to create tools for the individual and dynamic follow-up of the transition success. These tools will enable the farmer to specifically identify and monitor risk animals and to take individual prevention measures to reduce the risk of problems during the transition period and to increase productivity and animal welfare. In the course of this project, the knowledge platform www.koesensor.be will be further expanded with information about indicators, sensor technology and biomarkers to support transition management."
+  },
+  {
+    "objectID": "projects/decide.html",
+    "href": "projects/decide.html",
+    "title": "Decide project",
+    "section": "",
+    "text": "Farmers, veterinarians and other animal health managers in the livestock and aquaculture sectors are currently missing information on the prevalence and burden of contagious animal diseases that are not regulated by the European Union.\nThe diseases are estimated to cause 10-15% reduction in performance efficiency of livestock farming, resulting in large financial losses and lower sustainability as well as affect animal welfare.\nDECIDE, a five-year Horizon 2020 project, will develop data-driven decision support tools that offer robust and early signals of disease emergence and options for diagnostic confirmation. Moreover, options will be provided for controlling the disease along with their implications in terms of disease spread, economic burden and animal welfare.\nThis partnership garners expertise in veterinary epidemiology and diagnostics, data science, mechanistic and predictive modelling, economics, animal welfare and social sciences. The consortium can also count on ample access to data from national animal health agencies, providers of veterinary services or farm equipment suppliers. This multidisciplinary consortium brings together 19 partners from 11 European countries.\nOur team is responsible for Work Package 1"
+  },
+  {
+    "objectID": "projects/decide.html#summary",
+    "href": "projects/decide.html#summary",
+    "title": "Decide project",
+    "section": "",
+    "text": "Farmers, veterinarians and other animal health managers in the livestock and aquaculture sectors are currently missing information on the prevalence and burden of contagious animal diseases that are not regulated by the European Union.\nThe diseases are estimated to cause 10-15% reduction in performance efficiency of livestock farming, resulting in large financial losses and lower sustainability as well as affect animal welfare.\nDECIDE, a five-year Horizon 2020 project, will develop data-driven decision support tools that offer robust and early signals of disease emergence and options for diagnostic confirmation. Moreover, options will be provided for controlling the disease along with their implications in terms of disease spread, economic burden and animal welfare.\nThis partnership garners expertise in veterinary epidemiology and diagnostics, data science, mechanistic and predictive modelling, economics, animal welfare and social sciences. The consortium can also count on ample access to data from national animal health agencies, providers of veterinary services or farm equipment suppliers. This multidisciplinary consortium brings together 19 partners from 11 European countries.\nOur team is responsible for Work Package 1"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "\n            Welcome to the Bovi-Analytics lab\n        ",
+    "section": "",
+    "text": "However beautiful the strategy might be, once in a while you should look at the data\n        \n        \n            \n        \n    \n    \n      \n        \n        \n        \n      \n    \n\n\n\n\n\n\nInstructor\n\n   Dr. Miel Hostens\n   Morrison Hall 273, Ithaca, NY 14853\n   miel.hostens@cornell.edu\n   Schedule an appointment\n My presentations\n\n\n\nLab details\n\n   Morrison Hall 273, Ithaca, NY 14853\n   Slack\n   Github\n   LinkedIn\n   @MielHostens\n\n\n\nContacting me\nE-mail and Slack are the best ways to get in contact with me. I will try to respond (although sometimes too short) to all e-mails and Slack messages within 24 hours (I really do). If I don’t respond right away, don’t worry, just sent me a friendly reminder!"
+  },
+  {
+    "objectID": "open-positions/internship.html",
+    "href": "open-positions/internship.html",
+    "title": "Research intern",
+    "section": "",
+    "text": "The Cornell Internship Program in Digital Dairy Management and Data Analytics is committed to investing in the development of future data scientists and bio-informatici through a limited term internship experience. The intention of the internship is to give the intern an experience of learning. It offers an opportunity to gain practical insights into the field of Digital Dairy Management and Data Analytics. This experience equips interns with skills that are essential for professional practice. The knowledge and skills acquired during this internship are valuable for the intern’s ongoing studies and future career.\nThe primary goal of this internship is to continue earlier work performed at the lab on digital twins for dairy cows. This will be achieved by learning new programming skills related to data science in the field of animal science. The aim of the project is to upgrade the digital twin model to effectively mirror the health, well-being, and productivity of individual cows. This will be facilitated through collaboration and acquiring new skills from multiple experts in the fields of data science, veterinary medicine, and sensor technology."
+  },
+  {
+    "objectID": "open-positions/internship.html#description",
+    "href": "open-positions/internship.html#description",
+    "title": "Research intern",
+    "section": "",
+    "text": "The Cornell Internship Program in Digital Dairy Management and Data Analytics is committed to investing in the development of future data scientists and bio-informatici through a limited term internship experience. The intention of the internship is to give the intern an experience of learning. It offers an opportunity to gain practical insights into the field of Digital Dairy Management and Data Analytics. This experience equips interns with skills that are essential for professional practice. The knowledge and skills acquired during this internship are valuable for the intern’s ongoing studies and future career.\nThe primary goal of this internship is to continue earlier work performed at the lab on digital twins for dairy cows. This will be achieved by learning new programming skills related to data science in the field of animal science. The aim of the project is to upgrade the digital twin model to effectively mirror the health, well-being, and productivity of individual cows. This will be facilitated through collaboration and acquiring new skills from multiple experts in the fields of data science, veterinary medicine, and sensor technology."
+  },
+  {
+    "objectID": "open-positions/internship.html#expected-phases-andor-goals",
+    "href": "open-positions/internship.html#expected-phases-andor-goals",
+    "title": "Research intern",
+    "section": "Expected phases and/or goals",
+    "text": "Expected phases and/or goals\n\nOrientation\nThe intern is expected to actively engage by listening attentively, asking questions, and being respectful of the individuals those they encounter. The aim is for the intern to develop familiarity and confidence in navigating the work environment, and interacting with colleagues.\n\n\nCultural orientation.\nAs it is expected that many interns will be from foreign countries, some orientation to American culture per se is useful. Much of this will come from the intern’s living situation (campus housing, roommates, etc.). The Cornell community is overloaded with lectures, plays, musical events, etc., and the participant will be able to experience any of these, per their interest.\n\n\nLearning goals and objectives for the intern during the training program.\nThe overarching goal is for the intern to develop and practice research skills as might be utilized in future advanced studies in a career in applied bio-informatics, data science, animal and/or dairy sciene. This internship assignment provides the intern with an opportunity to learn in a professional setting. By participating in the internship, the intern gains the chance to engage with field experts, and learning from their expertise.\nAdditionally, interns will further develop their critical thinking and communication skills, reading in English, interpreting experimental procedures from written protocols, and their ability to ask research questions. Most of these skills are obtained from ongoing conversations and evaluations with Dr. Hostens and his graduate students and research staff, a process that continues through the entirety of the internship.\n\n\nRole of the intern.\nThe overall role of the intern is to be eager, aware, proactive, and supportive of the program we will jointly develop. During the internship, the intern will focus on the project. This will be achieved by learning new programming skills, understanding algorithms, analyzing data, and drawing conclusions from it. The intern also needs to document their work, preferentially through github, give a final presentation, and if requested write a report. It’s important for the intern to keep their data organized and make sure the plans are realistic. Additionally, strong teamwork and effective communication skills are key factors in their success.\n\n\nEvaluation.\nHow will acquisition of skills be evaluated?\nSkills acquisition will be evaluated through both a mid-term and a final evaluation.\nThe mid-term evaluation meeting will be scheduled in the first half of the internship. This meeting encompasses discussions about the progress of the project, advancements in the internship report, and personal growth. This meeting will include Dr, Hostens, the intern. Dr. Hostens will also complete an evaluation form, offering feedback essential for the intern’s progression. It is expected that the intern will actively engage with this feedback to facilitate further development.\nAt the end of the internship Dr. Hostens will conduct a final assessment of the practical work delivered by the intern. This assessment will be signed and graded, serving as a comprehensive evaluation of the intern’s performance.\nDuring the internship, the intern will keep track of how the project is going and note any difficulties they encounter. This helps the intern to make progress in developing skills and knowledge. The intern will also make an report about the project and give a final presentation.\nThese evaluation processes are fundamental to monitoring and assessing the intern’s progress, ensuring they acquire necessary skills and meet the internship program’s objectives effectively.\nAdditional information can be requested at miel.hostens@cornell.edu"
+  },
+  {
+    "objectID": "researchers/arno-liseune.html",
+    "href": "researchers/arno-liseune.html",
+    "title": "Curriculum Vitae - Arno Liseune",
+    "section": "",
+    "text": "PhD project\nPhD Arno Liseune"
+  },
+  {
+    "objectID": "researchers/davey-seeman.html",
+    "href": "researchers/davey-seeman.html",
+    "title": "Davey Seeman",
+    "section": "",
+    "text": "Who am I\nHello, I’m Davey. I’m a rising sophomore studying math and computer science at Cornell University. My areas of interest include computer vision, natural language processing (specifically sentiment analysis), and statistics. I also care deeply about cattle welfare and how it can be achieved using technology. Originally, I’m from Toronto, Canada. Coming to Ithaca was a big change, but I’ve enjoyed my time here!\n\n\nMy work at Bovi-Analytics\nI am spending this summer (2024) helping create an AI model that, given a video of cows in a barn, determines how long these cows are playing. I am also working on a separate model that evaluates play behavior based on accelerometer data. My work helps form first stages of the “PlayingCalves” project, whose ultimate goal is to find the relationship between calves’ play time and the space allotment given to the calves."
+  },
+  {
+    "objectID": "researchers/hanlu-zhang.html",
+    "href": "researchers/hanlu-zhang.html",
+    "title": "Hanlu Zhang",
+    "section": "",
+    "text": "### Who am I\nI began my academic journey in Animal Science at China Agricultural University and continued with a Master’s and PhD in Animal Nutrition at Wageningen University. During my PhD, which focused on developing an in vitro model of protein fermentation, I developed a strong interest in data analysis.\n\nMy work at Bovi-Analytics\nI joined Bovi-Analytics as a postdoctoral researcher, where my main responsibilities include project management and data management for the project Accurate Gas Emissions Measures from Cattle with the GreenFeed System. This project aims to develop international standards and guidelines for estimating greenhouse gas emissions from beef and dairy cattle using the GreenFeed system across various production scenarios."
+  },
+  {
+    "objectID": "researchers/irene-gonzalez.html",
+    "href": "researchers/irene-gonzalez.html",
+    "title": "Irene Gonzalez Ortega Villena",
+    "section": "",
+    "text": "Who am I\nHi I’m Irene! I am a student in the Master Programme in Bioinformatics at Utrecht University. I studied Biochemistry at the Universidad Autónoma de Madrid (Spain). In that way, I have experience with R and Python programming. Additionally, my Final Project Degree consisted of using ImageJ for the quantification of immunohistochemistry images. Furthermore, I compared my results with data from magnetic resonance imaging, so I know the main concepts of that technique too. As personal achievements, I’d like to improve my programming skills and gain a deep understanding of how to present research results in a more understandable way.\n\n\nMy work here\nI will spend nine months working creating a framework for data processing and data flows, such as RStudio or Python, which will be combined with visualization framework, such as Tableau, to create more explainable models and insights about rare events in dairy cows."
+  },
+  {
+    "objectID": "researchers/mattieu-salamone.html",
+    "href": "researchers/mattieu-salamone.html",
+    "title": "Who am I",
+    "section": "",
+    "text": "I am Matthieu Salamone, and I hold an MSc in Veterinary Medicine, which I completed in 2018. Subsequently, in 2019, I embarked on a joint PhD program, combining Engineering Technology from KU Leuven under the supervision of prof. dr. ir Ben Aernouts & dr. ir. Ines Adriaens and Veterinary Science from Ghent University under the supervision of ass. prof. dr. Miel Hostens & prof. dr. Geert Opsomer. During my PhD, I have been responsible for developing and validating one of the prediction models as part of the VLAIO-LA RESILIENCE project. Beyond my contributions to the RESILIENCE project, my diverse background in data science, veterinary medicine, and comprehensive knowledge of the dairy industry, have enabled me to engage in collaborative efforts to analyze various veterinary data types. These include data related to Semen and udder health (Kemel et al. 2022, Adriaens et al.2023). I am currently in the process of finishing up my Phd aiming to defend it autumn 2023."
+  },
+  {
+    "objectID": "researchers/mattieu-salamone.html#vlaio-la-resilience",
+    "href": "researchers/mattieu-salamone.html#vlaio-la-resilience",
+    "title": "Who am I",
+    "section": "VLAIO-LA RESILIENCE",
+    "text": "VLAIO-LA RESILIENCE\nIn dairy cattle, the transition period is defined as three weeks before and three weeks after calving.This timeframe is considered one of the most challenging periods of the lactation for a high-producing dairy cow. During the transition period 30 to 50 % of cows develop metabolic or infectious diseases. The aim of this project was to use Machine Learning (ML) modeling methods to develop a new Key Performance Indicator (KPI) which reflects the transition success of a cow. Over the course of 4 years, we developed models that utilize historical data from the previous lactation and a set of cow-/herd-specific data to predict the production in the next lactation’s transition period (Liseune et al., 2021; Salamone et al., 2022). The difference between both models lies in the type of input data. The nextMILK model, developed by Salamone et al. (2022), uses low-frequency (4-6 week interval) test-day milk yield to predict milk production. In contrast, the SLMYP model of Liseune et al. (2021) relies on high-frequency milk meter data (daily interval) to predict milk yield.\n\n\n\n\n\nIn the second phase of the project potential KPI was constructed in the form of residuals in the transition period (MRT). The MRT is calculated by subtracting the realized milk yield during the transition period from a prediction of healthy milk yield.\n\nIn a longitudinal study conducted at the ILVO research facility, cow-level data was used to assess the associations between MRT and transition success. The results from this study revealed significant links between MRT and dry matter intake, health status and the lipogenic mobilization process via non-esterified fatty acids, insulin, and glucose (Salamone et al. 2023). A survey was also conducted at the herd level, the data from 34 farms is still under investigation to identify the link between MRT and management practices."
   },
   {
     "objectID": "researchers/miel-hostens.html",
@@ -322,242 +560,32 @@
     "text": "Publications\n\n\nAsaadi, A., M. Kafi, H. Atashi, M. Azari, and M. Hostens. 2019. Frozen-thawed ampullary cell monolayer improves bovine embryo in vitro development and quality. Zygote 27:337–346. doi:10.1017/S0967199419000388.\n\n\nAtashi, H., A. Asaadi, and M. Hostens. 2021a. Association between age at first calving and lactation performance, lactation curve, calving interval, calf birth weight, and dystocia in holstein dairy cows. PLoS One 16:e0244825. doi:10.1371/journal.pone.0244825.\n\n\nAtashi, H., and M. Hostens. 2021. Genetic aspects of somatic cell count in holstein dairy cows in iran. Animals (Basel) 11. doi:10.3390/ani11061637.\n\n\nAtashi, H., M. Hostens, and E. consortium Gplus. 2021b. Genetic parameters for milk urea and its relationship with milk yield and compositions in holstein dairy cows. PLoS One 16:e0253191. doi:10.1371/journal.pone.0253191.\n\n\nAtashi, H., M. Salavati, J. De Koster, M.A. Crowe, G. Opsomer, E. consortium Gplus, and M. Hostens. 2020a. Genome-wide association for metabolic clusters in early-lactation holstein dairy cows. J Dairy Sci 103:6392–6406. doi:10.3168/jds.2019-17369.\n\n\nAtashi, H., M. Salavati, J. De Koster, M.A. Crowe, G. Opsomer, M. Hostens, and E.C. The Gplus. 2020b. A genome-wide association study for calving interval in holstein dairy cows using weighted single-step genomic BLUP approach. Animals (Basel) 10. doi:10.3390/ani10030500.\n\n\nAtashi, H., M. Salavati, J. De Koster, J. Ehrlich, M. Crowe, G. Opsomer, E. consortium Gplus, and M. Hostens. 2020c. Genome-wide association for milk production and lactation curve parameters in holstein dairy cows. J Anim Breed Genet 137:292–304. doi:10.1111/jbg.12442.\n\n\nAtashi, H., M. Salavati, J. De Koster, J. Ehrlich, M. Crowe, G. Opsomer, N. McLoughlin, A. Fahey, E. Matthews, A. Santoro, C. Byrne, P. Rudd, R. O’Flaherty, S. Hallinan, C. Wathes, Z.R. Cheng, A. Fouladi, G. Pollott, D. Werling, B.S. Bernardo, A. Wylie, M. Bell, M. Vaneetvelde, K. Hermans, G. Opsomer, S. Moerman, J. De Koster, H. Bogaert, J. Vandepitte, L. Vandevelde, B. Vanranst, J. Hoglund, S. Dahl, S. Ostergaard, J. Rothmann, M. Krogh, E. Meyer, C. Gaillard, J. Ettema, T. Rousing, F. Signorelli, F. Napolitano, B. Moioli, A. Crisa, L. Buttazzoni, J. McClure, D. Matthews, F. Kearney, A. Cromie, M. McClure, S.J. Zhang, X. Chen, H.C. Chen, J.L. Zhao, L.G. Yang, G.H. Hua, C. Tan, G.Q. Wang, M. Bonneau, A. Pompozzi, A. Pearn, A. Evertson, L. Kosten, A. Fogh, T. Andersen, M. Lucey, C. Elsik, G. Conant, J. Taylor, N. Gengler, M. Georges, F. Colinet, M.R. Pamplona, H. Hammami, C. Bastin, H. Takeda, A. Laine, A.S. Van Laere, M. Schulze, S.P. Vera, C. Ferris, C. Marchitelli, M. Hostens, and G. Consortium. 2020d. Genome-wide association for milk production and lactation curve parameters in holstein dairy cows. Journal of Animal Breeding and Genetics 137:292–304. doi:10.1111/jbg.12442.\n\n\nAtashi, H., M. Salavati, J. Koster, M.A. Crowe, G. Opsomer, M. Hostens, and G. Consortium. 2020e. Genome-wide association for metabolic clusters in early -lactation holstein dairy cows. Journal of Dairy Science 103:6392–6406. doi:10.3168/jds.2019-17369.\n\n\nBogado Pascottini, O., M. Hostens, and G. Opsomer. 2018. Cytological endometritis diagnosed at artificial insemination in repeat breeder dairy cows. Reprod Domest Anim 53:559–561. doi:10.1111/rda.13110.\n\n\nBogado Pascottini, O., M. Probo, S.J. LeBlanc, G. Opsomer, and M. Hostens. 2020. Assessment of associations between transition diseases and reproductive performance of dairy cows using survival analysis and decision tree algorithms. Prev Vet Med 176:104908. doi:10.1016/j.prevetmed.2020.104908.\n\n\nBossaert, P., L. Leterme, T. Caluwaerts, S. Cools, M. Hostens, I. Kolkman, and G. Opsomer. Teaching rectal palpation of the genital apparatus in cows: Depiction of the learning process in live cows and evaluation of a simulated training model. Page 67 in European buiatrics forum.\n\n\nCaluwaerts, T., M. Hostens, B. Van Ranst, A. de Kruif, and G. Opsomer. Monitoring reproduction in modern dairy herds. Page 65 in 13th annual conference of the european society for domestic animal reproduction.\n\n\nCaluwaerts, T., M. Hostens, B. Van Ranst, A. de Kruif, and G. Opsomer. 2009. Monitoring reproduction in modern dairy herds. Reproduction in Domestic Animals 44:65.\n\n\nCaluwaerts, T., M. Hostens, B. Van Ranst, and G. Opsomer. The relationship between the increasing ratio of milk yield in the first part of lactation and the moment of first recorded heat in dairy cows. Page 98 in 13th annual conference of the european society for domestic animal reproduction.\n\n\nCharlier, J., M. Hostens, J. Jacobs, B. Van Ranst, L. Duchateau, and J. Vercruysse. 2012. Integrating fasciolosis in the dry cow management: The effect of closantel treatment on milk production. Plos One IF 4.092:in press.\n\n\nCharlier, J., J. Jacobs, M. Hostens, B. Van Ranst, L. Duchateau, and J. Vercruysse. Treatment with closantel oral suspension at dry-off in dairy cows exposed to the liver fluke: Effect on milk production parameters. Page 68 in 6th european congress of bovine health management.\n\n\nChen, Y., M. Hostens, M. Nielen, J. Ehrlich, and W. Steeneveld. 2022. Herd level economic comparison between the shape of the lactation curve and 305 d milk production. Front Vet Sci 9:997962. doi:10.3389/fvets.2022.997962.\n\n\nCools, S., P. Bossaert, T. Caluwaerts, M. Hostens, G. Opsomer, and A. de Kruif. 2008. De economische gevolgen van een verlenging van de tussenkalftijd bij hoogproductief melkvee. Vlaams Diergeneeskundig Tijdschrift 77:402–409.\n\n\nCrowe, M.A., M. Hostens, and G. Opsomer. 2018. Reproductive management in dairy cows - the future. Ir Vet J 71:1. doi:10.1186/s13620-017-0112-y.\n\n\nDe Koster, J., M. Salavati, C. Grelet, M.A. Crowe, E. Matthews, R. O’Flaherty, G. Opsomer, L. Foldager, GplusE, and M. Hostens. 2019b. Corrigendum to \"prediction of metabolic clusters in early-lactation dairy cows using models based on milk biomarkers\" (j. Dairy sci. 102:2631-2644). J Dairy Sci 102:3778. doi:10.3168/jds.2019-102-4-3778.\n\n\nDe Koster, J., M. Salavati, C. Grelet, M.A. Crowe, E. Matthews, R. O’Flaherty, G. Opsomer, L. Foldager, GplusE, and M. Hostens. 2019a. Prediction of metabolic clusters in early-lactation dairy cows using models based on milk biomarkers. J Dairy Sci 102:2631–2644. doi:10.3168/jds.2018-15533.\n\n\nDe Koster, J., M. Salavati, C. Grelet, M.A. Crowe, E. Matthews, R. O’Flaherty, G. Opsomer, L. Foldager, M. Hostens, N. McLoughlin, A. Fahey, A. Santoro, C. Byrne, P. Rudd, S. Hallinan, C. Wathes, Z.R. Cheng, A. Fouladi, G. Pollott, D. Werling, B.S. Bernardo, A. Wylie, M. Bell, M. Vaneetvelde, K. Hermans, S. Moerman, H. Bogaert, J. Vandepitte, L. Vandevelde, B. Vanranst, J. Hoglund, S. Dahl, S. Ostergaard, J. Rothmann, M. Krogh, E. Meyer, C. Gaillard, J. Ettema, T. Rousing, F. Signorelli, F. Napolitano, B. Moioli, A. Crisa, L. Buttazzoni, J. McClure, D. Matthews, F. Kearney, A. Cromie, M. McClure, S.J. Zhang, X. Chen, H.C. Chen, J.L. Zhao, L.G. Yang, G.H. Hua, C. Tan, G.Q. Wang, M. Bonneau, A. Pompozzi, A. Pearn, A. Evertson, L. Kosten, A. Fogh, T. Andersen, M. Lucy, C. Elsik, G. Conant, J. Taylor, N. Gengler, M. Georges, F. Colinet, M.R. Pamplona, H. Hammami, C. Bastin, H. Takeda, A. Laine, A.S. Van Laere, M. Schulze, S.P. Vera, and GplusE. 2019c. Prediction of metabolic clusters in early-lactation dairy cows using models based on milk biomarkers. Journal of Dairy Science 102:2631–2644. doi:10.3168/jds.2018-15533.\n\n\nDe Koster, J., M. Salavati, C. Grelet, M.A. Crowe, E. Matthews, R. O’Flaherty, G. Opsomer, L. Foldager, N. McLoughlin, A. Fahey, E. Matthews, A. Santoro, C. Byrne, P. Rudd, R. O’Flaherty, S. Hallinan, C. Wathes, Z.R. Cheng, A. Fouladi, G. Pollott, D. Werling, B.S. Bernardo, A. Wylie, M. Bell, M. Vaneetvelde, K. Hermans, G. Opsomer, S. Moerman, J. De Koster, H. Bogaert, J. Vandepitte, L. Vandevelde, B. Vanranst, J. Hoglund, S. Dahl, S. Ostergaard, J. Rothmann, M. Krogh, E. Meyer, C. Gaillard, J. Ettema, T. Rousing, F. Signorelli, F. Napolitano, B. Moioli, A. Crisa, L. Buttazzoni, J. McClure, D. Matthews, F. Kearney, A. Cromie, M. McClure, S.J. Zhang, X. Chen, H.C. Chen, J.L. Zhao, L.G. Yang, G.H. Hua, C. Tan, G.Q. Wang, M. Bonneau, A. Pompozzi, A. Pearn, A. Evertson, L. Kosten, A. Fogh, T. Andersen, M. Lucy, C. Elsik, G. Conant, J. Taylor, N. Gengler, M. Georges, F. Colinet, M.R. Pamplona, H. Hammami, C. Bastin, H. Takeda, A. Laine, A.S. Van Laere, M. Schulze, S.P. Vera, C. Marchitelli, M. Hostens, and GplusE. 2019d. Prediction of metabolic clusters in early-lactation dairy cows using models based on milk biomarkers (vol 102, pg 2631, 2019). Journal of Dairy Science 102:3778–3778. doi:DOI 10.3168/jds.2019-102-4-3778.\n\n\nDepreester, E., J. De Koster, M. Van Poucke, M. Hostens, W. Van den Broeck, L. Peelman, G.A. Contreras, and G. Opsomer. 2018. Influence of adipocyte size and adipose depot on the number of adipose tissue macrophages and the expression of adipokines in dairy cows at the end of pregnancy. J Dairy Sci 101:6542–6555. doi:10.3168/jds.2017-13777.\n\n\nFoldager, L., C. Gaillard, M.T. Sorensen, T. Larsen, E. Matthews, R. O’Flaherty, F. Carter, M.A. Crowe, C. Grelet, M. Salavati, M. Hostens, K.L. Ingvartsen, M.A. Krogh, and E.C. Gplus. 2020. Predicting physiological imbalance in holstein dairy cows by three different sets of milk biomarkers. Prev Vet Med 179:105006. doi:10.1016/j.prevetmed.2020.105006.\n\n\nGoderis, M., M. Hostens, and G. Opsomer. Severe outbreaks of botulism in cattle herds in flanders : 4 case reports. Pages 75–76 in 15th world buiatrics congress.\n\n\nGrelet, C., E. Froidmont, L. Foldager, M. Salavati, M. Hostens, C.P. Ferris, K.L. Ingvartsen, M.A. Crowe, M.T. Sorensen, J.A. Fernandez Pierna, A. Vanlierde, N. Gengler, E.C. Gplus, and F. Dehareng. 2020. Potential of milk mid-infrared spectra to predict nitrogen use efficiency of individual dairy cows in early lactation. J Dairy Sci 103:4435–4445. doi:10.3168/jds.2019-17910.\n\n\nHermans, K., G. Opsomer, B. Van Ranst, and M. Hostens. 2018. Promises and challenges of big data associated with automated dairy cow welfare assessment. Animal Welfare in a Changing World 199–207.\n\n\nHostens, M., P. Bossaert, S. Cools, A. de Kruif, and G. Opsomer. 2010. Het gebruik van glucogene precursoren in de voeding van hoogproductief melkvee. Vlaams Diergeneeskundig Tijdschrift 79:247–258.\n\n\nHostens, M., T. Caluwaerts, B. Van Ranst, and G. Opsomer. The effect of age at first calving on subsequent production in dairy cattle. Pages 85–86 in 13th annual conference of the european society for domestic animal reproduction.\n\n\nHostens, M., T. Caluwaerts, E. Vandekerckhove, S. De Vliegher, S. Piepers, B. Van Ranst, and G. Opsomer. Factors associated with oestrous length in high yielding dairy cows. Page 65 in European buiatrics forum.\n\n\nHostens, M., V. Fievez, J.L.M.R. Leroy, B. Van Ranst, B. Vlaeminck, and G. Opsomer. 2012a. The level of unsaturation of milk and reproductive performance in dairy cattle. Animal Reproduction Science (Submitted).\n\n\nHostens, M., V. Fievez, J.L.M.R. Leroy, J. Van Ranst, B. Vlaeminck, and G. Opsomer. 2012b. The fatty acid profile of subcutaneous and abdominal fat in dairy cows with left displacement of the abomasum. Journal of Dairy Science 95:3756–3765. doi:DOI 10.3168/jds.2011-5092.\n\n\nHostens, M., V. Fievez, B. Vlaeminck, J. Buyse, J.L.M.R. Leroy, S. Piepers, S. De Vliegher, and G. Opsomer. The effect of DHA enriched marine algae in the ration of high yielding dairy cows during transition on milk components in ADSA discovery conference on milk components.\n\n\nHostens, M., V. Fievez, B. Vlaeminck, S. De Vliegher, S. Piepers, and G. Opsomer. The effect of marine algae supplementation in the ration of high yielding dairy cows during transition and its effect on metabolic parameters in the serum and follicular fluid around parturition. Pages 712–713 in XI international symposium on ruminant physiology.\n\n\nHostens, M., V. Fievez, B. Vlaeminck, J.L.M.R. Leroy, and G. Opsomer. 2012c. The effect of feeding omega-6 and omega-3 fatty acids in early lactation on blood and follicular fluid fatty acid profiles (In Preparation).\n\n\nHostens, M., and G. Opsomer. Interaction of metabolic challenges and successful fertility in high yielding dairy cows. review. Pages 118–121 in 27th world buiatrics congress.\n\n\nHostens, M., L. Peelman, V. Fievez, and G. Opsomer. The effect of microalgae supplementation on the liver function in transition dairy cows in 14th international conference on production diseases in farm animals.\n\n\nHostens, M., L. Peelman, V. Fievez, and G. Opsomer. The effect of microalgae supplementation on the mRNA expression for gluconeogenic enzymes in liver of transition dairy cows. Page 583 in 8th ruminant reproduction symposium.\n\n\nHostens, M., A. Steen, V. Fievez, and G. Opsomer. Differences in fatty acid profile of subcutaneous fat at drying-off versus at calving in high yielding dairy cows fed extruded linseed during lactation. Page 128 in European buiatrics forum.\n\n\nHostens, M., B. Van Ranst, T. caluwaerts, and G. Opsomer. The fertitree : A decision tree for reproductive management in high yielding dairy cows in europe in 21th ADSA discover meeting.\n\n\nHostens, M., B. Vlaeminck, V. Fievez, and G. Opsomer. The effect of marine algae supplementation in high yielding dairy cows during transition on metabolic parameters in the serum and follicular fluid early post-partum. Page 86 in 13th annual conference of the european society for domestic animal reproduction.\n\n\nHostens, M., B. Vlaeminck, V. Fievez, J. Van Ranst, and G. Opsomer. The fatty acid profile of subcutaneous and abdominal fat depots as compared to the NEFA in the blood plasma during the negative energy balance in high yielding dairy cows. Page 131 in 14th international conference on production diseases in farm animals.\n\n\nHut, P.R., M.M. Hostens, M.J. Beijaard, F. van Eerdenburg, J. Hulsen, G.A. Hooijer, E.N. Stassen, and M. Nielen. 2021. Associations between body condition score, locomotion score, and sensor-based time budgets of dairy cattle during the dry period and early lactation. J Dairy Sci 104:4746–4763. doi:10.3168/jds.2020-19200.\n\n\nHut, P.R., S.E.M. Kuiper, M. Nielen, J. Hulsen, E.N. Stassen, and M.M. Hostens. 2022a. Sensor based time budgets in commercial dutch dairy herds vary over lactation cycles and within 24 hours. PLoS One 17:e0264392. doi:10.1371/journal.pone.0264392.\n\n\nHut, P.R., J. Scheurwater, M. Nielen, J. van den Broek, and M.M. Hostens. 2022b. Heat stress in a temperate climate leads to adapted sensor-based behavioral patterns of dairy cows. J Dairy Sci 105:6909–6922. doi:10.3168/jds.2021-21756.\n\n\nKamal, M., M. Van Eetvelde, E. Depreester, M. Hostens, L. Vandaele, and G. Opsomer. 2014. Age at calving in heifers and level of milk production during gestation in cows are associated with the birth size of holstein calves. Journal of dairy science 97:5448–5458.\n\n\nKemel, C., M. Salamone, H. Van Loo, C. Latour, S. Vandeputte, J. Callens, M. Hostens, and G. Opsomer. 2022. Unaffected semen quality parameters in neospora caninum seropositive belgian blue bulls. Theriogenology 191:10–15. doi:10.1016/j.theriogenology.2022.07.013.\n\n\nKnegsel, A.T.M. van, M. Hostens, G.D. Reilingh, A. Lammers, B. Kemp, G. Opsomer, and H.K. Parmentier. 2012. Natural antibodies related to metabolic and mammary health in dairy cows. Preventive Veterinary Medicine 103:287–297. doi:DOI 10.1016/j.prevetmed.2011.09.006.\n\n\nKnegsel, A.T.M. van, M. Hostens, G. de Vries Reilingh, V. Fievez, G. Opsomer, and H.K. Parmentier. Microalgae supplementation does not affect natural antibodies levels in plasma of peripartum dairy cows. Page 166 in 14th international conference on production diseases in farm animals.\n\n\nKrogh, M.A., M. Hostens, M. Salavati, C. Grelet, M.T. Sorensen, D.C. Wathes, C.P. Ferris, C. Marchitelli, F. Signorelli, F. Napolitano, F. Becker, T. Larsen, E. Matthews, F. Carter, A. Vanlierde, G. Opsomer, N. Gengler, F. Dehareng, M.A. Crowe, K.L. Ingvartsen, and L. Foldager. 2020. Between- and within-herd variation in blood and milk biomarkers in holstein cows in early lactation. Animal 14:1067–1075. doi:10.1017/S1751731119002659.\n\n\nLiseune, A., M. Salamone, D. Van den Poel, B. van Ranst, and M. Hostens. 2021. Predicting the milk yield curve of dairy cows in the subsequent lactation period using deep learning. Computers and Electronics in Agriculture 180. doi:ARTN 105904 10.1016/j.compag.2020.105904.\n\n\nLiseune, A., M. Salamone, D. Van den Poel, B. Van Ranst, and M. Hostens. 2020. Leveraging latent representations for milk yield prediction and interpolation using deep learning. Computers and Electronics in Agriculture 175. doi:ARTN 105600 10.1016/j.compag.2020.105600.\n\n\nLiseune, A., D. Van den Poel, B. Van Ranst, and M. Hostens. 2019. Predicting the next life event including disease by applying deep learning on sequential and pictorial data. Journal of Dairy Science 102:394–394.\n\n\nLlamas-Luceno, N., M. Hostens, E. Mullaart, M. Broekhuijse, P. Lonergan, and A. Van Soom. 2020. High temperature-humidity index compromises sperm quality and fertility of holstein bulls in temperate climates. J Dairy Sci 103:9502–9514. doi:10.3168/jds.2019-18089.\n\n\nMiel Hostens, G.K., Theo Lam. 2023. Sustainable ruminant health at utrecht university. American Journal of Veterinary Research 1. doi:10.2460/ajvr.23.05.0104.\n\n\nOpsomer, G., M.M. Kamal, M. Van Eetvelde, L. Van Daele, and M. Hostens. 2012. Placental development in holstein cattle is correlated with dam characteristics and b-cell function of the newborn calf. Reproduction in Domestic Animals 47.\n\n\nPardon, B., B. Catry, J. Dewulf, D. Persoons, M. Hostens, K. De Bleecker, and P. Deprez. Antimicrobial and anti-inflammatory drug use in belgian white veal calves. Page 60 in 27th world buiatrics congress.\n\n\nPardon, B., J. Dewulf, M. Hostens, J. Callens, K. De Bleecker, and P. Deprez. Risk factors for mortality and reduced carcass weight in white veal calves. Pages 90–91 in 27th world buiatrics congress.\n\n\nPardon, B., S. Drabbé, M. Hostens, and P. Deprez. Postprandial glucose and insulin concentrations in belgian blue veal calves on a commercial milk powder diet. Pages 243–244 in 26th world buiatrics congress.\n\n\nPardon, B., M. Hostens, J. Dewulf, K. De Bleecker, and P. Deprez. 2012a. Impact of respiratory disease, diarrhea, otitis and arthritis on mortality and carcass traits in white veal calves (submitted).\n\n\nPardon, B., M. Hostens, L. Ribbers, K. De Bleecker, G. Opsomer, and P. Deprez. Ear vein sampling procedure with a commercial beta-hydroxybutyrate meter as a cow side test for ketosis. Page 177 in European buiatrics forum.\n\n\nPardon, B., M. Hostens, S. Stuyvaert, J. Maris, B. Sustronck, J. Dewulf, and P. Deprez. 2012b. Seroepidemiology of respiratory infections in white veal calves under antimicrobial coverage and associations with respiratory disease and carcass traits (In preparation).\n\n\nPardon, B., E. Stuyven, S. Stuyvaert, M. Hostens, J. Dewulf, B.M. Goddeeris, E. Cox, and P. Deprez. Flow cytometric and immunofluorescence staining studies on bovine neonatal pancytopenia in calves. Page 10 in 26th world buiatrics congress.\n\n\nPardon, B., E. Stuyven, S. Stuyvaert, M. Hostens, J. Dewulf, B.M. Goddeeris, E. Cox, and P. Deprez. Demonstration of alloimmune antibodies in sera from dams of calves with bovine neonatal pancytopenia. Page 100 in 6th european congress of bovine health management.\n\n\nPascottini, O.B., M. Probo, S.J. LeBlanc, G. Opsomer, and M. Hostens. 2020. Assessment of associations between transition diseases and reproductive performance of dairy cows using survival analysis and decision tree algorithms. Preventive Veterinary Medicine 176. doi:ARTN 104908 10.1016/j.prevetmed.2020.104908.\n\n\nPouya Dini, K.D., Osvaldo Bogado Pascottini. 2016. Holding equine oocytes in a commercial embryo-holding medium: New perspective on holding temperature and maturation time. Theriogenology 86:1361–1368. doi:10.1016/j.theriogenology.2016.04.079.\n\n\nSalamone, M., I. Adriaens, A. Vervaet, G. Opsomer, H. Atashi, V. Fievez, B. Aernouts, and M. Hostens. 2022. Prediction of first test day milk yield using historical records in dairy cows. Animal 16:100658. doi:10.1016/j.animal.2022.100658.\n\n\nScheurwater, J., M. Hostens, M. Nielen, H. Heesterbeek, A. Schot, R. van Hoeij, and H. Aardema. 2021. Pressure measurement in the reticulum to detect different behaviors of healthy cows. PLoS One 16:e0254410. doi:10.1371/journal.pone.0254410.\n\n\nTobolski, D., K. Lukasik, A. Baclawska, D.J. Skarzynski, M. Hostens, and W. Baranski. 2021. Prediction of calving to conception interval length using algorithmic analysis of endometrial mRNA expression in bovine. Animals (Basel) 11. doi:10.3390/ani11010236.\n\n\nVan Eetvelde, M., S. De Smet, M. Hostens, and G. Opsomer. How to measure body fat stores in high yielding dairy cows. Page 81 in European buiatrics forum.\n\n\nVan Ranst, B., M. Hostens, H.J. van der Beek, and G. Opsomer. Visualization and interpretation of reproduction performance on modern dairy herds. Page 101 in 14th international conference on production diseases in farm animals. University Press.\n\n\nVervers, C., M. Hostens, T. Caluwaerts, A. de Kruif, and G. Opsomer. 2010. Is er een verband tussen het verloop van de aanvangsfase van de lactatiecurve en het optreden van de eerste oestrus post partum bij hoogproductieve melkkoeien? Vlaams Diergeneeskundig Tijdschrift 79:381–388.\n\n\nVervers, C., M. Hostens, T. Caluwaerts, and G. Opsomer. Is there an association between the start-up of the lactation curve and the moment of first heat detection in modern dairy cows. Page 22 in 14th international conference on production diseases in farm animals.\n\n\nVlaeminck, B., M. Hostens, E. Colman, S. De Campeneere, G. Opsomer, and V. Fievez. Effect of poly-unsaturated fatty acid on plasma and milk fatty acid composition in early lactating dairy cows. Pages 121–122 in ADSA-ASAS joint annual meeting.\n\n\nVlaeminck, B., M. Hostens, G. Opsomer, and V. Fievez. Delayed response of milk fatty acids to micro algae fed in early lactation. Pages 688–689 in Ruminant physiology. Wageningen Academic Publishers.\n\n\nWathes, D.C., Z. Cheng, M. Salavati, L. Buggiotti, H. Takeda, L. Tang, F. Becker, K.I. Ingvartsen, C. Ferris, M. Hostens, M.A. Crowe, and E.C. Gplus. 2021a. Relationships between metabolic profiles and gene expression in liver and leukocytes of dairy cows in early lactation. J Dairy Sci 104:3596–3616. doi:10.3168/jds.2020-19165.\n\n\nWathes, D.C., Z. Cheng, M. Salavati, L. Buggiotti, H. Takeda, L. Tang, F. Becker, K.L. Ingvartsen, C. Ferris, M. Hostens, M.A. Crowe, and E.C. Gplus. 2021b. Corrigendum to \"relationships between metabolic profiles and gene expression in liver and leukocytes of dairy cows in early lactation\" (j. Dairy sci. 104:3596-3616). J Dairy Sci 104:6327. doi:10.3168/jds.2021-104-5-6327.\n\n\nWullepit, N., C. Ginneberge, V. Fievez, G. Opsomer, M. Hostens, D. Fremaut, and S. De Smet. Influence of micro algae supplementation on the oxidative status of plasma in periparturient dairy cows. Pages 48–49 in 14th international conference on production diseases in farm animals.\n\n\nZare, M., H. Atashi, and M. Hostens. 2022. Genome-wide association study for lactation performance in the early and peak stages of lactation in holstein dairy cows. Animals (Basel) 12. doi:10.3390/ani12121541."
   },
   {
-    "objectID": "researchers/mattieu-salamone.html",
-    "href": "researchers/mattieu-salamone.html",
-    "title": "Who am I",
+    "objectID": "researchers/puchun-niu.html",
+    "href": "researchers/puchun-niu.html",
+    "title": "Puchun Niu",
     "section": "",
-    "text": "I am Matthieu Salamone, and I hold an MSc in Veterinary Medicine, which I completed in 2018. Subsequently, in 2019, I embarked on a joint PhD program, combining Engineering Technology from KU Leuven under the supervision of prof. dr. ir Ben Aernouts & dr. ir. Ines Adriaens and Veterinary Science from Ghent University under the supervision of ass. prof. dr. Miel Hostens & prof. dr. Geert Opsomer. During my PhD, I have been responsible for developing and validating one of the prediction models as part of the VLAIO-LA RESILIENCE project. Beyond my contributions to the RESILIENCE project, my diverse background in data science, veterinary medicine, and comprehensive knowledge of the dairy industry, have enabled me to engage in collaborative efforts to analyze various veterinary data types. These include data related to Semen and udder health (Kemel et al. 2022, Adriaens et al.2023). I am currently in the process of finishing up my Phd aiming to defend it autumn 2023."
+    "text": "Who am I\nI’m a postdoctoral associate at Cornell University. I earned my Ph.D. in Animal Science from the Norwegian University of Life Sciences, where I worked on strategies to reduce methane emissions from ruminants, especially dairy cattle. My research has focused on building prediction models for the Norwegian national methane inventories, testing feed additives, and exploring the rumen microbiome using meta-omics tools. Originally from China, I spent almost a decade living and working in Norway before moving to the U.S. in spring 2025. It’s been another exciting transition, and I’m looking forward to what’s ahead.\n\n\nMy work at Bovi-Analytics\nI’m currently working on the project Accurate Gas Emissions Measures from Cattle with the GreenFeed System. The goal of this project is to develop international standards and guidelines for estimating gas emissions from beef and dairy cattle using the GreenFeed system across a range of production scenarios. Right now, I’m focused on building the framework for an international database of gas emissions measured using the GreenFeed technique. This is based on existing studies in both dairy and beef systems, and I’m actively reaching out to collaborators to contribute experimental data."
   },
   {
-    "objectID": "researchers/mattieu-salamone.html#vlaio-la-resilience",
-    "href": "researchers/mattieu-salamone.html#vlaio-la-resilience",
-    "title": "Who am I",
-    "section": "VLAIO-LA RESILIENCE",
-    "text": "VLAIO-LA RESILIENCE\nIn dairy cattle, the transition period is defined as three weeks before and three weeks after calving.This timeframe is considered one of the most challenging periods of the lactation for a high-producing dairy cow. During the transition period 30 to 50 % of cows develop metabolic or infectious diseases. The aim of this project was to use Machine Learning (ML) modeling methods to develop a new Key Performance Indicator (KPI) which reflects the transition success of a cow. Over the course of 4 years, we developed models that utilize historical data from the previous lactation and a set of cow-/herd-specific data to predict the production in the next lactation’s transition period (Liseune et al., 2021; Salamone et al., 2022). The difference between both models lies in the type of input data. The nextMILK model, developed by Salamone et al. (2022), uses low-frequency (4-6 week interval) test-day milk yield to predict milk production. In contrast, the SLMYP model of Liseune et al. (2021) relies on high-frequency milk meter data (daily interval) to predict milk yield.\n\n\n\n\n\nIn the second phase of the project potential KPI was constructed in the form of residuals in the transition period (MRT). The MRT is calculated by subtracting the realized milk yield during the transition period from a prediction of healthy milk yield.\n\nIn a longitudinal study conducted at the ILVO research facility, cow-level data was used to assess the associations between MRT and transition success. The results from this study revealed significant links between MRT and dry matter intake, health status and the lipogenic mobilization process via non-esterified fatty acids, insulin, and glucose (Salamone et al. 2023). A survey was also conducted at the herd level, the data from 34 farms is still under investigation to identify the link between MRT and management practices."
-  },
-  {
-    "objectID": "researchers/irene-gonzalez.html",
-    "href": "researchers/irene-gonzalez.html",
-    "title": "Irene Gonzalez Ortega Villena",
+    "objectID": "researchers/sebastien-franceschini.html",
+    "href": "researchers/sebastien-franceschini.html",
+    "title": "Sébastien Franceschini",
     "section": "",
-    "text": "Who am I\nHi I’m Irene! I am a student in the Master Programme in Bioinformatics at Utrecht University. I studied Biochemistry at the Universidad Autónoma de Madrid (Spain). In that way, I have experience with R and Python programming. Additionally, my Final Project Degree consisted of using ImageJ for the quantification of immunohistochemistry images. Furthermore, I compared my results with data from magnetic resonance imaging, so I know the main concepts of that technique too. As personal achievements, I’d like to improve my programming skills and gain a deep understanding of how to present research results in a more understandable way.\n\n\nMy work here\nI will spend nine months working creating a framework for data processing and data flows, such as RStudio or Python, which will be combined with visualization framework, such as Tableau, to create more explainable models and insights about rare events in dairy cows."
+    "text": "Who am I:\nI am a visiting researcher from Belgium, currently working with Professor Hélène Soyeurt at the University of Liège, Gembloux Agro-Bio Tech. I have always been fascinated by the stories that can be uncovered from data. This curiosity led me from a background in biology to biostatistics, and eventually to animal science. My research aims to enhance the value of mid-infrared milk data routinely collected in the dairy industry. To achieve this, I apply data mining techniques—primarily unsupervised learning methods—to large spectral datasets.\n\n\nMy work at Bovi-Analytics\nI am spending six months at Cornell University, collaborating on the integration of on-farm data with mid-infrared spectral data. Through this integration, we aim to better understand and validate patterns observed in extensive Belgian datasets."
   },
   {
-    "objectID": "researchers/hanlu-zhang.html",
-    "href": "researchers/hanlu-zhang.html",
-    "title": "Hanlu Zhang",
+    "objectID": "researchers/sumit-sharma.html",
+    "href": "researchers/sumit-sharma.html",
+    "title": "Sumit Sharma",
     "section": "",
-    "text": "### Who am I\nI began my academic journey in Animal Science at China Agricultural University and continued with a Master’s and PhD in Animal Nutrition at Wageningen University. During my PhD, which focused on developing an in vitro model of protein fermentation, I developed a strong interest in data analysis.\n\nMy work at Bovi-Analytics\nI joined Bovi-Analytics as a postdoctoral researcher, where my main responsibilities include project management and data management for the project Accurate Gas Emissions Measures from Cattle with the GreenFeed System. This project aims to develop international standards and guidelines for estimating greenhouse gas emissions from beef and dairy cattle using the GreenFeed system across various production scenarios."
+    "text": "Who am I:\n\n\n\n\n\nHi! I am Sumit, an incoming PhD student at CALS, Cornell. I am a veterinarian with a Master of Veterinary Science (M.V.Sc.) in Physiology and a B.V.Sc. & A.H. (equivalent to DVM) from the Agriculture and Forestry University (AFU), Nepal. Over time, and coming from a veterinary background, my interests have gradually expanded to the intersection of animal health and production, data science, and digital dairy systems, leading me to develop a growing curiosity for programming and analytical tools. I find working with data both challenging and rewarding; translating complexity into clarity. I am especially drawn to how emerging technologies like artificial intelligence and machine learning can drive smarter, more sustainable approaches to livestock management. Outside of research, I enjoy being in nature, trying new sports, following whatever catches my curiosity, and learning music at my own pace. Whether it’s playing football or ping pong, discussing world affairs, or picking up a new tune, I like to keep life active, creative, and open to new experiences.\n\n\nMy work at Bovi-Analytics\nAt Bovi-Analytics, I focus on applying AI and machine learning to precision livestock farming, turning complex data into practical insights. I am also exploring and learning about a wide range of approaches, including data quality assessment, simulation and digital twin models, and computer vision etc."
   },
   {
-    "objectID": "researchers/davey-seeman.html",
-    "href": "researchers/davey-seeman.html",
-    "title": "Davey Seeman",
+    "objectID": "tutorials/databricks-naming-convention-compute.html",
+    "href": "tutorials/databricks-naming-convention-compute.html",
+    "title": "Naming convention within Bovi-Analytics Lab for Databricks compute",
     "section": "",
-    "text": "Who am I\nHello, I’m Davey. I’m a rising sophomore studying math and computer science at Cornell University. My areas of interest include computer vision, natural language processing (specifically sentiment analysis), and statistics. I also care deeply about cattle welfare and how it can be achieved using technology. Originally, I’m from Toronto, Canada. Coming to Ithaca was a big change, but I’ve enjoyed my time here!\n\n\nMy work at Bovi-Analytics\nI am spending this summer (2024) helping create an AI model that, given a video of cows in a barn, determines how long these cows are playing. I am also working on a separate model that evaluates play behavior based on accelerometer data. My work helps form first stages of the “PlayingCalves” project, whose ultimate goal is to find the relationship between calves’ play time and the space allotment given to the calves."
-  },
-  {
-    "objectID": "researchers/arno-liseune.html",
-    "href": "researchers/arno-liseune.html",
-    "title": "Curriculum Vitae - Arno Liseune",
-    "section": "",
-    "text": "PhD project\nPhD Arno Liseune"
-  },
-  {
-    "objectID": "open-positions/internship.html",
-    "href": "open-positions/internship.html",
-    "title": "Research intern",
-    "section": "",
-    "text": "The Cornell Internship Program in Digital Dairy Management and Data Analytics is committed to investing in the development of future data scientists and bio-informatici through a limited term internship experience. The intention of the internship is to give the intern an experience of learning. It offers an opportunity to gain practical insights into the field of Digital Dairy Management and Data Analytics. This experience equips interns with skills that are essential for professional practice. The knowledge and skills acquired during this internship are valuable for the intern’s ongoing studies and future career.\nThe primary goal of this internship is to continue earlier work performed at the lab on digital twins for dairy cows. This will be achieved by learning new programming skills related to data science in the field of animal science. The aim of the project is to upgrade the digital twin model to effectively mirror the health, well-being, and productivity of individual cows. This will be facilitated through collaboration and acquiring new skills from multiple experts in the fields of data science, veterinary medicine, and sensor technology."
-  },
-  {
-    "objectID": "open-positions/internship.html#description",
-    "href": "open-positions/internship.html#description",
-    "title": "Research intern",
-    "section": "",
-    "text": "The Cornell Internship Program in Digital Dairy Management and Data Analytics is committed to investing in the development of future data scientists and bio-informatici through a limited term internship experience. The intention of the internship is to give the intern an experience of learning. It offers an opportunity to gain practical insights into the field of Digital Dairy Management and Data Analytics. This experience equips interns with skills that are essential for professional practice. The knowledge and skills acquired during this internship are valuable for the intern’s ongoing studies and future career.\nThe primary goal of this internship is to continue earlier work performed at the lab on digital twins for dairy cows. This will be achieved by learning new programming skills related to data science in the field of animal science. The aim of the project is to upgrade the digital twin model to effectively mirror the health, well-being, and productivity of individual cows. This will be facilitated through collaboration and acquiring new skills from multiple experts in the fields of data science, veterinary medicine, and sensor technology."
-  },
-  {
-    "objectID": "open-positions/internship.html#expected-phases-andor-goals",
-    "href": "open-positions/internship.html#expected-phases-andor-goals",
-    "title": "Research intern",
-    "section": "Expected phases and/or goals",
-    "text": "Expected phases and/or goals\n\nOrientation\nThe intern is expected to actively engage by listening attentively, asking questions, and being respectful of the individuals those they encounter. The aim is for the intern to develop familiarity and confidence in navigating the work environment, and interacting with colleagues.\n\n\nCultural orientation.\nAs it is expected that many interns will be from foreign countries, some orientation to American culture per se is useful. Much of this will come from the intern’s living situation (campus housing, roommates, etc.). The Cornell community is overloaded with lectures, plays, musical events, etc., and the participant will be able to experience any of these, per their interest.\n\n\nLearning goals and objectives for the intern during the training program.\nThe overarching goal is for the intern to develop and practice research skills as might be utilized in future advanced studies in a career in applied bio-informatics, data science, animal and/or dairy sciene. This internship assignment provides the intern with an opportunity to learn in a professional setting. By participating in the internship, the intern gains the chance to engage with field experts, and learning from their expertise.\nAdditionally, interns will further develop their critical thinking and communication skills, reading in English, interpreting experimental procedures from written protocols, and their ability to ask research questions. Most of these skills are obtained from ongoing conversations and evaluations with Dr. Hostens and his graduate students and research staff, a process that continues through the entirety of the internship.\n\n\nRole of the intern.\nThe overall role of the intern is to be eager, aware, proactive, and supportive of the program we will jointly develop. During the internship, the intern will focus on the project. This will be achieved by learning new programming skills, understanding algorithms, analyzing data, and drawing conclusions from it. The intern also needs to document their work, preferentially through github, give a final presentation, and if requested write a report. It’s important for the intern to keep their data organized and make sure the plans are realistic. Additionally, strong teamwork and effective communication skills are key factors in their success.\n\n\nEvaluation.\nHow will acquisition of skills be evaluated?\nSkills acquisition will be evaluated through both a mid-term and a final evaluation.\nThe mid-term evaluation meeting will be scheduled in the first half of the internship. This meeting encompasses discussions about the progress of the project, advancements in the internship report, and personal growth. This meeting will include Dr, Hostens, the intern. Dr. Hostens will also complete an evaluation form, offering feedback essential for the intern’s progression. It is expected that the intern will actively engage with this feedback to facilitate further development.\nAt the end of the internship Dr. Hostens will conduct a final assessment of the practical work delivered by the intern. This assessment will be signed and graded, serving as a comprehensive evaluation of the intern’s performance.\nDuring the internship, the intern will keep track of how the project is going and note any difficulties they encounter. This helps the intern to make progress in developing skills and knowledge. The intern will also make an report about the project and give a final presentation.\nThese evaluation processes are fundamental to monitoring and assessing the intern’s progress, ensuring they acquire necessary skills and meet the internship program’s objectives effectively.\nAdditional information can be requested at miel.hostens@cornell.edu"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "\n            Welcome to the Bovi-Analytics lab\n        ",
-    "section": "",
-    "text": "However beautiful the strategy might be, once in a while you should look at the data\n        \n        \n            \n        \n    \n    \n      \n        \n        \n        \n      \n    \n\n\n\n\n\n\nInstructor\n\n   Dr. Miel Hostens\n   Morrison Hall 273, Ithaca, NY 14853\n   miel.hostens@cornell.edu\n   Schedule an appointment\n My presentations\n\n\n\nLab details\n\n   Morrison Hall 273, Ithaca, NY 14853\n   Slack\n   Github\n   LinkedIn\n   @MielHostens\n\n\n\nContacting me\nE-mail and Slack are the best ways to get in contact with me. I will try to respond (although sometimes too short) to all e-mails and Slack messages within 24 hours (I really do). If I don’t respond right away, don’t worry, just sent me a friendly reminder!"
-  },
-  {
-    "objectID": "projects/decide.html",
-    "href": "projects/decide.html",
-    "title": "Decide project",
-    "section": "",
-    "text": "Farmers, veterinarians and other animal health managers in the livestock and aquaculture sectors are currently missing information on the prevalence and burden of contagious animal diseases that are not regulated by the European Union.\nThe diseases are estimated to cause 10-15% reduction in performance efficiency of livestock farming, resulting in large financial losses and lower sustainability as well as affect animal welfare.\nDECIDE, a five-year Horizon 2020 project, will develop data-driven decision support tools that offer robust and early signals of disease emergence and options for diagnostic confirmation. Moreover, options will be provided for controlling the disease along with their implications in terms of disease spread, economic burden and animal welfare.\nThis partnership garners expertise in veterinary epidemiology and diagnostics, data science, mechanistic and predictive modelling, economics, animal welfare and social sciences. The consortium can also count on ample access to data from national animal health agencies, providers of veterinary services or farm equipment suppliers. This multidisciplinary consortium brings together 19 partners from 11 European countries.\nOur team is responsible for Work Package 1"
-  },
-  {
-    "objectID": "projects/decide.html#summary",
-    "href": "projects/decide.html#summary",
-    "title": "Decide project",
-    "section": "",
-    "text": "Farmers, veterinarians and other animal health managers in the livestock and aquaculture sectors are currently missing information on the prevalence and burden of contagious animal diseases that are not regulated by the European Union.\nThe diseases are estimated to cause 10-15% reduction in performance efficiency of livestock farming, resulting in large financial losses and lower sustainability as well as affect animal welfare.\nDECIDE, a five-year Horizon 2020 project, will develop data-driven decision support tools that offer robust and early signals of disease emergence and options for diagnostic confirmation. Moreover, options will be provided for controlling the disease along with their implications in terms of disease spread, economic burden and animal welfare.\nThis partnership garners expertise in veterinary epidemiology and diagnostics, data science, mechanistic and predictive modelling, economics, animal welfare and social sciences. The consortium can also count on ample access to data from national animal health agencies, providers of veterinary services or farm equipment suppliers. This multidisciplinary consortium brings together 19 partners from 11 European countries.\nOur team is responsible for Work Package 1"
-  },
-  {
-    "objectID": "projects/veerkracht.html",
-    "href": "projects/veerkracht.html",
-    "title": "Veerkracht project",
-    "section": "",
-    "text": "From an economic point of view, the 60 to 90 day period around calving has a major impact. This project therefore aims to create tools for the individual and dynamic follow-up of the transition success. These tools will enable the farmer to specifically identify and monitor risk animals and to take individual prevention measures to reduce the risk of problems during the transition period and to increase productivity and animal welfare. In the course of this project, the knowledge platform www.koesensor.be will be further expanded with information about indicators, sensor technology and biomarkers to support transition management."
-  },
-  {
-    "objectID": "projects/veerkracht.html#summary",
-    "href": "projects/veerkracht.html#summary",
-    "title": "Veerkracht project",
-    "section": "",
-    "text": "From an economic point of view, the 60 to 90 day period around calving has a major impact. This project therefore aims to create tools for the individual and dynamic follow-up of the transition success. These tools will enable the farmer to specifically identify and monitor risk animals and to take individual prevention measures to reduce the risk of problems during the transition period and to increase productivity and animal welfare. In the course of this project, the knowledge platform www.koesensor.be will be further expanded with information about indicators, sensor technology and biomarkers to support transition management."
-  },
-  {
-    "objectID": "researchers/aslam-muhammad-azam.html",
-    "href": "researchers/aslam-muhammad-azam.html",
-    "title": "Muhammad Azam Aslam",
-    "section": "",
-    "text": "Who am I\nHi, I’m Muhammad Azam Aslam, currently on a Data Science adventure in Italy, pursuing my Master’s at the Università Degli Studi Di Napoli Federico II. After nearly eight years in the world of Electrical and Electronics Engineering—balancing both academic and professional hats—I decided it was time to give in to my curiosity (or obsession?) with Data Science. I’ve got a serious soft spot for IoT, and robots are one of my great loves. I’m passionate about Data Science and automating anything I can get my hands on, which is what eventually led me to Artificial Intelligence—because who doesn’t want smart robots doing all the work for them?\n\n\nMy work at Bovi-Analytics\nI joined Bovi-Analytics as a research intern, where my job is to dive into mountains of data tossed my way by the Bovi team. My mission? To spot patterns in cow behavior and natural cycles and figure out how this influence their lactation periods—because who wouldn’t want to be a cow data detective? Fingers crossed that I’ll build a model to make this process smoother… and maybe keep me from drowning in data!"
-  },
-  {
-    "objectID": "researchers/enhong-liu.html",
-    "href": "researchers/enhong-liu.html",
-    "title": "Enhong Liu",
-    "section": "",
-    "text": "Who am I\nI’m Enhong Liu, holding a Ph.D. in Animal Science and an M.S. in Data Science. I firmly believe that digitalization can play a pivotal role in transforming the dairy industry into a more efficient and intelligent system. The current advancements in AI provide a significant opportunity to make this vision a reality. However, while AI continues to evolve and new, more powerful models emerge daily from tech giants and startups, it’s crucial to ensure that AI genuinely adds value and solves real-world problems, rather than merely appearing impressive or superficial. This demands AI researchers and developers to have not only a solid understanding of algorithms, models, and architectures but, more importantly, a deep comprehension of the industry in which these technologies will be applied, along with the specific challenges they are designed to address. My graduate training and work experience in both fields positions me uniquely to add value to the lab. My background in Animal Science gives me a comprehensive understanding of dairy cattle physiology and management principles, and my M.S. in Data Science (formally known as Computational Data Analytics) equips me with cutting-edge knowledge of AI techniques. This combination enables me to continue lifelong learning in the fast-paced, ever-evolving AI landscape.\n\n\nMy work at Bovi-Analytics\nMy current focus is on projects related to generative AI, large language models (LLMs), and federated learning. While general-purpose LLMs-based chatbot like ChatGPT have made tremendous progress in answering generic questions, they often struggle to provide accurate and factually correct answers when it comes to private data or domain-specific inquiries—especially in industries like dairy, where high-quality training data may not be publicly available during their initial model training. Hallucinations in AI responses can undermine trust and hinder AI adoption in agriculture and the dairy industry. Currently, I am collaborating with Dr. Miel Hostens and other professionals in Computer Science to develop a data governance framework, which is critical for managing large, heterogeneous datasets from various sources and formats, ensuring the availability of high-quality data for LLMs. Additionally, I am working on fine-tuning language models and leveraging retrieval-augmented generation techniques to create solutions that can effectively interact with databases containing both structured and unstructured data."
-  },
-  {
-    "objectID": "researchers/index.html",
-    "href": "researchers/index.html",
-    "title": "\n            Researchers\n        ",
-    "section": "",
-    "text": "This is a list of all active researchers and alumni of the lab"
-  },
-  {
-    "objectID": "researchers/index.html#senior-researchers",
-    "href": "researchers/index.html#senior-researchers",
-    "title": "\n            Researchers\n        ",
-    "section": "Senior researchers",
-    "text": "Senior researchers\n\n\nMiel Hostens\n\n\n\n\n\n\n\nEnhong Liu\n\n\n\n\n\n\n\nPuchun Niu\n\n\n\n\n\n\n\nHanlu Zhang"
-  },
-  {
-    "objectID": "researchers/index.html#graduate-students-phd",
-    "href": "researchers/index.html#graduate-students-phd",
-    "title": "\n            Researchers\n        ",
-    "section": "Graduate students PhD",
-    "text": "Graduate students PhD\n\n\nKristof Hermans\n\n\n\n\n\n\n\nYara Sleghers\n\n\n\n\n\n\n\nSaba Noor\n\n\n\n\n\n\n\nSonam Yang\n\n\n\n\n\n\n\nMeike van Leerdam\n\n\n\n\n\n\n\nSumit Sharma\n\n\n\n\n\n\n\nSebastien Franceschini"
-  },
-  {
-    "objectID": "researchers/index.html#graduate-students-msc",
-    "href": "researchers/index.html#graduate-students-msc",
-    "title": "\n            Researchers\n        ",
-    "section": "Graduate students MsC",
-    "text": "Graduate students MsC\n\n\nMuhammad Azam\n\n\n\nIrene Gonzalez Ortega Villena"
-  },
-  {
-    "objectID": "researchers/index.html#undergraduate-students",
-    "href": "researchers/index.html#undergraduate-students",
-    "title": "\n            Researchers\n        ",
-    "section": "Undergraduate students",
-    "text": "Undergraduate students\n\n\nDavey Seeman"
-  },
-  {
-    "objectID": "researchers/index.html#research-interns",
-    "href": "researchers/index.html#research-interns",
-    "title": "\n            Researchers\n        ",
-    "section": "Research interns",
-    "text": "Research interns\n\n\nOpen position"
-  },
-  {
-    "objectID": "researchers/index.html#lab-alumni",
-    "href": "researchers/index.html#lab-alumni",
-    "title": "\n            Researchers\n        ",
-    "section": "Lab alumni",
-    "text": "Lab alumni\n\n\nYongYan Chen\n\n\n\n\n\n\n\nHadi Atashi\n\n\n\nJenne De Koster\n\n\n\nOsvaldo Bogado Pascottini\n\n\n\nMonica Probo\n\n\n\nPeter Hut\n\n\n\n\n\n\n\nArno Liseune\n\n\n\n\n\n\n\nMatthieu Salamone\n\n\n\n\n\n\n\nLucia Trapenese"
-  },
-  {
-    "objectID": "researchers/lucia-trapenese.html",
-    "href": "researchers/lucia-trapenese.html",
-    "title": "Lucia Trapenese",
-    "section": "",
-    "text": "Who am I\nHi I’m Lucia! I’m from Italy and I’m a PhD student in “Artificial Intelligence for Agrifood and Environment”. My work is focused on the application of machine learning algorithms in ruminant breeding to enhance their management, production, and reproduction performances. Although my focus is on these topics, I am interested in all activities exploiting machine learning, or more generally data analysis, to improve livestock management and animal welfare.\n\n\nMy work at Utrecht University\nI will spend six months at Utrecht University as a visiting PhD where I’m working on the application of deep learning algorithms in the cow domain. In particular, the project aims to explore the relationship between activity and productivity data."
-  },
-  {
-    "objectID": "researchers/meike-van-leerdam.html",
-    "href": "researchers/meike-van-leerdam.html",
-    "title": "Meike van Leerdam",
-    "section": "",
-    "text": "Who am I:\nHi! My name is Meike, and I’m from the Netherlands. I’m a PhD student at Cornell University. My research combines two of my passions: cows and data. Although I still have much to learn, I enjoy programming, as it feels like solving puzzles. Thanks to my veterinary background, I’ve spent considerable time caring for cows and working to improve their welfare, which is something I find very important.\n\n\nMy work at Bovi-Analytics\nI am currently working on everything surrounding lactation curves of Dairy Cows. Improving their accuracy not only gives us more reliable information about cows, it also opens up many opportunities for cool new applications. For my master’s thesis, I developed an LSTM model to predict cows at risk of hypocalcemia using behavioral sensor data. The idea is that an improved version of the model could be used to monitor herd calcium status and identify animals at risk of transition diseases. This approach could help make proactive dairy management possible, ultimately improving animal health."
-  },
-  {
-    "objectID": "researchers/peter-hut.html",
-    "href": "researchers/peter-hut.html",
-    "title": "Curriculum Vitae - Peter Hut",
-    "section": "",
-    "text": "PhD project\nPhD Peter Hut"
-  },
-  {
-    "objectID": "researchers/saba-noor.html",
-    "href": "researchers/saba-noor.html",
-    "title": "Saba Noor Trapenese",
-    "section": "",
-    "text": "Hi I am Saba Noor. I came from Pakistan and started my phd at Feburay 2023. My research focus is on Ontology driven animal health – a prerequisite towards federated learning."
-  },
-  {
-    "objectID": "researchers/saba-noor.html#scholarly-publications",
-    "href": "researchers/saba-noor.html#scholarly-publications",
-    "title": "Saba Noor Trapenese",
-    "section": "Scholarly publications",
-    "text": "Scholarly publications\n• Noor, Saba, et al. “Ontology for attack detection: Semantic-based approach for genomic data security.” Journal of Medical Imaging and Health Informatics 7.6 (2017): 1309-1323. [DOI: https://doi.org/10.1166/jmihi.2017.2221]\n• Noor, S., AKRAM, W., & AHMED, T. (2020). Predicting COVID-19 Incidence Using Data Mining Techniques: A case study of Pakistan. BRAIN. Broad Research in Artificial Intelligence and Neuroscience, 11(4), 168-184.\n• AKRAM, W., Noor, S, & MANZOOR, A. (2020). The State of the Art in Smart Grid Domain: A Network Modeling Approach. BRAIN. Broad Research in Artificial Intelligence and Neuroscience, 11(4), 201-230."
-  },
-  {
-    "objectID": "researchers/saba-noor.html#conference-proceedings-and-posters",
-    "href": "researchers/saba-noor.html#conference-proceedings-and-posters",
-    "title": "Saba Noor Trapenese",
-    "section": "Conference proceedings and posters",
-    "text": "Conference proceedings and posters\n• The 4th International Conference of Computer Science and Allied Technologies (ICCSAT) 2021 held on 7-8 Dec 2021 at Lahore Pakistan\n• The 3rd International Conference of Computer Science and Allied Technologies (ICCSAT) 2020 at Lahore Pakistan 3rd National Conference CS&IT 2019\n• Attending the 14th International Conference on Frontiers of Information Technology (FIT 2016), held on Dec 19-21 at Islamabad Pakistan.\n• Participating in Poster Presentation of Advanced Artificial Intelligence (AAI 2016) held on Dec, 27 at CIIT Islamabad Pakistan.\n• Got a certificate of Best Presenter in Advanced Artificial Intelligence (AAI 2016) Conference held on Dec, 27 at CIIT Islamabad Pakistan.\n• Attending the workshop on Web Mining & Semantics held on May 30, 2015 at Islamabad Pakistan."
-  },
-  {
-    "objectID": "researchers/sonam-yang.html",
-    "href": "researchers/sonam-yang.html",
-    "title": "Sonam Yang",
-    "section": "",
-    "text": "Who am I:\n\n\n\n\n\nMy name is Sonam Yang, and I am currently pursuing a Ph.D. in Animal Science with a research focus on large language models (LLMs), computer vision, and federated learning. My work integrates deep learning techniques to revolutionize traditional farm management systems. As an enthusiastic user of LLMs, I am deeply convinced that these models can dramatically reshape the way we work, allowing individuals to engage in more creative work, rather than mundane and repetitive tasks.\nOne of the critical issues in the adoption of LLMs is their potential to infringe on users’ privacy. This is where federated learning comes into play, offering a solution that provides customized and secure AI services without compromising user privacy.\nI also have a strong interest in different languages and religions, and I believe there is fascinating potential in integrating these rich cultural and human elements with deep learning techniques. Combining AI with linguistic and religious knowledge could open up new, meaningful ways of understanding and preserving these human treasures.\n\n\nMy work at Bovi-Analytics\nMy research focuses on developing federated LLMs for farm management systems to modernize traditional approaches and promote greater adoption of AI technologies in the field of animal science. I envision a future where farmers can easily interact with AI models, whether by taking a picture or asking a question, and receive tailored, farm-specific solutions without privacy concerns. This would serve as a powerful blend of a secretary, a professional veterinarian, and a trusted advisor, all in one tool.\nFeel free to reach out to me if you’d like to share ideas or collaborate on related projects."
-  },
-  {
-    "objectID": "researchers/yongyan-chen.html",
-    "href": "researchers/yongyan-chen.html",
-    "title": "Curriculum Vitae - Yongyan Chen",
-    "section": "",
-    "text": "Hi I am Yongyan Chen. I came from China and started my phd at December 2019. My research focus is on the usefulness of lactation curve modelling."
-  },
-  {
-    "objectID": "researchers/yongyan-chen.html#phd-thesis",
-    "href": "researchers/yongyan-chen.html#phd-thesis",
-    "title": "Curriculum Vitae - Yongyan Chen",
-    "section": "PhD thesis",
-    "text": "PhD thesis\nPhD Chen YongYan"
-  },
-  {
-    "objectID": "researchers/yongyan-chen.html#scholarly-publications",
-    "href": "researchers/yongyan-chen.html#scholarly-publications",
-    "title": "Curriculum Vitae - Yongyan Chen",
-    "section": "Scholarly publications",
-    "text": "Scholarly publications\nChen, Y., M. Hostens, M. Nielen, J. Ehrlich, and W. Steeneveld. 2022c. Herd level economic comparison between the shape of the lactation curve and 305 d milk production. Front. Vet. Sci. 9. doi:10.3389/fvets.2022.997962."
-  },
-  {
-    "objectID": "researchers/yongyan-chen.html#conference-proceedings-and-posters",
-    "href": "researchers/yongyan-chen.html#conference-proceedings-and-posters",
-    "title": "Curriculum Vitae - Yongyan Chen",
-    "section": "Conference proceedings and posters",
-    "text": "Conference proceedings and posters\nChen, Y., M. Hostens, M. Nielen, J. Ehrlich, and W. Steeneveld. 2021. An Empirical Analysis on the Association between Persistency of Dairy Cows and Economic Herd Performance. Page 72 in Isessah.\nChen, Y., M. Hostens, M. Nielen, J. Ehrlich, and W. Steeneveld. 2022a. An empirical analysis of economic herd performance in relation to herd lactation curve characteristics. Page 35 in Dair’Innov congress 2022.\nChen, Y., M. Hostens, M. Nielen, J. Ehrlich, and W. Steeneveld. 2022b. An empirical analysis of economic herd performance in relation to herd lactation curve characteristics. Pages 728–736 in European Conference on Precision Livestock Farming & International Conference on Precision Dairy Farming 2022."
+    "text": "Tagging Databricks Compute\nWhen using compute within Databricks make sure to tag each compute you create. This allows to track costs from specific projects."
   },
   {
     "objectID": "tutorials/databricks.html",
