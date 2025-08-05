@@ -1,5 +1,5 @@
 ---
-title: "Research intern"
+title: "Research internship by Isiaq"
 subtitle: "Research internship in Digital Dairy Management"
 execute:
   eval: false
