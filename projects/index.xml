@@ -9,8 +9,8 @@
 <link>https://github.com/Bovi-analytics/bovi-analytics-website/projects/</link>
 <atom:link href="https://github.com/Bovi-analytics/bovi-analytics-website/projects/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.6.42</generator>
-<lastBuildDate>Thu, 01 Jul 2021 04:00:00 GMT</lastBuildDate>
+<generator>quarto-1.7.32</generator>
+<lastBuildDate>Thu, 01 Jul 2021 00:00:00 GMT</lastBuildDate>
 <item>
   <title>Decide project</title>
   <link>https://github.com/Bovi-analytics/bovi-analytics-website/projects/decide.html</link>
@@ -39,7 +39,7 @@
   <category>UGhent</category>
   <category>Utrecht University</category>
   <guid>https://github.com/Bovi-analytics/bovi-analytics-website/projects/decide.html</guid>
-  <pubDate>Thu, 01 Jul 2021 04:00:00 GMT</pubDate>
+  <pubDate>Thu, 01 Jul 2021 00:00:00 GMT</pubDate>
   <media:content url="https://github.com/Bovi-analytics/bovi-analytics-website/projects/decide.webp" medium="image" type="image/webp"/>
 </item>
 <item>
@@ -62,7 +62,7 @@
   <category>Finished</category>
   <category>Cattle</category>
   <guid>https://github.com/Bovi-analytics/bovi-analytics-website/projects/veerkracht.html</guid>
-  <pubDate>Mon, 01 Oct 2018 04:00:00 GMT</pubDate>
+  <pubDate>Mon, 01 Oct 2018 00:00:00 GMT</pubDate>
   <media:content url="https://github.com/Bovi-analytics/bovi-analytics-website/projects/veerkracht.png" medium="image" type="image/png" height="79" width="144"/>
 </item>
 </channel>
