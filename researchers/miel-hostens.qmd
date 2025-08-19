@@ -781,21 +781,40 @@ Other:
 library(scholar)
 library(ggplot2)
 library(here)
-cit <- get_citation_history('fZ1xfdQAAAAJ')
-citation_plot <- ggplot(cit,aes(x=year,y=cites))+
-    geom_bar(stat='identity')+
-    labs(x = "", y = "") +
-    theme_bw()+
-    annotate('text',label=format(Sys.time(), "%Y-%m-%d %H:%M:%S %Z"),x=-Inf,y=Inf,vjust=1.5,hjust=-0.05,size=3,colour='gray')
-ggsave(
-  filename = here('files/img/', 'scholar_citations_miel_hostens.png'),
-  citation_plot,
-  width = 1200,
-  height = 630,
-  units = "px",
-  dpi = 300,
-  create.dir = TRUE
-)
+
+safe_cit_plot <- function(id) {
+  tryCatch({
+    cit <- get_citation_history(id)
+
+    if (!all(c("year", "cites") %in% names(cit))) {
+      stop("Citation data missing expected columns.")
+    }
+
+    citation_plot <- ggplot(cit, aes(x = year, y = cites)) +
+      geom_bar(stat = "identity") +
+      labs(x = "", y = "") +
+      theme_bw() +
+      annotate(
+        'text',
+        label = format(Sys.time(), "%Y-%m-%d %H:%M:%S %Z"),
+        x = -Inf, y = Inf,
+        vjust = 1.5, hjust = -0.05,
+        size = 3, colour = 'gray'
+      )
+
+    ggsave(
+      filename = here('files/img/', 'scholar_citations_miel_hostens.png'),
+      citation_plot,
+      width = 1200, height = 630,
+      units = "px", dpi = 300,
+      create.dir = TRUE
+    )
+  }, error = function(e) {
+    message("Skipping citation plot: ", conditionMessage(e))
+  })
+}
+
+safe_cit_plot("fZ1xfdQAAAAJ")
 ```
 
 ![](/files/img/scholar_citations_miel_hostens.png)
