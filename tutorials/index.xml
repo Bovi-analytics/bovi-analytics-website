@@ -9,7 +9,7 @@
 <link>https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/</link>
 <atom:link href="https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.7.33</generator>
+<generator>quarto-1.7.34</generator>
 <lastBuildDate>Fri, 25 Jul 2025 00:00:00 GMT</lastBuildDate>
 <item>
   <title>Storing and Accessing Secrets in Azure Key Vault</title>
@@ -23,8 +23,8 @@
 <ol type="1">
 <li>✅ Talk to <strong>Enhong</strong> or <strong>Miel</strong> to store the key in the Azure Key Vault.</li>
 <li>✅ Use the secret scope <code>bovi_analytics_secrets_scope</code> in Databricks.</li>
+<li><h2 id="use-personal-compute-instead-of-serverless." class="anchored">✅ Use personal compute instead of serverless.</h2></li>
 </ol>
-<hr>
 <section id="access-the-key-in-databricks" class="level2">
 <h2 class="anchored" data-anchor-id="access-the-key-in-databricks">🔐 Access the Key in Databricks</h2>
 <p>Use the following code snippet to retrieve the secret:</p>
@@ -1908,7 +1908,7 @@ font-style: inherit;">print</span>(e)</span></code></pre></div>
 
  ]]></description>
   <guid>https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/tools.html</guid>
-  <pubDate>Tue, 19 Aug 2025 14:48:44 GMT</pubDate>
+  <pubDate>Fri, 29 Aug 2025 20:30:47 GMT</pubDate>
 </item>
 </channel>
 </rss>
