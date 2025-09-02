@@ -23,8 +23,9 @@
 <ol type="1">
 <li>✅ Talk to <strong>Enhong</strong> or <strong>Miel</strong> to store the key in the Azure Key Vault.</li>
 <li>✅ Use the secret scope <code>bovi_analytics_secrets_scope</code> in Databricks.</li>
-<li><h2 id="use-personal-compute-instead-of-serverless." class="anchored">✅ Use personal compute instead of serverless.</h2></li>
+<li>✅ Use personal compute instead of serverless.</li>
 </ol>
+<hr>
 <section id="access-the-key-in-databricks" class="level2">
 <h2 class="anchored" data-anchor-id="access-the-key-in-databricks">🔐 Access the Key in Databricks</h2>
 <p>Use the following code snippet to retrieve the secret:</p>
@@ -1908,7 +1909,7 @@ font-style: inherit;">print</span>(e)</span></code></pre></div>
 
  ]]></description>
   <guid>https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/tools.html</guid>
-  <pubDate>Fri, 29 Aug 2025 20:30:47 GMT</pubDate>
+  <pubDate>Tue, 02 Sep 2025 14:22:32 GMT</pubDate>
 </item>
 </channel>
 </rss>
