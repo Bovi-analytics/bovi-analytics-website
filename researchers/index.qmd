@@ -29,13 +29,13 @@ course-logo: /files/img/Bovi-Analytics-SmallLogo.png
 ::: {.g-col-12 .g-col-sm-6 .g-col-md-4 .enhong-liu}
 ### Puchun Niu
 
-[![](/files/img/headshots/PuchunNiu.png){fig-align="left" width="200"}](enhong-liu.html)
+[![](/files/img/headshots/PuchunNiu.png){fig-align="left" width="200"}](puchun-niu.html)
 :::
 
 ::: {.g-col-12 .g-col-sm-6 .g-col-md-4 .enhong-liu}
 ### Hanlu Zhang
 
-[![](/files/img/headshots/HanluZhang.png){fig-align="left" width="200"}](enhong-liu.html)
+[![](/files/img/headshots/HanluZhang.png){fig-align="left" width="200"}](hanlu-zhang.html)
 :::
 :::::::
 
