@@ -26,109 +26,112 @@ Go to [https://arxiv.org](https://arxiv.org) in your web browser.
 
 ![arXiv homepage](tutorials/images/arxiv-01-homepage.png)
 
-**Screenshot name:** `arxiv-01-homepage.png`
-
-**What to capture:** The main arXiv homepage showing the search bar and navigation menu.
-
 ### 1.2 Register for an Account
 
 Click on "register" in the top right corner of the page.
 
 ![Registration link location](tutorials/images/arxiv-02-register-link.png)
 
-**Screenshot name:** `arxiv-02-register-link.png`
-
-**What to capture:** Highlight the "register" link in the top navigation bar.
-
 ### 1.3 Complete Registration Form
 
 Fill in your email address, username, and create a password. You'll also need to provide your full name and affiliation.
 
-![Registration form](tutorials/images/arxiv-03-registration-form.png)
-
-**Screenshot name:** `arxiv-03-registration-form.png`
-
-**What to capture:** The registration form with empty fields visible.
-
 ### 1.4 Verify Your Email
 
-Check your email inbox for a verification message from arXiv and click the verification link.
+Check your email inbox for a verification message from arXiv and click the verification link to activate your account.
 
-![Email verification message](tutorials/images/arxiv-04-email-verification.png)
+## Step 2: Log In to Your Account
 
-**Screenshot name:** `arxiv-04-email-verification.png`
+Once your email is verified, return to the arXiv homepage and click "login" in the top right corner. Enter your username/email and password, then click "Sign In."
 
-**What to capture:** The verification email from arXiv in your inbox.
+## Step 3: Start a New Submission
 
-## Step 2: Endorsement (If Required)
-
-For first-time submitters in certain categories, you may need endorsement from an established arXiv author.
-
-### 2.1 Check Endorsement Requirements
-
-After logging in, navigate to the submission page. If you need endorsement, you'll see a notification.
-
-![Endorsement notification](tutorials/images/arxiv-05-endorsement-notice.png)
-
-**Screenshot name:** `arxiv-05-endorsement-notice.png`
-
-**What to capture:** The endorsement requirement message if it appears.
-
-### 2.2 Request Endorsement
-
-If needed, you can request endorsement from colleagues who are established arXiv authors in your field. They will receive an email to endorse you.
-
-::: {.callout-note}
-Not all categories require endorsement. Many fields allow automatic submission privileges.
-:::
-
-## Step 3: Log In to Your Account
-
-### 3.1 Access Login Page
-
-Click "login" in the top right corner of the arXiv homepage.
-
-![Login link](tutorials/images/arxiv-06-login-link.png)
-
-**Screenshot name:** `arxiv-06-login-link.png`
-
-**What to capture:** The login link in the navigation bar.
-
-### 3.2 Enter Credentials
-
-Enter your username/email and password, then click "Sign In."
-
-![Login form](tutorials/images/arxiv-07-login-form.png)
-
-**Screenshot name:** `arxiv-07-login-form.png`
-
-**What to capture:** The login form with empty credential fields.
-
-## Step 4: Start a New Submission
-
-### 4.1 Navigate to Submit
+### 3.1 Navigate to Submit
 
 Once logged in, click on "Submit" in the top navigation menu.
 
 ![Submit button location](tutorials/images/arxiv-08-submit-button.png)
 
-**Screenshot name:** `arxiv-08-submit-button.png`
+### 3.2 Choose Submission Type
 
-**What to capture:** The "Submit" option in the top menu after logging in.
+Select whether you're submitting a new paper or replacing/updating an existing one. For your first submission, choose "START NEW SUBMISSION."
 
-### 4.2 Choose Submission Type
+### 3.3 Understand arXiv Licenses
 
-Select whether you're submitting a new paper or replacing/updating an existing one.
+Before you proceed with the submission, it's important to understand the license options available. You'll need to choose a license later in the process, so familiarizing yourself with the options now will help you make an informed decision.
 
-![Submission type selection](tutorials/images/arxiv-09-submission-type.png)
+![Licensing Statement](tutorials/images/Licensing Statement.png)
 
-**Screenshot name:** `arxiv-09-submission-type.png`
+#### License Options Explained:
 
-**What to capture:** The page showing options for new submission vs. replacement.
+##### 1. arXiv.org perpetual, non-exclusive license to distribute (Default)
 
-## Step 5: Upload Your Files
+This is the standard arXiv license. Under this license:
 
-### 5.1 Select File Format
+- You grant arXiv a perpetual, non-exclusive right to distribute your work
+- You retain copyright and all other rights to your work
+- You can publish the paper elsewhere, including in journals
+- You can make the paper available on your own website
+- Others can read and download your paper, but cannot redistribute or reuse it without permission
+- **Best for:** Most academic papers, especially if you plan to publish in a journal later
+
+##### 2. Creative Commons Attribution (CC BY 4.0)
+
+This is the most permissive Creative Commons license:
+
+- Anyone can share, copy, and redistribute your work in any format
+- Anyone can adapt, remix, transform, and build upon your work for any purpose, even commercially
+- They must give appropriate credit, provide a link to the license, and indicate if changes were made
+- **Best for:** Papers where you want maximum dissemination and reuse, including commercial applications
+
+##### 3. Creative Commons Attribution-ShareAlike (CC BY-SA 4.0)
+
+Similar to CC BY, but with an additional requirement:
+
+- Same permissions as CC BY
+- If someone remixes or builds upon your work, they must distribute their contributions under the same CC BY-SA license
+- This creates a "copyleft" effect, ensuring derivatives remain open
+- **Best for:** Papers where you want to ensure derivative works remain freely available
+
+##### 4. Creative Commons Attribution-NonCommercial-ShareAlike (CC BY-NC-SA 4.0)
+
+More restrictive than CC BY-SA:
+
+- Similar to CC BY-SA, but prohibits commercial use
+- Others can share and adapt your work for non-commercial purposes only
+- They must give credit and license their derivatives under the same terms
+- **Best for:** Papers where you want to prevent commercial exploitation while allowing academic reuse
+
+##### 5. Creative Commons CC0 1.0 Universal (Public Domain Dedication)
+
+The most permissive option:
+
+- You waive all copyright and related rights to your work
+- Anyone can use your work for any purpose without restrictions
+- No attribution is legally required (though it's academically expected)
+- **Best for:** Data papers, methodological papers, or work you want to dedicate to the public domain
+
+::: {.callout-important}
+## Choosing Your License
+
+Consider these factors when selecting a license:
+
+1. **Journal requirements:** Some journals require certain licenses or may not accept papers under specific Creative Commons licenses. Check journal policies before choosing.
+
+2. **Future publications:** If you plan to publish in a traditional journal later, the default arXiv license is usually safest.
+
+3. **Reuse intentions:** If you want others to build upon your work freely, consider CC BY or CC BY-SA.
+
+4. **Commercial concerns:** If you're concerned about commercial use of your work, consider CC BY-NC-SA.
+
+5. **Collaboration:** Discuss with all co-authors before selecting a license, as all authors must agree.
+
+**When in doubt, use the default arXiv license.** It's the most conservative option and won't interfere with future publication plans.
+:::
+
+## Step 4: Upload Your Files
+
+### 4.1 Select File Format
 
 Choose your submission format. arXiv accepts:
 
@@ -139,11 +142,7 @@ Choose your submission format. arXiv accepts:
 
 ![File format selection](tutorials/images/arxiv-10-file-format.png)
 
-**Screenshot name:** `arxiv-10-file-format.png`
-
-**What to capture:** The file format selection dropdown or radio buttons.
-
-### 5.2 Upload Files (LaTeX Method)
+### 4.2 Upload Files (LaTeX Method)
 
 If submitting LaTeX files:
 
@@ -151,32 +150,21 @@ If submitting LaTeX files:
 2. Upload all associated files (`.bbl`, `.sty`, figure files, etc.)
 3. You can upload a `.zip` or `.tar.gz` archive containing all files
 
-![LaTeX file upload interface](tutorials/images/arxiv-11-latex-upload.png)
-
-**Screenshot name:** `arxiv-11-latex-upload.png`
-
-**What to capture:** The file upload interface showing the upload button and file list area.
-
 ::: {.callout-important}
 ## LaTeX File Requirements
 - Include all necessary style files and figures
 - Use standard LaTeX packages available on arXiv
 - Ensure all figure files are in supported formats (PNG, JPG, PDF, EPS)
 - Remove any confidential or personal file paths from your `.tex` file
+- The main file should typically be named `main.tex` or similar
 :::
 
-### 5.3 Upload Files (PDF Method)
+### 4.3 Upload Files (PDF Method)
 
 If submitting a PDF:
 
 1. Click "Choose File" or drag and drop your PDF
 2. Ensure the PDF meets arXiv requirements (text-searchable, no restrictions)
-
-![PDF upload interface](tutorials/images/arxiv-12-pdf-upload.png)
-
-**Screenshot name:** `arxiv-12-pdf-upload.png`
-
-**What to capture:** The PDF upload interface with drag-and-drop area.
 
 ::: {.callout-tip}
 ## PDF Requirements
@@ -184,305 +172,355 @@ If submitting a PDF:
 - Must be searchable (not a scanned image)
 - No security restrictions or encryption
 - Embed all fonts
+- Ensure high-quality rendering of equations and figures
 :::
 
-### 5.4 Process Files
+### 4.4 Process Files
 
-Click "Process Files" to allow arXiv to process your submission.
+Click "Process Files" to allow arXiv to process your submission. The system will compile your LaTeX files or validate your PDF.
 
-![Process files button](tutorials/images/arxiv-13-process-button.png)
+### 4.5 Review Processed Output
 
-**Screenshot name:** `arxiv-13-process-button.png`
+arXiv will generate a PDF from your files. Review it carefully to ensure:
 
-**What to capture:** The "Process Files" button after files are uploaded.
+- All equations render correctly
+- Figures appear in the right locations
+- References and citations are properly formatted
+- Page breaks are appropriate
+- No compilation warnings or errors
 
-### 5.5 Review Processed Output
+If there are issues, you can go back and fix your files before proceeding.
 
-arXiv will generate a PDF from your files. Review it carefully to ensure everything appears correctly.
+## Step 5: Add Metadata
 
-![Processed PDF preview](tutorials/images/arxiv-14-pdf-preview.png)
+### 5.1 Enter Title
 
-**Screenshot name:** `arxiv-14-pdf-preview.png`
+Provide the complete title of your paper. Avoid using excessive LaTeX commands in the title field unless necessary for mathematical notation.
 
-**What to capture:** The PDF preview window showing the processed document.
+### 5.2 Add Authors
 
-## Step 6: Add Metadata
+Enter all authors in order. For each author, include:
 
-### 6.1 Enter Title
+- Full names (first name and last name)
+- Affiliations (institutional affiliation)
+- ORCID iDs (if available and recommended for identification)
 
-Provide the complete title of your paper. Avoid using LaTeX commands in the title field unless necessary.
+You can add multiple authors by clicking the "Add Author" button. Ensure the author order is correct as this cannot be easily changed after publication.
 
-![Title input field](tutorials/images/arxiv-15-title-field.png)
-
-**Screenshot name:** `arxiv-15-title-field.png`
-
-**What to capture:** The title input field on the metadata page.
-
-### 6.2 Add Authors
-
-Enter all authors in order. Include:
-
-- Full names
-- Affiliations
-- ORCID iDs (if available)
-
-![Author input interface](tutorials/images/arxiv-16-authors-field.png)
-
-**Screenshot name:** `arxiv-16-authors-field.png`
-
-**What to capture:** The author addition interface showing fields for name and affiliation.
-
-### 6.3 Write Abstract
+### 5.3 Write Abstract
 
 Paste or type your abstract. Keep it concise (typically 250-500 words) and avoid:
 
-- Excessive mathematical notation
-- References to figures or tables
+- Excessive mathematical notation (use plain text descriptions where possible)
+- References to figures, tables, or equations
 - Bibliographic citations
+- Unnecessary formatting
 
-![Abstract input field](tutorials/images/arxiv-17-abstract-field.png)
+The abstract should provide a clear, standalone summary of your paper's contributions and findings.
 
-**Screenshot name:** `arxiv-17-abstract-field.png`
+### 5.4 Enter Comments (Optional)
 
-**What to capture:** The abstract text box with character count if visible.
+In the comments field, you can add useful information such as:
 
-### 6.4 Enter Comments (Optional)
+- Number of pages and figures (e.g., "23 pages, 8 figures")
+- Submission status (e.g., "Submitted to IEEE Transactions on Neural Networks")
+- Conference information (e.g., "Accepted at NeurIPS 2025")
+- Related papers or previous versions
+- Other relevant context
 
-In the comments field, you can add:
+### 5.5 Select Categories
 
-- Number of pages and figures
-- Submission status (e.g., "Submitted to Journal X")
-- Other relevant information
+Choose the primary category that best fits your paper. This is crucial as it determines where your paper will appear in arXiv's listings.
 
-![Comments field](tutorials/images/arxiv-18-comments-field.png)
-
-**Screenshot name:** `arxiv-18-comments-field.png`
-
-**What to capture:** The optional comments input field.
-
-### 6.5 Select Categories
-
-Choose the primary category that best fits your paper, and optionally select cross-list categories.
-
-![Category selection](tutorials/images/arxiv-19-category-selection.png)
-
-**Screenshot name:** `arxiv-19-category-selection.png`
-
-**What to capture:** The category dropdown menus showing available options.
+You can also select cross-list categories if your paper is relevant to multiple fields. However, be selective and only cross-list to genuinely relevant categories.
 
 ::: {.callout-note}
 ## Common Categories
 - **cs.AI** - Artificial Intelligence
-- **cs.LG** - Machine Learning
+- **cs.LG** - Machine Learning  
+- **cs.CL** - Computation and Language
+- **cs.CV** - Computer Vision and Pattern Recognition
 - **stat.ML** - Machine Learning (Statistics)
 - **math.ST** - Statistics Theory
-- **physics** - Various physics subcategories
-- **econ** - Economics
+- **physics.data-an** - Data Analysis, Statistics and Probability
+- **q-bio** - Quantitative Biology
+- **econ.EM** - Econometrics
 :::
 
-### 6.6 Add Report Number (Optional)
+### 5.6 Add Report Number (Optional)
 
-If your paper has an institutional report number, enter it here.
+If your paper has an institutional report number or technical report number, enter it here. This is typically used by research institutions or laboratories.
 
-![Report number field](tutorials/images/arxiv-20-report-number.png)
+### 5.7 Add Journal Reference (If Published)
 
-**Screenshot name:** `arxiv-20-report-number.png`
+If your paper is already published or accepted in a journal, add the journal reference. 
 
-**What to capture:** The report number input field.
+Format: "Journal Name, Volume(Issue), Pages (Year)"
 
-### 6.7 Add Journal Reference (If Published)
+Example: "Nature Communications, 12(1), 1234-1245 (2021)"
 
-If your paper is already published, add the journal reference. Format: "Journal Name, Volume, Pages (Year)"
+### 5.8 Add DOI (If Available)
 
-![Journal reference field](tutorials/images/arxiv-21-journal-ref.png)
+If your paper has been published and has a Digital Object Identifier (DOI), enter it here. This helps link the arXiv version to the published version.
 
-**Screenshot name:** `arxiv-21-journal-ref.png`
+Format: Enter only the DOI string (e.g., "10.1038/s41467-021-12345-6"), not the full URL.
 
-**What to capture:** The journal reference input field.
+## Step 6: Review Your Submission
 
-### 6.8 Add DOI (If Available)
+### 6.1 Preview Complete Submission
 
-If your paper has a DOI, enter it here.
+Carefully review all metadata and the generated PDF. Check for:
 
-![DOI field](tutorials/images/arxiv-22-doi-field.png)
-
-**Screenshot name:** `arxiv-22-doi-field.png`
-
-**What to capture:** The DOI input field.
-
-## Step 7: Review Your Submission
-
-### 7.1 Preview Complete Submission
-
-Review all metadata and the generated PDF carefully. Check for:
-
-- Correct title and author information
-- Proper abstract formatting
-- Accurate category selection
+- Correct title spelling and formatting
+- All author names and affiliations are accurate
+- Abstract is complete and properly formatted
+- Correct category selection
 - PDF rendering quality (equations, figures, tables)
+- No missing references or broken citations
 
-![Submission preview page](tutorials/images/arxiv-23-preview-page.png)
+This is your last chance to catch errors before submission, so take your time reviewing.
 
-**Screenshot name:** `arxiv-23-preview-page.png`
+### 6.2 Make Corrections (If Needed)
 
-**What to capture:** The full preview page showing all metadata and PDF.
+If you notice any errors, use the "Previous" button to go back and make corrections. You can edit any section without losing your progress.
 
-### 7.2 Make Corrections (If Needed)
+## Step 7: Submit Your Paper
 
-If you notice any errors, click "Previous" or the edit buttons to go back and make corrections.
+### 7.1 Accept Policies and Select License
 
-![Edit buttons location](tutorials/images/arxiv-24-edit-buttons.png)
+Read arXiv's submission policies carefully. Check the box to indicate you've read and agree to:
 
-**Screenshot name:** `arxiv-24-edit-buttons.png`
+- The submission terms and conditions
+- arXiv's moderation policies
+- The licensing terms
 
-**What to capture:** The buttons for going back or editing sections.
+Select your preferred license from the dropdown menu (refer back to Step 3.3 for detailed guidance on choosing the right license).
 
-## Step 8: Submit Your Paper
+### 7.2 Final Submission
 
-### 8.1 Accept Policies
+Click the "Submit Article" or "SUBMIT" button to complete your submission.
 
-Read and accept arXiv's submission policies and license agreement.
+### 7.3 Confirmation
 
-![Policy acceptance checkboxes](tutorials/images/arxiv-25-policy-acceptance.png)
+You'll receive a confirmation screen with:
 
-**Screenshot name:** `arxiv-25-policy-acceptance.png`
+- Your submission identifier (e.g., a temporary ID)
+- Expected announcement date
+- Instructions for what happens next
 
-**What to capture:** The policy agreement checkboxes.
+**Important:** Save or screenshot this confirmation page for your records.
+
+## Step 8: After Submission
+
+### 8.1 Email Confirmation
+
+Within a few minutes, you should receive a confirmation email from arXiv containing:
+
+- Your submission details
+- Submission ID
+- Expected processing timeline
+
+If you don't receive this email within an hour, check your spam folder or contact arXiv support.
+
+### 8.2 Moderation Process
+
+Your submission will be reviewed by arXiv moderators to ensure:
+
+- It's scholarly work appropriate for arXiv
+- Files are processable and the PDF is readable
+- Metadata is complete and accurate
+- The submission follows arXiv policies
+
+This process typically takes **1-2 business days** (excluding weekends and holidays).
+
+::: {.callout-note}
+Moderators don't peer-review your paper's scientific content. They only check that it meets arXiv's technical and policy requirements.
+:::
+
+### 8.3 Publication Schedule
+
+If approved, your paper will be announced and published according to arXiv's schedule:
+
+- Submissions are typically announced **Sunday through Thursday evenings** (US Eastern Time)
+- Papers submitted before the deadline (typically 2 PM EST) are announced the next business day
+- Papers submitted after the deadline are announced the following business day
+
+### 8.4 Access Your Published Paper
+
+Once published, your paper will:
+
+- Have a permanent arXiv identifier (e.g., arXiv:2501.12345)
+- Be freely accessible to anyone worldwide
+- Be indexed by search engines and academic databases
+- Receive a timestamp showing submission and publication dates
+
+You can find your paper by:
+
+- Searching your name on arXiv
+- Using the arXiv identifier
+- Accessing your user profile page
+
+## Step 9: Updating Your Paper (Replacements)
+
+### 9.1 When to Submit a Replacement
+
+You may want to update your paper to:
+
+- Correct errors or typos
+- Add additional results or analysis
+- Update author information
+- Add journal reference after publication
+- Respond to feedback from readers
+
+### 9.2 How to Submit a Replacement
+
+To update an already published paper:
+
+1. **Log in** to your arXiv account
+2. **Find your paper** by searching for it or accessing your user profile
+3. **Click on the paper** to go to its abstract page
+4. **Look for replacement options** in the submission interface (the exact location may vary with interface updates)
+5. **Follow the submission process** again with your updated files
+6. **In the comments field**, briefly explain what changes you've made (e.g., "Fixed typos in Section 3, added Appendix B")
 
 ::: {.callout-important}
-## License Options
-arXiv offers several license options:
-- **arXiv.org perpetual, non-exclusive license** (default)
-- **Creative Commons licenses** (CC BY, CC BY-SA, CC BY-NC-SA, CC0)
-- **Public Domain**
+## Important Notes About Replacements
 
-Choose the license that aligns with your intentions for sharing your work.
+- Only the original submitter can submit replacements
+- Previous versions remain accessible (arXiv maintains a complete version history)
+- The arXiv identifier stays the same (e.g., arXiv:2501.12345v2 for version 2)
+- Replacements go through the same moderation process
+- You should explain changes in the comments to help readers understand what's different
 :::
 
-### 8.2 Final Submission
+### 9.3 Version History
 
-Click "Submit Article" to complete your submission.
+arXiv maintains a complete version history. Readers can:
 
-![Submit article button](tutorials/images/arxiv-26-submit-button.png)
+- See all versions of your paper
+- Compare versions to see what changed
+- Cite specific versions if needed
 
-**Screenshot name:** `arxiv-26-submit-button.png`
-
-**What to capture:** The final "Submit Article" button.
-
-### 8.3 Confirmation
-
-You'll receive a confirmation screen with your submission ID and expected announcement date.
-
-![Submission confirmation](tutorials/images/arxiv-27-confirmation.png)
-
-**Screenshot name:** `arxiv-27-confirmation.png`
-
-**What to capture:** The confirmation page with submission ID.
-
-## Step 9: After Submission
-
-### 9.1 Email Confirmation
-
-Check your email for a confirmation message from arXiv containing your submission details.
-
-![Confirmation email](tutorials/images/arxiv-28-confirmation-email.png)
-
-**Screenshot name:** `arxiv-28-confirmation-email.png`
-
-**What to capture:** The confirmation email in your inbox.
-
-### 9.2 Moderation Process
-
-Your submission will be reviewed by arXiv moderators. This typically takes 1-2 business days.
-
-### 9.3 Publication
-
-If approved, your paper will be announced and published on the next announcement day (typically Sunday-Thursday evenings, US Eastern Time).
-
-### 9.4 Access Your Paper
-
-Once published, your paper will have a permanent arXiv identifier (e.g., arXiv:YYMM.NNNNN) and will be freely accessible.
-
-![Published paper page](tutorials/images/arxiv-29-published-paper.png)
-
-**Screenshot name:** `arxiv-29-published-paper.png`
-
-**What to capture:** An example of a published paper on arXiv showing the identifier and download options.
-
-## Step 10: Managing Your Submission
-
-### 10.1 View Your Submissions
-
-Log in and click on your username to access your user page, where you can see all your submissions.
-
-![User submissions page](tutorials/images/arxiv-30-user-page.png)
-
-**Screenshot name:** `arxiv-30-user-page.png`
-
-**What to capture:** The user page showing a list of submissions.
-
-### 10.2 Submit a Replacement (Version Update)
-
-If you need to update your paper:
-
-1. Navigate to the paper's arXiv page
-2. Click "Replace" (only available to the original submitter)
-3. Follow the same submission process
-4. Explain changes in the comments field
-
-![Replace paper option](tutorials/images/arxiv-31-replace-option.png)
-
-**Screenshot name:** `arxiv-31-replace-option.png`
-
-**What to capture:** The "Replace" button on a published paper's page.
+This transparency is a feature, not a bug—it shows the evolution of your research.
 
 ## Troubleshooting Common Issues
 
 ### LaTeX Compilation Errors
 
-If your LaTeX doesn't compile:
+**Problem:** Your LaTeX files don't compile on arXiv's servers.
 
-- Ensure all necessary files are included
-- Check that you're using standard packages
-- Remove any custom paths or system-specific commands
-- Test your files locally before uploading
+**Solutions:**
+
+- Ensure all necessary files are included (figures, `.bbl` file, style files)
+- Test compilation locally with a standard LaTeX distribution
+- Use standard packages that are available on arXiv
+- Remove any custom paths, system-specific commands, or `\input` statements pointing to non-included files
+- Check the arXiv TeX/LaTeX help page for the list of available packages
 
 ### PDF Processing Issues
 
-If your PDF is rejected:
+**Problem:** Your PDF is rejected or displays incorrectly.
 
-- Ensure fonts are embedded
-- Remove any security restrictions
+**Solutions:**
+
+- Ensure all fonts are embedded (use `pdffonts` command to check)
+- Remove any security restrictions or passwords from the PDF
 - Make sure the PDF is searchable (not a scanned image)
-- Reduce file size if it exceeds limits
+- Reduce file size by compressing images if it exceeds 50 MB
+- Use PDF/A format if possible for better archival quality
 
-### Endorsement Delays
+### Metadata Errors
 
-If you're waiting for endorsement:
+**Problem:** You made a mistake in the title, authors, or abstract.
 
-- Contact colleagues who are established arXiv authors
-- Provide them with your arXiv user ID and desired category
-- Check that your email address is correctly registered
+**Solutions:**
+
+- If caught before announcement: Contact arXiv moderators immediately to request changes
+- If caught after announcement: Submit a replacement version with corrected metadata
+- For author list errors: Contact arXiv admin as author list changes require special handling
+
+### Submission Delayed or On Hold
+
+**Problem:** Your submission is delayed or placed on hold.
+
+**Possible reasons:**
+
+- The paper doesn't meet arXiv's scope or standards
+- There are technical issues with your files
+- Additional review is needed
+
+**What to do:**
+
+- Check your email for messages from arXiv moderators
+- Respond promptly to any requests for information
+- If unsure, contact arXiv support with your submission ID
+
+### Can't Find Your Paper After Publication
+
+**Problem:** Your paper was announced but you can't find it.
+
+**Solutions:**
+
+- Search using your exact name as it appears in the author list
+- Use the arXiv identifier from your confirmation email
+- Check the correct category—papers are listed in their primary category
+- Clear your browser cache and try again
+- Check that you're looking at the correct announcement date
 
 ## Best Practices
 
-1. **Prepare files carefully**: Test LaTeX compilation locally before submission
-2. **Double-check metadata**: Ensure all author names, affiliations, and the abstract are accurate
-3. **Choose categories wisely**: Select the most appropriate primary category and relevant cross-lists
-4. **Include helpful comments**: Add information about page count, submission status, or related papers
-5. **Use proper licenses**: Understand the license options and choose appropriately
-6. **Plan timing**: Submit early in the week if you want faster publication
-7. **Keep records**: Save your submission ID and confirmation emails
+### Before Submission
+
+1. **Proofread carefully**: Have co-authors review the final version
+2. **Test your files**: Compile LaTeX locally or check PDF rendering
+3. **Verify metadata**: Double-check all author names, affiliations, and abstract
+4. **Check journal policies**: Ensure arXiv submission won't conflict with journal requirements
+5. **Choose timing wisely**: Submit early in the week if you want faster publication
+
+### During Submission
+
+1. **Choose categories carefully**: Select the most appropriate primary category
+2. **Write a clear abstract**: Make it accessible to readers outside your specific subfield
+3. **Add helpful comments**: Include page count, submission status, and related work
+4. **Select the right license**: Discuss with co-authors and consider future plans
+5. **Review thoroughly**: This is your last chance to catch errors before going public
+
+### After Submission
+
+1. **Save confirmation emails**: Keep records of your submission ID and dates
+2. **Monitor for publication**: Check for your announcement email
+3. **Share appropriately**: Once published, share on social media and with colleagues
+4. **Track citations**: Monitor how your paper is cited and referenced
+5. **Respond to feedback**: Consider feedback from readers for future versions
+
+### For Replacements
+
+1. **Document changes**: Clearly explain what you changed in the comments
+2. **Don't over-revise**: Only submit replacements for substantive changes
+3. **Consider timing**: Wait until you have multiple fixes rather than many small updates
+4. **Maintain quality**: Replacements should improve the paper, not rush out incomplete fixes
 
 ## Additional Resources
 
-- **arXiv Help**: [https://info.arxiv.org/help/](https://info.arxiv.org/help/)
+- **arXiv Help Center**: [https://info.arxiv.org/help/](https://info.arxiv.org/help/)
 - **Submission Guidelines**: [https://info.arxiv.org/help/submit.html](https://info.arxiv.org/help/submit.html)
 - **TeX/LaTeX Help**: [https://info.arxiv.org/help/submit_tex.html](https://info.arxiv.org/help/submit_tex.html)
-- **PDF Help**: [https://info.arxiv.org/help/submit_pdf.html](https://info.arxiv.org/help/submit_pdf.html)
+- **PDF Submission Help**: [https://info.arxiv.org/help/submit_pdf.html](https://info.arxiv.org/help/submit_pdf.html)
+- **License Information**: [https://info.arxiv.org/help/license.html](https://info.arxiv.org/help/license.html)
+- **arXiv Support**: For questions not covered in documentation, email help@arxiv.org
 
 ## Conclusion
 
-Submitting to arXiv is a straightforward process once you understand the steps. This tutorial has walked you through account creation, file preparation, submission, and post-publication management. By following these guidelines, you can successfully share your research with the global scientific community through arXiv.
+Submitting to arXiv is an excellent way to share your research with the global scientific community quickly and freely. This tutorial has guided you through the entire process from account creation to publication and updates. 
 
-If you encounter any issues not covered in this tutorial, consult the official arXiv help pages or contact arXiv support at help@arxiv.org.
+Key takeaways:
+
+- **Prepare your files carefully** before starting the submission
+- **Review metadata thoroughly** to avoid errors
+- **Choose your license thoughtfully** based on your goals
+- **Be patient** during the moderation process
+- **Keep good records** of your submissions and confirmations
+
+By following these guidelines, you'll be able to successfully share your research on arXiv and contribute to open science. If you encounter issues not covered here, don't hesitate to consult arXiv's help resources or contact their support team.
+
+Good luck with your submissions!
