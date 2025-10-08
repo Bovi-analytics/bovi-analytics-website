@@ -9,8 +9,636 @@
 <link>https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/</link>
 <atom:link href="https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.7.34</generator>
-<lastBuildDate>Fri, 25 Jul 2025 00:00:00 GMT</lastBuildDate>
+<generator>quarto-1.8.25</generator>
+<lastBuildDate>Wed, 08 Oct 2025 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>How to Submit Papers to arXiv: A Step-by-Step Guide</title>
+  <dc:creator>Your Name</dc:creator>
+  <link>https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/arxiv_tutorial.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>arXiv is a free distribution service and open-access archive for scholarly articles in various fields including physics, mathematics, computer science, and more. This tutorial will guide you through the complete process of submitting your paper to arXiv.</p>
+</section>
+<section id="prerequisites" class="level2">
+<h2 class="anchored" data-anchor-id="prerequisites">Prerequisites</h2>
+<p>Before you begin, ensure you have:</p>
+<ul>
+<li>A completed manuscript in an acceptable format (PDF, LaTeX, or other supported formats)</li>
+<li>All figures and supplementary files ready</li>
+<li>An ORCID iD (recommended but not required)</li>
+<li>Your paper’s abstract and metadata ready</li>
+</ul>
+</section>
+<section id="step-1-create-an-arxiv-account" class="level2">
+<h2 class="anchored" data-anchor-id="step-1-create-an-arxiv-account">Step 1: Create an arXiv Account</h2>
+<section id="navigate-to-arxiv-website" class="level3">
+<h3 class="anchored" data-anchor-id="navigate-to-arxiv-website">1.1 Navigate to arXiv Website</h3>
+<p>Go to <a href="https://arxiv.org">https://arxiv.org</a> in your web browser.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/tutorials/images/arxiv-01-homepage.png" class="img-fluid figure-img"></p>
+<figcaption>arXiv homepage</figcaption>
+</figure>
+</div>
+<p><strong>Screenshot name:</strong> <code>arxiv-01-homepage.png</code></p>
+<p><strong>What to capture:</strong> The main arXiv homepage showing the search bar and navigation menu.</p>
+</section>
+<section id="register-for-an-account" class="level3">
+<h3 class="anchored" data-anchor-id="register-for-an-account">1.2 Register for an Account</h3>
+<p>Click on “register” in the top right corner of the page.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/tutorials/images/arxiv-02-register-link.png" class="img-fluid figure-img"></p>
+<figcaption>Registration link location</figcaption>
+</figure>
+</div>
+<p><strong>Screenshot name:</strong> <code>arxiv-02-register-link.png</code></p>
+<p><strong>What to capture:</strong> Highlight the “register” link in the top navigation bar.</p>
+</section>
+<section id="complete-registration-form" class="level3">
+<h3 class="anchored" data-anchor-id="complete-registration-form">1.3 Complete Registration Form</h3>
+<p>Fill in your email address, username, and create a password. You’ll also need to provide your full name and affiliation.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/tutorials/images/arxiv-03-registration-form.png" class="img-fluid figure-img"></p>
+<figcaption>Registration form</figcaption>
+</figure>
+</div>
+<p><strong>Screenshot name:</strong> <code>arxiv-03-registration-form.png</code></p>
+<p><strong>What to capture:</strong> The registration form with empty fields visible.</p>
+</section>
+<section id="verify-your-email" class="level3">
+<h3 class="anchored" data-anchor-id="verify-your-email">1.4 Verify Your Email</h3>
+<p>Check your email inbox for a verification message from arXiv and click the verification link.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/tutorials/images/arxiv-04-email-verification.png" class="img-fluid figure-img"></p>
+<figcaption>Email verification message</figcaption>
+</figure>
+</div>
+<p><strong>Screenshot name:</strong> <code>arxiv-04-email-verification.png</code></p>
+<p><strong>What to capture:</strong> The verification email from arXiv in your inbox.</p>
+</section>
+</section>
+<section id="step-2-endorsement-if-required" class="level2">
+<h2 class="anchored" data-anchor-id="step-2-endorsement-if-required">Step 2: Endorsement (If Required)</h2>
+<p>For first-time submitters in certain categories, you may need endorsement from an established arXiv author.</p>
+<section id="check-endorsement-requirements" class="level3">
+<h3 class="anchored" data-anchor-id="check-endorsement-requirements">2.1 Check Endorsement Requirements</h3>
+<p>After logging in, navigate to the submission page. If you need endorsement, you’ll see a notification.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/tutorials/images/arxiv-05-endorsement-notice.png" class="img-fluid figure-img"></p>
+<figcaption>Endorsement notification</figcaption>
+</figure>
+</div>
+<p><strong>Screenshot name:</strong> <code>arxiv-05-endorsement-notice.png</code></p>
+<p><strong>What to capture:</strong> The endorsement requirement message if it appears.</p>
+</section>
+<section id="request-endorsement" class="level3">
+<h3 class="anchored" data-anchor-id="request-endorsement">2.2 Request Endorsement</h3>
+<p>If needed, you can request endorsement from colleagues who are established arXiv authors in your field. They will receive an email to endorse you.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Not all categories require endorsement. Many fields allow automatic submission privileges.</p>
+</div>
+</div>
+</section>
+</section>
+<section id="step-3-log-in-to-your-account" class="level2">
+<h2 class="anchored" data-anchor-id="step-3-log-in-to-your-account">Step 3: Log In to Your Account</h2>
+<section id="access-login-page" class="level3">
+<h3 class="anchored" data-anchor-id="access-login-page">3.1 Access Login Page</h3>
+<p>Click “login” in the top right corner of the arXiv homepage.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/tutorials/images/arxiv-06-login-link.png" class="img-fluid figure-img"></p>
+<figcaption>Login link</figcaption>
+</figure>
+</div>
+<p><strong>Screenshot name:</strong> <code>arxiv-06-login-link.png</code></p>
+<p><strong>What to capture:</strong> The login link in the navigation bar.</p>
+</section>
+<section id="enter-credentials" class="level3">
+<h3 class="anchored" data-anchor-id="enter-credentials">3.2 Enter Credentials</h3>
+<p>Enter your username/email and password, then click “Sign In.”</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/tutorials/images/arxiv-07-login-form.png" class="img-fluid figure-img"></p>
+<figcaption>Login form</figcaption>
+</figure>
+</div>
+<p><strong>Screenshot name:</strong> <code>arxiv-07-login-form.png</code></p>
+<p><strong>What to capture:</strong> The login form with empty credential fields.</p>
+</section>
+</section>
+<section id="step-4-start-a-new-submission" class="level2">
+<h2 class="anchored" data-anchor-id="step-4-start-a-new-submission">Step 4: Start a New Submission</h2>
+<section id="navigate-to-submit" class="level3">
+<h3 class="anchored" data-anchor-id="navigate-to-submit">4.1 Navigate to Submit</h3>
+<p>Once logged in, click on “Submit” in the top navigation menu.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/tutorials/images/arxiv-08-submit-button.png" class="img-fluid figure-img"></p>
+<figcaption>Submit button location</figcaption>
+</figure>
+</div>
+<p><strong>Screenshot name:</strong> <code>arxiv-08-submit-button.png</code></p>
+<p><strong>What to capture:</strong> The “Submit” option in the top menu after logging in.</p>
+</section>
+<section id="choose-submission-type" class="level3">
+<h3 class="anchored" data-anchor-id="choose-submission-type">4.2 Choose Submission Type</h3>
+<p>Select whether you’re submitting a new paper or replacing/updating an existing one.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/tutorials/images/arxiv-09-submission-type.png" class="img-fluid figure-img"></p>
+<figcaption>Submission type selection</figcaption>
+</figure>
+</div>
+<p><strong>Screenshot name:</strong> <code>arxiv-09-submission-type.png</code></p>
+<p><strong>What to capture:</strong> The page showing options for new submission vs.&nbsp;replacement.</p>
+</section>
+</section>
+<section id="step-5-upload-your-files" class="level2">
+<h2 class="anchored" data-anchor-id="step-5-upload-your-files">Step 5: Upload Your Files</h2>
+<section id="select-file-format" class="level3">
+<h3 class="anchored" data-anchor-id="select-file-format">5.1 Select File Format</h3>
+<p>Choose your submission format. arXiv accepts:</p>
+<ul>
+<li><strong>LaTeX</strong> (recommended for papers with equations)</li>
+<li><strong>PDF</strong> (for completed papers)</li>
+<li><strong>HTML with PDF</strong></li>
+<li>Other formats (PS, DVI, etc.)</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/tutorials/images/arxiv-10-file-format.png" class="img-fluid figure-img"></p>
+<figcaption>File format selection</figcaption>
+</figure>
+</div>
+<p><strong>Screenshot name:</strong> <code>arxiv-10-file-format.png</code></p>
+<p><strong>What to capture:</strong> The file format selection dropdown or radio buttons.</p>
+</section>
+<section id="upload-files-latex-method" class="level3">
+<h3 class="anchored" data-anchor-id="upload-files-latex-method">5.2 Upload Files (LaTeX Method)</h3>
+<p>If submitting LaTeX files:</p>
+<ol type="1">
+<li>Upload your main <code>.tex</code> file</li>
+<li>Upload all associated files (<code>.bbl</code>, <code>.sty</code>, figure files, etc.)</li>
+<li>You can upload a <code>.zip</code> or <code>.tar.gz</code> archive containing all files</li>
+</ol>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/tutorials/images/arxiv-11-latex-upload.png" class="img-fluid figure-img"></p>
+<figcaption>LaTeX file upload interface</figcaption>
+</figure>
+</div>
+<p><strong>Screenshot name:</strong> <code>arxiv-11-latex-upload.png</code></p>
+<p><strong>What to capture:</strong> The file upload interface showing the upload button and file list area.</p>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Important</span>LaTeX File Requirements
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>Include all necessary style files and figures</li>
+<li>Use standard LaTeX packages available on arXiv</li>
+<li>Ensure all figure files are in supported formats (PNG, JPG, PDF, EPS)</li>
+<li>Remove any confidential or personal file paths from your <code>.tex</code> file</li>
+</ul>
+</div>
+</div>
+</section>
+<section id="upload-files-pdf-method" class="level3">
+<h3 class="anchored" data-anchor-id="upload-files-pdf-method">5.3 Upload Files (PDF Method)</h3>
+<p>If submitting a PDF:</p>
+<ol type="1">
+<li>Click “Choose File” or drag and drop your PDF</li>
+<li>Ensure the PDF meets arXiv requirements (text-searchable, no restrictions)</li>
+</ol>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/tutorials/images/arxiv-12-pdf-upload.png" class="img-fluid figure-img"></p>
+<figcaption>PDF upload interface</figcaption>
+</figure>
+</div>
+<p><strong>Screenshot name:</strong> <code>arxiv-12-pdf-upload.png</code></p>
+<p><strong>What to capture:</strong> The PDF upload interface with drag-and-drop area.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>PDF Requirements
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>Maximum file size: 50 MB (10 MB without figures)</li>
+<li>Must be searchable (not a scanned image)</li>
+<li>No security restrictions or encryption</li>
+<li>Embed all fonts</li>
+</ul>
+</div>
+</div>
+</section>
+<section id="process-files" class="level3">
+<h3 class="anchored" data-anchor-id="process-files">5.4 Process Files</h3>
+<p>Click “Process Files” to allow arXiv to process your submission.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/tutorials/images/arxiv-13-process-button.png" class="img-fluid figure-img"></p>
+<figcaption>Process files button</figcaption>
+</figure>
+</div>
+<p><strong>Screenshot name:</strong> <code>arxiv-13-process-button.png</code></p>
+<p><strong>What to capture:</strong> The “Process Files” button after files are uploaded.</p>
+</section>
+<section id="review-processed-output" class="level3">
+<h3 class="anchored" data-anchor-id="review-processed-output">5.5 Review Processed Output</h3>
+<p>arXiv will generate a PDF from your files. Review it carefully to ensure everything appears correctly.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/tutorials/images/arxiv-14-pdf-preview.png" class="img-fluid figure-img"></p>
+<figcaption>Processed PDF preview</figcaption>
+</figure>
+</div>
+<p><strong>Screenshot name:</strong> <code>arxiv-14-pdf-preview.png</code></p>
+<p><strong>What to capture:</strong> The PDF preview window showing the processed document.</p>
+</section>
+</section>
+<section id="step-6-add-metadata" class="level2">
+<h2 class="anchored" data-anchor-id="step-6-add-metadata">Step 6: Add Metadata</h2>
+<section id="enter-title" class="level3">
+<h3 class="anchored" data-anchor-id="enter-title">6.1 Enter Title</h3>
+<p>Provide the complete title of your paper. Avoid using LaTeX commands in the title field unless necessary.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/tutorials/images/arxiv-15-title-field.png" class="img-fluid figure-img"></p>
+<figcaption>Title input field</figcaption>
+</figure>
+</div>
+<p><strong>Screenshot name:</strong> <code>arxiv-15-title-field.png</code></p>
+<p><strong>What to capture:</strong> The title input field on the metadata page.</p>
+</section>
+<section id="add-authors" class="level3">
+<h3 class="anchored" data-anchor-id="add-authors">6.2 Add Authors</h3>
+<p>Enter all authors in order. Include:</p>
+<ul>
+<li>Full names</li>
+<li>Affiliations</li>
+<li>ORCID iDs (if available)</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/tutorials/images/arxiv-16-authors-field.png" class="img-fluid figure-img"></p>
+<figcaption>Author input interface</figcaption>
+</figure>
+</div>
+<p><strong>Screenshot name:</strong> <code>arxiv-16-authors-field.png</code></p>
+<p><strong>What to capture:</strong> The author addition interface showing fields for name and affiliation.</p>
+</section>
+<section id="write-abstract" class="level3">
+<h3 class="anchored" data-anchor-id="write-abstract">6.3 Write Abstract</h3>
+<p>Paste or type your abstract. Keep it concise (typically 250-500 words) and avoid:</p>
+<ul>
+<li>Excessive mathematical notation</li>
+<li>References to figures or tables</li>
+<li>Bibliographic citations</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/tutorials/images/arxiv-17-abstract-field.png" class="img-fluid figure-img"></p>
+<figcaption>Abstract input field</figcaption>
+</figure>
+</div>
+<p><strong>Screenshot name:</strong> <code>arxiv-17-abstract-field.png</code></p>
+<p><strong>What to capture:</strong> The abstract text box with character count if visible.</p>
+</section>
+<section id="enter-comments-optional" class="level3">
+<h3 class="anchored" data-anchor-id="enter-comments-optional">6.4 Enter Comments (Optional)</h3>
+<p>In the comments field, you can add:</p>
+<ul>
+<li>Number of pages and figures</li>
+<li>Submission status (e.g., “Submitted to Journal X”)</li>
+<li>Other relevant information</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/tutorials/images/arxiv-18-comments-field.png" class="img-fluid figure-img"></p>
+<figcaption>Comments field</figcaption>
+</figure>
+</div>
+<p><strong>Screenshot name:</strong> <code>arxiv-18-comments-field.png</code></p>
+<p><strong>What to capture:</strong> The optional comments input field.</p>
+</section>
+<section id="select-categories" class="level3">
+<h3 class="anchored" data-anchor-id="select-categories">6.5 Select Categories</h3>
+<p>Choose the primary category that best fits your paper, and optionally select cross-list categories.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/tutorials/images/arxiv-19-category-selection.png" class="img-fluid figure-img"></p>
+<figcaption>Category selection</figcaption>
+</figure>
+</div>
+<p><strong>Screenshot name:</strong> <code>arxiv-19-category-selection.png</code></p>
+<p><strong>What to capture:</strong> The category dropdown menus showing available options.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Common Categories
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><strong>cs.AI</strong> - Artificial Intelligence</li>
+<li><strong>cs.LG</strong> - Machine Learning</li>
+<li><strong>stat.ML</strong> - Machine Learning (Statistics)</li>
+<li><strong>math.ST</strong> - Statistics Theory</li>
+<li><strong>physics</strong> - Various physics subcategories</li>
+<li><strong>econ</strong> - Economics</li>
+</ul>
+</div>
+</div>
+</section>
+<section id="add-report-number-optional" class="level3">
+<h3 class="anchored" data-anchor-id="add-report-number-optional">6.6 Add Report Number (Optional)</h3>
+<p>If your paper has an institutional report number, enter it here.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/tutorials/images/arxiv-20-report-number.png" class="img-fluid figure-img"></p>
+<figcaption>Report number field</figcaption>
+</figure>
+</div>
+<p><strong>Screenshot name:</strong> <code>arxiv-20-report-number.png</code></p>
+<p><strong>What to capture:</strong> The report number input field.</p>
+</section>
+<section id="add-journal-reference-if-published" class="level3">
+<h3 class="anchored" data-anchor-id="add-journal-reference-if-published">6.7 Add Journal Reference (If Published)</h3>
+<p>If your paper is already published, add the journal reference. Format: “Journal Name, Volume, Pages (Year)”</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/tutorials/images/arxiv-21-journal-ref.png" class="img-fluid figure-img"></p>
+<figcaption>Journal reference field</figcaption>
+</figure>
+</div>
+<p><strong>Screenshot name:</strong> <code>arxiv-21-journal-ref.png</code></p>
+<p><strong>What to capture:</strong> The journal reference input field.</p>
+</section>
+<section id="add-doi-if-available" class="level3">
+<h3 class="anchored" data-anchor-id="add-doi-if-available">6.8 Add DOI (If Available)</h3>
+<p>If your paper has a DOI, enter it here.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/tutorials/images/arxiv-22-doi-field.png" class="img-fluid figure-img"></p>
+<figcaption>DOI field</figcaption>
+</figure>
+</div>
+<p><strong>Screenshot name:</strong> <code>arxiv-22-doi-field.png</code></p>
+<p><strong>What to capture:</strong> The DOI input field.</p>
+</section>
+</section>
+<section id="step-7-review-your-submission" class="level2">
+<h2 class="anchored" data-anchor-id="step-7-review-your-submission">Step 7: Review Your Submission</h2>
+<section id="preview-complete-submission" class="level3">
+<h3 class="anchored" data-anchor-id="preview-complete-submission">7.1 Preview Complete Submission</h3>
+<p>Review all metadata and the generated PDF carefully. Check for:</p>
+<ul>
+<li>Correct title and author information</li>
+<li>Proper abstract formatting</li>
+<li>Accurate category selection</li>
+<li>PDF rendering quality (equations, figures, tables)</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/tutorials/images/arxiv-23-preview-page.png" class="img-fluid figure-img"></p>
+<figcaption>Submission preview page</figcaption>
+</figure>
+</div>
+<p><strong>Screenshot name:</strong> <code>arxiv-23-preview-page.png</code></p>
+<p><strong>What to capture:</strong> The full preview page showing all metadata and PDF.</p>
+</section>
+<section id="make-corrections-if-needed" class="level3">
+<h3 class="anchored" data-anchor-id="make-corrections-if-needed">7.2 Make Corrections (If Needed)</h3>
+<p>If you notice any errors, click “Previous” or the edit buttons to go back and make corrections.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/tutorials/images/arxiv-24-edit-buttons.png" class="img-fluid figure-img"></p>
+<figcaption>Edit buttons location</figcaption>
+</figure>
+</div>
+<p><strong>Screenshot name:</strong> <code>arxiv-24-edit-buttons.png</code></p>
+<p><strong>What to capture:</strong> The buttons for going back or editing sections.</p>
+</section>
+</section>
+<section id="step-8-submit-your-paper" class="level2">
+<h2 class="anchored" data-anchor-id="step-8-submit-your-paper">Step 8: Submit Your Paper</h2>
+<section id="accept-policies" class="level3">
+<h3 class="anchored" data-anchor-id="accept-policies">8.1 Accept Policies</h3>
+<p>Read and accept arXiv’s submission policies and license agreement.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/tutorials/images/arxiv-25-policy-acceptance.png" class="img-fluid figure-img"></p>
+<figcaption>Policy acceptance checkboxes</figcaption>
+</figure>
+</div>
+<p><strong>Screenshot name:</strong> <code>arxiv-25-policy-acceptance.png</code></p>
+<p><strong>What to capture:</strong> The policy agreement checkboxes.</p>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Important</span>License Options
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>arXiv offers several license options: - <strong>arXiv.org perpetual, non-exclusive license</strong> (default) - <strong>Creative Commons licenses</strong> (CC BY, CC BY-SA, CC BY-NC-SA, CC0) - <strong>Public Domain</strong></p>
+<p>Choose the license that aligns with your intentions for sharing your work.</p>
+</div>
+</div>
+</section>
+<section id="final-submission" class="level3">
+<h3 class="anchored" data-anchor-id="final-submission">8.2 Final Submission</h3>
+<p>Click “Submit Article” to complete your submission.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/tutorials/images/arxiv-26-submit-button.png" class="img-fluid figure-img"></p>
+<figcaption>Submit article button</figcaption>
+</figure>
+</div>
+<p><strong>Screenshot name:</strong> <code>arxiv-26-submit-button.png</code></p>
+<p><strong>What to capture:</strong> The final “Submit Article” button.</p>
+</section>
+<section id="confirmation" class="level3">
+<h3 class="anchored" data-anchor-id="confirmation">8.3 Confirmation</h3>
+<p>You’ll receive a confirmation screen with your submission ID and expected announcement date.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/tutorials/images/arxiv-27-confirmation.png" class="img-fluid figure-img"></p>
+<figcaption>Submission confirmation</figcaption>
+</figure>
+</div>
+<p><strong>Screenshot name:</strong> <code>arxiv-27-confirmation.png</code></p>
+<p><strong>What to capture:</strong> The confirmation page with submission ID.</p>
+</section>
+</section>
+<section id="step-9-after-submission" class="level2">
+<h2 class="anchored" data-anchor-id="step-9-after-submission">Step 9: After Submission</h2>
+<section id="email-confirmation" class="level3">
+<h3 class="anchored" data-anchor-id="email-confirmation">9.1 Email Confirmation</h3>
+<p>Check your email for a confirmation message from arXiv containing your submission details.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/tutorials/images/arxiv-28-confirmation-email.png" class="img-fluid figure-img"></p>
+<figcaption>Confirmation email</figcaption>
+</figure>
+</div>
+<p><strong>Screenshot name:</strong> <code>arxiv-28-confirmation-email.png</code></p>
+<p><strong>What to capture:</strong> The confirmation email in your inbox.</p>
+</section>
+<section id="moderation-process" class="level3">
+<h3 class="anchored" data-anchor-id="moderation-process">9.2 Moderation Process</h3>
+<p>Your submission will be reviewed by arXiv moderators. This typically takes 1-2 business days.</p>
+</section>
+<section id="publication" class="level3">
+<h3 class="anchored" data-anchor-id="publication">9.3 Publication</h3>
+<p>If approved, your paper will be announced and published on the next announcement day (typically Sunday-Thursday evenings, US Eastern Time).</p>
+</section>
+<section id="access-your-paper" class="level3">
+<h3 class="anchored" data-anchor-id="access-your-paper">9.4 Access Your Paper</h3>
+<p>Once published, your paper will have a permanent arXiv identifier (e.g., arXiv:YYMM.NNNNN) and will be freely accessible.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/tutorials/images/arxiv-29-published-paper.png" class="img-fluid figure-img"></p>
+<figcaption>Published paper page</figcaption>
+</figure>
+</div>
+<p><strong>Screenshot name:</strong> <code>arxiv-29-published-paper.png</code></p>
+<p><strong>What to capture:</strong> An example of a published paper on arXiv showing the identifier and download options.</p>
+</section>
+</section>
+<section id="step-10-managing-your-submission" class="level2">
+<h2 class="anchored" data-anchor-id="step-10-managing-your-submission">Step 10: Managing Your Submission</h2>
+<section id="view-your-submissions" class="level3">
+<h3 class="anchored" data-anchor-id="view-your-submissions">10.1 View Your Submissions</h3>
+<p>Log in and click on your username to access your user page, where you can see all your submissions.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/tutorials/images/arxiv-30-user-page.png" class="img-fluid figure-img"></p>
+<figcaption>User submissions page</figcaption>
+</figure>
+</div>
+<p><strong>Screenshot name:</strong> <code>arxiv-30-user-page.png</code></p>
+<p><strong>What to capture:</strong> The user page showing a list of submissions.</p>
+</section>
+<section id="submit-a-replacement-version-update" class="level3">
+<h3 class="anchored" data-anchor-id="submit-a-replacement-version-update">10.2 Submit a Replacement (Version Update)</h3>
+<p>If you need to update your paper:</p>
+<ol type="1">
+<li>Navigate to the paper’s arXiv page</li>
+<li>Click “Replace” (only available to the original submitter)</li>
+<li>Follow the same submission process</li>
+<li>Explain changes in the comments field</li>
+</ol>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/tutorials/images/arxiv-31-replace-option.png" class="img-fluid figure-img"></p>
+<figcaption>Replace paper option</figcaption>
+</figure>
+</div>
+<p><strong>Screenshot name:</strong> <code>arxiv-31-replace-option.png</code></p>
+<p><strong>What to capture:</strong> The “Replace” button on a published paper’s page.</p>
+</section>
+</section>
+<section id="troubleshooting-common-issues" class="level2">
+<h2 class="anchored" data-anchor-id="troubleshooting-common-issues">Troubleshooting Common Issues</h2>
+<section id="latex-compilation-errors" class="level3">
+<h3 class="anchored" data-anchor-id="latex-compilation-errors">LaTeX Compilation Errors</h3>
+<p>If your LaTeX doesn’t compile:</p>
+<ul>
+<li>Ensure all necessary files are included</li>
+<li>Check that you’re using standard packages</li>
+<li>Remove any custom paths or system-specific commands</li>
+<li>Test your files locally before uploading</li>
+</ul>
+</section>
+<section id="pdf-processing-issues" class="level3">
+<h3 class="anchored" data-anchor-id="pdf-processing-issues">PDF Processing Issues</h3>
+<p>If your PDF is rejected:</p>
+<ul>
+<li>Ensure fonts are embedded</li>
+<li>Remove any security restrictions</li>
+<li>Make sure the PDF is searchable (not a scanned image)</li>
+<li>Reduce file size if it exceeds limits</li>
+</ul>
+</section>
+<section id="endorsement-delays" class="level3">
+<h3 class="anchored" data-anchor-id="endorsement-delays">Endorsement Delays</h3>
+<p>If you’re waiting for endorsement:</p>
+<ul>
+<li>Contact colleagues who are established arXiv authors</li>
+<li>Provide them with your arXiv user ID and desired category</li>
+<li>Check that your email address is correctly registered</li>
+</ul>
+</section>
+</section>
+<section id="best-practices" class="level2">
+<h2 class="anchored" data-anchor-id="best-practices">Best Practices</h2>
+<ol type="1">
+<li><strong>Prepare files carefully</strong>: Test LaTeX compilation locally before submission</li>
+<li><strong>Double-check metadata</strong>: Ensure all author names, affiliations, and the abstract are accurate</li>
+<li><strong>Choose categories wisely</strong>: Select the most appropriate primary category and relevant cross-lists</li>
+<li><strong>Include helpful comments</strong>: Add information about page count, submission status, or related papers</li>
+<li><strong>Use proper licenses</strong>: Understand the license options and choose appropriately</li>
+<li><strong>Plan timing</strong>: Submit early in the week if you want faster publication</li>
+<li><strong>Keep records</strong>: Save your submission ID and confirmation emails</li>
+</ol>
+</section>
+<section id="additional-resources" class="level2">
+<h2 class="anchored" data-anchor-id="additional-resources">Additional Resources</h2>
+<ul>
+<li><strong>arXiv Help</strong>: <a href="https://info.arxiv.org/help/">https://info.arxiv.org/help/</a></li>
+<li><strong>Submission Guidelines</strong>: <a href="https://info.arxiv.org/help/submit.html">https://info.arxiv.org/help/submit.html</a></li>
+<li><strong>TeX/LaTeX Help</strong>: <a href="https://info.arxiv.org/help/submit_tex.html">https://info.arxiv.org/help/submit_tex.html</a></li>
+<li><strong>PDF Help</strong>: <a href="https://info.arxiv.org/help/submit_pdf.html">https://info.arxiv.org/help/submit_pdf.html</a></li>
+</ul>
+</section>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
+<p>Submitting to arXiv is a straightforward process once you understand the steps. This tutorial has walked you through account creation, file preparation, submission, and post-publication management. By following these guidelines, you can successfully share your research with the global scientific community through arXiv.</p>
+<p>If you encounter any issues not covered in this tutorial, consult the official arXiv help pages or contact arXiv support at help@arxiv.org.</p>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/arxiv_tutorial.html</guid>
+  <pubDate>Wed, 08 Oct 2025 00:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Storing and Accessing Secrets in Azure Key Vault</title>
   <link>https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/databricks-secrets.html</link>
@@ -30,7 +658,7 @@
 <h2 class="anchored" data-anchor-id="access-the-key-in-databricks">🔐 Access the Key in Databricks</h2>
 <p>Use the following code snippet to retrieve the secret:</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="co" style="color: #5E5E5E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># Retrieve secret from Azure Key Vault via Databricks Secret Scope</span></span>
 <span id="cb1-2">    <span class="co" style="color: #5E5E5E;
@@ -72,7 +700,7 @@ font-style: inherit;">print</span>(<span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">&lt;</span>data<span class="sc" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">&gt;</span>_secret)</span></code></pre></div>
+font-style: inherit;">&gt;</span>_secret)</span></code></pre></div></div>
 </div>
 </section>
 <section id="overview-of-blob-storage-accounts-and-keys" class="level2">
@@ -124,7 +752,7 @@ font-style: inherit;">&gt;</span>_secret)</span></code></pre></div>
 <h2 class="anchored" data-anchor-id="real-example-accessing-bovi-analytics-data-from-azure-blob-storage">Real Example: Accessing Bovi-Analytics Data from Azure Blob Storage</h2>
 <p>In this example, we use a secret stored in Azure Key Vault (retrieved via Databricks Secret Scope) to authenticate and access data stored in an Azure Blob Storage account.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1">%scala</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1">%scala</span>
 <span id="cb2-2"><span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">/</span><span class="er" style="color: #AD0000;
@@ -147,10 +775,10 @@ background-color: null;
 font-style: inherit;">key=</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"key"</span>)</span>
-<span id="cb2-6">   )</span></code></pre></div>
+<span id="cb2-6">   )</span></code></pre></div></div>
 </div>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1">%python</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1">%python</span>
 <span id="cb3-2"><span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">/</span><span class="er" style="color: #AD0000;
@@ -173,10 +801,10 @@ background-color: null;
 font-style: inherit;">key=</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"key"</span>)</span>
-<span id="cb3-6">   )</span></code></pre></div>
+<span id="cb3-6">   )</span></code></pre></div></div>
 </div>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><span class="co" style="color: #5E5E5E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># Accessing farm data stored in blob storage</span></span>
 <span id="cb4-2">file_location <span class="ot" style="color: #003B4F;
@@ -198,7 +826,7 @@ background-color: null;
 font-style: inherit;">.load</span>(file_location)</span>
 <span id="cb4-5"><span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">display</span>(data_set)</span></code></pre></div>
+font-style: inherit;">display</span>(data_set)</span></code></pre></div></div>
 </div>
 
 
@@ -500,27 +1128,27 @@ font-style: inherit;">display</span>(data_set)</span></code></pre></div>
 <h3 class="anchored" data-anchor-id="descriptive-names">1.1. Descriptive Names</h3>
 <p>Choose descriptive names that convey the purpose and meaning of the identifier. Avoid single-letter names or cryptic abbreviations that obscure the purpose of the variable or function.</p>
 <p><strong>Bad Example:</strong></p>
-<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1">x <span class="op" style="color: #5E5E5E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1">x <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> <span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">10</span>       <span class="co" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;"># What does 'x' represent?</span></span></code></pre></div>
+font-style: inherit;"># What does 'x' represent?</span></span></code></pre></div></div>
 <p><strong>Good Example:</strong></p>
-<div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1">age <span class="op" style="color: #5E5E5E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1">age <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> <span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">30</span>     <span class="co" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;"># Clearly indicates that 'age' represents a person's age.</span></span></code></pre></div>
+font-style: inherit;"># Clearly indicates that 'age' represents a person's age.</span></span></code></pre></div></div>
 </section>
 <section id="consistency" class="level3">
 <h3 class="anchored" data-anchor-id="consistency">1.2. Consistency</h3>
 <p>Be consistent in your naming style throughout your codebase. Consistency improves code readability and makes it easier for developers to understand and navigate the code.</p>
 <p><strong>Bad Example:</strong></p>
-<div class="sourceCode" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode javascript code-with-copy"><code class="sourceCode javascript"><span id="cb3-1"><span class="fu" style="color: #4758AB;
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode javascript code-with-copy"><code class="sourceCode javascript"><span id="cb3-1"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">getUserData</span>()   <span class="co" style="color: #5E5E5E;
 background-color: null;
@@ -529,9 +1157,9 @@ font-style: inherit;">// In camelCase</span></span>
 background-color: null;
 font-style: inherit;">fetch_user</span>()    <span class="co" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">// In snake_case</span></span></code></pre></div>
+font-style: inherit;">// In snake_case</span></span></code></pre></div></div>
 <p><strong>Good Example:</strong></p>
-<div class="sourceCode" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode javascript code-with-copy"><code class="sourceCode javascript"><span id="cb4-1"><span class="fu" style="color: #4758AB;
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode javascript code-with-copy"><code class="sourceCode javascript"><span id="cb4-1"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">getUserData</span>()   <span class="co" style="color: #5E5E5E;
 background-color: null;
@@ -540,13 +1168,13 @@ font-style: inherit;">// Both functions in camelCase</span></span>
 background-color: null;
 font-style: inherit;">fetchUserData</span>() <span class="co" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">// Both functions in camelCase</span></span></code></pre></div>
+font-style: inherit;">// Both functions in camelCase</span></span></code></pre></div></div>
 </section>
 <section id="use-appropriate-length" class="level3">
 <h3 class="anchored" data-anchor-id="use-appropriate-length">1.3. Use Appropriate Length</h3>
 <p>Strive for names that are neither too long nor too short. Extremely long names can be cumbersome, while very short names may not convey sufficient information.</p>
 <p><strong>Bad Example:</strong></p>
-<div class="sourceCode" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode java code-with-copy"><code class="sourceCode java"><span id="cb5-1"><span class="dt" style="color: #AD0000;
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode java code-with-copy"><code class="sourceCode java"><span id="cb5-1"><span class="dt" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">int</span> n <span class="op" style="color: #5E5E5E;
 background-color: null;
@@ -556,9 +1184,9 @@ font-style: inherit;">15</span><span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">;</span>  <span class="co" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">// Not descriptive enough</span></span></code></pre></div>
+font-style: inherit;">// Not descriptive enough</span></span></code></pre></div></div>
 <p><strong>Good Example:</strong></p>
-<div class="sourceCode" id="cb6" style="background: #f1f3f5;"><pre class="sourceCode java code-with-copy"><code class="sourceCode java"><span id="cb6-1"><span class="dt" style="color: #AD0000;
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6" style="background: #f1f3f5;"><pre class="sourceCode java code-with-copy"><code class="sourceCode java"><span id="cb6-1"><span class="dt" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">int</span> numberOfStudents <span class="op" style="color: #5E5E5E;
 background-color: null;
@@ -568,13 +1196,13 @@ font-style: inherit;">15</span><span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">;</span> <span class="co" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">// Descriptive but not overly long</span></span></code></pre></div>
+font-style: inherit;">// Descriptive but not overly long</span></span></code></pre></div></div>
 </section>
 <section id="avoid-reserved-words" class="level3">
 <h3 class="anchored" data-anchor-id="avoid-reserved-words">1.4. Avoid Reserved Words</h3>
 <p>Avoid using reserved keywords of the programming language as identifiers since they have special meanings and functionalities.</p>
 <p><strong>Bad Example:</strong></p>
-<div class="sourceCode" id="cb7" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><span class="kw" style="color: #003B4F;
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb7" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><span class="kw" style="color: #003B4F;
 background-color: null;
 font-weight: bold;
 font-style: inherit;">class</span> <span class="op" style="color: #5E5E5E;
@@ -593,9 +1221,9 @@ font-weight: bold;
 font-style: inherit;">is</span> a reserved keyword <span class="kw" style="color: #003B4F;
 background-color: null;
 font-weight: bold;
-font-style: inherit;">in</span> Python.</span></code></pre></div>
+font-style: inherit;">in</span> Python.</span></code></pre></div></div>
 <p><strong>Good Example:</strong></p>
-<div class="sourceCode" id="cb8" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1">user_class <span class="op" style="color: #5E5E5E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb8" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1">user_class <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> <span class="st" style="color: #20794D;
 background-color: null;
@@ -609,7 +1237,7 @@ font-weight: bold;
 font-style: inherit;">is</span> <span class="kw" style="color: #003B4F;
 background-color: null;
 font-weight: bold;
-font-style: inherit;">not</span> a reserved keyword.</span></code></pre></div>
+font-style: inherit;">not</span> a reserved keyword.</span></code></pre></div></div>
 </section>
 </section>
 <section id="naming-conventions-in-specific-languages" class="level2">
@@ -624,7 +1252,7 @@ font-style: inherit;">not</span> a reserved keyword.</span></code></pre></div>
 <li>Class names should follow the CapWords convention (also known as PascalCase).</li>
 </ul>
 <p><strong>Examples:</strong></p>
-<div class="sourceCode" id="cb9" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><span class="co" style="color: #5E5E5E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb9" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># Variables and functions</span></span>
 <span id="cb9-2">user_name <span class="op" style="color: #5E5E5E;
@@ -667,7 +1295,7 @@ font-style: inherit;">=</span> make</span>
 background-color: null;
 font-style: inherit;">self</span>.model <span class="op" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">=</span> model</span></code></pre></div>
+font-style: inherit;">=</span> model</span></code></pre></div></div>
 </section>
 <section id="javascript" class="level3">
 <h3 class="anchored" data-anchor-id="javascript">2.2. JavaScript</h3>
@@ -678,7 +1306,7 @@ font-style: inherit;">=</span> model</span></code></pre></div>
 <li>Constructor functions (used for creating objects) should be written with PascalCase.</li>
 </ul>
 <p><strong>Examples:</strong></p>
-<div class="sourceCode" id="cb10" style="background: #f1f3f5;"><pre class="sourceCode javascript code-with-copy"><code class="sourceCode javascript"><span id="cb10-1"><span class="co" style="color: #5E5E5E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb10" style="background: #f1f3f5;"><pre class="sourceCode javascript code-with-copy"><code class="sourceCode javascript"><span id="cb10-1"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">// Variables and functions</span></span>
 <span id="cb10-2"><span class="kw" style="color: #003B4F;
@@ -749,7 +1377,7 @@ background-color: null;
 font-style: inherit;">=</span> model<span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">;</span></span>
-<span id="cb10-12">}</span></code></pre></div>
+<span id="cb10-12">}</span></code></pre></div></div>
 </section>
 <section id="java" class="level3">
 <h3 class="anchored" data-anchor-id="java">2.3. Java</h3>
@@ -760,7 +1388,7 @@ font-style: inherit;">;</span></span>
 <li>Class names should follow the CapWords convention (PascalCase).</li>
 </ul>
 <p><strong>Examples:</strong></p>
-<div class="sourceCode" id="cb11" style="background: #f1f3f5;"><pre class="sourceCode java code-with-copy"><code class="sourceCode java"><span id="cb11-1"><span class="co" style="color: #5E5E5E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb11" style="background: #f1f3f5;"><pre class="sourceCode java code-with-copy"><code class="sourceCode java"><span id="cb11-1"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">// Variables and functions</span></span>
 <span id="cb11-2"><span class="bu" style="color: null;
@@ -865,7 +1493,7 @@ background-color: null;
 font-style: inherit;">}</span></span>
 <span id="cb11-17"><span class="op" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">}</span></span></code></pre></div>
+font-style: inherit;">}</span></span></code></pre></div></div>
 </section>
 </section>
 <section id="special-cases" class="level2">
@@ -874,7 +1502,7 @@ font-style: inherit;">}</span></span></code></pre></div>
 <h3 class="anchored" data-anchor-id="acronyms-and-abbreviations">3.1. Acronyms and Abbreviations</h3>
 <p>When using acronyms or abbreviations, be consistent with their capitalization and try to avoid ambiguous names.</p>
 <p><strong>Examples:</strong></p>
-<div class="sourceCode" id="cb12" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb12-1"><span class="co" style="color: #5E5E5E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb12" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb12-1"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># Good</span></span>
 <span id="cb12-2">xmlHttpRequest <span class="op" style="color: #5E5E5E;
@@ -896,12 +1524,12 @@ font-style: inherit;"># Inconsistent capitalization</span></span>
 background-color: null;
 font-style: inherit;">=</span> ...             <span class="co" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;"># Ambiguous abbreviation</span></span></code></pre></div>
+font-style: inherit;"># Ambiguous abbreviation</span></span></code></pre></div></div>
 </section>
 <section id="scope" class="level3">
 <h3 class="anchored" data-anchor-id="scope">3.2. Scope</h3>
 <p>Choose names that reflect the variable’s scope. For example, use meaningful prefixes like “g_” for global variables and “m_” for member variables in classes.</p>
-<div class="sourceCode" id="cb13" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb13-1">global_variable <span class="op" style="color: #5E5E5E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb13" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb13-1">global_variable <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> <span class="dv" style="color: #AD0000;
 background-color: null;
@@ -924,7 +1552,7 @@ font-style: inherit;">self</span>.member_variable <span class="op" style="color:
 background-color: null;
 font-style: inherit;">=</span> <span class="dv" style="color: #AD0000;
 background-color: null;
-font-style: inherit;">20</span></span></code></pre></div>
+font-style: inherit;">20</span></span></code></pre></div></div>
 </section>
 </section>
 <section id="conclusion" class="level2">
@@ -962,7 +1590,7 @@ font-style: inherit;">20</span></span></code></pre></div>
 <li>Choose descriptive names that convey the purpose of the variable or function.</li>
 </ul>
 <p><strong>Example:</strong></p>
-<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1">user_name <span class="op" style="color: #5E5E5E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1">user_name <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> <span class="st" style="color: #20794D;
 background-color: null;
@@ -974,7 +1602,7 @@ font-weight: bold;
 font-style: inherit;">def</span> calculate_average_score(scores):</span>
 <span id="cb1-4">    <span class="co" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;"># ...</span></span></code></pre></div>
+font-style: inherit;"># ...</span></span></code></pre></div></div>
 </section>
 <section id="constants" class="level2">
 <h2 class="anchored" data-anchor-id="constants">2. Constants</h2>
@@ -984,7 +1612,7 @@ font-style: inherit;"># ...</span></span></code></pre></div>
 <li>Note that Python doesn’t have true constants, but this convention indicates that the variable should not be modified.</li>
 </ul>
 <p><strong>Example:</strong></p>
-<div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1">MAX_ATTEMPTS <span class="op" style="color: #5E5E5E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1">MAX_ATTEMPTS <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> <span class="dv" style="color: #AD0000;
 background-color: null;
@@ -993,7 +1621,7 @@ font-style: inherit;">3</span></span>
 background-color: null;
 font-style: inherit;">=</span> <span class="fl" style="color: #AD0000;
 background-color: null;
-font-style: inherit;">3.14159</span></span></code></pre></div>
+font-style: inherit;">3.14159</span></span></code></pre></div></div>
 </section>
 <section id="class-names" class="level2">
 <h2 class="anchored" data-anchor-id="class-names">3. Class Names</h2>
@@ -1002,7 +1630,7 @@ font-style: inherit;">3.14159</span></span></code></pre></div>
 <li>Class names should start with an uppercase letter.</li>
 </ul>
 <p><strong>Example:</strong></p>
-<div class="sourceCode" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><span class="kw" style="color: #003B4F;
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><span class="kw" style="color: #003B4F;
 background-color: null;
 font-weight: bold;
 font-style: inherit;">class</span> Car:</span>
@@ -1023,7 +1651,7 @@ font-style: inherit;">=</span> make</span>
 background-color: null;
 font-style: inherit;">self</span>.model <span class="op" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">=</span> model</span></code></pre></div>
+font-style: inherit;">=</span> model</span></code></pre></div></div>
 </section>
 <section id="method-names" class="level2">
 <h2 class="anchored" data-anchor-id="method-names">4. Method Names</h2>
@@ -1032,7 +1660,7 @@ font-style: inherit;">=</span> model</span></code></pre></div>
 <li>Separate words with underscores (snake_case).</li>
 </ul>
 <p><strong>Example:</strong></p>
-<div class="sourceCode" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><span class="kw" style="color: #003B4F;
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><span class="kw" style="color: #003B4F;
 background-color: null;
 font-weight: bold;
 font-style: inherit;">class</span> Car:</span>
@@ -1044,7 +1672,7 @@ background-color: null;
 font-style: inherit;">self</span>):</span>
 <span id="cb4-3">        <span class="co" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;"># ...</span></span></code></pre></div>
+font-style: inherit;"># ...</span></span></code></pre></div></div>
 </section>
 <section id="private-variables-and-methods" class="level2">
 <h2 class="anchored" data-anchor-id="private-variables-and-methods">5. Private Variables and Methods</h2>
@@ -1053,7 +1681,7 @@ font-style: inherit;"># ...</span></span></code></pre></div>
 <li>Python doesn’t enforce private access, but this is a convention to indicate that the variable/method is intended for internal use.</li>
 </ul>
 <p><strong>Example:</strong></p>
-<div class="sourceCode" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><span class="kw" style="color: #003B4F;
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><span class="kw" style="color: #003B4F;
 background-color: null;
 font-weight: bold;
 font-style: inherit;">class</span> MyClass:</span>
@@ -1081,7 +1709,7 @@ background-color: null;
 font-style: inherit;">self</span>):</span>
 <span id="cb5-6">        <span class="co" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;"># ...</span></span></code></pre></div>
+font-style: inherit;"># ...</span></span></code></pre></div></div>
 </section>
 <section id="modules-and-packages" class="level2">
 <h2 class="anchored" data-anchor-id="modules-and-packages">6. Modules and Packages</h2>
@@ -1091,12 +1719,12 @@ font-style: inherit;"># ...</span></span></code></pre></div>
 <li>Package names should also be lowercase.</li>
 </ul>
 <p><strong>Example:</strong></p>
-<div class="sourceCode" id="cb6" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><span class="co" style="color: #5E5E5E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># module_name.py</span></span>
 <span id="cb6-2"><span class="co" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;"># package_name/__init__.py</span></span></code></pre></div>
+font-style: inherit;"># package_name/__init__.py</span></span></code></pre></div></div>
 </section>
 <section id="constants-in-modules" class="level2">
 <h2 class="anchored" data-anchor-id="constants-in-modules">7. Constants in Modules</h2>
@@ -1104,14 +1732,14 @@ font-style: inherit;"># package_name/__init__.py</span></span></code></pre></div
 <li>If a module defines constants, you can use uppercase letters and underscores (UPPER_CASE_WITH_UNDERSCORES) for the constant names.</li>
 </ul>
 <p><strong>Example:</strong></p>
-<div class="sourceCode" id="cb7" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><span class="co" style="color: #5E5E5E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb7" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># constants.py</span></span>
 <span id="cb7-2">MAX_RETRY_ATTEMPTS <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> <span class="dv" style="color: #AD0000;
 background-color: null;
-font-style: inherit;">5</span></span></code></pre></div>
+font-style: inherit;">5</span></span></code></pre></div></div>
 </section>
 <section id="boolean-variables" class="level2">
 <h2 class="anchored" data-anchor-id="boolean-variables">8. Boolean Variables</h2>
@@ -1119,7 +1747,7 @@ font-style: inherit;">5</span></span></code></pre></div>
 <li>For boolean variables, use names that sound like questions and start with <code>is_</code>, <code>has_</code>, or similar prefixes.</li>
 </ul>
 <p><strong>Example:</strong></p>
-<div class="sourceCode" id="cb8" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1">is_student <span class="op" style="color: #5E5E5E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb8" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1">is_student <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> <span class="va" style="color: #111111;
 background-color: null;
@@ -1128,7 +1756,7 @@ font-style: inherit;">True</span></span>
 background-color: null;
 font-style: inherit;">=</span> <span class="va" style="color: #111111;
 background-color: null;
-font-style: inherit;">False</span></span></code></pre></div>
+font-style: inherit;">False</span></span></code></pre></div></div>
 </section>
 <section id="avoid-single-character-names" class="level2">
 <h2 class="anchored" data-anchor-id="avoid-single-character-names">9. Avoid Single-Character Names</h2>
@@ -1136,17 +1764,17 @@ font-style: inherit;">False</span></span></code></pre></div>
 <li>Avoid using single-character names except for loop counters (e.g., <code>i</code>, <code>j</code>, <code>k</code>) and very short-lived variables.</li>
 </ul>
 <p><strong>Bad Example:</strong></p>
-<div class="sourceCode" id="cb9" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1">x <span class="op" style="color: #5E5E5E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb9" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1">x <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> <span class="dv" style="color: #AD0000;
 background-color: null;
-font-style: inherit;">10</span></span></code></pre></div>
+font-style: inherit;">10</span></span></code></pre></div></div>
 <p><strong>Good Example:</strong></p>
-<div class="sourceCode" id="cb10" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb10-1">num_attempts <span class="op" style="color: #5E5E5E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb10" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb10-1">num_attempts <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> <span class="dv" style="color: #AD0000;
 background-color: null;
-font-style: inherit;">10</span></span></code></pre></div>
+font-style: inherit;">10</span></span></code></pre></div></div>
 <p>By following these naming conventions, your Python code will be more consistent, readable, and maintainable. PEP 8 is widely adopted in the Python community, so sticking to these conventions will make it easier for others to understand and collaborate on your Python projects. Happy coding in Python!</p>
 
 
@@ -1174,7 +1802,7 @@ font-style: inherit;">10</span></span></code></pre></div>
 <h3 class="anchored" data-anchor-id="object-names">1. Object Names</h3>
 <p>Use descriptive and meaningful names for variables, functions, and objects. Name variables using lowercase letters and separate words with underscores (snake_case).</p>
 <p><strong>Example:</strong></p>
-<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1">user_name <span class="ot" style="color: #003B4F;
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1">user_name <span class="ot" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">&lt;-</span> <span class="st" style="color: #20794D;
 background-color: null;
@@ -1189,13 +1817,13 @@ font-style: inherit;">function</span>(scores) {</span>
 <span id="cb1-4">  <span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># ...</span></span>
-<span id="cb1-5">}</span></code></pre></div>
+<span id="cb1-5">}</span></code></pre></div></div>
 </section>
 <section id="function-names" class="level3">
 <h3 class="anchored" data-anchor-id="function-names">2. Function Names</h3>
 <p>Functions in R should be named in lowercase using descriptive verbs. If the function name includes multiple words, use underscores to separate them.</p>
 <p><strong>Example:</strong></p>
-<div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1">calculate_average_score <span class="ot" style="color: #003B4F;
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1">calculate_average_score <span class="ot" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">&lt;-</span> <span class="cf" style="color: #003B4F;
 background-color: null;
@@ -1204,13 +1832,13 @@ font-style: inherit;">function</span>(scores) {</span>
 <span id="cb2-2">  <span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># ...</span></span>
-<span id="cb2-3">}</span></code></pre></div>
+<span id="cb2-3">}</span></code></pre></div></div>
 </section>
 <section id="constant-names" class="level3">
 <h3 class="anchored" data-anchor-id="constant-names">3. Constant Names</h3>
 <p>For constants, use uppercase letters and separate words with underscores. R doesn’t have built-in constants, but you can treat uppercase variables as constants to indicate their unchangeable nature.</p>
 <p><strong>Example:</strong></p>
-<div class="sourceCode" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1">MAX_ATTEMPTS <span class="ot" style="color: #003B4F;
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1">MAX_ATTEMPTS <span class="ot" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">&lt;-</span> <span class="dv" style="color: #AD0000;
 background-color: null;
@@ -1219,23 +1847,23 @@ font-style: inherit;">3</span></span>
 background-color: null;
 font-style: inherit;">&lt;-</span> <span class="fl" style="color: #AD0000;
 background-color: null;
-font-style: inherit;">3.14159</span></span></code></pre></div>
+font-style: inherit;">3.14159</span></span></code></pre></div></div>
 </section>
 <section id="package-names" class="level3">
 <h3 class="anchored" data-anchor-id="package-names">4. Package Names</h3>
 <p>Package names should be in lowercase. When creating your own R packages, follow the lowercase convention for package names.</p>
 <p><strong>Example:</strong></p>
-<div class="sourceCode" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><span class="fu" style="color: #4758AB;
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">install.packages</span>(<span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"my_package"</span>)</span></code></pre></div>
+font-style: inherit;">"my_package"</span>)</span></code></pre></div></div>
 </section>
 <section id="logical-names-for-boolean-variables" class="level3">
 <h3 class="anchored" data-anchor-id="logical-names-for-boolean-variables">5. Logical Names for Boolean Variables</h3>
 <p>When naming boolean variables (logical values), use descriptive names that represent the true/false nature of the variable.</p>
 <p><strong>Example:</strong></p>
-<div class="sourceCode" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1">is_student <span class="ot" style="color: #003B4F;
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1">is_student <span class="ot" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">&lt;-</span> <span class="cn" style="color: #8f5902;
 background-color: null;
@@ -1244,13 +1872,13 @@ font-style: inherit;">TRUE</span></span>
 background-color: null;
 font-style: inherit;">&lt;-</span> <span class="cn" style="color: #8f5902;
 background-color: null;
-font-style: inherit;">FALSE</span></span></code></pre></div>
+font-style: inherit;">FALSE</span></span></code></pre></div></div>
 </section>
 <section id="use-consistent-abbreviations" class="level3">
 <h3 class="anchored" data-anchor-id="use-consistent-abbreviations">6. Use Consistent Abbreviations</h3>
 <p>In R, it is common to use abbreviations for long function names, but try to use consistent and widely understood abbreviations.</p>
 <p><strong>Example:</strong></p>
-<div class="sourceCode" id="cb6" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1">calc_avg_score <span class="ot" style="color: #003B4F;
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1">calc_avg_score <span class="ot" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">&lt;-</span> <span class="cf" style="color: #003B4F;
 background-color: null;
@@ -1261,38 +1889,38 @@ font-style: inherit;"># Shortened "calculate" to "calc"</span></span>
 <span id="cb6-2">  <span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># ...</span></span>
-<span id="cb6-3">}</span></code></pre></div>
+<span id="cb6-3">}</span></code></pre></div></div>
 </section>
 <section id="avoid-reserved-keywords" class="level3">
 <h3 class="anchored" data-anchor-id="avoid-reserved-keywords">7. Avoid Reserved Keywords</h3>
 <p>Avoid using reserved keywords or function names as variable names, as it can lead to confusion and unexpected behavior.</p>
 <p><strong>Bad Example:</strong></p>
-<div class="sourceCode" id="cb7" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><span class="co" style="color: #5E5E5E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb7" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># Avoid using 'mean' as a variable name, as it's a built-in function.</span></span>
 <span id="cb7-2">mean <span class="ot" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">&lt;-</span> <span class="dv" style="color: #AD0000;
 background-color: null;
-font-style: inherit;">42</span></span></code></pre></div>
+font-style: inherit;">42</span></span></code></pre></div></div>
 </section>
 <section id="avoid-using-dots-in-names" class="level3">
 <h3 class="anchored" data-anchor-id="avoid-using-dots-in-names">8. Avoid Using Dots in Names</h3>
 <p>While R allows you to use dots in variable names, it’s generally recommended to avoid them as it can cause ambiguity and confusion.</p>
 <p><strong>Bad Example:</strong></p>
-<div class="sourceCode" id="cb8" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1">my.variable <span class="ot" style="color: #003B4F;
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb8" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1">my.variable <span class="ot" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">&lt;-</span> <span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">10</span>   <span class="co" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;"># Avoid using dots in variable names.</span></span></code></pre></div>
+font-style: inherit;"># Avoid using dots in variable names.</span></span></code></pre></div></div>
 </section>
 <section id="indentation-and-spacing" class="level3">
 <h3 class="anchored" data-anchor-id="indentation-and-spacing">9. Indentation and Spacing</h3>
 <p>Maintain consistent indentation and spacing in your code for better readability.</p>
 <p><strong>Example:</strong></p>
-<div class="sourceCode" id="cb9" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><span class="co" style="color: #5E5E5E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb9" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># Good indentation and spacing</span></span>
 <span id="cb9-2"><span class="cf" style="color: #003B4F;
@@ -1328,7 +1956,7 @@ font-style: inherit;">else</span>{</span>
 <span id="cb9-12"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">#...</span></span>
-<span id="cb9-13">}</span></code></pre></div>
+<span id="cb9-13">}</span></code></pre></div></div>
 <p>By adhering to these naming conventions, your R code will be more readable, maintainable, and easier for others to collaborate with. Consistency in naming can make a significant difference in the understandability of your R projects. Happy coding in R!</p>
 
 
@@ -1356,7 +1984,7 @@ font-style: inherit;">#...</span></span>
 <h2 class="anchored" data-anchor-id="package-names">1. Package Names</h2>
 <p>Package names should be in all lowercase and follow the reverse domain name convention (similar to Java). Use meaningful and descriptive package names that represent the content of the package.</p>
 <p><strong>Example:</strong></p>
-<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode scala code-with-copy"><code class="sourceCode scala"><span id="cb1-1"><span class="kw" style="color: #003B4F;
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode scala code-with-copy"><code class="sourceCode scala"><span id="cb1-1"><span class="kw" style="color: #003B4F;
 background-color: null;
 font-weight: bold;
 font-style: inherit;">package</span> com<span class="op" style="color: #5E5E5E;
@@ -1365,13 +1993,13 @@ font-style: inherit;">.</span>example<span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">.</span>myapp<span class="op" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">.</span>models</span></code></pre></div>
+font-style: inherit;">.</span>models</span></code></pre></div></div>
 </section>
 <section id="object-and-class-names" class="level2">
 <h2 class="anchored" data-anchor-id="object-and-class-names">2. Object and Class Names</h2>
 <p>Class and object names should follow the PascalCase convention, starting with an uppercase letter. Use nouns or noun phrases that describe the entity.</p>
 <p><strong>Example:</strong></p>
-<div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode scala code-with-copy"><code class="sourceCode scala"><span id="cb2-1"><span class="kw" style="color: #003B4F;
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode scala code-with-copy"><code class="sourceCode scala"><span id="cb2-1"><span class="kw" style="color: #003B4F;
 background-color: null;
 font-weight: bold;
 font-style: inherit;">class</span> Car <span class="op" style="color: #5E5E5E;
@@ -1395,13 +2023,13 @@ background-color: null;
 font-style: inherit;">// ...</span></span>
 <span id="cb2-7"><span class="op" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">}</span></span></code></pre></div>
+font-style: inherit;">}</span></span></code></pre></div></div>
 </section>
 <section id="trait-names" class="level2">
 <h2 class="anchored" data-anchor-id="trait-names">3. Trait Names</h2>
 <p>Trait names should also follow the PascalCase convention. Traits represent interfaces or shared behavior, so use descriptive names that convey their purpose.</p>
 <p><strong>Example:</strong></p>
-<div class="sourceCode" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode scala code-with-copy"><code class="sourceCode scala"><span id="cb3-1"><span class="kw" style="color: #003B4F;
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode scala code-with-copy"><code class="sourceCode scala"><span id="cb3-1"><span class="kw" style="color: #003B4F;
 background-color: null;
 font-weight: bold;
 font-style: inherit;">trait</span> <span class="ex" style="color: null;
@@ -1414,13 +2042,13 @@ background-color: null;
 font-style: inherit;">// ...</span></span>
 <span id="cb3-3"><span class="op" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">}</span></span></code></pre></div>
+font-style: inherit;">}</span></span></code></pre></div></div>
 </section>
 <section id="variable-and-method-names" class="level2">
 <h2 class="anchored" data-anchor-id="variable-and-method-names">4. Variable and Method Names</h2>
 <p>Variable and method names should be in camelCase, starting with a lowercase letter. Use descriptive names that convey the purpose of the variable or method.</p>
 <p><strong>Example:</strong></p>
-<div class="sourceCode" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode scala code-with-copy"><code class="sourceCode scala"><span id="cb4-1"><span class="kw" style="color: #003B4F;
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode scala code-with-copy"><code class="sourceCode scala"><span id="cb4-1"><span class="kw" style="color: #003B4F;
 background-color: null;
 font-weight: bold;
 font-style: inherit;">val</span> userName<span class="op" style="color: #5E5E5E;
@@ -1462,13 +2090,13 @@ background-color: null;
 font-style: inherit;">// ...</span></span>
 <span id="cb4-5"><span class="op" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">}</span></span></code></pre></div>
+font-style: inherit;">}</span></span></code></pre></div></div>
 </section>
 <section id="constant-names" class="level2">
 <h2 class="anchored" data-anchor-id="constant-names">5. Constant Names</h2>
 <p>Constants (immutable values) should be in all uppercase, separated by underscores. Scala doesn’t have true constants like Java’s <code>final</code>, but it is a convention to indicate constant-like values with uppercase names.</p>
 <p><strong>Example:</strong></p>
-<div class="sourceCode" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode scala code-with-copy"><code class="sourceCode scala"><span id="cb5-1"><span class="kw" style="color: #003B4F;
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode scala code-with-copy"><code class="sourceCode scala"><span id="cb5-1"><span class="kw" style="color: #003B4F;
 background-color: null;
 font-weight: bold;
 font-style: inherit;">val</span> MAX_ATTEMPTS <span class="op" style="color: #5E5E5E;
@@ -1483,13 +2111,13 @@ font-style: inherit;">val</span> PI <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> <span class="fl" style="color: #AD0000;
 background-color: null;
-font-style: inherit;">3.14159</span></span></code></pre></div>
+font-style: inherit;">3.14159</span></span></code></pre></div></div>
 </section>
 <section id="type-parameter-names" class="level2">
 <h2 class="anchored" data-anchor-id="type-parameter-names">6. Type Parameter Names</h2>
 <p>For type parameters, use single, uppercase letters to represent the type.</p>
 <p><strong>Example:</strong></p>
-<div class="sourceCode" id="cb6" style="background: #f1f3f5;"><pre class="sourceCode scala code-with-copy"><code class="sourceCode scala"><span id="cb6-1"><span class="kw" style="color: #003B4F;
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6" style="background: #f1f3f5;"><pre class="sourceCode scala code-with-copy"><code class="sourceCode scala"><span id="cb6-1"><span class="kw" style="color: #003B4F;
 background-color: null;
 font-weight: bold;
 font-style: inherit;">class</span> MyContainer<span class="op" style="color: #5E5E5E;
@@ -1504,13 +2132,13 @@ background-color: null;
 font-style: inherit;">// ...</span></span>
 <span id="cb6-3"><span class="op" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">}</span></span></code></pre></div>
+font-style: inherit;">}</span></span></code></pre></div></div>
 </section>
 <section id="enumerations-sealed-traits" class="level2">
 <h2 class="anchored" data-anchor-id="enumerations-sealed-traits">7. Enumerations (Sealed Traits)</h2>
 <p>Scala doesn’t have a built-in enumeration type like Java, but you can create enumerations using sealed traits and case objects. Name enumeration values in PascalCase.</p>
 <p><strong>Example:</strong></p>
-<div class="sourceCode" id="cb7" style="background: #f1f3f5;"><pre class="sourceCode scala code-with-copy"><code class="sourceCode scala"><span id="cb7-1"><span class="kw" style="color: #003B4F;
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb7" style="background: #f1f3f5;"><pre class="sourceCode scala code-with-copy"><code class="sourceCode scala"><span id="cb7-1"><span class="kw" style="color: #003B4F;
 background-color: null;
 font-weight: bold;
 font-style: inherit;">sealed</span> <span class="kw" style="color: #003B4F;
@@ -1554,13 +2182,13 @@ background-color: null;
 font-weight: bold;
 font-style: inherit;">extends</span> <span class="ex" style="color: null;
 background-color: null;
-font-style: inherit;">Color</span></span></code></pre></div>
+font-style: inherit;">Color</span></span></code></pre></div></div>
 </section>
 <section id="package-object" class="level2">
 <h2 class="anchored" data-anchor-id="package-object">8. Package Object</h2>
 <p>If you have utility functions/constants that are closely related to a package, you can use a package object. Name the package object as <code>package.scala</code>.</p>
 <p><strong>Example:</strong></p>
-<div class="sourceCode" id="cb8" style="background: #f1f3f5;"><pre class="sourceCode scala code-with-copy"><code class="sourceCode scala"><span id="cb8-1"><span class="kw" style="color: #003B4F;
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb8" style="background: #f1f3f5;"><pre class="sourceCode scala code-with-copy"><code class="sourceCode scala"><span id="cb8-1"><span class="kw" style="color: #003B4F;
 background-color: null;
 font-weight: bold;
 font-style: inherit;">package</span> com<span class="op" style="color: #5E5E5E;
@@ -1614,13 +2242,13 @@ background-color: null;
 font-style: inherit;">}</span></span>
 <span id="cb8-8"><span class="op" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">}</span></span></code></pre></div>
+font-style: inherit;">}</span></span></code></pre></div></div>
 </section>
 <section id="indentation-and-bracing" class="level2">
 <h2 class="anchored" data-anchor-id="indentation-and-bracing">9. Indentation and Bracing</h2>
 <p>Though not directly related to naming conventions, following consistent indentation and bracing style is important for maintaining readable code.</p>
 <p><strong>Example:</strong></p>
-<div class="sourceCode" id="cb9" style="background: #f1f3f5;"><pre class="sourceCode scala code-with-copy"><code class="sourceCode scala"><span id="cb9-1"><span class="kw" style="color: #003B4F;
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb9" style="background: #f1f3f5;"><pre class="sourceCode scala code-with-copy"><code class="sourceCode scala"><span id="cb9-1"><span class="kw" style="color: #003B4F;
 background-color: null;
 font-weight: bold;
 font-style: inherit;">def</span> <span class="fu" style="color: #4758AB;
@@ -1705,7 +2333,7 @@ background-color: null;
 font-style: inherit;">}</span></span>
 <span id="cb9-9"><span class="op" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">}</span></span></code></pre></div>
+font-style: inherit;">}</span></span></code></pre></div></div>
 <p>By following these naming conventions, your Scala code will become more readable, and it will be easier for other developers to understand and collaborate on your projects. Consistency in naming also plays a significant role in creating a maintainable codebase. Happy coding in Scala!</p>
 
 
@@ -1747,7 +2375,7 @@ font-style: inherit;">}</span></span></code></pre></div>
 <h2 class="anchored" data-anchor-id="slack-notifications-to-a-bovi-analytics-channel-in-your-pipeline">Slack notifications to a Bovi-Analytics channel in your pipeline</h2>
 <section id="install-drivers-to-your-notebook" class="level3">
 <h3 class="anchored" data-anchor-id="install-drivers-to-your-notebook">Install drivers to your notebook</h3>
-<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="co" style="color: #5E5E5E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># prompt: Send a message to slack channel</span></span>
 <span id="cb1-2"></span>
@@ -1763,21 +2391,21 @@ font-style: inherit;">import</span> WebClient</span>
 background-color: null;
 font-style: inherit;">from</span> slack_sdk.errors <span class="im" style="color: #00769E;
 background-color: null;
-font-style: inherit;">import</span> SlackApiError</span></code></pre></div>
+font-style: inherit;">import</span> SlackApiError</span></code></pre></div></div>
 </section>
 <section id="create-slack-api-client-with-token" class="level3">
 <h3 class="anchored" data-anchor-id="create-slack-api-client-with-token">Create slack-api client with token</h3>
-<div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1">client <span class="op" style="color: #5E5E5E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1">client <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> WebClient(token<span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span><span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">'token is in the description of the pushnotifications channel on bovi-analytics'</span>)</span></code></pre></div>
+font-style: inherit;">'token is in the description of the pushnotifications channel on bovi-analytics'</span>)</span></code></pre></div></div>
 </section>
 <section id="create-message-and-send-it" class="level3">
 <h3 class="anchored" data-anchor-id="create-message-and-send-it">Create message and send it</h3>
-<div class="sourceCode" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><span class="cf" style="color: #003B4F;
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><span class="cf" style="color: #003B4F;
 background-color: null;
 font-weight: bold;
 font-style: inherit;">try</span>:</span>
@@ -1818,7 +2446,7 @@ background-color: null;
 font-style: inherit;"># e.g., 'invalid_auth', 'channel_not_found'</span></span>
 <span id="cb3-11">    <span class="bu" style="color: null;
 background-color: null;
-font-style: inherit;">print</span>(e)</span></code></pre></div>
+font-style: inherit;">print</span>(e)</span></code></pre></div></div>
 
 
 </section>
@@ -1909,7 +2537,7 @@ font-style: inherit;">print</span>(e)</span></code></pre></div>
 
  ]]></description>
   <guid>https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/tools.html</guid>
-  <pubDate>Mon, 08 Sep 2025 18:11:18 GMT</pubDate>
+  <pubDate>Wed, 08 Oct 2025 18:22:54 GMT</pubDate>
 </item>
 </channel>
 </rss>
