@@ -45,8 +45,6 @@
 <figcaption>arXiv homepage</figcaption>
 </figure>
 </div>
-<p><strong>Screenshot name:</strong> <code>arxiv-01-homepage.png</code></p>
-<p><strong>What to capture:</strong> The main arXiv homepage showing the search bar and navigation menu.</p>
 </section>
 <section id="register-for-an-account" class="level3">
 <h3 class="anchored" data-anchor-id="register-for-an-account">1.2 Register for an Account</h3>
@@ -57,98 +55,24 @@
 <figcaption>Registration link location</figcaption>
 </figure>
 </div>
-<p><strong>Screenshot name:</strong> <code>arxiv-02-register-link.png</code></p>
-<p><strong>What to capture:</strong> Highlight the “register” link in the top navigation bar.</p>
 </section>
 <section id="complete-registration-form" class="level3">
 <h3 class="anchored" data-anchor-id="complete-registration-form">1.3 Complete Registration Form</h3>
 <p>Fill in your email address, username, and create a password. You’ll also need to provide your full name and affiliation.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/tutorials/images/arxiv-03-registration-form.png" class="img-fluid figure-img"></p>
-<figcaption>Registration form</figcaption>
-</figure>
-</div>
-<p><strong>Screenshot name:</strong> <code>arxiv-03-registration-form.png</code></p>
-<p><strong>What to capture:</strong> The registration form with empty fields visible.</p>
 </section>
 <section id="verify-your-email" class="level3">
 <h3 class="anchored" data-anchor-id="verify-your-email">1.4 Verify Your Email</h3>
-<p>Check your email inbox for a verification message from arXiv and click the verification link.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/tutorials/images/arxiv-04-email-verification.png" class="img-fluid figure-img"></p>
-<figcaption>Email verification message</figcaption>
-</figure>
-</div>
-<p><strong>Screenshot name:</strong> <code>arxiv-04-email-verification.png</code></p>
-<p><strong>What to capture:</strong> The verification email from arXiv in your inbox.</p>
+<p>Check your email inbox for a verification message from arXiv and click the verification link to activate your account.</p>
 </section>
 </section>
-<section id="step-2-endorsement-if-required" class="level2">
-<h2 class="anchored" data-anchor-id="step-2-endorsement-if-required">Step 2: Endorsement (If Required)</h2>
-<p>For first-time submitters in certain categories, you may need endorsement from an established arXiv author.</p>
-<section id="check-endorsement-requirements" class="level3">
-<h3 class="anchored" data-anchor-id="check-endorsement-requirements">2.1 Check Endorsement Requirements</h3>
-<p>After logging in, navigate to the submission page. If you need endorsement, you’ll see a notification.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/tutorials/images/arxiv-05-endorsement-notice.png" class="img-fluid figure-img"></p>
-<figcaption>Endorsement notification</figcaption>
-</figure>
-</div>
-<p><strong>Screenshot name:</strong> <code>arxiv-05-endorsement-notice.png</code></p>
-<p><strong>What to capture:</strong> The endorsement requirement message if it appears.</p>
+<section id="step-2-log-in-to-your-account" class="level2">
+<h2 class="anchored" data-anchor-id="step-2-log-in-to-your-account">Step 2: Log In to Your Account</h2>
+<p>Once your email is verified, return to the arXiv homepage and click “login” in the top right corner. Enter your username/email and password, then click “Sign In.”</p>
 </section>
-<section id="request-endorsement" class="level3">
-<h3 class="anchored" data-anchor-id="request-endorsement">2.2 Request Endorsement</h3>
-<p>If needed, you can request endorsement from colleagues who are established arXiv authors in your field. They will receive an email to endorse you.</p>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Note
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Not all categories require endorsement. Many fields allow automatic submission privileges.</p>
-</div>
-</div>
-</section>
-</section>
-<section id="step-3-log-in-to-your-account" class="level2">
-<h2 class="anchored" data-anchor-id="step-3-log-in-to-your-account">Step 3: Log In to Your Account</h2>
-<section id="access-login-page" class="level3">
-<h3 class="anchored" data-anchor-id="access-login-page">3.1 Access Login Page</h3>
-<p>Click “login” in the top right corner of the arXiv homepage.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/tutorials/images/arxiv-06-login-link.png" class="img-fluid figure-img"></p>
-<figcaption>Login link</figcaption>
-</figure>
-</div>
-<p><strong>Screenshot name:</strong> <code>arxiv-06-login-link.png</code></p>
-<p><strong>What to capture:</strong> The login link in the navigation bar.</p>
-</section>
-<section id="enter-credentials" class="level3">
-<h3 class="anchored" data-anchor-id="enter-credentials">3.2 Enter Credentials</h3>
-<p>Enter your username/email and password, then click “Sign In.”</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/tutorials/images/arxiv-07-login-form.png" class="img-fluid figure-img"></p>
-<figcaption>Login form</figcaption>
-</figure>
-</div>
-<p><strong>Screenshot name:</strong> <code>arxiv-07-login-form.png</code></p>
-<p><strong>What to capture:</strong> The login form with empty credential fields.</p>
-</section>
-</section>
-<section id="step-4-start-a-new-submission" class="level2">
-<h2 class="anchored" data-anchor-id="step-4-start-a-new-submission">Step 4: Start a New Submission</h2>
+<section id="step-3-start-a-new-submission" class="level2">
+<h2 class="anchored" data-anchor-id="step-3-start-a-new-submission">Step 3: Start a New Submission</h2>
 <section id="navigate-to-submit" class="level3">
-<h3 class="anchored" data-anchor-id="navigate-to-submit">4.1 Navigate to Submit</h3>
+<h3 class="anchored" data-anchor-id="navigate-to-submit">3.1 Navigate to Submit</h3>
 <p>Once logged in, click on “Submit” in the top navigation menu.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -156,26 +80,102 @@ Note
 <figcaption>Submit button location</figcaption>
 </figure>
 </div>
-<p><strong>Screenshot name:</strong> <code>arxiv-08-submit-button.png</code></p>
-<p><strong>What to capture:</strong> The “Submit” option in the top menu after logging in.</p>
 </section>
 <section id="choose-submission-type" class="level3">
-<h3 class="anchored" data-anchor-id="choose-submission-type">4.2 Choose Submission Type</h3>
-<p>Select whether you’re submitting a new paper or replacing/updating an existing one.</p>
+<h3 class="anchored" data-anchor-id="choose-submission-type">3.2 Choose Submission Type</h3>
+<p>Select whether you’re submitting a new paper or replacing/updating an existing one. For your first submission, choose “START NEW SUBMISSION.”</p>
+</section>
+<section id="understand-arxiv-licenses" class="level3">
+<h3 class="anchored" data-anchor-id="understand-arxiv-licenses">3.3 Understand arXiv Licenses</h3>
+<p>Before you proceed with the submission, it’s important to understand the license options available. You’ll need to choose a license later in the process, so familiarizing yourself with the options now will help you make an informed decision.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/tutorials/images/arxiv-09-submission-type.png" class="img-fluid figure-img"></p>
-<figcaption>Submission type selection</figcaption>
+<p><img src="https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/tutorials/images/Licensing Statement.png" class="img-fluid figure-img"></p>
+<figcaption>Licensing Statement</figcaption>
 </figure>
 </div>
-<p><strong>Screenshot name:</strong> <code>arxiv-09-submission-type.png</code></p>
-<p><strong>What to capture:</strong> The page showing options for new submission vs.&nbsp;replacement.</p>
+<section id="license-options-explained" class="level4">
+<h4 class="anchored" data-anchor-id="license-options-explained">License Options Explained:</h4>
+<section id="arxiv.org-perpetual-non-exclusive-license-to-distribute-default" class="level5">
+<h5 class="anchored" data-anchor-id="arxiv.org-perpetual-non-exclusive-license-to-distribute-default">1. arXiv.org perpetual, non-exclusive license to distribute (Default)</h5>
+<p>This is the standard arXiv license. Under this license:</p>
+<ul>
+<li>You grant arXiv a perpetual, non-exclusive right to distribute your work</li>
+<li>You retain copyright and all other rights to your work</li>
+<li>You can publish the paper elsewhere, including in journals</li>
+<li>You can make the paper available on your own website</li>
+<li>Others can read and download your paper, but cannot redistribute or reuse it without permission</li>
+<li><strong>Best for:</strong> Most academic papers, especially if you plan to publish in a journal later</li>
+</ul>
+</section>
+<section id="creative-commons-attribution-cc-by-4.0" class="level5">
+<h5 class="anchored" data-anchor-id="creative-commons-attribution-cc-by-4.0">2. Creative Commons Attribution (CC BY 4.0)</h5>
+<p>This is the most permissive Creative Commons license:</p>
+<ul>
+<li>Anyone can share, copy, and redistribute your work in any format</li>
+<li>Anyone can adapt, remix, transform, and build upon your work for any purpose, even commercially</li>
+<li>They must give appropriate credit, provide a link to the license, and indicate if changes were made</li>
+<li><strong>Best for:</strong> Papers where you want maximum dissemination and reuse, including commercial applications</li>
+</ul>
+</section>
+<section id="creative-commons-attribution-sharealike-cc-by-sa-4.0" class="level5">
+<h5 class="anchored" data-anchor-id="creative-commons-attribution-sharealike-cc-by-sa-4.0">3. Creative Commons Attribution-ShareAlike (CC BY-SA 4.0)</h5>
+<p>Similar to CC BY, but with an additional requirement:</p>
+<ul>
+<li>Same permissions as CC BY</li>
+<li>If someone remixes or builds upon your work, they must distribute their contributions under the same CC BY-SA license</li>
+<li>This creates a “copyleft” effect, ensuring derivatives remain open</li>
+<li><strong>Best for:</strong> Papers where you want to ensure derivative works remain freely available</li>
+</ul>
+</section>
+<section id="creative-commons-attribution-noncommercial-sharealike-cc-by-nc-sa-4.0" class="level5">
+<h5 class="anchored" data-anchor-id="creative-commons-attribution-noncommercial-sharealike-cc-by-nc-sa-4.0">4. Creative Commons Attribution-NonCommercial-ShareAlike (CC BY-NC-SA 4.0)</h5>
+<p>More restrictive than CC BY-SA:</p>
+<ul>
+<li>Similar to CC BY-SA, but prohibits commercial use</li>
+<li>Others can share and adapt your work for non-commercial purposes only</li>
+<li>They must give credit and license their derivatives under the same terms</li>
+<li><strong>Best for:</strong> Papers where you want to prevent commercial exploitation while allowing academic reuse</li>
+</ul>
+</section>
+<section id="creative-commons-cc0-1.0-universal-public-domain-dedication" class="level5">
+<h5 class="anchored" data-anchor-id="creative-commons-cc0-1.0-universal-public-domain-dedication">5. Creative Commons CC0 1.0 Universal (Public Domain Dedication)</h5>
+<p>The most permissive option:</p>
+<ul>
+<li>You waive all copyright and related rights to your work</li>
+<li>Anyone can use your work for any purpose without restrictions</li>
+<li>No attribution is legally required (though it’s academically expected)</li>
+<li><strong>Best for:</strong> Data papers, methodological papers, or work you want to dedicate to the public domain</li>
+</ul>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Important</span>Choosing Your License
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Consider these factors when selecting a license:</p>
+<ol type="1">
+<li><p><strong>Journal requirements:</strong> Some journals require certain licenses or may not accept papers under specific Creative Commons licenses. Check journal policies before choosing.</p></li>
+<li><p><strong>Future publications:</strong> If you plan to publish in a traditional journal later, the default arXiv license is usually safest.</p></li>
+<li><p><strong>Reuse intentions:</strong> If you want others to build upon your work freely, consider CC BY or CC BY-SA.</p></li>
+<li><p><strong>Commercial concerns:</strong> If you’re concerned about commercial use of your work, consider CC BY-NC-SA.</p></li>
+<li><p><strong>Collaboration:</strong> Discuss with all co-authors before selecting a license, as all authors must agree.</p></li>
+</ol>
+<p><strong>When in doubt, use the default arXiv license.</strong> It’s the most conservative option and won’t interfere with future publication plans.</p>
+</div>
+</div>
 </section>
 </section>
-<section id="step-5-upload-your-files" class="level2">
-<h2 class="anchored" data-anchor-id="step-5-upload-your-files">Step 5: Upload Your Files</h2>
+</section>
+</section>
+<section id="step-4-upload-your-files" class="level2">
+<h2 class="anchored" data-anchor-id="step-4-upload-your-files">Step 4: Upload Your Files</h2>
 <section id="select-file-format" class="level3">
-<h3 class="anchored" data-anchor-id="select-file-format">5.1 Select File Format</h3>
+<h3 class="anchored" data-anchor-id="select-file-format">4.1 Select File Format</h3>
 <p>Choose your submission format. arXiv accepts:</p>
 <ul>
 <li><strong>LaTeX</strong> (recommended for papers with equations)</li>
@@ -189,25 +189,15 @@ Note
 <figcaption>File format selection</figcaption>
 </figure>
 </div>
-<p><strong>Screenshot name:</strong> <code>arxiv-10-file-format.png</code></p>
-<p><strong>What to capture:</strong> The file format selection dropdown or radio buttons.</p>
 </section>
 <section id="upload-files-latex-method" class="level3">
-<h3 class="anchored" data-anchor-id="upload-files-latex-method">5.2 Upload Files (LaTeX Method)</h3>
+<h3 class="anchored" data-anchor-id="upload-files-latex-method">4.2 Upload Files (LaTeX Method)</h3>
 <p>If submitting LaTeX files:</p>
 <ol type="1">
 <li>Upload your main <code>.tex</code> file</li>
 <li>Upload all associated files (<code>.bbl</code>, <code>.sty</code>, figure files, etc.)</li>
 <li>You can upload a <code>.zip</code> or <code>.tar.gz</code> archive containing all files</li>
 </ol>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/tutorials/images/arxiv-11-latex-upload.png" class="img-fluid figure-img"></p>
-<figcaption>LaTeX file upload interface</figcaption>
-</figure>
-</div>
-<p><strong>Screenshot name:</strong> <code>arxiv-11-latex-upload.png</code></p>
-<p><strong>What to capture:</strong> The file upload interface showing the upload button and file list area.</p>
 <div class="callout callout-style-default callout-important callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -223,25 +213,18 @@ Note
 <li>Use standard LaTeX packages available on arXiv</li>
 <li>Ensure all figure files are in supported formats (PNG, JPG, PDF, EPS)</li>
 <li>Remove any confidential or personal file paths from your <code>.tex</code> file</li>
+<li>The main file should typically be named <code>main.tex</code> or similar</li>
 </ul>
 </div>
 </div>
 </section>
 <section id="upload-files-pdf-method" class="level3">
-<h3 class="anchored" data-anchor-id="upload-files-pdf-method">5.3 Upload Files (PDF Method)</h3>
+<h3 class="anchored" data-anchor-id="upload-files-pdf-method">4.3 Upload Files (PDF Method)</h3>
 <p>If submitting a PDF:</p>
 <ol type="1">
 <li>Click “Choose File” or drag and drop your PDF</li>
 <li>Ensure the PDF meets arXiv requirements (text-searchable, no restrictions)</li>
 </ol>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/tutorials/images/arxiv-12-pdf-upload.png" class="img-fluid figure-img"></p>
-<figcaption>PDF upload interface</figcaption>
-</figure>
-</div>
-<p><strong>Screenshot name:</strong> <code>arxiv-12-pdf-upload.png</code></p>
-<p><strong>What to capture:</strong> The PDF upload interface with drag-and-drop area.</p>
 <div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -257,111 +240,70 @@ Note
 <li>Must be searchable (not a scanned image)</li>
 <li>No security restrictions or encryption</li>
 <li>Embed all fonts</li>
+<li>Ensure high-quality rendering of equations and figures</li>
 </ul>
 </div>
 </div>
 </section>
 <section id="process-files" class="level3">
-<h3 class="anchored" data-anchor-id="process-files">5.4 Process Files</h3>
-<p>Click “Process Files” to allow arXiv to process your submission.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/tutorials/images/arxiv-13-process-button.png" class="img-fluid figure-img"></p>
-<figcaption>Process files button</figcaption>
-</figure>
-</div>
-<p><strong>Screenshot name:</strong> <code>arxiv-13-process-button.png</code></p>
-<p><strong>What to capture:</strong> The “Process Files” button after files are uploaded.</p>
+<h3 class="anchored" data-anchor-id="process-files">4.4 Process Files</h3>
+<p>Click “Process Files” to allow arXiv to process your submission. The system will compile your LaTeX files or validate your PDF.</p>
 </section>
 <section id="review-processed-output" class="level3">
-<h3 class="anchored" data-anchor-id="review-processed-output">5.5 Review Processed Output</h3>
-<p>arXiv will generate a PDF from your files. Review it carefully to ensure everything appears correctly.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/tutorials/images/arxiv-14-pdf-preview.png" class="img-fluid figure-img"></p>
-<figcaption>Processed PDF preview</figcaption>
-</figure>
-</div>
-<p><strong>Screenshot name:</strong> <code>arxiv-14-pdf-preview.png</code></p>
-<p><strong>What to capture:</strong> The PDF preview window showing the processed document.</p>
+<h3 class="anchored" data-anchor-id="review-processed-output">4.5 Review Processed Output</h3>
+<p>arXiv will generate a PDF from your files. Review it carefully to ensure:</p>
+<ul>
+<li>All equations render correctly</li>
+<li>Figures appear in the right locations</li>
+<li>References and citations are properly formatted</li>
+<li>Page breaks are appropriate</li>
+<li>No compilation warnings or errors</li>
+</ul>
+<p>If there are issues, you can go back and fix your files before proceeding.</p>
 </section>
 </section>
-<section id="step-6-add-metadata" class="level2">
-<h2 class="anchored" data-anchor-id="step-6-add-metadata">Step 6: Add Metadata</h2>
+<section id="step-5-add-metadata" class="level2">
+<h2 class="anchored" data-anchor-id="step-5-add-metadata">Step 5: Add Metadata</h2>
 <section id="enter-title" class="level3">
-<h3 class="anchored" data-anchor-id="enter-title">6.1 Enter Title</h3>
-<p>Provide the complete title of your paper. Avoid using LaTeX commands in the title field unless necessary.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/tutorials/images/arxiv-15-title-field.png" class="img-fluid figure-img"></p>
-<figcaption>Title input field</figcaption>
-</figure>
-</div>
-<p><strong>Screenshot name:</strong> <code>arxiv-15-title-field.png</code></p>
-<p><strong>What to capture:</strong> The title input field on the metadata page.</p>
+<h3 class="anchored" data-anchor-id="enter-title">5.1 Enter Title</h3>
+<p>Provide the complete title of your paper. Avoid using excessive LaTeX commands in the title field unless necessary for mathematical notation.</p>
 </section>
 <section id="add-authors" class="level3">
-<h3 class="anchored" data-anchor-id="add-authors">6.2 Add Authors</h3>
-<p>Enter all authors in order. Include:</p>
+<h3 class="anchored" data-anchor-id="add-authors">5.2 Add Authors</h3>
+<p>Enter all authors in order. For each author, include:</p>
 <ul>
-<li>Full names</li>
-<li>Affiliations</li>
-<li>ORCID iDs (if available)</li>
+<li>Full names (first name and last name)</li>
+<li>Affiliations (institutional affiliation)</li>
+<li>ORCID iDs (if available and recommended for identification)</li>
 </ul>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/tutorials/images/arxiv-16-authors-field.png" class="img-fluid figure-img"></p>
-<figcaption>Author input interface</figcaption>
-</figure>
-</div>
-<p><strong>Screenshot name:</strong> <code>arxiv-16-authors-field.png</code></p>
-<p><strong>What to capture:</strong> The author addition interface showing fields for name and affiliation.</p>
+<p>You can add multiple authors by clicking the “Add Author” button. Ensure the author order is correct as this cannot be easily changed after publication.</p>
 </section>
 <section id="write-abstract" class="level3">
-<h3 class="anchored" data-anchor-id="write-abstract">6.3 Write Abstract</h3>
+<h3 class="anchored" data-anchor-id="write-abstract">5.3 Write Abstract</h3>
 <p>Paste or type your abstract. Keep it concise (typically 250-500 words) and avoid:</p>
 <ul>
-<li>Excessive mathematical notation</li>
-<li>References to figures or tables</li>
+<li>Excessive mathematical notation (use plain text descriptions where possible)</li>
+<li>References to figures, tables, or equations</li>
 <li>Bibliographic citations</li>
+<li>Unnecessary formatting</li>
 </ul>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/tutorials/images/arxiv-17-abstract-field.png" class="img-fluid figure-img"></p>
-<figcaption>Abstract input field</figcaption>
-</figure>
-</div>
-<p><strong>Screenshot name:</strong> <code>arxiv-17-abstract-field.png</code></p>
-<p><strong>What to capture:</strong> The abstract text box with character count if visible.</p>
+<p>The abstract should provide a clear, standalone summary of your paper’s contributions and findings.</p>
 </section>
 <section id="enter-comments-optional" class="level3">
-<h3 class="anchored" data-anchor-id="enter-comments-optional">6.4 Enter Comments (Optional)</h3>
-<p>In the comments field, you can add:</p>
+<h3 class="anchored" data-anchor-id="enter-comments-optional">5.4 Enter Comments (Optional)</h3>
+<p>In the comments field, you can add useful information such as:</p>
 <ul>
-<li>Number of pages and figures</li>
-<li>Submission status (e.g., “Submitted to Journal X”)</li>
-<li>Other relevant information</li>
+<li>Number of pages and figures (e.g., “23 pages, 8 figures”)</li>
+<li>Submission status (e.g., “Submitted to IEEE Transactions on Neural Networks”)</li>
+<li>Conference information (e.g., “Accepted at NeurIPS 2025”)</li>
+<li>Related papers or previous versions</li>
+<li>Other relevant context</li>
 </ul>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/tutorials/images/arxiv-18-comments-field.png" class="img-fluid figure-img"></p>
-<figcaption>Comments field</figcaption>
-</figure>
-</div>
-<p><strong>Screenshot name:</strong> <code>arxiv-18-comments-field.png</code></p>
-<p><strong>What to capture:</strong> The optional comments input field.</p>
 </section>
 <section id="select-categories" class="level3">
-<h3 class="anchored" data-anchor-id="select-categories">6.5 Select Categories</h3>
-<p>Choose the primary category that best fits your paper, and optionally select cross-list categories.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/tutorials/images/arxiv-19-category-selection.png" class="img-fluid figure-img"></p>
-<figcaption>Category selection</figcaption>
-</figure>
-</div>
-<p><strong>Screenshot name:</strong> <code>arxiv-19-category-selection.png</code></p>
-<p><strong>What to capture:</strong> The category dropdown menus showing available options.</p>
+<h3 class="anchored" data-anchor-id="select-categories">5.5 Select Categories</h3>
+<p>Choose the primary category that best fits your paper. This is crucial as it determines where your paper will appear in arXiv’s listings.</p>
+<p>You can also select cross-list categories if your paper is relevant to multiple fields. However, be selective and only cross-list to genuinely relevant categories.</p>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -374,263 +316,330 @@ Note
 <div class="callout-body-container callout-body">
 <ul>
 <li><strong>cs.AI</strong> - Artificial Intelligence</li>
-<li><strong>cs.LG</strong> - Machine Learning</li>
+<li><strong>cs.LG</strong> - Machine Learning<br>
+</li>
+<li><strong>cs.CL</strong> - Computation and Language</li>
+<li><strong>cs.CV</strong> - Computer Vision and Pattern Recognition</li>
 <li><strong>stat.ML</strong> - Machine Learning (Statistics)</li>
 <li><strong>math.ST</strong> - Statistics Theory</li>
-<li><strong>physics</strong> - Various physics subcategories</li>
-<li><strong>econ</strong> - Economics</li>
+<li><strong>physics.data-an</strong> - Data Analysis, Statistics and Probability</li>
+<li><strong>q-bio</strong> - Quantitative Biology</li>
+<li><strong>econ.EM</strong> - Econometrics</li>
 </ul>
 </div>
 </div>
 </section>
 <section id="add-report-number-optional" class="level3">
-<h3 class="anchored" data-anchor-id="add-report-number-optional">6.6 Add Report Number (Optional)</h3>
-<p>If your paper has an institutional report number, enter it here.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/tutorials/images/arxiv-20-report-number.png" class="img-fluid figure-img"></p>
-<figcaption>Report number field</figcaption>
-</figure>
-</div>
-<p><strong>Screenshot name:</strong> <code>arxiv-20-report-number.png</code></p>
-<p><strong>What to capture:</strong> The report number input field.</p>
+<h3 class="anchored" data-anchor-id="add-report-number-optional">5.6 Add Report Number (Optional)</h3>
+<p>If your paper has an institutional report number or technical report number, enter it here. This is typically used by research institutions or laboratories.</p>
 </section>
 <section id="add-journal-reference-if-published" class="level3">
-<h3 class="anchored" data-anchor-id="add-journal-reference-if-published">6.7 Add Journal Reference (If Published)</h3>
-<p>If your paper is already published, add the journal reference. Format: “Journal Name, Volume, Pages (Year)”</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/tutorials/images/arxiv-21-journal-ref.png" class="img-fluid figure-img"></p>
-<figcaption>Journal reference field</figcaption>
-</figure>
-</div>
-<p><strong>Screenshot name:</strong> <code>arxiv-21-journal-ref.png</code></p>
-<p><strong>What to capture:</strong> The journal reference input field.</p>
+<h3 class="anchored" data-anchor-id="add-journal-reference-if-published">5.7 Add Journal Reference (If Published)</h3>
+<p>If your paper is already published or accepted in a journal, add the journal reference.</p>
+<p>Format: “Journal Name, Volume(Issue), Pages (Year)”</p>
+<p>Example: “Nature Communications, 12(1), 1234-1245 (2021)”</p>
 </section>
 <section id="add-doi-if-available" class="level3">
-<h3 class="anchored" data-anchor-id="add-doi-if-available">6.8 Add DOI (If Available)</h3>
-<p>If your paper has a DOI, enter it here.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/tutorials/images/arxiv-22-doi-field.png" class="img-fluid figure-img"></p>
-<figcaption>DOI field</figcaption>
-</figure>
-</div>
-<p><strong>Screenshot name:</strong> <code>arxiv-22-doi-field.png</code></p>
-<p><strong>What to capture:</strong> The DOI input field.</p>
+<h3 class="anchored" data-anchor-id="add-doi-if-available">5.8 Add DOI (If Available)</h3>
+<p>If your paper has been published and has a Digital Object Identifier (DOI), enter it here. This helps link the arXiv version to the published version.</p>
+<p>Format: Enter only the DOI string (e.g., “10.1038/s41467-021-12345-6”), not the full URL.</p>
 </section>
 </section>
-<section id="step-7-review-your-submission" class="level2">
-<h2 class="anchored" data-anchor-id="step-7-review-your-submission">Step 7: Review Your Submission</h2>
+<section id="step-6-review-your-submission" class="level2">
+<h2 class="anchored" data-anchor-id="step-6-review-your-submission">Step 6: Review Your Submission</h2>
 <section id="preview-complete-submission" class="level3">
-<h3 class="anchored" data-anchor-id="preview-complete-submission">7.1 Preview Complete Submission</h3>
-<p>Review all metadata and the generated PDF carefully. Check for:</p>
+<h3 class="anchored" data-anchor-id="preview-complete-submission">6.1 Preview Complete Submission</h3>
+<p>Carefully review all metadata and the generated PDF. Check for:</p>
 <ul>
-<li>Correct title and author information</li>
-<li>Proper abstract formatting</li>
-<li>Accurate category selection</li>
+<li>Correct title spelling and formatting</li>
+<li>All author names and affiliations are accurate</li>
+<li>Abstract is complete and properly formatted</li>
+<li>Correct category selection</li>
 <li>PDF rendering quality (equations, figures, tables)</li>
+<li>No missing references or broken citations</li>
 </ul>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/tutorials/images/arxiv-23-preview-page.png" class="img-fluid figure-img"></p>
-<figcaption>Submission preview page</figcaption>
-</figure>
-</div>
-<p><strong>Screenshot name:</strong> <code>arxiv-23-preview-page.png</code></p>
-<p><strong>What to capture:</strong> The full preview page showing all metadata and PDF.</p>
+<p>This is your last chance to catch errors before submission, so take your time reviewing.</p>
 </section>
 <section id="make-corrections-if-needed" class="level3">
-<h3 class="anchored" data-anchor-id="make-corrections-if-needed">7.2 Make Corrections (If Needed)</h3>
-<p>If you notice any errors, click “Previous” or the edit buttons to go back and make corrections.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/tutorials/images/arxiv-24-edit-buttons.png" class="img-fluid figure-img"></p>
-<figcaption>Edit buttons location</figcaption>
-</figure>
-</div>
-<p><strong>Screenshot name:</strong> <code>arxiv-24-edit-buttons.png</code></p>
-<p><strong>What to capture:</strong> The buttons for going back or editing sections.</p>
+<h3 class="anchored" data-anchor-id="make-corrections-if-needed">6.2 Make Corrections (If Needed)</h3>
+<p>If you notice any errors, use the “Previous” button to go back and make corrections. You can edit any section without losing your progress.</p>
 </section>
 </section>
-<section id="step-8-submit-your-paper" class="level2">
-<h2 class="anchored" data-anchor-id="step-8-submit-your-paper">Step 8: Submit Your Paper</h2>
-<section id="accept-policies" class="level3">
-<h3 class="anchored" data-anchor-id="accept-policies">8.1 Accept Policies</h3>
-<p>Read and accept arXiv’s submission policies and license agreement.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/tutorials/images/arxiv-25-policy-acceptance.png" class="img-fluid figure-img"></p>
-<figcaption>Policy acceptance checkboxes</figcaption>
-</figure>
+<section id="step-7-submit-your-paper" class="level2">
+<h2 class="anchored" data-anchor-id="step-7-submit-your-paper">Step 7: Submit Your Paper</h2>
+<section id="accept-policies-and-select-license" class="level3">
+<h3 class="anchored" data-anchor-id="accept-policies-and-select-license">7.1 Accept Policies and Select License</h3>
+<p>Read arXiv’s submission policies carefully. Check the box to indicate you’ve read and agree to:</p>
+<ul>
+<li>The submission terms and conditions</li>
+<li>arXiv’s moderation policies</li>
+<li>The licensing terms</li>
+</ul>
+<p>Select your preferred license from the dropdown menu (refer back to Step 3.3 for detailed guidance on choosing the right license).</p>
+</section>
+<section id="final-submission" class="level3">
+<h3 class="anchored" data-anchor-id="final-submission">7.2 Final Submission</h3>
+<p>Click the “Submit Article” or “SUBMIT” button to complete your submission.</p>
+</section>
+<section id="confirmation" class="level3">
+<h3 class="anchored" data-anchor-id="confirmation">7.3 Confirmation</h3>
+<p>You’ll receive a confirmation screen with:</p>
+<ul>
+<li>Your submission identifier (e.g., a temporary ID)</li>
+<li>Expected announcement date</li>
+<li>Instructions for what happens next</li>
+</ul>
+<p><strong>Important:</strong> Save or screenshot this confirmation page for your records.</p>
+</section>
+</section>
+<section id="step-8-after-submission" class="level2">
+<h2 class="anchored" data-anchor-id="step-8-after-submission">Step 8: After Submission</h2>
+<section id="email-confirmation" class="level3">
+<h3 class="anchored" data-anchor-id="email-confirmation">8.1 Email Confirmation</h3>
+<p>Within a few minutes, you should receive a confirmation email from arXiv containing:</p>
+<ul>
+<li>Your submission details</li>
+<li>Submission ID</li>
+<li>Expected processing timeline</li>
+</ul>
+<p>If you don’t receive this email within an hour, check your spam folder or contact arXiv support.</p>
+</section>
+<section id="moderation-process" class="level3">
+<h3 class="anchored" data-anchor-id="moderation-process">8.2 Moderation Process</h3>
+<p>Your submission will be reviewed by arXiv moderators to ensure:</p>
+<ul>
+<li>It’s scholarly work appropriate for arXiv</li>
+<li>Files are processable and the PDF is readable</li>
+<li>Metadata is complete and accurate</li>
+<li>The submission follows arXiv policies</li>
+</ul>
+<p>This process typically takes <strong>1-2 business days</strong> (excluding weekends and holidays).</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
 </div>
-<p><strong>Screenshot name:</strong> <code>arxiv-25-policy-acceptance.png</code></p>
-<p><strong>What to capture:</strong> The policy agreement checkboxes.</p>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Moderators don’t peer-review your paper’s scientific content. They only check that it meets arXiv’s technical and policy requirements.</p>
+</div>
+</div>
+</section>
+<section id="publication-schedule" class="level3">
+<h3 class="anchored" data-anchor-id="publication-schedule">8.3 Publication Schedule</h3>
+<p>If approved, your paper will be announced and published according to arXiv’s schedule:</p>
+<ul>
+<li>Submissions are typically announced <strong>Sunday through Thursday evenings</strong> (US Eastern Time)</li>
+<li>Papers submitted before the deadline (typically 2 PM EST) are announced the next business day</li>
+<li>Papers submitted after the deadline are announced the following business day</li>
+</ul>
+</section>
+<section id="access-your-published-paper" class="level3">
+<h3 class="anchored" data-anchor-id="access-your-published-paper">8.4 Access Your Published Paper</h3>
+<p>Once published, your paper will:</p>
+<ul>
+<li>Have a permanent arXiv identifier (e.g., arXiv:2501.12345)</li>
+<li>Be freely accessible to anyone worldwide</li>
+<li>Be indexed by search engines and academic databases</li>
+<li>Receive a timestamp showing submission and publication dates</li>
+</ul>
+<p>You can find your paper by:</p>
+<ul>
+<li>Searching your name on arXiv</li>
+<li>Using the arXiv identifier</li>
+<li>Accessing your user profile page</li>
+</ul>
+</section>
+</section>
+<section id="step-9-updating-your-paper-replacements" class="level2">
+<h2 class="anchored" data-anchor-id="step-9-updating-your-paper-replacements">Step 9: Updating Your Paper (Replacements)</h2>
+<section id="when-to-submit-a-replacement" class="level3">
+<h3 class="anchored" data-anchor-id="when-to-submit-a-replacement">9.1 When to Submit a Replacement</h3>
+<p>You may want to update your paper to:</p>
+<ul>
+<li>Correct errors or typos</li>
+<li>Add additional results or analysis</li>
+<li>Update author information</li>
+<li>Add journal reference after publication</li>
+<li>Respond to feedback from readers</li>
+</ul>
+</section>
+<section id="how-to-submit-a-replacement" class="level3">
+<h3 class="anchored" data-anchor-id="how-to-submit-a-replacement">9.2 How to Submit a Replacement</h3>
+<p>To update an already published paper:</p>
+<ol type="1">
+<li><strong>Log in</strong> to your arXiv account</li>
+<li><strong>Find your paper</strong> by searching for it or accessing your user profile</li>
+<li><strong>Click on the paper</strong> to go to its abstract page</li>
+<li><strong>Look for replacement options</strong> in the submission interface (the exact location may vary with interface updates)</li>
+<li><strong>Follow the submission process</strong> again with your updated files</li>
+<li><strong>In the comments field</strong>, briefly explain what changes you’ve made (e.g., “Fixed typos in Section 3, added Appendix B”)</li>
+</ol>
 <div class="callout callout-style-default callout-important callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Important</span>License Options
+<span class="screen-reader-only">Important</span>Important Notes About Replacements
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>arXiv offers several license options: - <strong>arXiv.org perpetual, non-exclusive license</strong> (default) - <strong>Creative Commons licenses</strong> (CC BY, CC BY-SA, CC BY-NC-SA, CC0) - <strong>Public Domain</strong></p>
-<p>Choose the license that aligns with your intentions for sharing your work.</p>
+<ul>
+<li>Only the original submitter can submit replacements</li>
+<li>Previous versions remain accessible (arXiv maintains a complete version history)</li>
+<li>The arXiv identifier stays the same (e.g., arXiv:2501.12345v2 for version 2)</li>
+<li>Replacements go through the same moderation process</li>
+<li>You should explain changes in the comments to help readers understand what’s different</li>
+</ul>
 </div>
 </div>
 </section>
-<section id="final-submission" class="level3">
-<h3 class="anchored" data-anchor-id="final-submission">8.2 Final Submission</h3>
-<p>Click “Submit Article” to complete your submission.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/tutorials/images/arxiv-26-submit-button.png" class="img-fluid figure-img"></p>
-<figcaption>Submit article button</figcaption>
-</figure>
-</div>
-<p><strong>Screenshot name:</strong> <code>arxiv-26-submit-button.png</code></p>
-<p><strong>What to capture:</strong> The final “Submit Article” button.</p>
-</section>
-<section id="confirmation" class="level3">
-<h3 class="anchored" data-anchor-id="confirmation">8.3 Confirmation</h3>
-<p>You’ll receive a confirmation screen with your submission ID and expected announcement date.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/tutorials/images/arxiv-27-confirmation.png" class="img-fluid figure-img"></p>
-<figcaption>Submission confirmation</figcaption>
-</figure>
-</div>
-<p><strong>Screenshot name:</strong> <code>arxiv-27-confirmation.png</code></p>
-<p><strong>What to capture:</strong> The confirmation page with submission ID.</p>
-</section>
-</section>
-<section id="step-9-after-submission" class="level2">
-<h2 class="anchored" data-anchor-id="step-9-after-submission">Step 9: After Submission</h2>
-<section id="email-confirmation" class="level3">
-<h3 class="anchored" data-anchor-id="email-confirmation">9.1 Email Confirmation</h3>
-<p>Check your email for a confirmation message from arXiv containing your submission details.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/tutorials/images/arxiv-28-confirmation-email.png" class="img-fluid figure-img"></p>
-<figcaption>Confirmation email</figcaption>
-</figure>
-</div>
-<p><strong>Screenshot name:</strong> <code>arxiv-28-confirmation-email.png</code></p>
-<p><strong>What to capture:</strong> The confirmation email in your inbox.</p>
-</section>
-<section id="moderation-process" class="level3">
-<h3 class="anchored" data-anchor-id="moderation-process">9.2 Moderation Process</h3>
-<p>Your submission will be reviewed by arXiv moderators. This typically takes 1-2 business days.</p>
-</section>
-<section id="publication" class="level3">
-<h3 class="anchored" data-anchor-id="publication">9.3 Publication</h3>
-<p>If approved, your paper will be announced and published on the next announcement day (typically Sunday-Thursday evenings, US Eastern Time).</p>
-</section>
-<section id="access-your-paper" class="level3">
-<h3 class="anchored" data-anchor-id="access-your-paper">9.4 Access Your Paper</h3>
-<p>Once published, your paper will have a permanent arXiv identifier (e.g., arXiv:YYMM.NNNNN) and will be freely accessible.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/tutorials/images/arxiv-29-published-paper.png" class="img-fluid figure-img"></p>
-<figcaption>Published paper page</figcaption>
-</figure>
-</div>
-<p><strong>Screenshot name:</strong> <code>arxiv-29-published-paper.png</code></p>
-<p><strong>What to capture:</strong> An example of a published paper on arXiv showing the identifier and download options.</p>
-</section>
-</section>
-<section id="step-10-managing-your-submission" class="level2">
-<h2 class="anchored" data-anchor-id="step-10-managing-your-submission">Step 10: Managing Your Submission</h2>
-<section id="view-your-submissions" class="level3">
-<h3 class="anchored" data-anchor-id="view-your-submissions">10.1 View Your Submissions</h3>
-<p>Log in and click on your username to access your user page, where you can see all your submissions.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/tutorials/images/arxiv-30-user-page.png" class="img-fluid figure-img"></p>
-<figcaption>User submissions page</figcaption>
-</figure>
-</div>
-<p><strong>Screenshot name:</strong> <code>arxiv-30-user-page.png</code></p>
-<p><strong>What to capture:</strong> The user page showing a list of submissions.</p>
-</section>
-<section id="submit-a-replacement-version-update" class="level3">
-<h3 class="anchored" data-anchor-id="submit-a-replacement-version-update">10.2 Submit a Replacement (Version Update)</h3>
-<p>If you need to update your paper:</p>
-<ol type="1">
-<li>Navigate to the paper’s arXiv page</li>
-<li>Click “Replace” (only available to the original submitter)</li>
-<li>Follow the same submission process</li>
-<li>Explain changes in the comments field</li>
-</ol>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/tutorials/images/arxiv-31-replace-option.png" class="img-fluid figure-img"></p>
-<figcaption>Replace paper option</figcaption>
-</figure>
-</div>
-<p><strong>Screenshot name:</strong> <code>arxiv-31-replace-option.png</code></p>
-<p><strong>What to capture:</strong> The “Replace” button on a published paper’s page.</p>
+<section id="version-history" class="level3">
+<h3 class="anchored" data-anchor-id="version-history">9.3 Version History</h3>
+<p>arXiv maintains a complete version history. Readers can:</p>
+<ul>
+<li>See all versions of your paper</li>
+<li>Compare versions to see what changed</li>
+<li>Cite specific versions if needed</li>
+</ul>
+<p>This transparency is a feature, not a bug—it shows the evolution of your research.</p>
 </section>
 </section>
 <section id="troubleshooting-common-issues" class="level2">
 <h2 class="anchored" data-anchor-id="troubleshooting-common-issues">Troubleshooting Common Issues</h2>
 <section id="latex-compilation-errors" class="level3">
 <h3 class="anchored" data-anchor-id="latex-compilation-errors">LaTeX Compilation Errors</h3>
-<p>If your LaTeX doesn’t compile:</p>
+<p><strong>Problem:</strong> Your LaTeX files don’t compile on arXiv’s servers.</p>
+<p><strong>Solutions:</strong></p>
 <ul>
-<li>Ensure all necessary files are included</li>
-<li>Check that you’re using standard packages</li>
-<li>Remove any custom paths or system-specific commands</li>
-<li>Test your files locally before uploading</li>
+<li>Ensure all necessary files are included (figures, <code>.bbl</code> file, style files)</li>
+<li>Test compilation locally with a standard LaTeX distribution</li>
+<li>Use standard packages that are available on arXiv</li>
+<li>Remove any custom paths, system-specific commands, or <code>\input</code> statements pointing to non-included files</li>
+<li>Check the arXiv TeX/LaTeX help page for the list of available packages</li>
 </ul>
 </section>
 <section id="pdf-processing-issues" class="level3">
 <h3 class="anchored" data-anchor-id="pdf-processing-issues">PDF Processing Issues</h3>
-<p>If your PDF is rejected:</p>
+<p><strong>Problem:</strong> Your PDF is rejected or displays incorrectly.</p>
+<p><strong>Solutions:</strong></p>
 <ul>
-<li>Ensure fonts are embedded</li>
-<li>Remove any security restrictions</li>
+<li>Ensure all fonts are embedded (use <code>pdffonts</code> command to check)</li>
+<li>Remove any security restrictions or passwords from the PDF</li>
 <li>Make sure the PDF is searchable (not a scanned image)</li>
-<li>Reduce file size if it exceeds limits</li>
+<li>Reduce file size by compressing images if it exceeds 50 MB</li>
+<li>Use PDF/A format if possible for better archival quality</li>
 </ul>
 </section>
-<section id="endorsement-delays" class="level3">
-<h3 class="anchored" data-anchor-id="endorsement-delays">Endorsement Delays</h3>
-<p>If you’re waiting for endorsement:</p>
+<section id="metadata-errors" class="level3">
+<h3 class="anchored" data-anchor-id="metadata-errors">Metadata Errors</h3>
+<p><strong>Problem:</strong> You made a mistake in the title, authors, or abstract.</p>
+<p><strong>Solutions:</strong></p>
 <ul>
-<li>Contact colleagues who are established arXiv authors</li>
-<li>Provide them with your arXiv user ID and desired category</li>
-<li>Check that your email address is correctly registered</li>
+<li>If caught before announcement: Contact arXiv moderators immediately to request changes</li>
+<li>If caught after announcement: Submit a replacement version with corrected metadata</li>
+<li>For author list errors: Contact arXiv admin as author list changes require special handling</li>
+</ul>
+</section>
+<section id="submission-delayed-or-on-hold" class="level3">
+<h3 class="anchored" data-anchor-id="submission-delayed-or-on-hold">Submission Delayed or On Hold</h3>
+<p><strong>Problem:</strong> Your submission is delayed or placed on hold.</p>
+<p><strong>Possible reasons:</strong></p>
+<ul>
+<li>The paper doesn’t meet arXiv’s scope or standards</li>
+<li>There are technical issues with your files</li>
+<li>Additional review is needed</li>
+</ul>
+<p><strong>What to do:</strong></p>
+<ul>
+<li>Check your email for messages from arXiv moderators</li>
+<li>Respond promptly to any requests for information</li>
+<li>If unsure, contact arXiv support with your submission ID</li>
+</ul>
+</section>
+<section id="cant-find-your-paper-after-publication" class="level3">
+<h3 class="anchored" data-anchor-id="cant-find-your-paper-after-publication">Can’t Find Your Paper After Publication</h3>
+<p><strong>Problem:</strong> Your paper was announced but you can’t find it.</p>
+<p><strong>Solutions:</strong></p>
+<ul>
+<li>Search using your exact name as it appears in the author list</li>
+<li>Use the arXiv identifier from your confirmation email</li>
+<li>Check the correct category—papers are listed in their primary category</li>
+<li>Clear your browser cache and try again</li>
+<li>Check that you’re looking at the correct announcement date</li>
 </ul>
 </section>
 </section>
 <section id="best-practices" class="level2">
 <h2 class="anchored" data-anchor-id="best-practices">Best Practices</h2>
+<section id="before-submission" class="level3">
+<h3 class="anchored" data-anchor-id="before-submission">Before Submission</h3>
 <ol type="1">
-<li><strong>Prepare files carefully</strong>: Test LaTeX compilation locally before submission</li>
-<li><strong>Double-check metadata</strong>: Ensure all author names, affiliations, and the abstract are accurate</li>
-<li><strong>Choose categories wisely</strong>: Select the most appropriate primary category and relevant cross-lists</li>
-<li><strong>Include helpful comments</strong>: Add information about page count, submission status, or related papers</li>
-<li><strong>Use proper licenses</strong>: Understand the license options and choose appropriately</li>
-<li><strong>Plan timing</strong>: Submit early in the week if you want faster publication</li>
-<li><strong>Keep records</strong>: Save your submission ID and confirmation emails</li>
+<li><strong>Proofread carefully</strong>: Have co-authors review the final version</li>
+<li><strong>Test your files</strong>: Compile LaTeX locally or check PDF rendering</li>
+<li><strong>Verify metadata</strong>: Double-check all author names, affiliations, and abstract</li>
+<li><strong>Check journal policies</strong>: Ensure arXiv submission won’t conflict with journal requirements</li>
+<li><strong>Choose timing wisely</strong>: Submit early in the week if you want faster publication</li>
 </ol>
+</section>
+<section id="during-submission" class="level3">
+<h3 class="anchored" data-anchor-id="during-submission">During Submission</h3>
+<ol type="1">
+<li><strong>Choose categories carefully</strong>: Select the most appropriate primary category</li>
+<li><strong>Write a clear abstract</strong>: Make it accessible to readers outside your specific subfield</li>
+<li><strong>Add helpful comments</strong>: Include page count, submission status, and related work</li>
+<li><strong>Select the right license</strong>: Discuss with co-authors and consider future plans</li>
+<li><strong>Review thoroughly</strong>: This is your last chance to catch errors before going public</li>
+</ol>
+</section>
+<section id="after-submission" class="level3">
+<h3 class="anchored" data-anchor-id="after-submission">After Submission</h3>
+<ol type="1">
+<li><strong>Save confirmation emails</strong>: Keep records of your submission ID and dates</li>
+<li><strong>Monitor for publication</strong>: Check for your announcement email</li>
+<li><strong>Share appropriately</strong>: Once published, share on social media and with colleagues</li>
+<li><strong>Track citations</strong>: Monitor how your paper is cited and referenced</li>
+<li><strong>Respond to feedback</strong>: Consider feedback from readers for future versions</li>
+</ol>
+</section>
+<section id="for-replacements" class="level3">
+<h3 class="anchored" data-anchor-id="for-replacements">For Replacements</h3>
+<ol type="1">
+<li><strong>Document changes</strong>: Clearly explain what you changed in the comments</li>
+<li><strong>Don’t over-revise</strong>: Only submit replacements for substantive changes</li>
+<li><strong>Consider timing</strong>: Wait until you have multiple fixes rather than many small updates</li>
+<li><strong>Maintain quality</strong>: Replacements should improve the paper, not rush out incomplete fixes</li>
+</ol>
+</section>
 </section>
 <section id="additional-resources" class="level2">
 <h2 class="anchored" data-anchor-id="additional-resources">Additional Resources</h2>
 <ul>
-<li><strong>arXiv Help</strong>: <a href="https://info.arxiv.org/help/">https://info.arxiv.org/help/</a></li>
+<li><strong>arXiv Help Center</strong>: <a href="https://info.arxiv.org/help/">https://info.arxiv.org/help/</a></li>
 <li><strong>Submission Guidelines</strong>: <a href="https://info.arxiv.org/help/submit.html">https://info.arxiv.org/help/submit.html</a></li>
 <li><strong>TeX/LaTeX Help</strong>: <a href="https://info.arxiv.org/help/submit_tex.html">https://info.arxiv.org/help/submit_tex.html</a></li>
-<li><strong>PDF Help</strong>: <a href="https://info.arxiv.org/help/submit_pdf.html">https://info.arxiv.org/help/submit_pdf.html</a></li>
+<li><strong>PDF Submission Help</strong>: <a href="https://info.arxiv.org/help/submit_pdf.html">https://info.arxiv.org/help/submit_pdf.html</a></li>
+<li><strong>License Information</strong>: <a href="https://info.arxiv.org/help/license.html">https://info.arxiv.org/help/license.html</a></li>
+<li><strong>arXiv Support</strong>: For questions not covered in documentation, email help@arxiv.org</li>
 </ul>
 </section>
 <section id="conclusion" class="level2">
 <h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
-<p>Submitting to arXiv is a straightforward process once you understand the steps. This tutorial has walked you through account creation, file preparation, submission, and post-publication management. By following these guidelines, you can successfully share your research with the global scientific community through arXiv.</p>
-<p>If you encounter any issues not covered in this tutorial, consult the official arXiv help pages or contact arXiv support at help@arxiv.org.</p>
+<p>Submitting to arXiv is an excellent way to share your research with the global scientific community quickly and freely. This tutorial has guided you through the entire process from account creation to publication and updates.</p>
+<p>Key takeaways:</p>
+<ul>
+<li><strong>Prepare your files carefully</strong> before starting the submission</li>
+<li><strong>Review metadata thoroughly</strong> to avoid errors</li>
+<li><strong>Choose your license thoughtfully</strong> based on your goals</li>
+<li><strong>Be patient</strong> during the moderation process</li>
+<li><strong>Keep good records</strong> of your submissions and confirmations</li>
+</ul>
+<p>By following these guidelines, you’ll be able to successfully share your research on arXiv and contribute to open science. If you encounter issues not covered here, don’t hesitate to consult arXiv’s help resources or contact their support team.</p>
+<p>Good luck with your submissions!</p>
 
 
 </section>
@@ -2537,7 +2546,7 @@ font-style: inherit;">print</span>(e)</span></code></pre></div></div>
 
  ]]></description>
   <guid>https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/tools.html</guid>
-  <pubDate>Wed, 08 Oct 2025 18:22:54 GMT</pubDate>
+  <pubDate>Wed, 08 Oct 2025 18:52:49 GMT</pubDate>
 </item>
 </channel>
 </rss>
