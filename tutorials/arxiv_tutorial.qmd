@@ -1,8 +1,8 @@
 ---
 title: "How to Submit Papers to arXiv: A Step-by-Step Guide"
 format: html
-author: "Your Name"
-date: today
+author: "Sonam"
+date: 10.08.2025
 ---
 
 ## Introduction
