@@ -1,8 +1,10 @@
 ---
 title: "How to Submit Papers to arXiv: A Step-by-Step Guide"
-format: html
-author: "Sonam"
-date: 10.08.2025
+execute:
+  eval: false
+authors: Sonam Yang
+date: 08/10/2025
+toc: true
 ---
 
 ## Introduction
