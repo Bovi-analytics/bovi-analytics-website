@@ -5,6 +5,7 @@
       "/tutorials/tools.html",
       "/tutorials/arxiv_tutorial.html",
       "/tutorials/databricks-secrets.html",
+      "/tutorials/Internship.html",
       "/tutorials/master-thesis-guide.html",
       "/tutorials/github-r-zenodo.html",
       "/tutorials/onboarding-guide.html",
@@ -19,16 +20,16 @@
     ]
   },
   {
+    "listing": "/open-positions/index.html",
+    "items": [
+      "/open-positions/internship.html"
+    ]
+  },
+  {
     "listing": "/projects/index.html",
     "items": [
       "/projects/decide.html",
       "/projects/veerkracht.html"
-    ]
-  },
-  {
-    "listing": "/open-positions/index.html",
-    "items": [
-      "/open-positions/internship.html"
     ]
   }
 ]
