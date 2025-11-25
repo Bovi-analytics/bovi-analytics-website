@@ -8,7 +8,7 @@ format:
   html:
     template-partials:
       - /html/home/title-block.html
-course-logo: /files/img/Bovi-Analytics-SmallLogo.png
+date: 25/11/2025
 editor: 
   markdown: 
     wrap: 72
