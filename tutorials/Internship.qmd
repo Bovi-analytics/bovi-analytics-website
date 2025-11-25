@@ -1,0 +1,37 @@
+---
+title: "Getting an internship at the Bovi-Analytics Lab"
+execute:
+  eval: false
+categories:
+  - Internship
+authors: Miel Hostens, et al.
+date: 01/01/25
+toc: true
+---
+
+# Internship Plan
+
+In order to apply for an internship at the Bovi-Analytics lab please fill in this [template](/files/InternshipProgram.docx). It should at least contain the headers mentioned below.
+
+Include a CV description and send all material to [miel.hostens@cornell.edu](mailto:miel.hostens@cornell.edu)
+
+## Description
+The Cornell Internship Program in Digital Dairy Management and Data Analytics is committed to... The overall role of the intern is to be eager, aware, proactive, and supportive of the program we will jointly develop…
+
+## Expected Phases and/or Goals
+The overarching goal is for interns to develop and practice research skills as might be utilized in future advanced studies in a career in applied animal or dairy cattle research…
+
+## Knowledge and Skills to be Learned
+Additionally, interns will further develop their critical thinking and communication skills, reading in English, interpreting experimental procedures from written protocols, and their ability to ask research questions…
+
+## Skills to be Taught (if applicable)
+…
+
+## Evaluation: How Will Acquisition of Skills Be Evaluated?
+…
+
+## Supervision and Oversight
+Most of these skills are obtained from ongoing conversations and evaluations with Dr. Hostens and his graduate students and research staff, a process that continues through the entirety of the internship.
+
+## Cultural Activities
+As it is expected that many interns will be from foreign countries, some orientation to American culture per se is useful. Much of this will come from the intern’s living situation (campus housing, roommates, etc.). The Cornell community is overloaded with lectures, plays, musical events, etc., and the participant will be able to experience any of these, per their interest.
