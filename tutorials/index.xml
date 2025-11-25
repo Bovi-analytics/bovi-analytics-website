@@ -10,7 +10,88 @@
 <atom:link href="https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.8.26</generator>
-<lastBuildDate>Sun, 10 Aug 2025 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Mon, 11 Jan 2027 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>
+            Commonly used tools
+        </title>
+  <link>https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/tools.html</link>
+  <description><![CDATA[ 
+
+<div class="grid title-block">
+    <div class="course-details-title-block g-col-12 g-col-sm-8 order-2 order-sm-1 text-center text-sm-start">
+        
+        <div class="course-subtitle">
+            <p>Which tools are commony used by collaborators</p>
+        </div>
+        <div class="course-meta">
+            <p></p>
+        </div>
+    </div>
+    <div class="g-col-12 g-col-sm-4 order-1 order-sm-2">
+      <div class="grid" style="--bs-columns: 5;">
+        <div class="g-col-1 g-col-sm-0"></div>
+        <div class="g-col-3 g-col-sm-5"><img src="" class="img-fluid"></div>
+        <div class="g-col-1 g-col-sm-0"></div>
+      </div>
+    </div>
+</div>
+
+
+<section id="programming-languages" class="level2">
+<h2 class="anchored" data-anchor-id="programming-languages"><strong>Programming languages</strong></h2>
+<p>In the early ages of my programming I started programming in VB.NEt, did most of my statistics in SAS for most of my PhD studies. However, as open source became mainstream I have switched (maybe to often). Nowadays, I tend to advice on using several languages. Once you know 1, switching is more easy. And there is always <a href="https://stackoverflow.com/">StackOverflow</a>!</p>
+<ul>
+<li><p><a href="https://www.r-project.org/other-docs.html" class="uri">[R]</a> when using smaller datasets that need quick and dirty frequentist statistics. Often rendered using <a href="https://rmarkdown.rstudio.com/lesson-10.html">Rmd notebooks</a> and pushed to Github, e.g.</p>
+<ul>
+<li><a href="https://github.com/Bovi-analytics/Salamone-et-al-2023">Salamone et al</a></li>
+</ul></li>
+<li><p><a href="https://docs.python.org/3/" class="uri">Python</a> and <a href="https://spark.apache.org/docs/latest/api/python/">PySpark</a> for many of the neural net studies, e.g.</p>
+<ul>
+<li><a href="https://github.com/Bovi-analytics/van-leerdam-et-al">van Leerdam et al</a></li>
+</ul></li>
+<li><p><a href="https://docs.scala-lang.org/" class="uri">Scala language</a> when performing more complex data engeneering projects, e.g.</p></li>
+</ul>
+</section>
+<section id="local-processing-when-data-fits-on-prem" class="level2">
+<h2 class="anchored" data-anchor-id="local-processing-when-data-fits-on-prem">Local processing (when data fits on-prem)</h2>
+<section id="development-environments" class="level3">
+<h3 class="anchored" data-anchor-id="development-environments"><strong>Development environments</strong></h3>
+<p>For my local processsing, I combine multiple IDE’s. I tried one-size-fits-all approaches such as visual studio but ended up using the following options.</p>
+<ul>
+<li><p>Python -&gt; <a href="https://www.jetbrains.com/pycharm/">Pycharm</a> -&gt; <a href="https://jupyter.org/" class="uri">Jupyter notebook</a></p></li>
+<li><p>[R] -&gt; <a href="https://posit.co/download/rstudio-desktop/" class="uri">R Studio</a></p></li>
+<li><p>Scala -&gt; <a href="https://www.jetbrains.com/idea/">IntelliJ IDEA</a></p></li>
+</ul>
+</section>
+</section>
+<section id="clould-processing-when-data-doesnt-fit-on-prem" class="level2">
+<h2 class="anchored" data-anchor-id="clould-processing-when-data-doesnt-fit-on-prem">Clould processing (when data doesn’t fit on-prem)</h2>
+<section id="data-processing-framework" class="level3">
+<h3 class="anchored" data-anchor-id="data-processing-framework"><strong>Data processing framework</strong></h3>
+<ul>
+<li><p>Python and [R] can be easily used through <a href="https://colab.google/" class="uri">Google Colab</a>.</p></li>
+<li><p>Python, [R] and scala can be performed on <a href="https://community.cloud.databricks.com/">Databricks Community for students</a>. Apply for the community edition <a href="https://docs.databricks.com/getting-started/community-edition.html">here</a>, be sure not the click any of the providers (Google, Amazon, Azure) but select the <strong>‘Get started with Community Edition’.</strong></p></li>
+<li><p>When in need of larger scale processing power I love to use Apache Spark for distributed analysis and parallel processing using the <a href="https://spark.apache.org/">Apache Spark</a> on <a href="https://azure.microsoft.com/en-us/products/databricks">Azure Databricks</a>.</p></li>
+<li><p><a href="https://azure.microsoft.com/nl-nl">Microsoft Azure</a> as current cloud platform.</p></li>
+</ul>
+</section>
+</section>
+<section id="others-tools" class="level2">
+<h2 class="anchored" data-anchor-id="others-tools"><strong>Others tools</strong></h2>
+<ul>
+<li><a href="https://github.com/" class="uri">Github</a> as code repository, this website is hosted through github pages.</li>
+<li>This website is build using <a href="https://quarto.org/" class="uri">Quarto</a>, a new tool integrated well in R studio and others.</li>
+<li>Markdown ( <a href="https://www.markdownguide.org/" class="uri">https://www.markdownguide.org/</a> ).</li>
+</ul>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/tools.html</guid>
+  <pubDate>Mon, 11 Jan 2027 00:00:00 GMT</pubDate>
+</item>
 <item>
   <title>How to Submit Papers to arXiv: A Step-by-Step Guide</title>
   <link>https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/arxiv_tutorial.html</link>
@@ -847,7 +928,7 @@ font-style: inherit;">display</span>(data_set)</span></code></pre></div></div>
 </item>
 <item>
   <title>Getting an internship at the Bovi-Analytics Lab</title>
-  <link>https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/Internship.html</link>
+  <link>https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/internship.html</link>
   <description><![CDATA[ 
 
 
@@ -891,7 +972,7 @@ font-style: inherit;">display</span>(data_set)</span></code></pre></div></div>
 
  ]]></description>
   <category>Internship</category>
-  <guid>https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/Internship.html</guid>
+  <guid>https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/internship.html</guid>
   <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
 </item>
 <item>
@@ -2514,87 +2595,6 @@ font-style: inherit;">print</span>(e)</span></code></pre></div></div>
   <category>Slack</category>
   <guid>https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/slack.html</guid>
   <pubDate>Wed, 02 Aug 2023 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>
-            Commonly used tools
-        </title>
-  <link>https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/tools.html</link>
-  <description><![CDATA[ 
-
-<div class="grid title-block">
-    <div class="course-details-title-block g-col-12 g-col-sm-8 order-2 order-sm-1 text-center text-sm-start">
-        
-        <div class="course-subtitle">
-            <p>Which tools are commony used by collaborators</p>
-        </div>
-        <div class="course-meta">
-            <p></p>
-        </div>
-    </div>
-    <div class="g-col-12 g-col-sm-4 order-1 order-sm-2">
-      <div class="grid" style="--bs-columns: 5;">
-        <div class="g-col-1 g-col-sm-0"></div>
-        <div class="g-col-3 g-col-sm-5"><img src="https://github.com/Bovi-analytics/bovi-analytics-website/files/img/Bovi-Analytics-SmallLogo.png" class="img-fluid"></div>
-        <div class="g-col-1 g-col-sm-0"></div>
-      </div>
-    </div>
-</div>
-
-
-<section id="programming-languages" class="level2">
-<h2 class="anchored" data-anchor-id="programming-languages"><strong>Programming languages</strong></h2>
-<p>In the early ages of my programming I started programming in VB.NEt, did most of my statistics in SAS for most of my PhD studies. However, as open source became mainstream I have switched (maybe to often). Nowadays, I tend to advice on using several languages. Once you know 1, switching is more easy. And there is always <a href="https://stackoverflow.com/">StackOverflow</a>!</p>
-<ul>
-<li><p><a href="https://www.r-project.org/other-docs.html" class="uri">[R]</a> when using smaller datasets that need quick and dirty frequentist statistics. Often rendered using <a href="https://rmarkdown.rstudio.com/lesson-10.html">Rmd notebooks</a> and pushed to Github, e.g.</p>
-<ul>
-<li><a href="https://github.com/Bovi-analytics/Salamone-et-al-2023">Salamone et al</a></li>
-</ul></li>
-<li><p><a href="https://docs.python.org/3/" class="uri">Python</a> and <a href="https://spark.apache.org/docs/latest/api/python/">PySpark</a> for many of the neural net studies, e.g.</p>
-<ul>
-<li><a href="https://github.com/Bovi-analytics/van-leerdam-et-al">van Leerdam et al</a></li>
-</ul></li>
-<li><p><a href="https://docs.scala-lang.org/" class="uri">Scala language</a> when performing more complex data engeneering projects, e.g.</p></li>
-</ul>
-</section>
-<section id="local-processing-when-data-fits-on-prem" class="level2">
-<h2 class="anchored" data-anchor-id="local-processing-when-data-fits-on-prem">Local processing (when data fits on-prem)</h2>
-<section id="development-environments" class="level3">
-<h3 class="anchored" data-anchor-id="development-environments"><strong>Development environments</strong></h3>
-<p>For my local processsing, I combine multiple IDE’s. I tried one-size-fits-all approaches such as visual studio but ended up using the following options.</p>
-<ul>
-<li><p>Python -&gt; <a href="https://www.jetbrains.com/pycharm/">Pycharm</a> -&gt; <a href="https://jupyter.org/" class="uri">Jupyter notebook</a></p></li>
-<li><p>[R] -&gt; <a href="https://posit.co/download/rstudio-desktop/" class="uri">R Studio</a></p></li>
-<li><p>Scala -&gt; <a href="https://www.jetbrains.com/idea/">IntelliJ IDEA</a></p></li>
-</ul>
-</section>
-</section>
-<section id="clould-processing-when-data-doesnt-fit-on-prem" class="level2">
-<h2 class="anchored" data-anchor-id="clould-processing-when-data-doesnt-fit-on-prem">Clould processing (when data doesn’t fit on-prem)</h2>
-<section id="data-processing-framework" class="level3">
-<h3 class="anchored" data-anchor-id="data-processing-framework"><strong>Data processing framework</strong></h3>
-<ul>
-<li><p>Python and [R] can be easily used through <a href="https://colab.google/" class="uri">Google Colab</a>.</p></li>
-<li><p>Python, [R] and scala can be performed on <a href="https://community.cloud.databricks.com/">Databricks Community for students</a>. Apply for the community edition <a href="https://docs.databricks.com/getting-started/community-edition.html">here</a>, be sure not the click any of the providers (Google, Amazon, Azure) but select the <strong>‘Get started with Community Edition’.</strong></p></li>
-<li><p>When in need of larger scale processing power I love to use Apache Spark for distributed analysis and parallel processing using the <a href="https://spark.apache.org/">Apache Spark</a> on <a href="https://azure.microsoft.com/en-us/products/databricks">Azure Databricks</a>.</p></li>
-<li><p><a href="https://azure.microsoft.com/nl-nl">Microsoft Azure</a> as current cloud platform.</p></li>
-</ul>
-</section>
-</section>
-<section id="others-tools" class="level2">
-<h2 class="anchored" data-anchor-id="others-tools"><strong>Others tools</strong></h2>
-<ul>
-<li><a href="https://github.com/" class="uri">Github</a> as code repository, this website is hosted through github pages.</li>
-<li>This website is build using <a href="https://quarto.org/" class="uri">Quarto</a>, a new tool integrated well in R studio and others.</li>
-<li>Markdown ( <a href="https://www.markdownguide.org/" class="uri">https://www.markdownguide.org/</a> ).</li>
-</ul>
-
-
-</section>
-
- ]]></description>
-  <guid>https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/tools.html</guid>
-  <pubDate>Tue, 25 Nov 2025 19:13:12 GMT</pubDate>
 </item>
 </channel>
 </rss>

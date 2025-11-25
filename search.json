@@ -126,179 +126,81 @@
     "text": "Try to get familiar with the FAIR principles (https://www.go-fair.org/fair-principles/ ) as they are an important part of the philosophy of the lab.\nBecause of that\n\nMake sure to get used to work with version control using git. Follow some tutorials, try using it with R-studio, PyCharm, Intellij IDEA\nWithin everything you do, start applying a naming convention as soon as possible (See here https://bovi-analytics.com/tutorials/general-naming-convention.html ). Within your programming work, I can imagine you want to follow the guidelines within the programming language."
   },
   {
-    "objectID": "tutorials/general-naming-convention.html",
-    "href": "tutorials/general-naming-convention.html",
-    "title": "Naming conventions",
+    "objectID": "tutorials/internship.html",
+    "href": "tutorials/internship.html",
+    "title": "Getting an internship at the Bovi-Analytics Lab",
     "section": "",
-    "text": "Naming conventions are essential for writing clean, readable, and maintainable code. They serve as guidelines for naming variables, functions, classes, and other identifiers in your codebase. Consistently following naming conventions can improve collaboration among developers, reduce confusion, and make it easier to understand your code in the long run. In this tutorial, we will explore the best practices for naming conventions in various programming languages.\n\n\nBefore diving into language-specific conventions, let’s establish some general principles that apply across most programming languages:\n\n\nChoose descriptive names that convey the purpose and meaning of the identifier. Avoid single-letter names or cryptic abbreviations that obscure the purpose of the variable or function.\nBad Example:\nx = 10       # What does 'x' represent?\nGood Example:\nage = 30     # Clearly indicates that 'age' represents a person's age.\n\n\n\nBe consistent in your naming style throughout your codebase. Consistency improves code readability and makes it easier for developers to understand and navigate the code.\nBad Example:\ngetUserData()   // In camelCase\nfetch_user()    // In snake_case\nGood Example:\ngetUserData()   // Both functions in camelCase\nfetchUserData() // Both functions in camelCase\n\n\n\nStrive for names that are neither too long nor too short. Extremely long names can be cumbersome, while very short names may not convey sufficient information.\nBad Example:\nint n = 15;  // Not descriptive enough\nGood Example:\nint numberOfStudents = 15; // Descriptive but not overly long\n\n\n\nAvoid using reserved keywords of the programming language as identifiers since they have special meanings and functionalities.\nBad Example:\nclass = \"User\";  // 'class' is a reserved keyword in Python.\nGood Example:\nuser_class = \"User\"; // Use a different name that is not a reserved keyword.\n\n\n\n\nLet’s explore the naming conventions in some popular programming languages:\n\n\nPython code follows the PEP 8 style guide, which suggests the following conventions:\n\nVariables, functions, and module names should be in lowercase, separated by underscores (snake_case).\nConstants should be in uppercase, separated by underscores.\nClass names should follow the CapWords convention (also known as PascalCase).\n\nExamples:\n# Variables and functions\nuser_name = \"John\"\ncalculate_average_score()\n\n# Constants\nMAX_ATTEMPTS = 3\n\n# Class\nclass Car:\n    def __init__(self, make, model):\n        self.make = make\n        self.model = model\n\n\n\nJavaScript typically follows the following conventions:\n\nVariables and functions should be in camelCase.\nConstants can be in uppercase with underscores (ALL_CAPS) but are not strictly enforced.\nConstructor functions (used for creating objects) should be written with PascalCase.\n\nExamples:\n// Variables and functions\nlet userName = \"John\";\nfunction calculateAverageScore() { /* ... */ }\n\n// Constants (non-enforced convention)\nconst MAX_ATTEMPTS = 3;\n\n// Constructor function (class-like)\nfunction Car(make, model) {\n    this.make = make;\n    this.model = model;\n}\n\n\n\nJava uses a slightly different naming convention:\n\nVariables and functions should be in camelCase.\nConstants should be in uppercase with underscores (ALL_CAPS).\nClass names should follow the CapWords convention (PascalCase).\n\nExamples:\n// Variables and functions\nString userName = \"John\";\nint calculateAverageScore() { /* ... */ }\n\n// Constants\nfinal int MAX_ATTEMPTS = 3;\n\n// Class\nclass Car {\n    String make;\n    String model;\n\n    Car(String make, String model) {\n        this.make = make;\n        this.model = model;\n    }\n}\n\n\n\n\n\n\nWhen using acronyms or abbreviations, be consistent with their capitalization and try to avoid ambiguous names.\nExamples:\n# Good\nxmlHttpRequest = ...\nuserID = ...\n\n# Bad\nXMLHTTPRequest = ...  # Inconsistent capitalization\nuid = ...             # Ambiguous abbreviation\n\n\n\nChoose names that reflect the variable’s scope. For example, use meaningful prefixes like “g_” for global variables and “m_” for member variables in classes.\nglobal_variable = 10\nclass MyClass:\n    def __init__(self):\n        self.member_variable = 20\n\n\n\n\nAdhering to naming conventions is crucial for writing clean and maintainable code. Each programming language has its own conventions, but the general principles of descriptive and consistent naming apply universally. Following these conventions will improve code readability, make it easier for others to collaborate with you, and ensure that your codebase remains maintainable in the long term. Happy coding!"
+    "text": "In order to apply for an internship at the Bovi-Analytics lab please fill in this template. It should at least contain the headers mentioned below.\nInclude a CV description and send all material to miel.hostens@cornell.edu\n\n\nThe Cornell Internship Program in Digital Dairy Management and Data Analytics is committed to… The overall role of the intern is to be eager, aware, proactive, and supportive of the program we will jointly develop…\n\n\n\nThe overarching goal is for interns to develop and practice research skills as might be utilized in future advanced studies in a career in applied animal or dairy cattle research…\n\n\n\nAdditionally, interns will further develop their critical thinking and communication skills, reading in English, interpreting experimental procedures from written protocols, and their ability to ask research questions…\n\n\n\n…\n\n\n\n…\n\n\n\nMost of these skills are obtained from ongoing conversations and evaluations with Dr. Hostens and his graduate students and research staff, a process that continues through the entirety of the internship.\n\n\n\nAs it is expected that many interns will be from foreign countries, some orientation to American culture per se is useful. Much of this will come from the intern’s living situation (campus housing, roommates, etc.). The Cornell community is overloaded with lectures, plays, musical events, etc., and the participant will be able to experience any of these, per their interest."
   },
   {
-    "objectID": "tutorials/general-naming-convention.html#general-principles",
-    "href": "tutorials/general-naming-convention.html#general-principles",
-    "title": "Naming conventions",
+    "objectID": "tutorials/internship.html#description",
+    "href": "tutorials/internship.html#description",
+    "title": "Getting an internship at the Bovi-Analytics Lab",
     "section": "",
-    "text": "Before diving into language-specific conventions, let’s establish some general principles that apply across most programming languages:\n\n\nChoose descriptive names that convey the purpose and meaning of the identifier. Avoid single-letter names or cryptic abbreviations that obscure the purpose of the variable or function.\nBad Example:\nx = 10       # What does 'x' represent?\nGood Example:\nage = 30     # Clearly indicates that 'age' represents a person's age.\n\n\n\nBe consistent in your naming style throughout your codebase. Consistency improves code readability and makes it easier for developers to understand and navigate the code.\nBad Example:\ngetUserData()   // In camelCase\nfetch_user()    // In snake_case\nGood Example:\ngetUserData()   // Both functions in camelCase\nfetchUserData() // Both functions in camelCase\n\n\n\nStrive for names that are neither too long nor too short. Extremely long names can be cumbersome, while very short names may not convey sufficient information.\nBad Example:\nint n = 15;  // Not descriptive enough\nGood Example:\nint numberOfStudents = 15; // Descriptive but not overly long\n\n\n\nAvoid using reserved keywords of the programming language as identifiers since they have special meanings and functionalities.\nBad Example:\nclass = \"User\";  // 'class' is a reserved keyword in Python.\nGood Example:\nuser_class = \"User\"; // Use a different name that is not a reserved keyword."
+    "text": "The Cornell Internship Program in Digital Dairy Management and Data Analytics is committed to… The overall role of the intern is to be eager, aware, proactive, and supportive of the program we will jointly develop…"
   },
   {
-    "objectID": "tutorials/general-naming-convention.html#naming-conventions-in-specific-languages",
-    "href": "tutorials/general-naming-convention.html#naming-conventions-in-specific-languages",
-    "title": "Naming conventions",
+    "objectID": "tutorials/internship.html#expected-phases-andor-goals",
+    "href": "tutorials/internship.html#expected-phases-andor-goals",
+    "title": "Getting an internship at the Bovi-Analytics Lab",
     "section": "",
-    "text": "Let’s explore the naming conventions in some popular programming languages:\n\n\nPython code follows the PEP 8 style guide, which suggests the following conventions:\n\nVariables, functions, and module names should be in lowercase, separated by underscores (snake_case).\nConstants should be in uppercase, separated by underscores.\nClass names should follow the CapWords convention (also known as PascalCase).\n\nExamples:\n# Variables and functions\nuser_name = \"John\"\ncalculate_average_score()\n\n# Constants\nMAX_ATTEMPTS = 3\n\n# Class\nclass Car:\n    def __init__(self, make, model):\n        self.make = make\n        self.model = model\n\n\n\nJavaScript typically follows the following conventions:\n\nVariables and functions should be in camelCase.\nConstants can be in uppercase with underscores (ALL_CAPS) but are not strictly enforced.\nConstructor functions (used for creating objects) should be written with PascalCase.\n\nExamples:\n// Variables and functions\nlet userName = \"John\";\nfunction calculateAverageScore() { /* ... */ }\n\n// Constants (non-enforced convention)\nconst MAX_ATTEMPTS = 3;\n\n// Constructor function (class-like)\nfunction Car(make, model) {\n    this.make = make;\n    this.model = model;\n}\n\n\n\nJava uses a slightly different naming convention:\n\nVariables and functions should be in camelCase.\nConstants should be in uppercase with underscores (ALL_CAPS).\nClass names should follow the CapWords convention (PascalCase).\n\nExamples:\n// Variables and functions\nString userName = \"John\";\nint calculateAverageScore() { /* ... */ }\n\n// Constants\nfinal int MAX_ATTEMPTS = 3;\n\n// Class\nclass Car {\n    String make;\n    String model;\n\n    Car(String make, String model) {\n        this.make = make;\n        this.model = model;\n    }\n}"
+    "text": "The overarching goal is for interns to develop and practice research skills as might be utilized in future advanced studies in a career in applied animal or dairy cattle research…"
   },
   {
-    "objectID": "tutorials/general-naming-convention.html#special-cases",
-    "href": "tutorials/general-naming-convention.html#special-cases",
-    "title": "Naming conventions",
+    "objectID": "tutorials/internship.html#knowledge-and-skills-to-be-learned",
+    "href": "tutorials/internship.html#knowledge-and-skills-to-be-learned",
+    "title": "Getting an internship at the Bovi-Analytics Lab",
     "section": "",
-    "text": "When using acronyms or abbreviations, be consistent with their capitalization and try to avoid ambiguous names.\nExamples:\n# Good\nxmlHttpRequest = ...\nuserID = ...\n\n# Bad\nXMLHTTPRequest = ...  # Inconsistent capitalization\nuid = ...             # Ambiguous abbreviation\n\n\n\nChoose names that reflect the variable’s scope. For example, use meaningful prefixes like “g_” for global variables and “m_” for member variables in classes.\nglobal_variable = 10\nclass MyClass:\n    def __init__(self):\n        self.member_variable = 20"
+    "text": "Additionally, interns will further develop their critical thinking and communication skills, reading in English, interpreting experimental procedures from written protocols, and their ability to ask research questions…"
   },
   {
-    "objectID": "tutorials/general-naming-convention.html#conclusion",
-    "href": "tutorials/general-naming-convention.html#conclusion",
-    "title": "Naming conventions",
+    "objectID": "tutorials/internship.html#skills-to-be-taught-if-applicable",
+    "href": "tutorials/internship.html#skills-to-be-taught-if-applicable",
+    "title": "Getting an internship at the Bovi-Analytics Lab",
     "section": "",
-    "text": "Adhering to naming conventions is crucial for writing clean and maintainable code. Each programming language has its own conventions, but the general principles of descriptive and consistent naming apply universally. Following these conventions will improve code readability, make it easier for others to collaborate with you, and ensure that your codebase remains maintainable in the long term. Happy coding!"
+    "text": "…"
   },
   {
-    "objectID": "tutorials/databricks-secrets.html",
-    "href": "tutorials/databricks-secrets.html",
-    "title": "Storing and Accessing Secrets in Azure Key Vault",
+    "objectID": "tutorials/internship.html#evaluation-how-will-acquisition-of-skills-be-evaluated",
+    "href": "tutorials/internship.html#evaluation-how-will-acquisition-of-skills-be-evaluated",
+    "title": "Getting an internship at the Bovi-Analytics Lab",
     "section": "",
-    "text": "Before accessing the secret in Databricks, make sure to:"
+    "text": "…"
   },
   {
-    "objectID": "tutorials/databricks-secrets.html#access-the-key-in-databricks",
-    "href": "tutorials/databricks-secrets.html#access-the-key-in-databricks",
-    "title": "Storing and Accessing Secrets in Azure Key Vault",
-    "section": "🔐 Access the Key in Databricks",
-    "text": "🔐 Access the Key in Databricks\nUse the following code snippet to retrieve the secret:\n\n# Retrieve secret from Azure Key Vault via Databricks Secret Scope\n    # Replace &lt;data&gt; with the actual data name you want to access\n    # Replace &lt;your-key-name&gt; with the actual key name you want to access.\n&lt;data&gt;_secret = dbutils.secrets.get(scope=\"bovi_analytics_secrets_scope\", key= &lt;your-key-name&gt; )\n\n# Print the secret (only for debugging; avoid in production)\nprint(&lt;data&gt;_secret)"
-  },
-  {
-    "objectID": "tutorials/databricks-secrets.html#overview-of-blob-storage-accounts-and-keys",
-    "href": "tutorials/databricks-secrets.html#overview-of-blob-storage-accounts-and-keys",
-    "title": "Storing and Accessing Secrets in Azure Key Vault",
-    "section": "Overview of blob storage accounts and keys",
-    "text": "Overview of blob storage accounts and keys\n\n\n\n\n\n\n\n\nblob-storage-account\nscope\nkey\n\n\n\n\nlab-us\nbovi_analytics_secrets_scope\nazure-bovi-analytics-lab-us\n\n\nlab-eu\nbovi_analytics_secrets_scope\nazure-bovi-analytics-lab-eu\n\n\ngpluse\nbovi_analytics_secrets_scope\nazure-bovi-analytics-gpluse-eu\n\n\nplaybehavior\nbovi_analytics_secrets_scope\nazure-bovi-analytics-playbehavior-eu\n\n\nmethanedata\nbovi_analytics_secrets_scope\nazure-bovi-analytics-methanedata-us\n\n\n\nazure-bovi-analytics-methanedata-us"
-  },
-  {
-    "objectID": "tutorials/databricks-secrets.html#real-example-accessing-bovi-analytics-data-from-azure-blob-storage",
-    "href": "tutorials/databricks-secrets.html#real-example-accessing-bovi-analytics-data-from-azure-blob-storage",
-    "title": "Storing and Accessing Secrets in Azure Key Vault",
-    "section": "Real Example: Accessing Bovi-Analytics Data from Azure Blob Storage",
-    "text": "Real Example: Accessing Bovi-Analytics Data from Azure Blob Storage\nIn this example, we use a secret stored in Azure Key Vault (retrieved via Databricks Secret Scope) to authenticate and access data stored in an Azure Blob Storage account.\n\n%scala\n// Set the Azure Blob Storage account key using the Databricks secret\nspark.sparkContext.hadoopConfiguration.set(\n   \"fs.azure.account.key.blob-storage-account.blob.core.windows.net\",\n   dbutils.secrets.get(scope=\"bovi_analytics_secrets_scope\", key= \"key\")\n   )\n\n\n%python\n// Set the Azure Blob Storage account key using the Databricks secret\nspark.conf.set(\n   \"fs.azure.account.key.blob-storage-account.blob.core.windows.net\",\n   dbutils.secrets.get(scope=\"bovi_analytics_secrets_scope\", key= \"key\")\n   )\n\n\n# Accessing farm data stored in blob storage\nfile_location = \"wasbs://container-name@blob-storage-acount.blob.core.windows.net/path-to-file/\"\nfile_type = \"txt\"\ndata_set = spark.read.format(file_type).load(file_location)\ndisplay(data_set)"
-  },
-  {
-    "objectID": "tutorials/arxiv_tutorial.html",
-    "href": "tutorials/arxiv_tutorial.html",
-    "title": "How to Submit Papers to arXiv: A Step-by-Step Guide",
+    "objectID": "tutorials/internship.html#supervision-and-oversight",
+    "href": "tutorials/internship.html#supervision-and-oversight",
+    "title": "Getting an internship at the Bovi-Analytics Lab",
     "section": "",
-    "text": "arXiv is a free distribution service and open-access archive for scholarly articles in various fields including physics, mathematics, computer science, and more. This tutorial will guide you through the complete process of submitting your paper to arXiv."
+    "text": "Most of these skills are obtained from ongoing conversations and evaluations with Dr. Hostens and his graduate students and research staff, a process that continues through the entirety of the internship."
   },
   {
-    "objectID": "tutorials/arxiv_tutorial.html#introduction",
-    "href": "tutorials/arxiv_tutorial.html#introduction",
-    "title": "How to Submit Papers to arXiv: A Step-by-Step Guide",
+    "objectID": "tutorials/internship.html#cultural-activities",
+    "href": "tutorials/internship.html#cultural-activities",
+    "title": "Getting an internship at the Bovi-Analytics Lab",
     "section": "",
-    "text": "arXiv is a free distribution service and open-access archive for scholarly articles in various fields including physics, mathematics, computer science, and more. This tutorial will guide you through the complete process of submitting your paper to arXiv."
+    "text": "As it is expected that many interns will be from foreign countries, some orientation to American culture per se is useful. Much of this will come from the intern’s living situation (campus housing, roommates, etc.). The Cornell community is overloaded with lectures, plays, musical events, etc., and the participant will be able to experience any of these, per their interest."
   },
   {
-    "objectID": "tutorials/arxiv_tutorial.html#prerequisites",
-    "href": "tutorials/arxiv_tutorial.html#prerequisites",
-    "title": "How to Submit Papers to arXiv: A Step-by-Step Guide",
-    "section": "Prerequisites",
-    "text": "Prerequisites\nBefore you begin, ensure you have:\n\nA completed manuscript in an acceptable format (PDF, LaTeX, or other supported formats)\nAll figures and supplementary files ready\nAn ORCID iD (recommended but not required)\nYour paper’s abstract and metadata ready"
+    "objectID": "tutorials/github-r-zenodo.html",
+    "href": "tutorials/github-r-zenodo.html",
+    "title": "Get started with Github, R and Zenodo",
+    "section": "",
+    "text": "Webinar"
   },
   {
-    "objectID": "tutorials/arxiv_tutorial.html#step-1-create-an-arxiv-account",
-    "href": "tutorials/arxiv_tutorial.html#step-1-create-an-arxiv-account",
-    "title": "How to Submit Papers to arXiv: A Step-by-Step Guide",
-    "section": "Step 1: Create an arXiv Account",
-    "text": "Step 1: Create an arXiv Account\n\n1.1 Navigate to arXiv Website\nGo to https://arxiv.org in your web browser.\n\n\n\narXiv homepage\n\n\n\n\n1.2 Register for an Account\nClick on “register” in the top right corner of the page.\n\n\n\nRegistration link location\n\n\n\n\n1.3 Complete Registration Form\nFill in your email address, username, and create a password. You’ll also need to provide your full name and affiliation.\n\n\n1.4 Verify Your Email\nCheck your email inbox for a verification message from arXiv and click the verification link to activate your account."
+    "objectID": "tutorials/databricks.html",
+    "href": "tutorials/databricks.html",
+    "title": "Get started with Databricks",
+    "section": "",
+    "text": "Introduction\nDatabricks is a unified data analytics and machine learning platform that is designed to simplify and accelerate data-driven decision-making for organizations. It was founded by the creators of Apache Spark, a popular open-source big data processing framework. Databricks builds on Spark and provides an integrated environment for data engineering, data science, and business intelligence.\n\n\nGet started\nTo sign up for Databricks Community Edition:\n\nClick ‘Try Databricks’ here.\nEnter your name, company, email, and title, and click Continue.\n\nVERY IMPORTANT. On the Choose a cloud provider dialog, click the “Get started with Community Edition” link. You’ll see a page announcing that an email has been sent to the address you provided.\n\nLook for the welcome email and click the link to verify your email address. You are prompted to create your Databricks password.\nWhen you click Submit, you'll be taken to the Databricks Community Edition home page.When you click Submit, you’ll be taken to the Databricks Community Edition home page.\n\n\n\n\nHow to add other people to your workspace\n\nMove to your user profile on the upper right corner.\nClick on ‘Admin Settings’\nClick ‘Add user’"
   },
   {
-    "objectID": "tutorials/arxiv_tutorial.html#step-2-log-in-to-your-account",
-    "href": "tutorials/arxiv_tutorial.html#step-2-log-in-to-your-account",
-    "title": "How to Submit Papers to arXiv: A Step-by-Step Guide",
-    "section": "Step 2: Log In to Your Account",
-    "text": "Step 2: Log In to Your Account\nOnce your email is verified, return to the arXiv homepage and click “login” in the top right corner. Enter your username/email and password, then click “Sign In.”"
-  },
-  {
-    "objectID": "tutorials/arxiv_tutorial.html#step-3-start-a-new-submission",
-    "href": "tutorials/arxiv_tutorial.html#step-3-start-a-new-submission",
-    "title": "How to Submit Papers to arXiv: A Step-by-Step Guide",
-    "section": "Step 3: Start a New Submission",
-    "text": "Step 3: Start a New Submission\n\n3.1 Navigate to Submit\nOnce logged in, click on “Submit” in the top navigation menu.\n\n\n\nSubmit button location\n\n\n\n\n3.2 Choose Submission Type\nSelect whether you’re submitting a new paper or replacing/updating an existing one. For your first submission, choose “START NEW SUBMISSION.”\n\n\n3.3 Understand arXiv Licenses\nBefore you proceed with the submission, it’s important to understand the license options available. You’ll need to choose a license later in the process, so familiarizing yourself with the options now will help you make an informed decision.\n\n\n\nLicensing Statement\n\n\n\nLicense Options Explained:\n\n1. arXiv.org perpetual, non-exclusive license to distribute (Default)\nThis is the standard arXiv license. Under this license:\n\nYou grant arXiv a perpetual, non-exclusive right to distribute your work\nYou retain copyright and all other rights to your work\nYou can publish the paper elsewhere, including in journals\nYou can make the paper available on your own website\nOthers can read and download your paper, but cannot redistribute or reuse it without permission\nBest for: Most academic papers, especially if you plan to publish in a journal later\n\n\n\n2. Creative Commons Attribution (CC BY 4.0)\nThis is the most permissive Creative Commons license:\n\nAnyone can share, copy, and redistribute your work in any format\nAnyone can adapt, remix, transform, and build upon your work for any purpose, even commercially\nThey must give appropriate credit, provide a link to the license, and indicate if changes were made\nBest for: Papers where you want maximum dissemination and reuse, including commercial applications\n\n\n\n3. Creative Commons Attribution-ShareAlike (CC BY-SA 4.0)\nSimilar to CC BY, but with an additional requirement:\n\nSame permissions as CC BY\nIf someone remixes or builds upon your work, they must distribute their contributions under the same CC BY-SA license\nThis creates a “copyleft” effect, ensuring derivatives remain open\nBest for: Papers where you want to ensure derivative works remain freely available\n\n\n\n4. Creative Commons Attribution-NonCommercial-ShareAlike (CC BY-NC-SA 4.0)\nMore restrictive than CC BY-SA:\n\nSimilar to CC BY-SA, but prohibits commercial use\nOthers can share and adapt your work for non-commercial purposes only\nThey must give credit and license their derivatives under the same terms\nBest for: Papers where you want to prevent commercial exploitation while allowing academic reuse\n\n\n\n5. Creative Commons CC0 1.0 Universal (Public Domain Dedication)\nThe most permissive option:\n\nYou waive all copyright and related rights to your work\nAnyone can use your work for any purpose without restrictions\nNo attribution is legally required (though it’s academically expected)\nBest for: Data papers, methodological papers, or work you want to dedicate to the public domain\n\n\n\n\n\n\n\nImportantChoosing Your License\n\n\n\nConsider these factors when selecting a license:\n\nJournal requirements: Some journals require certain licenses or may not accept papers under specific Creative Commons licenses. Check journal policies before choosing.\nFuture publications: If you plan to publish in a traditional journal later, the default arXiv license is usually safest.\nReuse intentions: If you want others to build upon your work freely, consider CC BY or CC BY-SA.\nCommercial concerns: If you’re concerned about commercial use of your work, consider CC BY-NC-SA.\nCollaboration: Discuss with all co-authors before selecting a license, as all authors must agree.\n\nWhen in doubt, use the default arXiv license. It’s the most conservative option and won’t interfere with future publication plans."
-  },
-  {
-    "objectID": "tutorials/arxiv_tutorial.html#step-4-upload-your-files",
-    "href": "tutorials/arxiv_tutorial.html#step-4-upload-your-files",
-    "title": "How to Submit Papers to arXiv: A Step-by-Step Guide",
-    "section": "Step 4: Upload Your Files",
-    "text": "Step 4: Upload Your Files\n\n4.1 Select File Format\nChoose your submission format. arXiv accepts:\n\nLaTeX (recommended for papers with equations)\nPDF (for completed papers)\nHTML with PDF\nOther formats (PS, DVI, etc.)\n\n\n\n\nFile format selection\n\n\n\n\n4.2 Upload Files (LaTeX Method)\nIf submitting LaTeX files:\n\nUpload your main .tex file\nUpload all associated files (.bbl, .sty, figure files, etc.)\nYou can upload a .zip or .tar.gz archive containing all files\n\n\n\n\n\n\n\nImportantLaTeX File Requirements\n\n\n\n\nInclude all necessary style files and figures\nUse standard LaTeX packages available on arXiv\nEnsure all figure files are in supported formats (PNG, JPG, PDF, EPS)\nRemove any confidential or personal file paths from your .tex file\nThe main file should typically be named main.tex or similar\n\n\n\n\n\n4.3 Upload Files (PDF Method)\nIf submitting a PDF:\n\nClick “Choose File” or drag and drop your PDF\nEnsure the PDF meets arXiv requirements (text-searchable, no restrictions)\n\n\n\n\n\n\n\nTipPDF Requirements\n\n\n\n\nMaximum file size: 50 MB (10 MB without figures)\nMust be searchable (not a scanned image)\nNo security restrictions or encryption\nEmbed all fonts\nEnsure high-quality rendering of equations and figures\n\n\n\n\n\n4.4 Process Files\nClick “Process Files” to allow arXiv to process your submission. The system will compile your LaTeX files or validate your PDF.\n\n\n4.5 Review Processed Output\narXiv will generate a PDF from your files. Review it carefully to ensure:\n\nAll equations render correctly\nFigures appear in the right locations\nReferences and citations are properly formatted\nPage breaks are appropriate\nNo compilation warnings or errors\n\nIf there are issues, you can go back and fix your files before proceeding."
-  },
-  {
-    "objectID": "tutorials/arxiv_tutorial.html#step-5-add-metadata",
-    "href": "tutorials/arxiv_tutorial.html#step-5-add-metadata",
-    "title": "How to Submit Papers to arXiv: A Step-by-Step Guide",
-    "section": "Step 5: Add Metadata",
-    "text": "Step 5: Add Metadata\n\n5.1 Enter Title\nProvide the complete title of your paper. Avoid using excessive LaTeX commands in the title field unless necessary for mathematical notation.\n\n\n5.2 Add Authors\nEnter all authors in order. For each author, include:\n\nFull names (first name and last name)\nAffiliations (institutional affiliation)\nORCID iDs (if available and recommended for identification)\n\nYou can add multiple authors by clicking the “Add Author” button. Ensure the author order is correct as this cannot be easily changed after publication.\n\n\n5.3 Write Abstract\nPaste or type your abstract. Keep it concise (typically 250-500 words) and avoid:\n\nExcessive mathematical notation (use plain text descriptions where possible)\nReferences to figures, tables, or equations\nBibliographic citations\nUnnecessary formatting\n\nThe abstract should provide a clear, standalone summary of your paper’s contributions and findings.\n\n\n5.4 Enter Comments (Optional)\nIn the comments field, you can add useful information such as:\n\nNumber of pages and figures (e.g., “23 pages, 8 figures”)\nSubmission status (e.g., “Submitted to IEEE Transactions on Neural Networks”)\nConference information (e.g., “Accepted at NeurIPS 2025”)\nRelated papers or previous versions\nOther relevant context\n\n\n\n5.5 Select Categories\nChoose the primary category that best fits your paper. This is crucial as it determines where your paper will appear in arXiv’s listings.\nYou can also select cross-list categories if your paper is relevant to multiple fields. However, be selective and only cross-list to genuinely relevant categories.\n\n\n\n\n\n\nNoteCommon Categories\n\n\n\n\ncs.AI - Artificial Intelligence\ncs.LG - Machine Learning\n\ncs.CL - Computation and Language\ncs.CV - Computer Vision and Pattern Recognition\nstat.ML - Machine Learning (Statistics)\nmath.ST - Statistics Theory\nphysics.data-an - Data Analysis, Statistics and Probability\nq-bio - Quantitative Biology\necon.EM - Econometrics\n\n\n\n\n\n5.6 Add Report Number (Optional)\nIf your paper has an institutional report number or technical report number, enter it here. This is typically used by research institutions or laboratories.\n\n\n5.7 Add Journal Reference (If Published)\nIf your paper is already published or accepted in a journal, add the journal reference.\nFormat: “Journal Name, Volume(Issue), Pages (Year)”\nExample: “Nature Communications, 12(1), 1234-1245 (2021)”\n\n\n5.8 Add DOI (If Available)\nIf your paper has been published and has a Digital Object Identifier (DOI), enter it here. This helps link the arXiv version to the published version.\nFormat: Enter only the DOI string (e.g., “10.1038/s41467-021-12345-6”), not the full URL."
-  },
-  {
-    "objectID": "tutorials/arxiv_tutorial.html#step-6-review-your-submission",
-    "href": "tutorials/arxiv_tutorial.html#step-6-review-your-submission",
-    "title": "How to Submit Papers to arXiv: A Step-by-Step Guide",
-    "section": "Step 6: Review Your Submission",
-    "text": "Step 6: Review Your Submission\n\n6.1 Preview Complete Submission\nCarefully review all metadata and the generated PDF. Check for:\n\nCorrect title spelling and formatting\nAll author names and affiliations are accurate\nAbstract is complete and properly formatted\nCorrect category selection\nPDF rendering quality (equations, figures, tables)\nNo missing references or broken citations\n\nThis is your last chance to catch errors before submission, so take your time reviewing.\n\n\n6.2 Make Corrections (If Needed)\nIf you notice any errors, use the “Previous” button to go back and make corrections. You can edit any section without losing your progress."
-  },
-  {
-    "objectID": "tutorials/arxiv_tutorial.html#step-7-submit-your-paper",
-    "href": "tutorials/arxiv_tutorial.html#step-7-submit-your-paper",
-    "title": "How to Submit Papers to arXiv: A Step-by-Step Guide",
-    "section": "Step 7: Submit Your Paper",
-    "text": "Step 7: Submit Your Paper\n\n7.1 Accept Policies and Select License\nRead arXiv’s submission policies carefully. Check the box to indicate you’ve read and agree to:\n\nThe submission terms and conditions\narXiv’s moderation policies\nThe licensing terms\n\nSelect your preferred license from the dropdown menu (refer back to Step 3.3 for detailed guidance on choosing the right license).\n\n\n7.2 Final Submission\nClick the “Submit Article” or “SUBMIT” button to complete your submission.\n\n\n7.3 Confirmation\nYou’ll receive a confirmation screen with:\n\nYour submission identifier (e.g., a temporary ID)\nExpected announcement date\nInstructions for what happens next\n\nImportant: Save or screenshot this confirmation page for your records."
-  },
-  {
-    "objectID": "tutorials/arxiv_tutorial.html#step-8-after-submission",
-    "href": "tutorials/arxiv_tutorial.html#step-8-after-submission",
-    "title": "How to Submit Papers to arXiv: A Step-by-Step Guide",
-    "section": "Step 8: After Submission",
-    "text": "Step 8: After Submission\n\n8.1 Email Confirmation\nWithin a few minutes, you should receive a confirmation email from arXiv containing:\n\nYour submission details\nSubmission ID\nExpected processing timeline\n\nIf you don’t receive this email within an hour, check your spam folder or contact arXiv support.\n\n\n8.2 Moderation Process\nYour submission will be reviewed by arXiv moderators to ensure:\n\nIt’s scholarly work appropriate for arXiv\nFiles are processable and the PDF is readable\nMetadata is complete and accurate\nThe submission follows arXiv policies\n\nThis process typically takes 1-2 business days (excluding weekends and holidays).\n\n\n\n\n\n\nNote\n\n\n\nModerators don’t peer-review your paper’s scientific content. They only check that it meets arXiv’s technical and policy requirements.\n\n\n\n\n8.3 Publication Schedule\nIf approved, your paper will be announced and published according to arXiv’s schedule:\n\nSubmissions are typically announced Sunday through Thursday evenings (US Eastern Time)\nPapers submitted before the deadline (typically 2 PM EST) are announced the next business day\nPapers submitted after the deadline are announced the following business day\n\n\n\n8.4 Access Your Published Paper\nOnce published, your paper will:\n\nHave a permanent arXiv identifier (e.g., arXiv:2501.12345)\nBe freely accessible to anyone worldwide\nBe indexed by search engines and academic databases\nReceive a timestamp showing submission and publication dates\n\nYou can find your paper by:\n\nSearching your name on arXiv\nUsing the arXiv identifier\nAccessing your user profile page"
-  },
-  {
-    "objectID": "tutorials/arxiv_tutorial.html#step-9-updating-your-paper-replacements",
-    "href": "tutorials/arxiv_tutorial.html#step-9-updating-your-paper-replacements",
-    "title": "How to Submit Papers to arXiv: A Step-by-Step Guide",
-    "section": "Step 9: Updating Your Paper (Replacements)",
-    "text": "Step 9: Updating Your Paper (Replacements)\n\n9.1 When to Submit a Replacement\nYou may want to update your paper to:\n\nCorrect errors or typos\nAdd additional results or analysis\nUpdate author information\nAdd journal reference after publication\nRespond to feedback from readers\n\n\n\n9.2 How to Submit a Replacement\nTo update an already published paper:\n\nLog in to your arXiv account\nFind your paper by searching for it or accessing your user profile\nClick on the paper to go to its abstract page\nLook for replacement options in the submission interface (the exact location may vary with interface updates)\nFollow the submission process again with your updated files\nIn the comments field, briefly explain what changes you’ve made (e.g., “Fixed typos in Section 3, added Appendix B”)\n\n\n\n\n\n\n\nImportantImportant Notes About Replacements\n\n\n\n\nOnly the original submitter can submit replacements\nPrevious versions remain accessible (arXiv maintains a complete version history)\nThe arXiv identifier stays the same (e.g., arXiv:2501.12345v2 for version 2)\nReplacements go through the same moderation process\nYou should explain changes in the comments to help readers understand what’s different\n\n\n\n\n\n9.3 Version History\narXiv maintains a complete version history. Readers can:\n\nSee all versions of your paper\nCompare versions to see what changed\nCite specific versions if needed\n\nThis transparency is a feature, not a bug—it shows the evolution of your research."
-  },
-  {
-    "objectID": "tutorials/arxiv_tutorial.html#troubleshooting-common-issues",
-    "href": "tutorials/arxiv_tutorial.html#troubleshooting-common-issues",
-    "title": "How to Submit Papers to arXiv: A Step-by-Step Guide",
-    "section": "Troubleshooting Common Issues",
-    "text": "Troubleshooting Common Issues\n\nLaTeX Compilation Errors\nProblem: Your LaTeX files don’t compile on arXiv’s servers.\nSolutions:\n\nEnsure all necessary files are included (figures, .bbl file, style files)\nTest compilation locally with a standard LaTeX distribution\nUse standard packages that are available on arXiv\nRemove any custom paths, system-specific commands, or \\input statements pointing to non-included files\nCheck the arXiv TeX/LaTeX help page for the list of available packages\n\n\n\nPDF Processing Issues\nProblem: Your PDF is rejected or displays incorrectly.\nSolutions:\n\nEnsure all fonts are embedded (use pdffonts command to check)\nRemove any security restrictions or passwords from the PDF\nMake sure the PDF is searchable (not a scanned image)\nReduce file size by compressing images if it exceeds 50 MB\nUse PDF/A format if possible for better archival quality\n\n\n\nMetadata Errors\nProblem: You made a mistake in the title, authors, or abstract.\nSolutions:\n\nIf caught before announcement: Contact arXiv moderators immediately to request changes\nIf caught after announcement: Submit a replacement version with corrected metadata\nFor author list errors: Contact arXiv admin as author list changes require special handling\n\n\n\nSubmission Delayed or On Hold\nProblem: Your submission is delayed or placed on hold.\nPossible reasons:\n\nThe paper doesn’t meet arXiv’s scope or standards\nThere are technical issues with your files\nAdditional review is needed\n\nWhat to do:\n\nCheck your email for messages from arXiv moderators\nRespond promptly to any requests for information\nIf unsure, contact arXiv support with your submission ID\n\n\n\nCan’t Find Your Paper After Publication\nProblem: Your paper was announced but you can’t find it.\nSolutions:\n\nSearch using your exact name as it appears in the author list\nUse the arXiv identifier from your confirmation email\nCheck the correct category—papers are listed in their primary category\nClear your browser cache and try again\nCheck that you’re looking at the correct announcement date"
-  },
-  {
-    "objectID": "tutorials/arxiv_tutorial.html#best-practices",
-    "href": "tutorials/arxiv_tutorial.html#best-practices",
-    "title": "How to Submit Papers to arXiv: A Step-by-Step Guide",
-    "section": "Best Practices",
-    "text": "Best Practices\n\nBefore Submission\n\nProofread carefully: Have co-authors review the final version\nTest your files: Compile LaTeX locally or check PDF rendering\nVerify metadata: Double-check all author names, affiliations, and abstract\nCheck journal policies: Ensure arXiv submission won’t conflict with journal requirements\nChoose timing wisely: Submit early in the week if you want faster publication\n\n\n\nDuring Submission\n\nChoose categories carefully: Select the most appropriate primary category\nWrite a clear abstract: Make it accessible to readers outside your specific subfield\nAdd helpful comments: Include page count, submission status, and related work\nSelect the right license: Discuss with co-authors and consider future plans\nReview thoroughly: This is your last chance to catch errors before going public\n\n\n\nAfter Submission\n\nSave confirmation emails: Keep records of your submission ID and dates\nMonitor for publication: Check for your announcement email\nShare appropriately: Once published, share on social media and with colleagues\nTrack citations: Monitor how your paper is cited and referenced\nRespond to feedback: Consider feedback from readers for future versions\n\n\n\nFor Replacements\n\nDocument changes: Clearly explain what you changed in the comments\nDon’t over-revise: Only submit replacements for substantive changes\nConsider timing: Wait until you have multiple fixes rather than many small updates\nMaintain quality: Replacements should improve the paper, not rush out incomplete fixes"
-  },
-  {
-    "objectID": "tutorials/arxiv_tutorial.html#additional-resources",
-    "href": "tutorials/arxiv_tutorial.html#additional-resources",
-    "title": "How to Submit Papers to arXiv: A Step-by-Step Guide",
-    "section": "Additional Resources",
-    "text": "Additional Resources\n\narXiv Help Center: https://info.arxiv.org/help/\nSubmission Guidelines: https://info.arxiv.org/help/submit.html\nTeX/LaTeX Help: https://info.arxiv.org/help/submit_tex.html\nPDF Submission Help: https://info.arxiv.org/help/submit_pdf.html\nLicense Information: https://info.arxiv.org/help/license.html\narXiv Support: For questions not covered in documentation, email help@arxiv.org"
-  },
-  {
-    "objectID": "tutorials/arxiv_tutorial.html#conclusion",
-    "href": "tutorials/arxiv_tutorial.html#conclusion",
-    "title": "How to Submit Papers to arXiv: A Step-by-Step Guide",
-    "section": "Conclusion",
-    "text": "Conclusion\nSubmitting to arXiv is an excellent way to share your research with the global scientific community quickly and freely. This tutorial has guided you through the entire process from account creation to publication and updates.\nKey takeaways:\n\nPrepare your files carefully before starting the submission\nReview metadata thoroughly to avoid errors\nChoose your license thoughtfully based on your goals\nBe patient during the moderation process\nKeep good records of your submissions and confirmations\n\nBy following these guidelines, you’ll be able to successfully share your research on arXiv and contribute to open science. If you encounter issues not covered here, don’t hesitate to consult arXiv’s help resources or contact their support team.\nGood luck with your submissions!"
+    "objectID": "tutorials/databricks-naming-convention-compute.html",
+    "href": "tutorials/databricks-naming-convention-compute.html",
+    "title": "Naming convention within Bovi-Analytics Lab for Databricks compute",
+    "section": "",
+    "text": "Tagging Databricks Compute\nWhen using compute within Databricks make sure to tag each compute you create. This allows to track costs from specific projects."
   },
   {
     "objectID": "researchers/yongyan-chen.html",
@@ -662,7 +564,7 @@
     "href": "researchers/miel-hostens.html#citations",
     "title": "Curriculum Vitae - Miel Hostens",
     "section": "Citations",
-    "text": "Citations\n\n\nhere() starts at /home/runner/work/bovi-analytics-website/bovi-analytics-website"
+    "text": "Citations\n\n\nhere() starts at /home/runner/work/bovi-analytics-website/bovi-analytics-website\n\n\nWarning in get_scholar_resp(url, attempts_left - 1): Cannot connect to Google\nScholar. Is the ID you provided correct?\n\n\nSkipping citation plot: Citation data missing expected columns."
   },
   {
     "objectID": "researchers/miel-hostens.html#publications",
@@ -693,81 +595,179 @@
     "text": "Who am I:\n\n\n\n\n\nHi! I am Sumit, an incoming PhD student at CALS, Cornell. I am a veterinarian with a Master of Veterinary Science (M.V.Sc.) in Physiology and a B.V.Sc. & A.H. (equivalent to DVM) from the Agriculture and Forestry University (AFU), Nepal. Over time, and coming from a veterinary background, my interests have gradually expanded to the intersection of animal health and production, data science, and digital dairy systems, leading me to develop a growing curiosity for programming and analytical tools. I find working with data both challenging and rewarding; translating complexity into clarity. I am especially drawn to how emerging technologies like artificial intelligence and machine learning can drive smarter, more sustainable approaches to livestock management. Outside of research, I enjoy being in nature, trying new sports, following whatever catches my curiosity, and learning music at my own pace. Whether it’s playing football or ping pong, discussing world affairs, or picking up a new tune, I like to keep life active, creative, and open to new experiences.\n\n\nMy work at Bovi-Analytics\nAt Bovi-Analytics, I focus on applying AI and machine learning to precision livestock farming, turning complex data into practical insights. I am also exploring and learning about a wide range of approaches, including data quality assessment, simulation and digital twin models, and computer vision etc."
   },
   {
-    "objectID": "tutorials/Internship.html",
-    "href": "tutorials/Internship.html",
-    "title": "Getting an internship at the Bovi-Analytics Lab",
+    "objectID": "tutorials/arxiv_tutorial.html",
+    "href": "tutorials/arxiv_tutorial.html",
+    "title": "How to Submit Papers to arXiv: A Step-by-Step Guide",
     "section": "",
-    "text": "In order to apply for an internship at the Bovi-Analytics lab please fill in this template. It should at least contain the headers mentioned below.\nInclude a CV description and send all material to miel.hostens@cornell.edu\n\n\nThe Cornell Internship Program in Digital Dairy Management and Data Analytics is committed to… The overall role of the intern is to be eager, aware, proactive, and supportive of the program we will jointly develop…\n\n\n\nThe overarching goal is for interns to develop and practice research skills as might be utilized in future advanced studies in a career in applied animal or dairy cattle research…\n\n\n\nAdditionally, interns will further develop their critical thinking and communication skills, reading in English, interpreting experimental procedures from written protocols, and their ability to ask research questions…\n\n\n\n…\n\n\n\n…\n\n\n\nMost of these skills are obtained from ongoing conversations and evaluations with Dr. Hostens and his graduate students and research staff, a process that continues through the entirety of the internship.\n\n\n\nAs it is expected that many interns will be from foreign countries, some orientation to American culture per se is useful. Much of this will come from the intern’s living situation (campus housing, roommates, etc.). The Cornell community is overloaded with lectures, plays, musical events, etc., and the participant will be able to experience any of these, per their interest."
+    "text": "arXiv is a free distribution service and open-access archive for scholarly articles in various fields including physics, mathematics, computer science, and more. This tutorial will guide you through the complete process of submitting your paper to arXiv."
   },
   {
-    "objectID": "tutorials/Internship.html#description",
-    "href": "tutorials/Internship.html#description",
-    "title": "Getting an internship at the Bovi-Analytics Lab",
+    "objectID": "tutorials/arxiv_tutorial.html#introduction",
+    "href": "tutorials/arxiv_tutorial.html#introduction",
+    "title": "How to Submit Papers to arXiv: A Step-by-Step Guide",
     "section": "",
-    "text": "The Cornell Internship Program in Digital Dairy Management and Data Analytics is committed to… The overall role of the intern is to be eager, aware, proactive, and supportive of the program we will jointly develop…"
+    "text": "arXiv is a free distribution service and open-access archive for scholarly articles in various fields including physics, mathematics, computer science, and more. This tutorial will guide you through the complete process of submitting your paper to arXiv."
   },
   {
-    "objectID": "tutorials/Internship.html#expected-phases-andor-goals",
-    "href": "tutorials/Internship.html#expected-phases-andor-goals",
-    "title": "Getting an internship at the Bovi-Analytics Lab",
-    "section": "",
-    "text": "The overarching goal is for interns to develop and practice research skills as might be utilized in future advanced studies in a career in applied animal or dairy cattle research…"
+    "objectID": "tutorials/arxiv_tutorial.html#prerequisites",
+    "href": "tutorials/arxiv_tutorial.html#prerequisites",
+    "title": "How to Submit Papers to arXiv: A Step-by-Step Guide",
+    "section": "Prerequisites",
+    "text": "Prerequisites\nBefore you begin, ensure you have:\n\nA completed manuscript in an acceptable format (PDF, LaTeX, or other supported formats)\nAll figures and supplementary files ready\nAn ORCID iD (recommended but not required)\nYour paper’s abstract and metadata ready"
   },
   {
-    "objectID": "tutorials/Internship.html#knowledge-and-skills-to-be-learned",
-    "href": "tutorials/Internship.html#knowledge-and-skills-to-be-learned",
-    "title": "Getting an internship at the Bovi-Analytics Lab",
-    "section": "",
-    "text": "Additionally, interns will further develop their critical thinking and communication skills, reading in English, interpreting experimental procedures from written protocols, and their ability to ask research questions…"
+    "objectID": "tutorials/arxiv_tutorial.html#step-1-create-an-arxiv-account",
+    "href": "tutorials/arxiv_tutorial.html#step-1-create-an-arxiv-account",
+    "title": "How to Submit Papers to arXiv: A Step-by-Step Guide",
+    "section": "Step 1: Create an arXiv Account",
+    "text": "Step 1: Create an arXiv Account\n\n1.1 Navigate to arXiv Website\nGo to https://arxiv.org in your web browser.\n\n\n\narXiv homepage\n\n\n\n\n1.2 Register for an Account\nClick on “register” in the top right corner of the page.\n\n\n\nRegistration link location\n\n\n\n\n1.3 Complete Registration Form\nFill in your email address, username, and create a password. You’ll also need to provide your full name and affiliation.\n\n\n1.4 Verify Your Email\nCheck your email inbox for a verification message from arXiv and click the verification link to activate your account."
   },
   {
-    "objectID": "tutorials/Internship.html#skills-to-be-taught-if-applicable",
-    "href": "tutorials/Internship.html#skills-to-be-taught-if-applicable",
-    "title": "Getting an internship at the Bovi-Analytics Lab",
-    "section": "",
-    "text": "…"
+    "objectID": "tutorials/arxiv_tutorial.html#step-2-log-in-to-your-account",
+    "href": "tutorials/arxiv_tutorial.html#step-2-log-in-to-your-account",
+    "title": "How to Submit Papers to arXiv: A Step-by-Step Guide",
+    "section": "Step 2: Log In to Your Account",
+    "text": "Step 2: Log In to Your Account\nOnce your email is verified, return to the arXiv homepage and click “login” in the top right corner. Enter your username/email and password, then click “Sign In.”"
   },
   {
-    "objectID": "tutorials/Internship.html#evaluation-how-will-acquisition-of-skills-be-evaluated",
-    "href": "tutorials/Internship.html#evaluation-how-will-acquisition-of-skills-be-evaluated",
-    "title": "Getting an internship at the Bovi-Analytics Lab",
-    "section": "",
-    "text": "…"
+    "objectID": "tutorials/arxiv_tutorial.html#step-3-start-a-new-submission",
+    "href": "tutorials/arxiv_tutorial.html#step-3-start-a-new-submission",
+    "title": "How to Submit Papers to arXiv: A Step-by-Step Guide",
+    "section": "Step 3: Start a New Submission",
+    "text": "Step 3: Start a New Submission\n\n3.1 Navigate to Submit\nOnce logged in, click on “Submit” in the top navigation menu.\n\n\n\nSubmit button location\n\n\n\n\n3.2 Choose Submission Type\nSelect whether you’re submitting a new paper or replacing/updating an existing one. For your first submission, choose “START NEW SUBMISSION.”\n\n\n3.3 Understand arXiv Licenses\nBefore you proceed with the submission, it’s important to understand the license options available. You’ll need to choose a license later in the process, so familiarizing yourself with the options now will help you make an informed decision.\n\n\n\nLicensing Statement\n\n\n\nLicense Options Explained:\n\n1. arXiv.org perpetual, non-exclusive license to distribute (Default)\nThis is the standard arXiv license. Under this license:\n\nYou grant arXiv a perpetual, non-exclusive right to distribute your work\nYou retain copyright and all other rights to your work\nYou can publish the paper elsewhere, including in journals\nYou can make the paper available on your own website\nOthers can read and download your paper, but cannot redistribute or reuse it without permission\nBest for: Most academic papers, especially if you plan to publish in a journal later\n\n\n\n2. Creative Commons Attribution (CC BY 4.0)\nThis is the most permissive Creative Commons license:\n\nAnyone can share, copy, and redistribute your work in any format\nAnyone can adapt, remix, transform, and build upon your work for any purpose, even commercially\nThey must give appropriate credit, provide a link to the license, and indicate if changes were made\nBest for: Papers where you want maximum dissemination and reuse, including commercial applications\n\n\n\n3. Creative Commons Attribution-ShareAlike (CC BY-SA 4.0)\nSimilar to CC BY, but with an additional requirement:\n\nSame permissions as CC BY\nIf someone remixes or builds upon your work, they must distribute their contributions under the same CC BY-SA license\nThis creates a “copyleft” effect, ensuring derivatives remain open\nBest for: Papers where you want to ensure derivative works remain freely available\n\n\n\n4. Creative Commons Attribution-NonCommercial-ShareAlike (CC BY-NC-SA 4.0)\nMore restrictive than CC BY-SA:\n\nSimilar to CC BY-SA, but prohibits commercial use\nOthers can share and adapt your work for non-commercial purposes only\nThey must give credit and license their derivatives under the same terms\nBest for: Papers where you want to prevent commercial exploitation while allowing academic reuse\n\n\n\n5. Creative Commons CC0 1.0 Universal (Public Domain Dedication)\nThe most permissive option:\n\nYou waive all copyright and related rights to your work\nAnyone can use your work for any purpose without restrictions\nNo attribution is legally required (though it’s academically expected)\nBest for: Data papers, methodological papers, or work you want to dedicate to the public domain\n\n\n\n\n\n\n\nImportantChoosing Your License\n\n\n\nConsider these factors when selecting a license:\n\nJournal requirements: Some journals require certain licenses or may not accept papers under specific Creative Commons licenses. Check journal policies before choosing.\nFuture publications: If you plan to publish in a traditional journal later, the default arXiv license is usually safest.\nReuse intentions: If you want others to build upon your work freely, consider CC BY or CC BY-SA.\nCommercial concerns: If you’re concerned about commercial use of your work, consider CC BY-NC-SA.\nCollaboration: Discuss with all co-authors before selecting a license, as all authors must agree.\n\nWhen in doubt, use the default arXiv license. It’s the most conservative option and won’t interfere with future publication plans."
   },
   {
-    "objectID": "tutorials/Internship.html#supervision-and-oversight",
-    "href": "tutorials/Internship.html#supervision-and-oversight",
-    "title": "Getting an internship at the Bovi-Analytics Lab",
-    "section": "",
-    "text": "Most of these skills are obtained from ongoing conversations and evaluations with Dr. Hostens and his graduate students and research staff, a process that continues through the entirety of the internship."
+    "objectID": "tutorials/arxiv_tutorial.html#step-4-upload-your-files",
+    "href": "tutorials/arxiv_tutorial.html#step-4-upload-your-files",
+    "title": "How to Submit Papers to arXiv: A Step-by-Step Guide",
+    "section": "Step 4: Upload Your Files",
+    "text": "Step 4: Upload Your Files\n\n4.1 Select File Format\nChoose your submission format. arXiv accepts:\n\nLaTeX (recommended for papers with equations)\nPDF (for completed papers)\nHTML with PDF\nOther formats (PS, DVI, etc.)\n\n\n\n\nFile format selection\n\n\n\n\n4.2 Upload Files (LaTeX Method)\nIf submitting LaTeX files:\n\nUpload your main .tex file\nUpload all associated files (.bbl, .sty, figure files, etc.)\nYou can upload a .zip or .tar.gz archive containing all files\n\n\n\n\n\n\n\nImportantLaTeX File Requirements\n\n\n\n\nInclude all necessary style files and figures\nUse standard LaTeX packages available on arXiv\nEnsure all figure files are in supported formats (PNG, JPG, PDF, EPS)\nRemove any confidential or personal file paths from your .tex file\nThe main file should typically be named main.tex or similar\n\n\n\n\n\n4.3 Upload Files (PDF Method)\nIf submitting a PDF:\n\nClick “Choose File” or drag and drop your PDF\nEnsure the PDF meets arXiv requirements (text-searchable, no restrictions)\n\n\n\n\n\n\n\nTipPDF Requirements\n\n\n\n\nMaximum file size: 50 MB (10 MB without figures)\nMust be searchable (not a scanned image)\nNo security restrictions or encryption\nEmbed all fonts\nEnsure high-quality rendering of equations and figures\n\n\n\n\n\n4.4 Process Files\nClick “Process Files” to allow arXiv to process your submission. The system will compile your LaTeX files or validate your PDF.\n\n\n4.5 Review Processed Output\narXiv will generate a PDF from your files. Review it carefully to ensure:\n\nAll equations render correctly\nFigures appear in the right locations\nReferences and citations are properly formatted\nPage breaks are appropriate\nNo compilation warnings or errors\n\nIf there are issues, you can go back and fix your files before proceeding."
   },
   {
-    "objectID": "tutorials/Internship.html#cultural-activities",
-    "href": "tutorials/Internship.html#cultural-activities",
-    "title": "Getting an internship at the Bovi-Analytics Lab",
-    "section": "",
-    "text": "As it is expected that many interns will be from foreign countries, some orientation to American culture per se is useful. Much of this will come from the intern’s living situation (campus housing, roommates, etc.). The Cornell community is overloaded with lectures, plays, musical events, etc., and the participant will be able to experience any of these, per their interest."
+    "objectID": "tutorials/arxiv_tutorial.html#step-5-add-metadata",
+    "href": "tutorials/arxiv_tutorial.html#step-5-add-metadata",
+    "title": "How to Submit Papers to arXiv: A Step-by-Step Guide",
+    "section": "Step 5: Add Metadata",
+    "text": "Step 5: Add Metadata\n\n5.1 Enter Title\nProvide the complete title of your paper. Avoid using excessive LaTeX commands in the title field unless necessary for mathematical notation.\n\n\n5.2 Add Authors\nEnter all authors in order. For each author, include:\n\nFull names (first name and last name)\nAffiliations (institutional affiliation)\nORCID iDs (if available and recommended for identification)\n\nYou can add multiple authors by clicking the “Add Author” button. Ensure the author order is correct as this cannot be easily changed after publication.\n\n\n5.3 Write Abstract\nPaste or type your abstract. Keep it concise (typically 250-500 words) and avoid:\n\nExcessive mathematical notation (use plain text descriptions where possible)\nReferences to figures, tables, or equations\nBibliographic citations\nUnnecessary formatting\n\nThe abstract should provide a clear, standalone summary of your paper’s contributions and findings.\n\n\n5.4 Enter Comments (Optional)\nIn the comments field, you can add useful information such as:\n\nNumber of pages and figures (e.g., “23 pages, 8 figures”)\nSubmission status (e.g., “Submitted to IEEE Transactions on Neural Networks”)\nConference information (e.g., “Accepted at NeurIPS 2025”)\nRelated papers or previous versions\nOther relevant context\n\n\n\n5.5 Select Categories\nChoose the primary category that best fits your paper. This is crucial as it determines where your paper will appear in arXiv’s listings.\nYou can also select cross-list categories if your paper is relevant to multiple fields. However, be selective and only cross-list to genuinely relevant categories.\n\n\n\n\n\n\nNoteCommon Categories\n\n\n\n\ncs.AI - Artificial Intelligence\ncs.LG - Machine Learning\n\ncs.CL - Computation and Language\ncs.CV - Computer Vision and Pattern Recognition\nstat.ML - Machine Learning (Statistics)\nmath.ST - Statistics Theory\nphysics.data-an - Data Analysis, Statistics and Probability\nq-bio - Quantitative Biology\necon.EM - Econometrics\n\n\n\n\n\n5.6 Add Report Number (Optional)\nIf your paper has an institutional report number or technical report number, enter it here. This is typically used by research institutions or laboratories.\n\n\n5.7 Add Journal Reference (If Published)\nIf your paper is already published or accepted in a journal, add the journal reference.\nFormat: “Journal Name, Volume(Issue), Pages (Year)”\nExample: “Nature Communications, 12(1), 1234-1245 (2021)”\n\n\n5.8 Add DOI (If Available)\nIf your paper has been published and has a Digital Object Identifier (DOI), enter it here. This helps link the arXiv version to the published version.\nFormat: Enter only the DOI string (e.g., “10.1038/s41467-021-12345-6”), not the full URL."
   },
   {
-    "objectID": "tutorials/databricks-naming-convention-compute.html",
-    "href": "tutorials/databricks-naming-convention-compute.html",
-    "title": "Naming convention within Bovi-Analytics Lab for Databricks compute",
-    "section": "",
-    "text": "Tagging Databricks Compute\nWhen using compute within Databricks make sure to tag each compute you create. This allows to track costs from specific projects."
+    "objectID": "tutorials/arxiv_tutorial.html#step-6-review-your-submission",
+    "href": "tutorials/arxiv_tutorial.html#step-6-review-your-submission",
+    "title": "How to Submit Papers to arXiv: A Step-by-Step Guide",
+    "section": "Step 6: Review Your Submission",
+    "text": "Step 6: Review Your Submission\n\n6.1 Preview Complete Submission\nCarefully review all metadata and the generated PDF. Check for:\n\nCorrect title spelling and formatting\nAll author names and affiliations are accurate\nAbstract is complete and properly formatted\nCorrect category selection\nPDF rendering quality (equations, figures, tables)\nNo missing references or broken citations\n\nThis is your last chance to catch errors before submission, so take your time reviewing.\n\n\n6.2 Make Corrections (If Needed)\nIf you notice any errors, use the “Previous” button to go back and make corrections. You can edit any section without losing your progress."
   },
   {
-    "objectID": "tutorials/databricks.html",
-    "href": "tutorials/databricks.html",
-    "title": "Get started with Databricks",
-    "section": "",
-    "text": "Introduction\nDatabricks is a unified data analytics and machine learning platform that is designed to simplify and accelerate data-driven decision-making for organizations. It was founded by the creators of Apache Spark, a popular open-source big data processing framework. Databricks builds on Spark and provides an integrated environment for data engineering, data science, and business intelligence.\n\n\nGet started\nTo sign up for Databricks Community Edition:\n\nClick ‘Try Databricks’ here.\nEnter your name, company, email, and title, and click Continue.\n\nVERY IMPORTANT. On the Choose a cloud provider dialog, click the “Get started with Community Edition” link. You’ll see a page announcing that an email has been sent to the address you provided.\n\nLook for the welcome email and click the link to verify your email address. You are prompted to create your Databricks password.\nWhen you click Submit, you'll be taken to the Databricks Community Edition home page.When you click Submit, you’ll be taken to the Databricks Community Edition home page.\n\n\n\n\nHow to add other people to your workspace\n\nMove to your user profile on the upper right corner.\nClick on ‘Admin Settings’\nClick ‘Add user’"
+    "objectID": "tutorials/arxiv_tutorial.html#step-7-submit-your-paper",
+    "href": "tutorials/arxiv_tutorial.html#step-7-submit-your-paper",
+    "title": "How to Submit Papers to arXiv: A Step-by-Step Guide",
+    "section": "Step 7: Submit Your Paper",
+    "text": "Step 7: Submit Your Paper\n\n7.1 Accept Policies and Select License\nRead arXiv’s submission policies carefully. Check the box to indicate you’ve read and agree to:\n\nThe submission terms and conditions\narXiv’s moderation policies\nThe licensing terms\n\nSelect your preferred license from the dropdown menu (refer back to Step 3.3 for detailed guidance on choosing the right license).\n\n\n7.2 Final Submission\nClick the “Submit Article” or “SUBMIT” button to complete your submission.\n\n\n7.3 Confirmation\nYou’ll receive a confirmation screen with:\n\nYour submission identifier (e.g., a temporary ID)\nExpected announcement date\nInstructions for what happens next\n\nImportant: Save or screenshot this confirmation page for your records."
   },
   {
-    "objectID": "tutorials/github-r-zenodo.html",
-    "href": "tutorials/github-r-zenodo.html",
-    "title": "Get started with Github, R and Zenodo",
+    "objectID": "tutorials/arxiv_tutorial.html#step-8-after-submission",
+    "href": "tutorials/arxiv_tutorial.html#step-8-after-submission",
+    "title": "How to Submit Papers to arXiv: A Step-by-Step Guide",
+    "section": "Step 8: After Submission",
+    "text": "Step 8: After Submission\n\n8.1 Email Confirmation\nWithin a few minutes, you should receive a confirmation email from arXiv containing:\n\nYour submission details\nSubmission ID\nExpected processing timeline\n\nIf you don’t receive this email within an hour, check your spam folder or contact arXiv support.\n\n\n8.2 Moderation Process\nYour submission will be reviewed by arXiv moderators to ensure:\n\nIt’s scholarly work appropriate for arXiv\nFiles are processable and the PDF is readable\nMetadata is complete and accurate\nThe submission follows arXiv policies\n\nThis process typically takes 1-2 business days (excluding weekends and holidays).\n\n\n\n\n\n\nNote\n\n\n\nModerators don’t peer-review your paper’s scientific content. They only check that it meets arXiv’s technical and policy requirements.\n\n\n\n\n8.3 Publication Schedule\nIf approved, your paper will be announced and published according to arXiv’s schedule:\n\nSubmissions are typically announced Sunday through Thursday evenings (US Eastern Time)\nPapers submitted before the deadline (typically 2 PM EST) are announced the next business day\nPapers submitted after the deadline are announced the following business day\n\n\n\n8.4 Access Your Published Paper\nOnce published, your paper will:\n\nHave a permanent arXiv identifier (e.g., arXiv:2501.12345)\nBe freely accessible to anyone worldwide\nBe indexed by search engines and academic databases\nReceive a timestamp showing submission and publication dates\n\nYou can find your paper by:\n\nSearching your name on arXiv\nUsing the arXiv identifier\nAccessing your user profile page"
+  },
+  {
+    "objectID": "tutorials/arxiv_tutorial.html#step-9-updating-your-paper-replacements",
+    "href": "tutorials/arxiv_tutorial.html#step-9-updating-your-paper-replacements",
+    "title": "How to Submit Papers to arXiv: A Step-by-Step Guide",
+    "section": "Step 9: Updating Your Paper (Replacements)",
+    "text": "Step 9: Updating Your Paper (Replacements)\n\n9.1 When to Submit a Replacement\nYou may want to update your paper to:\n\nCorrect errors or typos\nAdd additional results or analysis\nUpdate author information\nAdd journal reference after publication\nRespond to feedback from readers\n\n\n\n9.2 How to Submit a Replacement\nTo update an already published paper:\n\nLog in to your arXiv account\nFind your paper by searching for it or accessing your user profile\nClick on the paper to go to its abstract page\nLook for replacement options in the submission interface (the exact location may vary with interface updates)\nFollow the submission process again with your updated files\nIn the comments field, briefly explain what changes you’ve made (e.g., “Fixed typos in Section 3, added Appendix B”)\n\n\n\n\n\n\n\nImportantImportant Notes About Replacements\n\n\n\n\nOnly the original submitter can submit replacements\nPrevious versions remain accessible (arXiv maintains a complete version history)\nThe arXiv identifier stays the same (e.g., arXiv:2501.12345v2 for version 2)\nReplacements go through the same moderation process\nYou should explain changes in the comments to help readers understand what’s different\n\n\n\n\n\n9.3 Version History\narXiv maintains a complete version history. Readers can:\n\nSee all versions of your paper\nCompare versions to see what changed\nCite specific versions if needed\n\nThis transparency is a feature, not a bug—it shows the evolution of your research."
+  },
+  {
+    "objectID": "tutorials/arxiv_tutorial.html#troubleshooting-common-issues",
+    "href": "tutorials/arxiv_tutorial.html#troubleshooting-common-issues",
+    "title": "How to Submit Papers to arXiv: A Step-by-Step Guide",
+    "section": "Troubleshooting Common Issues",
+    "text": "Troubleshooting Common Issues\n\nLaTeX Compilation Errors\nProblem: Your LaTeX files don’t compile on arXiv’s servers.\nSolutions:\n\nEnsure all necessary files are included (figures, .bbl file, style files)\nTest compilation locally with a standard LaTeX distribution\nUse standard packages that are available on arXiv\nRemove any custom paths, system-specific commands, or \\input statements pointing to non-included files\nCheck the arXiv TeX/LaTeX help page for the list of available packages\n\n\n\nPDF Processing Issues\nProblem: Your PDF is rejected or displays incorrectly.\nSolutions:\n\nEnsure all fonts are embedded (use pdffonts command to check)\nRemove any security restrictions or passwords from the PDF\nMake sure the PDF is searchable (not a scanned image)\nReduce file size by compressing images if it exceeds 50 MB\nUse PDF/A format if possible for better archival quality\n\n\n\nMetadata Errors\nProblem: You made a mistake in the title, authors, or abstract.\nSolutions:\n\nIf caught before announcement: Contact arXiv moderators immediately to request changes\nIf caught after announcement: Submit a replacement version with corrected metadata\nFor author list errors: Contact arXiv admin as author list changes require special handling\n\n\n\nSubmission Delayed or On Hold\nProblem: Your submission is delayed or placed on hold.\nPossible reasons:\n\nThe paper doesn’t meet arXiv’s scope or standards\nThere are technical issues with your files\nAdditional review is needed\n\nWhat to do:\n\nCheck your email for messages from arXiv moderators\nRespond promptly to any requests for information\nIf unsure, contact arXiv support with your submission ID\n\n\n\nCan’t Find Your Paper After Publication\nProblem: Your paper was announced but you can’t find it.\nSolutions:\n\nSearch using your exact name as it appears in the author list\nUse the arXiv identifier from your confirmation email\nCheck the correct category—papers are listed in their primary category\nClear your browser cache and try again\nCheck that you’re looking at the correct announcement date"
+  },
+  {
+    "objectID": "tutorials/arxiv_tutorial.html#best-practices",
+    "href": "tutorials/arxiv_tutorial.html#best-practices",
+    "title": "How to Submit Papers to arXiv: A Step-by-Step Guide",
+    "section": "Best Practices",
+    "text": "Best Practices\n\nBefore Submission\n\nProofread carefully: Have co-authors review the final version\nTest your files: Compile LaTeX locally or check PDF rendering\nVerify metadata: Double-check all author names, affiliations, and abstract\nCheck journal policies: Ensure arXiv submission won’t conflict with journal requirements\nChoose timing wisely: Submit early in the week if you want faster publication\n\n\n\nDuring Submission\n\nChoose categories carefully: Select the most appropriate primary category\nWrite a clear abstract: Make it accessible to readers outside your specific subfield\nAdd helpful comments: Include page count, submission status, and related work\nSelect the right license: Discuss with co-authors and consider future plans\nReview thoroughly: This is your last chance to catch errors before going public\n\n\n\nAfter Submission\n\nSave confirmation emails: Keep records of your submission ID and dates\nMonitor for publication: Check for your announcement email\nShare appropriately: Once published, share on social media and with colleagues\nTrack citations: Monitor how your paper is cited and referenced\nRespond to feedback: Consider feedback from readers for future versions\n\n\n\nFor Replacements\n\nDocument changes: Clearly explain what you changed in the comments\nDon’t over-revise: Only submit replacements for substantive changes\nConsider timing: Wait until you have multiple fixes rather than many small updates\nMaintain quality: Replacements should improve the paper, not rush out incomplete fixes"
+  },
+  {
+    "objectID": "tutorials/arxiv_tutorial.html#additional-resources",
+    "href": "tutorials/arxiv_tutorial.html#additional-resources",
+    "title": "How to Submit Papers to arXiv: A Step-by-Step Guide",
+    "section": "Additional Resources",
+    "text": "Additional Resources\n\narXiv Help Center: https://info.arxiv.org/help/\nSubmission Guidelines: https://info.arxiv.org/help/submit.html\nTeX/LaTeX Help: https://info.arxiv.org/help/submit_tex.html\nPDF Submission Help: https://info.arxiv.org/help/submit_pdf.html\nLicense Information: https://info.arxiv.org/help/license.html\narXiv Support: For questions not covered in documentation, email help@arxiv.org"
+  },
+  {
+    "objectID": "tutorials/arxiv_tutorial.html#conclusion",
+    "href": "tutorials/arxiv_tutorial.html#conclusion",
+    "title": "How to Submit Papers to arXiv: A Step-by-Step Guide",
+    "section": "Conclusion",
+    "text": "Conclusion\nSubmitting to arXiv is an excellent way to share your research with the global scientific community quickly and freely. This tutorial has guided you through the entire process from account creation to publication and updates.\nKey takeaways:\n\nPrepare your files carefully before starting the submission\nReview metadata thoroughly to avoid errors\nChoose your license thoughtfully based on your goals\nBe patient during the moderation process\nKeep good records of your submissions and confirmations\n\nBy following these guidelines, you’ll be able to successfully share your research on arXiv and contribute to open science. If you encounter issues not covered here, don’t hesitate to consult arXiv’s help resources or contact their support team.\nGood luck with your submissions!"
+  },
+  {
+    "objectID": "tutorials/databricks-secrets.html",
+    "href": "tutorials/databricks-secrets.html",
+    "title": "Storing and Accessing Secrets in Azure Key Vault",
     "section": "",
-    "text": "Webinar"
+    "text": "Before accessing the secret in Databricks, make sure to:"
+  },
+  {
+    "objectID": "tutorials/databricks-secrets.html#access-the-key-in-databricks",
+    "href": "tutorials/databricks-secrets.html#access-the-key-in-databricks",
+    "title": "Storing and Accessing Secrets in Azure Key Vault",
+    "section": "🔐 Access the Key in Databricks",
+    "text": "🔐 Access the Key in Databricks\nUse the following code snippet to retrieve the secret:\n\n# Retrieve secret from Azure Key Vault via Databricks Secret Scope\n    # Replace &lt;data&gt; with the actual data name you want to access\n    # Replace &lt;your-key-name&gt; with the actual key name you want to access.\n&lt;data&gt;_secret = dbutils.secrets.get(scope=\"bovi_analytics_secrets_scope\", key= &lt;your-key-name&gt; )\n\n# Print the secret (only for debugging; avoid in production)\nprint(&lt;data&gt;_secret)"
+  },
+  {
+    "objectID": "tutorials/databricks-secrets.html#overview-of-blob-storage-accounts-and-keys",
+    "href": "tutorials/databricks-secrets.html#overview-of-blob-storage-accounts-and-keys",
+    "title": "Storing and Accessing Secrets in Azure Key Vault",
+    "section": "Overview of blob storage accounts and keys",
+    "text": "Overview of blob storage accounts and keys\n\n\n\n\n\n\n\n\nblob-storage-account\nscope\nkey\n\n\n\n\nlab-us\nbovi_analytics_secrets_scope\nazure-bovi-analytics-lab-us\n\n\nlab-eu\nbovi_analytics_secrets_scope\nazure-bovi-analytics-lab-eu\n\n\ngpluse\nbovi_analytics_secrets_scope\nazure-bovi-analytics-gpluse-eu\n\n\nplaybehavior\nbovi_analytics_secrets_scope\nazure-bovi-analytics-playbehavior-eu\n\n\nmethanedata\nbovi_analytics_secrets_scope\nazure-bovi-analytics-methanedata-us\n\n\n\nazure-bovi-analytics-methanedata-us"
+  },
+  {
+    "objectID": "tutorials/databricks-secrets.html#real-example-accessing-bovi-analytics-data-from-azure-blob-storage",
+    "href": "tutorials/databricks-secrets.html#real-example-accessing-bovi-analytics-data-from-azure-blob-storage",
+    "title": "Storing and Accessing Secrets in Azure Key Vault",
+    "section": "Real Example: Accessing Bovi-Analytics Data from Azure Blob Storage",
+    "text": "Real Example: Accessing Bovi-Analytics Data from Azure Blob Storage\nIn this example, we use a secret stored in Azure Key Vault (retrieved via Databricks Secret Scope) to authenticate and access data stored in an Azure Blob Storage account.\n\n%scala\n// Set the Azure Blob Storage account key using the Databricks secret\nspark.sparkContext.hadoopConfiguration.set(\n   \"fs.azure.account.key.blob-storage-account.blob.core.windows.net\",\n   dbutils.secrets.get(scope=\"bovi_analytics_secrets_scope\", key= \"key\")\n   )\n\n\n%python\n// Set the Azure Blob Storage account key using the Databricks secret\nspark.conf.set(\n   \"fs.azure.account.key.blob-storage-account.blob.core.windows.net\",\n   dbutils.secrets.get(scope=\"bovi_analytics_secrets_scope\", key= \"key\")\n   )\n\n\n# Accessing farm data stored in blob storage\nfile_location = \"wasbs://container-name@blob-storage-acount.blob.core.windows.net/path-to-file/\"\nfile_type = \"txt\"\ndata_set = spark.read.format(file_type).load(file_location)\ndisplay(data_set)"
+  },
+  {
+    "objectID": "tutorials/general-naming-convention.html",
+    "href": "tutorials/general-naming-convention.html",
+    "title": "Naming conventions",
+    "section": "",
+    "text": "Naming conventions are essential for writing clean, readable, and maintainable code. They serve as guidelines for naming variables, functions, classes, and other identifiers in your codebase. Consistently following naming conventions can improve collaboration among developers, reduce confusion, and make it easier to understand your code in the long run. In this tutorial, we will explore the best practices for naming conventions in various programming languages.\n\n\nBefore diving into language-specific conventions, let’s establish some general principles that apply across most programming languages:\n\n\nChoose descriptive names that convey the purpose and meaning of the identifier. Avoid single-letter names or cryptic abbreviations that obscure the purpose of the variable or function.\nBad Example:\nx = 10       # What does 'x' represent?\nGood Example:\nage = 30     # Clearly indicates that 'age' represents a person's age.\n\n\n\nBe consistent in your naming style throughout your codebase. Consistency improves code readability and makes it easier for developers to understand and navigate the code.\nBad Example:\ngetUserData()   // In camelCase\nfetch_user()    // In snake_case\nGood Example:\ngetUserData()   // Both functions in camelCase\nfetchUserData() // Both functions in camelCase\n\n\n\nStrive for names that are neither too long nor too short. Extremely long names can be cumbersome, while very short names may not convey sufficient information.\nBad Example:\nint n = 15;  // Not descriptive enough\nGood Example:\nint numberOfStudents = 15; // Descriptive but not overly long\n\n\n\nAvoid using reserved keywords of the programming language as identifiers since they have special meanings and functionalities.\nBad Example:\nclass = \"User\";  // 'class' is a reserved keyword in Python.\nGood Example:\nuser_class = \"User\"; // Use a different name that is not a reserved keyword.\n\n\n\n\nLet’s explore the naming conventions in some popular programming languages:\n\n\nPython code follows the PEP 8 style guide, which suggests the following conventions:\n\nVariables, functions, and module names should be in lowercase, separated by underscores (snake_case).\nConstants should be in uppercase, separated by underscores.\nClass names should follow the CapWords convention (also known as PascalCase).\n\nExamples:\n# Variables and functions\nuser_name = \"John\"\ncalculate_average_score()\n\n# Constants\nMAX_ATTEMPTS = 3\n\n# Class\nclass Car:\n    def __init__(self, make, model):\n        self.make = make\n        self.model = model\n\n\n\nJavaScript typically follows the following conventions:\n\nVariables and functions should be in camelCase.\nConstants can be in uppercase with underscores (ALL_CAPS) but are not strictly enforced.\nConstructor functions (used for creating objects) should be written with PascalCase.\n\nExamples:\n// Variables and functions\nlet userName = \"John\";\nfunction calculateAverageScore() { /* ... */ }\n\n// Constants (non-enforced convention)\nconst MAX_ATTEMPTS = 3;\n\n// Constructor function (class-like)\nfunction Car(make, model) {\n    this.make = make;\n    this.model = model;\n}\n\n\n\nJava uses a slightly different naming convention:\n\nVariables and functions should be in camelCase.\nConstants should be in uppercase with underscores (ALL_CAPS).\nClass names should follow the CapWords convention (PascalCase).\n\nExamples:\n// Variables and functions\nString userName = \"John\";\nint calculateAverageScore() { /* ... */ }\n\n// Constants\nfinal int MAX_ATTEMPTS = 3;\n\n// Class\nclass Car {\n    String make;\n    String model;\n\n    Car(String make, String model) {\n        this.make = make;\n        this.model = model;\n    }\n}\n\n\n\n\n\n\nWhen using acronyms or abbreviations, be consistent with their capitalization and try to avoid ambiguous names.\nExamples:\n# Good\nxmlHttpRequest = ...\nuserID = ...\n\n# Bad\nXMLHTTPRequest = ...  # Inconsistent capitalization\nuid = ...             # Ambiguous abbreviation\n\n\n\nChoose names that reflect the variable’s scope. For example, use meaningful prefixes like “g_” for global variables and “m_” for member variables in classes.\nglobal_variable = 10\nclass MyClass:\n    def __init__(self):\n        self.member_variable = 20\n\n\n\n\nAdhering to naming conventions is crucial for writing clean and maintainable code. Each programming language has its own conventions, but the general principles of descriptive and consistent naming apply universally. Following these conventions will improve code readability, make it easier for others to collaborate with you, and ensure that your codebase remains maintainable in the long term. Happy coding!"
+  },
+  {
+    "objectID": "tutorials/general-naming-convention.html#general-principles",
+    "href": "tutorials/general-naming-convention.html#general-principles",
+    "title": "Naming conventions",
+    "section": "",
+    "text": "Before diving into language-specific conventions, let’s establish some general principles that apply across most programming languages:\n\n\nChoose descriptive names that convey the purpose and meaning of the identifier. Avoid single-letter names or cryptic abbreviations that obscure the purpose of the variable or function.\nBad Example:\nx = 10       # What does 'x' represent?\nGood Example:\nage = 30     # Clearly indicates that 'age' represents a person's age.\n\n\n\nBe consistent in your naming style throughout your codebase. Consistency improves code readability and makes it easier for developers to understand and navigate the code.\nBad Example:\ngetUserData()   // In camelCase\nfetch_user()    // In snake_case\nGood Example:\ngetUserData()   // Both functions in camelCase\nfetchUserData() // Both functions in camelCase\n\n\n\nStrive for names that are neither too long nor too short. Extremely long names can be cumbersome, while very short names may not convey sufficient information.\nBad Example:\nint n = 15;  // Not descriptive enough\nGood Example:\nint numberOfStudents = 15; // Descriptive but not overly long\n\n\n\nAvoid using reserved keywords of the programming language as identifiers since they have special meanings and functionalities.\nBad Example:\nclass = \"User\";  // 'class' is a reserved keyword in Python.\nGood Example:\nuser_class = \"User\"; // Use a different name that is not a reserved keyword."
+  },
+  {
+    "objectID": "tutorials/general-naming-convention.html#naming-conventions-in-specific-languages",
+    "href": "tutorials/general-naming-convention.html#naming-conventions-in-specific-languages",
+    "title": "Naming conventions",
+    "section": "",
+    "text": "Let’s explore the naming conventions in some popular programming languages:\n\n\nPython code follows the PEP 8 style guide, which suggests the following conventions:\n\nVariables, functions, and module names should be in lowercase, separated by underscores (snake_case).\nConstants should be in uppercase, separated by underscores.\nClass names should follow the CapWords convention (also known as PascalCase).\n\nExamples:\n# Variables and functions\nuser_name = \"John\"\ncalculate_average_score()\n\n# Constants\nMAX_ATTEMPTS = 3\n\n# Class\nclass Car:\n    def __init__(self, make, model):\n        self.make = make\n        self.model = model\n\n\n\nJavaScript typically follows the following conventions:\n\nVariables and functions should be in camelCase.\nConstants can be in uppercase with underscores (ALL_CAPS) but are not strictly enforced.\nConstructor functions (used for creating objects) should be written with PascalCase.\n\nExamples:\n// Variables and functions\nlet userName = \"John\";\nfunction calculateAverageScore() { /* ... */ }\n\n// Constants (non-enforced convention)\nconst MAX_ATTEMPTS = 3;\n\n// Constructor function (class-like)\nfunction Car(make, model) {\n    this.make = make;\n    this.model = model;\n}\n\n\n\nJava uses a slightly different naming convention:\n\nVariables and functions should be in camelCase.\nConstants should be in uppercase with underscores (ALL_CAPS).\nClass names should follow the CapWords convention (PascalCase).\n\nExamples:\n// Variables and functions\nString userName = \"John\";\nint calculateAverageScore() { /* ... */ }\n\n// Constants\nfinal int MAX_ATTEMPTS = 3;\n\n// Class\nclass Car {\n    String make;\n    String model;\n\n    Car(String make, String model) {\n        this.make = make;\n        this.model = model;\n    }\n}"
+  },
+  {
+    "objectID": "tutorials/general-naming-convention.html#special-cases",
+    "href": "tutorials/general-naming-convention.html#special-cases",
+    "title": "Naming conventions",
+    "section": "",
+    "text": "When using acronyms or abbreviations, be consistent with their capitalization and try to avoid ambiguous names.\nExamples:\n# Good\nxmlHttpRequest = ...\nuserID = ...\n\n# Bad\nXMLHTTPRequest = ...  # Inconsistent capitalization\nuid = ...             # Ambiguous abbreviation\n\n\n\nChoose names that reflect the variable’s scope. For example, use meaningful prefixes like “g_” for global variables and “m_” for member variables in classes.\nglobal_variable = 10\nclass MyClass:\n    def __init__(self):\n        self.member_variable = 20"
+  },
+  {
+    "objectID": "tutorials/general-naming-convention.html#conclusion",
+    "href": "tutorials/general-naming-convention.html#conclusion",
+    "title": "Naming conventions",
+    "section": "",
+    "text": "Adhering to naming conventions is crucial for writing clean and maintainable code. Each programming language has its own conventions, but the general principles of descriptive and consistent naming apply universally. Following these conventions will improve code readability, make it easier for others to collaborate with you, and ensure that your codebase remains maintainable in the long term. Happy coding!"
   },
   {
     "objectID": "tutorials/master-thesis-guide.html",
