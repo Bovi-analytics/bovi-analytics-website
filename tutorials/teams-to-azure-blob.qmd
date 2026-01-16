@@ -6,6 +6,7 @@ author: Puchun Niu
 date: 01/16/2026
 format: html
 editor: visual
+image: images/teams-to-blob-options.png
 ---
 
 ## Teams → Azure Blob, options considered
@@ -115,8 +116,6 @@ Save the Logic App.
 
 `bovianalyticsstorage` → container `bovianalytics-data` → `us/GEMs/{FilenameWithExtension}`
 
-![](tutorials/images/teams-to-blob-options.png)
-
 ## Tips / gotchas we fixed
 
 -   **Folder vs. file path:** put the folder in **Folder Path** (`/bovianalytics-data/us/GEMs/`) and the filename token in **Blob Name**, otherwise files may land at the container root.
@@ -133,6 +132,7 @@ Any new or modified file in the Teams library is automatically mirrored to:
 `bovianalyticsstorage` → container `bovianalytics-data` → `us/GEMs/{FilenameWithExtension}`
 
 Updates overwrite existing files, and new files are created reliably at very low cost.
+
 
 
 
