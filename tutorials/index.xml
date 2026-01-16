@@ -93,6 +93,143 @@
   <pubDate>Mon, 11 Jan 2027 00:00:00 GMT</pubDate>
 </item>
 <item>
+  <title>Teams → Azure Blob (Logic Apps)</title>
+  <dc:creator>Puchun Niu</dc:creator>
+  <link>https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/teams-to-azure-blob.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="teams-azure-blob-options-considered" class="level2">
+<h2 class="anchored" data-anchor-id="teams-azure-blob-options-considered">Teams → Azure Blob, options considered</h2>
+<section id="a-power-automate-no-code-fast-start" class="level3">
+<h3 class="anchored" data-anchor-id="a-power-automate-no-code-fast-start">A) Power Automate (no-code, fast start)</h3>
+<p><strong>Pros</strong> - Easiest to build - Works directly with SharePoint (Teams files) and Azure Blob</p>
+<p><strong>Cons</strong> - Azure Blob is a <strong>Premium</strong> connector → needs a Power Automate Premium license</p>
+<p><strong>Typical pricing (reference)</strong> - Per-user plan: about <strong>$15/user/month</strong> - Per-flow plan: about <strong>$100/flow/month</strong> - (You may see a 90-day trial prompt for premium connectors.)</p>
+<p><strong>Permissions needed</strong> - None on Azure to <em>run</em> the flow itself - But you must be able to enter the Storage account <strong>Access Key</strong> once to create the Blob connection</p>
+</section>
+<section id="b-azure-function-code" class="level3">
+<h3 class="anchored" data-anchor-id="b-azure-function-code">B) Azure Function (code)</h3>
+<p><strong>Pros</strong> - Most flexible - Full control - Great for heavy logic</p>
+<p><strong>Cons</strong> - Requires code, DevOps, and hosting management</p>
+<p><strong>Note</strong> - We did not pursue this, because we wanted no-code/low-code.</p>
+</section>
+<section id="c-azure-logic-apps-consumption-pay-per-use" class="level3">
+<h3 class="anchored" data-anchor-id="c-azure-logic-apps-consumption-pay-per-use">C) Azure Logic Apps (consumption, pay-per-use)</h3>
+</section>
+</section>
+<section id="teams-azure-blob-with-azure-logic-apps-consumption" class="level2">
+<h2 class="anchored" data-anchor-id="teams-azure-blob-with-azure-logic-apps-consumption">Teams → Azure Blob with Azure Logic Apps (Consumption)</h2>
+<section id="why-logic-apps-and-not-power-automate" class="level3">
+<h3 class="anchored" data-anchor-id="why-logic-apps-and-not-power-automate">Why Logic Apps (and not Power Automate)</h3>
+<p>We first tried <strong>Power Automate</strong>:</p>
+<p>SharePoint trigger → Get file content → Create blob</p>
+<p><strong>Blocker:</strong> Azure Blob is a <strong>Premium</strong> connector → requires a Premium license.</p>
+<p>We switched to <strong>Azure Logic Apps (Consumption)</strong>: - Same no-code experience - Pay-per-use (cheap) - No Premium license required</p>
+<p><strong>Costs (ballpark)</strong> - ~$0.000025 per action - Example: 1,000 file changes × ~4 actions ≈ <strong>$0.10/month</strong></p>
+<p><strong>Permissions needed</strong> - Resource Group access (e.g., <strong>Contributor</strong>) to create the Logic App - Storage access via: - <strong>Access Key</strong> (what we used), or - RBAC (e.g., <strong>Storage Blob Data Contributor</strong>)</p>
+</section>
+</section>
+<section id="prerequisites" class="level2">
+<h2 class="anchored" data-anchor-id="prerequisites">Prerequisites</h2>
+<ul>
+<li><strong>Resource group:</strong> access to <code>bovianalytics-db-storage</code></li>
+<li><strong>Storage account:</strong> <code>bovianalyticsstorage</code></li>
+<li><strong>Container:</strong> <code>bovianalytics-data</code></li>
+<li><strong>Access Key</strong> for the storage account (account name + key)
+<ul>
+<li>Access Key: request from the lab manager</li>
+</ul></li>
+</ul>
+</section>
+<section id="build-the-logic-app-consumption" class="level2">
+<h2 class="anchored" data-anchor-id="build-the-logic-app-consumption">Build the Logic App (Consumption)</h2>
+<section id="create-the-app" class="level3">
+<h3 class="anchored" data-anchor-id="create-the-app">1) Create the app</h3>
+<p>Azure Portal → Create → Logic App → Multi-tenant (Consumption)</p>
+<ul>
+<li>Subscription: <strong>FarmBeats</strong></li>
+<li>Resource group: <strong>bovianalytics-db-storage</strong></li>
+<li>Name: e.g., <code>teams-to-blob</code></li>
+<li>Region: any allowed (e.g., East US)</li>
+<li>Create</li>
+</ul>
+</section>
+<section id="open-designer" class="level3">
+<h3 class="anchored" data-anchor-id="open-designer">2) Open Designer</h3>
+<p>Resource → <strong>Logic app designer</strong></p>
+</section>
+<section id="trigger-sharepointteams" class="level3">
+<h3 class="anchored" data-anchor-id="trigger-sharepointteams">3) Trigger (SharePoint/Teams)</h3>
+<p>Trigger: - <strong>When a file is created or modified (properties only)</strong></p>
+<p>Settings: - Site Address: <code>GEMS Consortium – Data entry templates</code><br>
+(<a href="https://cornellprod.sharepoint.com/sites/GEMSConsortium-Dataentrytemplates"><code>https://cornellprod.sharepoint.com/sites/GEMSConsortium-Dataentrytemplates</code></a>) - Library Name: <strong>Documents</strong> (or the correct library) - (Optional) Folder to limit scope</p>
+</section>
+<section id="get-the-file-content" class="level3">
+<h3 class="anchored" data-anchor-id="get-the-file-content">4) Get the file content</h3>
+<p>Action: - <strong>Get file content (SharePoint)</strong></p>
+<p>Input: - File Identifier: <strong>Identifier</strong> (from trigger)</p>
+</section>
+<section id="try-to-overwrite-first" class="level3">
+<h3 class="anchored" data-anchor-id="try-to-overwrite-first">5) Try to overwrite first</h3>
+<p>Action: - <strong>Update blob (V2)</strong> (Azure Blob Storage)</p>
+<p>Connection: - Use Access Key for <code>bovianalyticsstorage</code></p>
+<p>Inputs: - Blob: <code>/bovianalytics-data/us/GEMs/{FilenameWithExtension}</code> - Blob Content: <strong>File Content</strong></p>
+</section>
+<section id="create-if-it-doesnt-exist" class="level3">
+<h3 class="anchored" data-anchor-id="create-if-it-doesnt-exist">6) Create if it doesn’t exist</h3>
+<p>Action: - <strong>Create blob (V2)</strong></p>
+<p>Inputs: - Folder Path: <code>/bovianalytics-data/us/GEMs/</code> - Blob Name: <code>{FilenameWithExtension}</code> - Blob Content: <strong>File Content</strong></p>
+</section>
+<section id="run-after-important" class="level3">
+<h3 class="anchored" data-anchor-id="run-after-important">7) Run-after (important)</h3>
+<p>On <strong>Create blob (V2)</strong> → Run after → for <strong>Update blob (V2)</strong>: - Uncheck: <strong>Is successful</strong> - Check: <strong>Has timed out</strong>, <strong>Is skipped</strong>, <strong>Has failed</strong></p>
+<p>This makes “Create blob” run only when “Update blob” cannot, which gives: - overwrite if exists - otherwise create</p>
+</section>
+<section id="save-the-logic-app" class="level3">
+<h3 class="anchored" data-anchor-id="save-the-logic-app">8) Save the Logic App</h3>
+<p>Save the Logic App.</p>
+</section>
+</section>
+<section id="test" class="level2">
+<h2 class="anchored" data-anchor-id="test">Test</h2>
+<ol type="1">
+<li>Upload or modify a file in Teams</li>
+<li>In Logic App → <strong>Runs history</strong> should show <strong>Succeeded</strong></li>
+<li>In Storage Explorer (portal), confirm file exists at:</li>
+</ol>
+<p><code>bovianalyticsstorage</code> → container <code>bovianalytics-data</code> → <code>us/GEMs/{FilenameWithExtension}</code></p>
+<p><img src="https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/tutorials/images/teams-to-blob-options.png" class="img-fluid"></p>
+</section>
+<section id="tips-gotchas-we-fixed" class="level2">
+<h2 class="anchored" data-anchor-id="tips-gotchas-we-fixed">Tips / gotchas we fixed</h2>
+<ul>
+<li><strong>Folder vs.&nbsp;file path:</strong> put the folder in <strong>Folder Path</strong> (<code>/bovianalytics-data/us/GEMs/</code>) and the filename token in <strong>Blob Name</strong>, otherwise files may land at the container root.</li>
+<li><strong>Case/typos:</strong> ensure <code>us/GEMs</code> matches the folder you expect.</li>
+<li><strong>Overwrite behavior:</strong> handled by the Update-then-Create + Run-after pattern.</li>
+<li><strong>Backfill (optional):</strong>
+<ul>
+<li>temporarily add a “List files → For each → Get file content → Update/Create” loop, or</li>
+<li>“touch” the files in Teams to fire the trigger</li>
+</ul></li>
+</ul>
+</section>
+<section id="one-line-outcome" class="level2">
+<h2 class="anchored" data-anchor-id="one-line-outcome">One-line outcome</h2>
+<p>Any new or modified file in the Teams library is automatically mirrored to:</p>
+<p><code>bovianalyticsstorage</code> → container <code>bovianalytics-data</code> → <code>us/GEMs/{FilenameWithExtension}</code></p>
+<p>Updates overwrite existing files, and new files are created reliably at very low cost.</p>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/teams-to-azure-blob.html</guid>
+  <pubDate>Fri, 16 Jan 2026 00:00:00 GMT</pubDate>
+</item>
+<item>
   <title>How to Submit Papers to arXiv: A Step-by-Step Guide</title>
   <link>https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/arxiv_tutorial.html</link>
   <description><![CDATA[ 
@@ -2595,143 +2732,6 @@ font-style: inherit;">print</span>(e)</span></code></pre></div></div>
   <category>Slack</category>
   <guid>https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/slack.html</guid>
   <pubDate>Wed, 02 Aug 2023 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Teams → Azure Blob (Logic Apps)</title>
-  <dc:creator>Puchun Niu</dc:creator>
-  <link>https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/teams-to-azure-blob.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<section id="teams-azure-blob-options-considered" class="level2">
-<h2 class="anchored" data-anchor-id="teams-azure-blob-options-considered">Teams → Azure Blob, options considered</h2>
-<section id="a-power-automate-no-code-fast-start" class="level3">
-<h3 class="anchored" data-anchor-id="a-power-automate-no-code-fast-start">A) Power Automate (no-code, fast start)</h3>
-<p><strong>Pros</strong> - Easiest to build - Works directly with SharePoint (Teams files) and Azure Blob</p>
-<p><strong>Cons</strong> - Azure Blob is a <strong>Premium</strong> connector → needs a Power Automate Premium license</p>
-<p><strong>Typical pricing (reference)</strong> - Per-user plan: about <strong>$15/user/month</strong> - Per-flow plan: about <strong>$100/flow/month</strong> - (You may see a 90-day trial prompt for premium connectors.)</p>
-<p><strong>Permissions needed</strong> - None on Azure to <em>run</em> the flow itself - But you must be able to enter the Storage account <strong>Access Key</strong> once to create the Blob connection</p>
-</section>
-<section id="b-azure-function-code" class="level3">
-<h3 class="anchored" data-anchor-id="b-azure-function-code">B) Azure Function (code)</h3>
-<p><strong>Pros</strong> - Most flexible - Full control - Great for heavy logic</p>
-<p><strong>Cons</strong> - Requires code, DevOps, and hosting management</p>
-<p><strong>Note</strong> - We did not pursue this, because we wanted no-code/low-code.</p>
-</section>
-<section id="c-azure-logic-apps-consumption-pay-per-use" class="level3">
-<h3 class="anchored" data-anchor-id="c-azure-logic-apps-consumption-pay-per-use">C) Azure Logic Apps (consumption, pay-per-use)</h3>
-</section>
-</section>
-<section id="teams-azure-blob-with-azure-logic-apps-consumption" class="level2">
-<h2 class="anchored" data-anchor-id="teams-azure-blob-with-azure-logic-apps-consumption">Teams → Azure Blob with Azure Logic Apps (Consumption)</h2>
-<section id="why-logic-apps-and-not-power-automate" class="level3">
-<h3 class="anchored" data-anchor-id="why-logic-apps-and-not-power-automate">Why Logic Apps (and not Power Automate)</h3>
-<p>We first tried <strong>Power Automate</strong>:</p>
-<p>SharePoint trigger → Get file content → Create blob</p>
-<p><strong>Blocker:</strong> Azure Blob is a <strong>Premium</strong> connector → requires a Premium license.</p>
-<p>We switched to <strong>Azure Logic Apps (Consumption)</strong>: - Same no-code experience - Pay-per-use (cheap) - No Premium license required</p>
-<p><strong>Costs (ballpark)</strong> - ~$0.000025 per action - Example: 1,000 file changes × ~4 actions ≈ <strong>$0.10/month</strong></p>
-<p><strong>Permissions needed</strong> - Resource Group access (e.g., <strong>Contributor</strong>) to create the Logic App - Storage access via: - <strong>Access Key</strong> (what we used), or - RBAC (e.g., <strong>Storage Blob Data Contributor</strong>)</p>
-</section>
-</section>
-<section id="prerequisites" class="level2">
-<h2 class="anchored" data-anchor-id="prerequisites">Prerequisites</h2>
-<ul>
-<li><strong>Resource group:</strong> access to <code>bovianalytics-db-storage</code></li>
-<li><strong>Storage account:</strong> <code>bovianalyticsstorage</code></li>
-<li><strong>Container:</strong> <code>bovianalytics-data</code></li>
-<li><strong>Access Key</strong> for the storage account (account name + key)
-<ul>
-<li>Access Key: request from the lab manager</li>
-</ul></li>
-</ul>
-</section>
-<section id="build-the-logic-app-consumption" class="level2">
-<h2 class="anchored" data-anchor-id="build-the-logic-app-consumption">Build the Logic App (Consumption)</h2>
-<section id="create-the-app" class="level3">
-<h3 class="anchored" data-anchor-id="create-the-app">1) Create the app</h3>
-<p>Azure Portal → Create → Logic App → Multi-tenant (Consumption)</p>
-<ul>
-<li>Subscription: <strong>FarmBeats</strong></li>
-<li>Resource group: <strong>bovianalytics-db-storage</strong></li>
-<li>Name: e.g., <code>teams-to-blob</code></li>
-<li>Region: any allowed (e.g., East US)</li>
-<li>Create</li>
-</ul>
-</section>
-<section id="open-designer" class="level3">
-<h3 class="anchored" data-anchor-id="open-designer">2) Open Designer</h3>
-<p>Resource → <strong>Logic app designer</strong></p>
-</section>
-<section id="trigger-sharepointteams" class="level3">
-<h3 class="anchored" data-anchor-id="trigger-sharepointteams">3) Trigger (SharePoint/Teams)</h3>
-<p>Trigger: - <strong>When a file is created or modified (properties only)</strong></p>
-<p>Settings: - Site Address: <code>GEMS Consortium – Data entry templates</code><br>
-(<a href="https://cornellprod.sharepoint.com/sites/GEMSConsortium-Dataentrytemplates"><code>https://cornellprod.sharepoint.com/sites/GEMSConsortium-Dataentrytemplates</code></a>) - Library Name: <strong>Documents</strong> (or the correct library) - (Optional) Folder to limit scope</p>
-</section>
-<section id="get-the-file-content" class="level3">
-<h3 class="anchored" data-anchor-id="get-the-file-content">4) Get the file content</h3>
-<p>Action: - <strong>Get file content (SharePoint)</strong></p>
-<p>Input: - File Identifier: <strong>Identifier</strong> (from trigger)</p>
-</section>
-<section id="try-to-overwrite-first" class="level3">
-<h3 class="anchored" data-anchor-id="try-to-overwrite-first">5) Try to overwrite first</h3>
-<p>Action: - <strong>Update blob (V2)</strong> (Azure Blob Storage)</p>
-<p>Connection: - Use Access Key for <code>bovianalyticsstorage</code></p>
-<p>Inputs: - Blob: <code>/bovianalytics-data/us/GEMs/{FilenameWithExtension}</code> - Blob Content: <strong>File Content</strong></p>
-</section>
-<section id="create-if-it-doesnt-exist" class="level3">
-<h3 class="anchored" data-anchor-id="create-if-it-doesnt-exist">6) Create if it doesn’t exist</h3>
-<p>Action: - <strong>Create blob (V2)</strong></p>
-<p>Inputs: - Folder Path: <code>/bovianalytics-data/us/GEMs/</code> - Blob Name: <code>{FilenameWithExtension}</code> - Blob Content: <strong>File Content</strong></p>
-</section>
-<section id="run-after-important" class="level3">
-<h3 class="anchored" data-anchor-id="run-after-important">7) Run-after (important)</h3>
-<p>On <strong>Create blob (V2)</strong> → Run after → for <strong>Update blob (V2)</strong>: - Uncheck: <strong>Is successful</strong> - Check: <strong>Has timed out</strong>, <strong>Is skipped</strong>, <strong>Has failed</strong></p>
-<p>This makes “Create blob” run only when “Update blob” cannot, which gives: - overwrite if exists - otherwise create</p>
-</section>
-<section id="save-the-logic-app" class="level3">
-<h3 class="anchored" data-anchor-id="save-the-logic-app">8) Save the Logic App</h3>
-<p>Save the Logic App.</p>
-</section>
-</section>
-<section id="test" class="level2">
-<h2 class="anchored" data-anchor-id="test">Test</h2>
-<ol type="1">
-<li>Upload or modify a file in Teams</li>
-<li>In Logic App → <strong>Runs history</strong> should show <strong>Succeeded</strong></li>
-<li>In Storage Explorer (portal), confirm file exists at:</li>
-</ol>
-<p><code>bovianalyticsstorage</code> → container <code>bovianalytics-data</code> → <code>us/GEMs/{FilenameWithExtension}</code></p>
-<p><img src="https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/tutorials/images/teams-to-blob-options.png" class="img-fluid"></p>
-</section>
-<section id="tips-gotchas-we-fixed" class="level2">
-<h2 class="anchored" data-anchor-id="tips-gotchas-we-fixed">Tips / gotchas we fixed</h2>
-<ul>
-<li><strong>Folder vs.&nbsp;file path:</strong> put the folder in <strong>Folder Path</strong> (<code>/bovianalytics-data/us/GEMs/</code>) and the filename token in <strong>Blob Name</strong>, otherwise files may land at the container root.</li>
-<li><strong>Case/typos:</strong> ensure <code>us/GEMs</code> matches the folder you expect.</li>
-<li><strong>Overwrite behavior:</strong> handled by the Update-then-Create + Run-after pattern.</li>
-<li><strong>Backfill (optional):</strong>
-<ul>
-<li>temporarily add a “List files → For each → Get file content → Update/Create” loop, or</li>
-<li>“touch” the files in Teams to fire the trigger</li>
-</ul></li>
-</ul>
-</section>
-<section id="one-line-outcome" class="level2">
-<h2 class="anchored" data-anchor-id="one-line-outcome">One-line outcome</h2>
-<p>Any new or modified file in the Teams library is automatically mirrored to:</p>
-<p><code>bovianalyticsstorage</code> → container <code>bovianalytics-data</code> → <code>us/GEMs/{FilenameWithExtension}</code></p>
-<p>Updates overwrite existing files, and new files are created reliably at very low cost.</p>
-
-
-</section>
-
- ]]></description>
-  <guid>https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/teams-to-azure-blob.html</guid>
-  <pubDate>Fri, 16 Jan 2026 20:55:16 GMT</pubDate>
 </item>
 </channel>
 </rss>

@@ -2,8 +2,8 @@
   {
     "listing": "/tutorials/index.html",
     "items": [
-      "/tutorials/teams-to-azure-blob.html",
       "/tutorials/tools.html",
+      "/tutorials/teams-to-azure-blob.html",
       "/tutorials/arxiv_tutorial.html",
       "/tutorials/databricks-secrets.html",
       "/tutorials/internship.html",
