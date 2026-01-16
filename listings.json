@@ -1,20 +1,8 @@
 [
   {
-    "listing": "/open-positions/index.html",
-    "items": [
-      "/open-positions/internship.html"
-    ]
-  },
-  {
-    "listing": "/projects/index.html",
-    "items": [
-      "/projects/decide.html",
-      "/projects/veerkracht.html"
-    ]
-  },
-  {
     "listing": "/tutorials/index.html",
     "items": [
+      "/tutorials/teams-to-azure-blob.html",
       "/tutorials/tools.html",
       "/tutorials/arxiv_tutorial.html",
       "/tutorials/databricks-secrets.html",
@@ -30,6 +18,19 @@
       "/tutorials/r-naming-convention.html",
       "/tutorials/scala-naming-convention.html",
       "/tutorials/slack.html"
+    ]
+  },
+  {
+    "listing": "/projects/index.html",
+    "items": [
+      "/projects/decide.html",
+      "/projects/veerkracht.html"
+    ]
+  },
+  {
+    "listing": "/open-positions/index.html",
+    "items": [
+      "/open-positions/internship.html"
     ]
   }
 ]
