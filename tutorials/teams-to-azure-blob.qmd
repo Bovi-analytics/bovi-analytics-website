@@ -1,0 +1,132 @@
+---
+title: "Teams → Azure Blob (Logic Apps)"
+author: "Puchun Niu"
+format: html
+editor: visual
+---
+
+## Teams → Azure Blob, options considered
+
+### A) Power Automate (no-code, fast start)
+
+**Pros** - Easiest to build - Works directly with SharePoint (Teams files) and Azure Blob
+
+**Cons** - Azure Blob is a **Premium** connector → needs a Power Automate Premium license
+
+**Typical pricing (reference)** - Per-user plan: about **\$15/user/month** - Per-flow plan: about **\$100/flow/month** - (You may see a 90-day trial prompt for premium connectors.)
+
+**Permissions needed** - None on Azure to *run* the flow itself - But you must be able to enter the Storage account **Access Key** once to create the Blob connection
+
+### B) Azure Function (code)
+
+**Pros** - Most flexible - Full control - Great for heavy logic
+
+**Cons** - Requires code, DevOps, and hosting management
+
+**Note** - We did not pursue this, because we wanted no-code/low-code.
+
+### C) Azure Logic Apps (consumption, pay-per-use)
+
+## Teams → Azure Blob with Azure Logic Apps (Consumption)
+
+### Why Logic Apps (and not Power Automate)
+
+We first tried **Power Automate**:
+
+SharePoint trigger → Get file content → Create blob
+
+**Blocker:** Azure Blob is a **Premium** connector → requires a Premium license.
+
+We switched to **Azure Logic Apps (Consumption)**: - Same no-code experience - Pay-per-use (cheap) - No Premium license required
+
+**Costs (ballpark)** - \~\$0.000025 per action - Example: 1,000 file changes × \~4 actions ≈ **\$0.10/month**
+
+**Permissions needed** - Resource Group access (e.g., **Contributor**) to create the Logic App - Storage access via: - **Access Key** (what we used), or - RBAC (e.g., **Storage Blob Data Contributor**)
+
+## Prerequisites
+
+-   **Resource group:** access to `bovianalytics-db-storage`
+-   **Storage account:** `bovianalyticsstorage`
+-   **Container:** `bovianalytics-data`
+-   **Access Key** for the storage account (account name + key)
+    -   Access Key: request from the lab manager
+
+## Build the Logic App (Consumption)
+
+### 1) Create the app
+
+Azure Portal → Create → Logic App → Multi-tenant (Consumption)
+
+-   Subscription: **FarmBeats**
+-   Resource group: **bovianalytics-db-storage**
+-   Name: e.g., `teams-to-blob`
+-   Region: any allowed (e.g., East US)
+-   Create
+
+### 2) Open Designer
+
+Resource → **Logic app designer**
+
+### 3) Trigger (SharePoint/Teams)
+
+Trigger: - **When a file is created or modified (properties only)**
+
+Settings: - Site Address: `GEMS Consortium – Data entry templates`\
+([`https://cornellprod.sharepoint.com/sites/GEMSConsortium-Dataentrytemplates`](https://cornellprod.sharepoint.com/sites/GEMSConsortium-Dataentrytemplates)) - Library Name: **Documents** (or the correct library) - (Optional) Folder to limit scope
+
+### 4) Get the file content
+
+Action: - **Get file content (SharePoint)**
+
+Input: - File Identifier: **Identifier** (from trigger)
+
+### 5) Try to overwrite first
+
+Action: - **Update blob (V2)** (Azure Blob Storage)
+
+Connection: - Use Access Key for `bovianalyticsstorage`
+
+Inputs: - Blob: `/bovianalytics-data/us/GEMs/{FilenameWithExtension}` - Blob Content: **File Content**
+
+### 6) Create if it doesn’t exist
+
+Action: - **Create blob (V2)**
+
+Inputs: - Folder Path: `/bovianalytics-data/us/GEMs/` - Blob Name: `{FilenameWithExtension}` - Blob Content: **File Content**
+
+### 7) Run-after (important)
+
+On **Create blob (V2)** → Run after → for **Update blob (V2)**: - Uncheck: **Is successful** - Check: **Has timed out**, **Is skipped**, **Has failed**
+
+This makes “Create blob” run only when “Update blob” cannot, which gives: - overwrite if exists - otherwise create
+
+### 8) Save the Logic App
+
+Save the Logic App.
+
+## Test
+
+1.  Upload or modify a file in Teams
+2.  In Logic App → **Runs history** should show **Succeeded**
+3.  In Storage Explorer (portal), confirm file exists at:
+
+`bovianalyticsstorage` → container `bovianalytics-data` → `us/GEMs/{FilenameWithExtension}`
+
+![](images/teams-to-blob-options.png)
+
+## Tips / gotchas we fixed
+
+-   **Folder vs. file path:** put the folder in **Folder Path** (`/bovianalytics-data/us/GEMs/`) and the filename token in **Blob Name**, otherwise files may land at the container root.
+-   **Case/typos:** ensure `us/GEMs` matches the folder you expect.
+-   **Overwrite behavior:** handled by the Update-then-Create + Run-after pattern.
+-   **Backfill (optional):**
+    -   temporarily add a “List files → For each → Get file content → Update/Create” loop, or
+    -   “touch” the files in Teams to fire the trigger
+
+## One-line outcome
+
+Any new or modified file in the Teams library is automatically mirrored to:
+
+`bovianalyticsstorage` → container `bovianalytics-data` → `us/GEMs/{FilenameWithExtension}`
+
+Updates overwrite existing files, and new files are created reliably at very low cost.
