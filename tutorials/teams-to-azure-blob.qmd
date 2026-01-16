@@ -2,7 +2,6 @@
 title: "Teams → Azure Blob (Logic Apps)"
 execute:
   eval: false
-author: Puchun Niu
 date: 01/16/2026
 format: html
 editor: visual
@@ -131,6 +130,7 @@ Any new or modified file in the Teams library is automatically mirrored to:
 `bovianalyticsstorage` → container `bovianalytics-data` → `us/GEMs/{FilenameWithExtension}`
 
 Updates overwrite existing files, and new files are created reliably at very low cost.
+
 
 
 
