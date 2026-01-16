@@ -112,7 +112,7 @@ Save the Logic App.
 
 `bovianalyticsstorage` → container `bovianalytics-data` → `us/GEMs/{FilenameWithExtension}`
 
-![](images/teams-to-blob-options.png)
+![](tutorials/images/teams-to-blob-options.png)
 
 ## Tips / gotchas we fixed
 
@@ -130,3 +130,4 @@ Any new or modified file in the Teams library is automatically mirrored to:
 `bovianalyticsstorage` → container `bovianalytics-data` → `us/GEMs/{FilenameWithExtension}`
 
 Updates overwrite existing files, and new files are created reliably at very low cost.
+
