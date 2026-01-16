@@ -201,7 +201,6 @@
 <li>In Storage Explorer (portal), confirm file exists at:</li>
 </ol>
 <p><code>bovianalyticsstorage</code> → container <code>bovianalytics-data</code> → <code>us/GEMs/{FilenameWithExtension}</code></p>
-<p><img src="https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/tutorials/images/teams-to-blob-options.png" class="img-fluid"></p>
 </section>
 <section id="tips-gotchas-we-fixed" class="level2">
 <h2 class="anchored" data-anchor-id="tips-gotchas-we-fixed">Tips / gotchas we fixed</h2>
@@ -228,6 +227,7 @@
  ]]></description>
   <guid>https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/teams-to-azure-blob.html</guid>
   <pubDate>Fri, 16 Jan 2026 00:00:00 GMT</pubDate>
+  <media:content url="https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/images/teams-to-blob-options.png" medium="image" type="image/png" height="170" width="144"/>
 </item>
 <item>
   <title>How to Submit Papers to arXiv: A Step-by-Step Guide</title>
