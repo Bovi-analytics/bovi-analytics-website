@@ -2705,7 +2705,7 @@ font-style: inherit;">print</span>(e)</span></code></pre></div></div>
 <li>In Storage Explorer (portal), confirm file exists at:</li>
 </ol>
 <p><code>bovianalyticsstorage</code> → container <code>bovianalytics-data</code> → <code>us/GEMs/{FilenameWithExtension}</code></p>
-<p><img src="https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/images/teams-to-blob-options.png" class="img-fluid"></p>
+<p><img src="https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/tutorials/images/teams-to-blob-options.png" class="img-fluid"></p>
 </section>
 <section id="tips-gotchas-we-fixed" class="level2">
 <h2 class="anchored" data-anchor-id="tips-gotchas-we-fixed">Tips / gotchas we fixed</h2>
@@ -2731,7 +2731,7 @@ font-style: inherit;">print</span>(e)</span></code></pre></div></div>
 
  ]]></description>
   <guid>https://github.com/Bovi-analytics/bovi-analytics-website/tutorials/teams-to-azure-blob.html</guid>
-  <pubDate>Fri, 16 Jan 2026 19:25:28 GMT</pubDate>
+  <pubDate>Fri, 16 Jan 2026 20:55:16 GMT</pubDate>
 </item>
 </channel>
 </rss>
