@@ -569,23 +569,33 @@ Active involvement in extension services for several Belgian, European and globa
 
 -   Toekomst van de melkveehouderij in Nederland, Europa en daarbuiten. 2024. Boerensymposium. Markelo \[[Link to presentation](https://prezi.com/view/0hMkswYpDDG2ArA89jtT/)\].
 
--   How artificial intelligence can transform an entire agricultural industry, or NOT? Dairy Center of Excellence. 2025. Ithaca, USA ([Link to presentation](https://prezi.com/view/k7gYvnhrPkZUJqz4d7La/)).
+-   How artificial intelligence can transform an entire agricultural industry, or NOT? Dairy Center of Excellence. 2025. Ithaca, USA [[Link to presentation](https://prezi.com/view/k7gYvnhrPkZUJqz4d7La/)].
 
 -   Eine Zukunft für die Milchwirtschaft. 2025. Hofheim. Germany. [[Link to presentation](https://prezi.com/view/P47z3gjBDPhV7Gvn9lTM/)].
 
 -   Effectively Implementing AI at the Interface Between Veterinary and Dairy Science. Bovine Practitioners Meeting, 2025, Hofheim, Germany.
-  - ([Introduction bovi-analytics](https://prezi.com/view/JEGbdXfpraUQyyhj4d98/))
-  - ([General introduction to AI](https://prezi.com/view/1JtWOiLccl4aZwITMEkk/))
-  - ([Application of AI in performance analysis](https://prezi.com/view/of1D9pHC9rS7f4SjPXly/))
-  - ([Application of AI in camera analysis](https://prezi.com/view/bibFyFyrUFkE3VC90KSw/))
-  - ([Application of AI in transition management](https://prezi.com/view/RMueLhxCwovV2jQm2FQH/))
+
+    - [Introduction bovi-analytics](https://prezi.com/view/JEGbdXfpraUQyyhj4d98/)
+    
+    - [General introduction to AI](https://prezi.com/view/1JtWOiLccl4aZwITMEkk/)
+    
+    - [Application of AI in performance analysis](https://prezi.com/view/of1D9pHC9rS7f4SjPXly/)
+
+    - [Application of AI in camera analysis](https://prezi.com/view/bibFyFyrUFkE3VC90KSw/)
+  
+    - [Application of AI in transition management](https://prezi.com/view/RMueLhxCwovV2jQm2FQH/)
 
 -   Effectively Implementing AI at the Interface Between Veterinary and Dairy Science. Ohio Veterinarians Meeting, 2026, Columbus, USA.
-  - ([Introduction bovi-analytics](https://prezi.com/view/JEGbdXfpraUQyyhj4d98/))
-  - ([General introduction to AI](https://prezi.com/view/1JtWOiLccl4aZwITMEkk/))
-  - ([Application of AI in performance analysis](https://prezi.com/view/of1D9pHC9rS7f4SjPXly/))
-  - ([Application of AI in camera analysis](https://prezi.com/view/bibFyFyrUFkE3VC90KSw/))
-  - ([Application of AI in transition management](https://prezi.com/view/RMueLhxCwovV2jQm2FQH/))
+    
+    - [Introduction bovi-analytics](https://prezi.com/view/JEGbdXfpraUQyyhj4d98/)
+  
+    - [General introduction to AI](https://prezi.com/view/1JtWOiLccl4aZwITMEkk/)
+  
+    - [Application of AI in performance analysis](https://prezi.com/view/of1D9pHC9rS7f4SjPXly/)
+  
+    - [Application of AI in camera analysis](https://prezi.com/view/bibFyFyrUFkE3VC90KSw/)
+    
+    - [Application of AI in transition management](https://prezi.com/view/RMueLhxCwovV2jQm2FQH/)
   
 -   Toekomst van de melkveehouderij in Vlaanderen, Europa en daarbuiten. 2025. Brugse Dierenartsen Congress. Moerkerke, Belgium. \[[Link to presentation](https://prezi.com/view/nDpCHfZSFvSpU7pzRvtK/)\]. 
 
