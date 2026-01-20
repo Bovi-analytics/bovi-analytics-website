@@ -431,6 +431,12 @@ Active involvement in extension services for several Belgian, European and globa
 
 -   Effectively Implementing AI at the Interface Between Veterinary and Dairy Science. Savy, 2025, Ithaca, USA ([Link to presentation](https://prezi.com/view/G0ybeFsLJbJpS93LGhlo/)).
 
+-   Effectively Implementing AI at the Interface Between Veterinary and Dairy Science. VEE, 2025, Brussels, Belgium ([Link to presentation](https://prezi.com/view/FIEVxDgrACf0K6VwNPTz/)).
+
+-   How artificial intelligence can transform an entire agricultural industry, or NOT? AABP, 2025, USA ([Link to presentation](https://prezi.com/view/TszKFVppAoueipQljo6O/)).
+
+-   How artificial intelligence can transform an entire agricultural industry, or NOT? Georgia Dairy Conference, 2026, Savanah, USA ([Link to presentation](https://prezi.com/view/fzhVjeu6SevmvdmxAYHk/)).
+
 ### Oral conference presentation
 
 -   The effect of marine algae supplementation in the ration of high yielding dairy cows during transition and its effect on metabolic parameters in the serum and follicular fluid around parturition. 2009. Oral presentation on the XI International Symposium on Ruminant Physiology, Clermont-Ferrand, France.
@@ -468,6 +474,14 @@ Active involvement in extension services for several Belgian, European and globa
 -   A predictive model for hypocalcemia in dairy cows utilizing behavioural sensor data combined with deep learning. ADSA Annual Meeting. 2023. Ottawa. Canada.
 
 -   Generative AI in agriculture. CIDA Symposium 2024. Ithaca \[[Link to presentation](https://prezi.com/view/z8wnDQHiyT8WQs63Erna/)\].
+
+-   A Foundational Framework for Animal Behavior Analysis Using Computer Vision. AI4AS. Zurich, Switzerland. [[Link to presentation](https://prezi.com/view/DQDjSybENZwwYGDND86L/)\].
+
+-   ICAR IDF initiative on sensor data for functional traits: Genetics and reference standards for rumination4th Precision Dairy Farming Conference. Christchurch, New Zealand.
+
+-   A Foundational Framework for Animal Behavior Analysis Using Computer Vision. 4th Precision Dairy Farming Conference. Christchurch, New Zealand. [[Link to presentation](https://prezi.com/view/hUL4WyzK04Q4saxgJbqI/)\].
+
+
 
 ### Extension workshops
 
@@ -553,7 +567,27 @@ Active involvement in extension services for several Belgian, European and globa
 
 -   Toekomst van de melkveehouderij in Nederland, Europa en daarbuiten. 2024. DAMB. Ithaca \[[Link to presentation](https://prezi.com/view/1bcqp5GXaN9lzhFyoVLb/)\].
 
--   Toekomst van de melkveehouderij in Nederland, Europa en daarbuiten. Boerensymposium. Markelo \[[Link to presentation](https://prezi.com/view/0hMkswYpDDG2ArA89jtT/)\].
+-   Toekomst van de melkveehouderij in Nederland, Europa en daarbuiten. 2024. Boerensymposium. Markelo \[[Link to presentation](https://prezi.com/view/0hMkswYpDDG2ArA89jtT/)\].
+
+-   How artificial intelligence can transform an entire agricultural industry, or NOT? Dairy Center of Excellence. 2025. Ithaca, USA ([Link to presentation](https://prezi.com/view/k7gYvnhrPkZUJqz4d7La/)).
+
+-   Eine Zukunft für die Milchwirtschaft. 2025. Hofheim. Germany. [[Link to presentation](https://prezi.com/view/P47z3gjBDPhV7Gvn9lTM/)].
+
+-   Effectively Implementing AI at the Interface Between Veterinary and Dairy Science. Bovine Practitioners Meeting, 2025, Hofheim, Germany.
+  - ([Introduction bovi-analytics](https://prezi.com/view/JEGbdXfpraUQyyhj4d98/))
+  - ([General introduction to AI](https://prezi.com/view/1JtWOiLccl4aZwITMEkk/))
+  - ([Application of AI in performance analysis](https://prezi.com/view/of1D9pHC9rS7f4SjPXly/))
+  - ([Application of AI in camera analysis](https://prezi.com/view/bibFyFyrUFkE3VC90KSw/))
+  - ([Application of AI in transition management](https://prezi.com/view/RMueLhxCwovV2jQm2FQH/))
+
+-   Effectively Implementing AI at the Interface Between Veterinary and Dairy Science. Ohio Veterinarians Meeting, 2026, Columbus, USA.
+  - ([Introduction bovi-analytics](https://prezi.com/view/JEGbdXfpraUQyyhj4d98/))
+  - ([General introduction to AI](https://prezi.com/view/1JtWOiLccl4aZwITMEkk/))
+  - ([Application of AI in performance analysis](https://prezi.com/view/of1D9pHC9rS7f4SjPXly/))
+  - ([Application of AI in camera analysis](https://prezi.com/view/bibFyFyrUFkE3VC90KSw/))
+  - ([Application of AI in transition management](https://prezi.com/view/RMueLhxCwovV2jQm2FQH/))
+  
+-   Toekomst van de melkveehouderij in Vlaanderen, Europa en daarbuiten. 2025. Brugse Dierenartsen Congress. Moerkerke, Belgium. \[[Link to presentation](https://prezi.com/view/nDpCHfZSFvSpU7pzRvtK/)\]. 
 
 ## Professional supplementary training and education
 
