@@ -1,5 +1,5 @@
 ---
-title: "Welcome to the Bovi-Analytics lab"
+title: "Welcome to the Cornell Bovi-Analytics lab"
 subtitle: "However beautiful the strategy might be, once in a while you should look at the data"
 sidebar: false
 toc: false
