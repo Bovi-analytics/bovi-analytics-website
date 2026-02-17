@@ -77,13 +77,13 @@ One of the most popular frameworks to perform ‘big data’ is <https://spark.a
 
 -   One of the most important cloud-based tools you probably will use is Databricks. The platform allows you to perform data science in the cloud, and especially work together easily across the team.
 
-    -   Start by trying it using the following guide =\> [Community Edition of Databricks](https://bovi-analytics.com/tutorials/databricks.html)
+    -   Start by trying it using the following guide =\> [Community Edition of Databricks](https://bovi-analytics.org/tutorials/databricks.html)
 
     -   Once you get use to this version we will introduce you to the entire platform here ([Databricks Cornell](https://adb-65044996157806.6.azuredatabricks.net/?o=65044996157806&l=en)), but it’s nice to start small
 
 ## Data visualization
 
-One of the very popular visualization tools we use is <http://tableau.com>. You can get a version of it using this tutorial (<https://bovi-analytics.com/tutorials/tableau.html> )!
+One of the very popular visualization tools we use is <http://tableau.com>. You can get a version of it using this tutorial (<https://bovi-analytics.org/tutorials/tableau.html> )!
 
 ## Best practices
 
@@ -93,4 +93,4 @@ One of the very popular visualization tools we use is <http://tableau.com>. You 
 
     -   Make sure to get used to work with version control using git. Follow some tutorials, try using it with R-studio, PyCharm, Intellij IDEA
 
-    -   Within everything you do, start applying a naming convention as soon as possible (See here <https://bovi-analytics.com/tutorials/general-naming-convention.html> ). Within your programming work, I can imagine you want to follow the guidelines within the programming language.
+    -   Within everything you do, start applying a naming convention as soon as possible (See here <https://bovi-analytics.org/tutorials/general-naming-convention.html> ). Within your programming work, I can imagine you want to follow the guidelines within the programming language.

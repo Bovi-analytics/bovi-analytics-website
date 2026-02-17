@@ -7,9 +7,9 @@ image: /files/img/researchers/miel-hostens-bio-2024.jpg
 image-alt: "Miel Hostens"
 #Publication block
 bibliography: "https://api.citedrive.com/bib/0a7516b3-3fa1-4bdb-8ea4-774215ddd932/references.bib?x=eyJpZCI6ICIwYTc1MTZiMy0zZmExLTRiZGItOGVhNC03NzQyMTVkZGQ5MzIiLCAidXNlciI6ICI1MTE2IiwgInNpZ25hdHVyZSI6ICIwNTYzZTNkYzRlN2UxNDYyMjY1ZGU3YTI3M2M1ZmM0Yjc1NDYwNGJkZTRjYTcwY2NiZDU5OTU3Yjk1MWNiMjVhIn0=/bibliography.bib"
-nocite : | 
+nocite : |
  @*
- 
+
 csl : "https://www.zotero.org/styles/journal-of-dairy-science"
 refs: |
    ::: {#refs}
@@ -34,13 +34,13 @@ format:
 
 ## Motivational insights
 
-Understanding what somebody does often starts by understanding one's motivational insights. [You can read my motivational insights](https://bovi-analytics.com/files/pdfs/miel-hostens-insights.pdf) (created in 2022, I might have changed a little bit meanwhile :). Most of the ideas in the report can be found in the absolutely must-read "[Surrounded by Idiots](https://www.surroundedbyidiots.com/en/books/surrounded-by-idiots/)" by Thomas Erikson. His book and my own motivational insights have been a personal and academic game changer for me.
+Understanding what somebody does often starts by understanding one's motivational insights. [You can read my motivational insights](https://bovi-analytics.org/files/pdfs/miel-hostens-insights.pdf) (created in 2022, I might have changed a little bit meanwhile :). Most of the ideas in the report can be found in the absolutely must-read "[Surrounded by Idiots](https://www.surroundedbyidiots.com/en/books/surrounded-by-idiots/)" by Thomas Erikson. His book and my own motivational insights have been a personal and academic game changer for me.
 
 ## Education
 
 -   PhD in Veterinary Medicine, University of Ghent, 2013:
 
-    -   "[Health and Fertility Challenges in High Yielding Dairy Cows during the Transition Period and the Use of Dietary Fatty Acids as an Optimization Strategy](https://bovi-analytics.com/files/pdfs/miel-hostens-cv.pdf)"
+    -   "[Health and Fertility Challenges in High Yielding Dairy Cows during the Transition Period and the Use of Dietary Fatty Acids as an Optimization Strategy](https://bovi-analytics.org/files/pdfs/miel-hostens-cv.pdf)"
 
 -   Master in Veterinary Medicine, University of Ghent, 2006 (*cum laude*).
 
@@ -88,11 +88,11 @@ Understanding what somebody does often starts by understanding one's motivationa
 
 -   **Jenne De Koster** (2016), PhD title: "Influence of body condition score of dairy cows at the end of pregnancy on peripheral tissue insulin response and metabolic properties of adipose tissue".
 
--   [**Peter Hut**](https://bovi-analytics.com/researchers/peter-hut.html) (2022), PhD title: "Sense of Sensors -- Monitoring Behaviour of Dairy Cows" focusing on using sensor technology in transition dairy cows.
+-   [**Peter Hut**](https://bovi-analytics.org/researchers/peter-hut.html) (2022), PhD title: "Sense of Sensors -- Monitoring Behaviour of Dairy Cows" focusing on using sensor technology in transition dairy cows.
 
--   [**Arno Liseune**](https://bovi-analytics.com/researchers/arno-liseune.html) (2022), PhD title: "Using deep learning for animal monitoring to improve animal welfare in dairy cattle".
+-   [**Arno Liseune**](https://bovi-analytics.org/researchers/arno-liseune.html) (2022), PhD title: "Using deep learning for animal monitoring to improve animal welfare in dairy cattle".
 
--   [**Chen YongYan**](https://bovi-analytics.com/researchers/yongyan-chen.html) (2024), a PhD focusing on the non-linear lactation curve and weight loss modelling in dairy cows.
+-   [**Chen YongYan**](https://bovi-analytics.org/researchers/yongyan-chen.html) (2024), a PhD focusing on the non-linear lactation curve and weight loss modelling in dairy cows.
 
 ### Regular supervision
 

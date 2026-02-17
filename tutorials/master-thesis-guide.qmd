@@ -29,7 +29,7 @@ First of all, probably you know but for each of the universities I work with the
 
 -   Read the [FAIR principle paper](https://www.nature.com/articles/sdata201618) in Nature and [guidelines](https://www.go-fair.org/wp-content/uploads/2022/01/FAIRPrinciples_overview.pdf) and make sure you understand how this is related to your work!
 
--   One of the very popular visualization tools we use is <http://tableau.com>. You can get a version of it using this tutorial (<https://bovi-analytics.com/tutorials/tableau.html> )! Start working with it to create descriptive statistics.
+-   One of the very popular visualization tools we use is <http://tableau.com>. You can get a version of it using this tutorial (<https://bovi-analytics.org/tutorials/tableau.html> )! Start working with it to create descriptive statistics.
 
 -   Create a repository in the [Bovi-Analytics Github repository](https://github.com/bovi-analytics) (or ask someone to do it)
 

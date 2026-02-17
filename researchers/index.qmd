@@ -117,7 +117,7 @@ course-logo: /files/img/Bovi-Analytics-SmallLogo.png
 ::: {.g-col-12 .g-col-md-4 .open-position}
 ### Open position
 
-[![](/files/img/headshots/You.png){width="100"}](https://bovi-analytics.com/open-positions/internship.html)
+[![](/files/img/headshots/You.png){width="100"}](https://bovi-analytics.org/open-positions/internship.html)
 :::
 ::::
 

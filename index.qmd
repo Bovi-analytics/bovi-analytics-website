@@ -20,7 +20,7 @@ course-logo: /files/img/Bovi-Analytics-SmallLogo.png
 -   {{< fa university >}}   {{< var instructor.office >}}
 -   {{< fa envelope >}}   <a href='mailto:{{< var instructor.email >}}'>{{< var instructor.email >}}</a>
 -   {{< fa calendar-check >}}   [Schedule an appointment]({{< var instructor.appointment_url >}})
--   {{< fa person-chalkboard >}} [My presentations](https://bovi-analytics.com/researchers/miel-hostens.html#contributions-to-congresses-symposia-and-workshops)
+-   {{< fa person-chalkboard >}} [My presentations](https://bovi-analytics.org/researchers/miel-hostens.html#contributions-to-congresses-symposia-and-workshops)
 :::
 
 ::: {.g-col-12 .g-col-sm-6 .g-col-md-4}
