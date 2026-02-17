@@ -1136,7 +1136,7 @@ font-style: inherit;">display</span>(data_set)</span></code></pre></div></div>
 </ul></li>
 <li><p>Standardize your dataset and apply a <a href="https://en.wikipedia.org/wiki/Camel_case">CamelCase</a> naming convention in ENGLISH.</p></li>
 <li><p>Read the <a href="https://www.nature.com/articles/sdata201618">FAIR principle paper</a> in Nature and <a href="https://www.go-fair.org/wp-content/uploads/2022/01/FAIRPrinciples_overview.pdf">guidelines</a> and make sure you understand how this is related to your work!</p></li>
-<li><p>One of the very popular visualization tools we use is <a href="http://tableau.com" class="uri">http://tableau.com</a>. You can get a version of it using this tutorial (<a href="https://bovi-analytics.com/tutorials/tableau.html" class="uri">https://bovi-analytics.com/tutorials/tableau.html</a> )! Start working with it to create descriptive statistics.</p></li>
+<li><p>One of the very popular visualization tools we use is <a href="http://tableau.com" class="uri">http://tableau.com</a>. You can get a version of it using this tutorial (<a href="https://bovi-analytics.org/tutorials/tableau.html" class="uri">https://bovi-analytics.org/tutorials/tableau.html</a> )! Start working with it to create descriptive statistics.</p></li>
 <li><p>Create a repository in the <a href="https://github.com/bovi-analytics">Bovi-Analytics Github repository</a> (or ask someone to do it)</p>
 <ul>
 <li><p>Make it private first (we can decide to make it public when feasible)</p></li>
@@ -1267,14 +1267,14 @@ font-style: inherit;">display</span>(data_set)</span></code></pre></div></div>
 <li><p>Most of what we do computationally uses the Microsoft Azure cloud. You probably won’t need access to it, but it’s nice for you to understand what it is.</p></li>
 <li><p>One of the most important cloud-based tools you probably will use is Databricks. The platform allows you to perform data science in the cloud, and especially work together easily across the team.</p>
 <ul>
-<li><p>Start by trying it using the following guide =&gt; <a href="https://bovi-analytics.com/tutorials/databricks.html">Community Edition of Databricks</a></p></li>
+<li><p>Start by trying it using the following guide =&gt; <a href="https://bovi-analytics.org/tutorials/databricks.html">Community Edition of Databricks</a></p></li>
 <li><p>Once you get use to this version we will introduce you to the entire platform here (<a href="https://adb-65044996157806.6.azuredatabricks.net/?o=65044996157806&amp;l=en">Databricks Cornell</a>), but it’s nice to start small</p></li>
 </ul></li>
 </ul>
 </section>
 <section id="data-visualization" class="level2">
 <h2 class="anchored" data-anchor-id="data-visualization">Data visualization</h2>
-<p>One of the very popular visualization tools we use is <a href="http://tableau.com" class="uri">http://tableau.com</a>. You can get a version of it using this tutorial (<a href="https://bovi-analytics.com/tutorials/tableau.html" class="uri">https://bovi-analytics.com/tutorials/tableau.html</a> )!</p>
+<p>One of the very popular visualization tools we use is <a href="http://tableau.com" class="uri">http://tableau.com</a>. You can get a version of it using this tutorial (<a href="https://bovi-analytics.org/tutorials/tableau.html" class="uri">https://bovi-analytics.org/tutorials/tableau.html</a> )!</p>
 </section>
 <section id="best-practices" class="level2">
 <h2 class="anchored" data-anchor-id="best-practices">Best practices</h2>
@@ -1283,7 +1283,7 @@ font-style: inherit;">display</span>(data_set)</span></code></pre></div></div>
 <li><p>Because of that</p>
 <ul>
 <li><p>Make sure to get used to work with version control using git. Follow some tutorials, try using it with R-studio, PyCharm, Intellij IDEA</p></li>
-<li><p>Within everything you do, start applying a naming convention as soon as possible (See here <a href="https://bovi-analytics.com/tutorials/general-naming-convention.html" class="uri">https://bovi-analytics.com/tutorials/general-naming-convention.html</a> ). Within your programming work, I can imagine you want to follow the guidelines within the programming language.</p></li>
+<li><p>Within everything you do, start applying a naming convention as soon as possible (See here <a href="https://bovi-analytics.org/tutorials/general-naming-convention.html" class="uri">https://bovi-analytics.org/tutorials/general-naming-convention.html</a> ). Within your programming work, I can imagine you want to follow the guidelines within the programming language.</p></li>
 </ul></li>
 </ul>
 
