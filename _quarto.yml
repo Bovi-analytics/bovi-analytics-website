@@ -31,6 +31,12 @@ website:
         file: projects/index.qmd
       - text: "Tutorials"
         file: tutorials/index.qmd
+      - text: "Classes"
+        menu:
+          - text: "ANSC4040"
+            href: https://bovi-analytics.github.io/BeastsAndBytes/
+          - text: "ANSC4940"
+            href: https://bovi-analytics.github.io/DigitalDairyManagementandDataAnalytics/
       - icon: slack
         href: "https://bovi-analytics.slack.com"
         aria-label: Slack
