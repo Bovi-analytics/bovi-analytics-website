@@ -10,3 +10,5 @@
 **/*_cache/*
 README.html
 .Rprofile
+
+**/*.quarto_ipynb

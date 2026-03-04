@@ -2,37 +2,42 @@
 
 ### Finalized PhDs
 
--   **Jenne De Koster** (2016), PhD title: "Influence of body condition score of dairy cows at the end of pregnancy on peripheral tissue insulin response and metabolic properties of adipose tissue".
+-   [**Jenne De Koster**](https://www.linkedin.com/in/jenne-de-koster-6a3026a8/) (2016), PhD title: "Influence of body condition score of dairy cows at the end of pregnancy on peripheral tissue insulin response and metabolic properties of adipose tissue".
 
--   [**Peter Hut**](peter-hut.html) (2022), PhD title: "Sense of Sensors -- Monitoring Behaviour of Dairy Cows" focusing on using sensor technology in transition dairy cows.
+-   [**Peter Hut**](https://www.linkedin.com/in/peter-hut-b527192a/) (2022), PhD title: "[Sense of Sensors -- Monitoring Behaviour of Dairy Cows" focusing on using sensor technology in transition dairy cows](/files/pdfs/peter-hut-phd.pdf).
 
--   [**Arno Liseune**](arno-liseune.html) (2022), PhD title: "Using deep learning for animal monitoring to improve animal welfare in dairy cattle".
+-   [**Arno Liseune**](https://www.linkedin.com/in/arno-liseune-155175b8/) (2022), PhD title: "[Using deep learning for animal monitoring to improve animal welfare in dairy cattle](/files/pdfs/arno-liseune-phd.pdf)".
 
--   [**Chen YongYan**](yongyan-chen.html) (2024), a PhD focusing on the non-linear lactation curve and weight loss modelling in dairy cows.
+-   [**Chen YongYan**](https://www.linkedin.com/in/chen-yongyan-87b382230/) (2024), PhD title: "[Lactation curve modelling in dairy production - Applications at cow and herd level](/files/pdfs/chen-yongyan-phd.pdf)".
+
+-   [**Matthieu Salamone**](/researchers/matthieu-salamone.html) (2025), PhD title: "[Predicting milk yield to monitor the transition period in high yielding dairy cattle](/files/pdfs/matthieu-salamone-phd.pdf)".
 
 ### Regular supervision
 
--   Osvaldo Bogado Pascottini (Ghent University, 2016), PhD title: “Subclinical endometritis in dairy cattle: a practical approach”.
+-   [Osvaldo Bogado Pascottini](https://www.linkedin.com/in/osvaldo-bogado-pascottini-b869307a/) (Ghent University, 2016), PhD title: “Subclinical endometritis in dairy cattle: a practical approach”.
 
--   Josje Scheurwater (Utrecht University, 2024), PhD title: “The Happy Healthy Cow”.
+-   [Josje Scheurwater](https://www.linkedin.com/in/josje-scheurwater/) (Utrecht University, 2024), PhD title: “The Happy Healthy Cow”.
 
 ### Ongoing PhD supervision
-
--   **Matthieu Salamone**, a PhD focusing on "The transition period as time window to monitor the nutritional and metabolic resilience of high productive dairy cattle -- Predictive milk production".
 
 -   **Kristof Hermans**, a PhD focusing on data quality in dairy cows as a follow up on the development of the DairyDataWarehouse.
 
 -   **Yara Sleghers**, a PhD focusing on the applying federated machine learning to disease data in poultry.
 
--   **Saba Noor**, a PhD focusing on the use of semantic web technologies and federated learning to disease data in livestock.
+-   [**Saba Noor**](/researchers/saba-noor.html), a PhD focusing on the use of semantic web technologies and federated learning to disease data in livestock.
 
 -   **Thomas Vandeputte,** a PhD on computer vision and sensor aided analysis of behavioural and feed intake patterns in pigs (Ghent University, expected 2025).
 
--   **Sonam Hayu,** a PhD focusing on the use of federated vision and learning technologies in dairy production (Cornell University, expected 2028).
+-   [**Sonam Hayu**](/researchers/sonam-yang.html)**,** a PhD focusing on the use of federated vision and learning technologies in dairy production (Cornell University, expected 2028).
 
--   **Meike van Leerdam,** a PhD focusing on the use of federated learning technologies to prediction production reproduction and animal welfare traits in dairy cows (Cornell University, expected 2029).
+-   [**Meike van Leerdam**](/researchers/meike-van-leerdam.html)**,** a PhD focusing on the use of federated learning technologies to prediction production reproduction and animal welfare traits in dairy cows (Cornell University, expected 2029).
+
+-   [**Sumit Sharma**](/researchers/sumit-sharma.html)**,** a PhD focusing on the use of artificial intelligence and machine learning for Precision Livestock Farming: From data quality to digital twin–based decision support (Cornell University, expected 2029).
 
 ### PhD examination committee
+
+-   Dr. Lucia Trapanese, 2025 - High-tech farming: Study and application of machine learning techniques
+    for improving production efficiency in livestock.
 
 -   Dr. Ismalia Bouba, 2024 - A data driven apporach to understand factors influencing health, welfare and performance of laying hens and Pullets.
 

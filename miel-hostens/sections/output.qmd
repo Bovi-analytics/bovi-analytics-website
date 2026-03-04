@@ -1,0 +1,57 @@
+## Significant output
+
+In my research domain, first, second and last authors have made significant contributions. As my research group focuses on applied research, a large international network and participation in consortia or advisory committees are globally also acknowledged as important output. My current h-index is 35 (<https://scholar.google.com/citations?user=fZ1xfdQAAAAJ&hl=nl>). I consider the following papers/achievements as my personal best output, although I have other clinically important output due to active collaborations within the veterinary domain (Pardon et al.; Kemel et al.). I have ordered and grouped output together given common projects or background. A clear move from the veterinary and dairy domain towards the precision livestock farming and data science domain can be seen in my key output.
+
+### First peer-reviewed paper
+
+**Hostens, M.,** Ehrlich, J., Van Ranst, B., & Opsomer, G. (2012). On-farm evaluation of the effect of metabolic diseases on the shape of the lactation curve in dairy cows through the MilkBot lactation model. *Journal of dairy science*, *95*(6), 2988–3007. <https://doi.org/10.3168/jds.2011-4791>
+
+The first paper from my PhD work extended a data warehouse architecture I created during my PhD with a novel Bayesian lactation curve model applied to dairy cow transition disease. It was initiated through an international collaboration with Jim Ehrlich, a veterinarian from New York (USA). This collaboration eventually led to the co-organization of the 31st Discover Conference on Big Data Dairy Management in 2016 (Chicago, USA). Ultimately, the paper even contributed to me taking the lead organization of the 46th ADSA Discover Conference on Milking the Data: Value-Driven Dairy Farming in Chicago (USA).
+
+The paper has initiated other researchers to use the methodology leading to several co-authorships (Charlier et al., 2012; Verschave et al., 2014). Through my current position as Chair of the Milk Recording Working Group within the International Committee of Animal Recording, the model is being evaluated as one of the newer models to be applied in the milk recording industry. The paper also had 2 follow-up papers (Probo et al., 2018; Pascottini et al., 2020) re-using the same dataset using novel machine learning techniques which illustrates me actively advocating and applying open-code, open-source and FAIR principles, motivating other researchers to follow the approach.
+
+### DairyDataWarehouse & MmmooOgle
+
+The data warehouse architecture developed during the previous paper was eventually acquired by Delaval, a leading milking software and hardware provider, from the department of Reproduction, Obstetrics and Herd health and transformed into [www.DairyDataWarehouse.com]{.underline}. The product is still actively used across the world. Ghent University was compensated for this acquisition in 2012. After this, I re-initiated a new software company with the original co-creator of the data warehouse, focusing on creating the next-generation data-science platform ready for the multitude in PLF technologies being installed on dairy farms called [www.MmmooOgle.com]{.underline}. This illustrates my academic entrepreneurship, which:
+
+-   accelerated my scientific output as it provided me with unlimited access to data from dairy farms around the world.
+
+-   because of the combined expertise in data and dairy science attracted several successful project consortia (GPLUS, VEERKRACHT, DECIDE, GREENFEED, see appendix 3)
+
+-   illustrates my academic drive to create decision support tools which can be implemented in the dairy industry at sufficient technology-readiness-level.
+
+### GplusE
+
+In 2013, my PhD supervisor Prof. dr. Geert Opsomer and me were approached to join a large FP7 consortium called GplusE. This multi-institutional international project resulted in a large amount of peer reviewed articles (see Appendix 3). Our team was responsible for the data intensive work packages integrating research data from heterogeneous farms and creating best practices for data pipelines within the project. The project resulted in my first article as last author:
+
+De Koster, J., Salavati, M., Grelet, C., Crowe, M. A., Matthews, E., O'Flaherty, R., Opsomer, G., Foldager, L., GplusE, & **Hostens, M.** (2019). Prediction of metabolic clusters in early-lactation dairy cows using models based on milk biomarkers. *Journal of dairy science*, *102*(3), 2631–2644. <https://doi.org/10.3168/jds.2018-15533>
+
+The article compared several biomarkers with a standardized prediction methods for novel indicators for dairy cow resilience. The methodology was built using 2 ‘Microsoft for Research awards’ mentioned in this application, implementing highly innovative techniques such as scalable machine learning and artificial intelligence in its early stages. The methodology of clustering cows according to their metabolic blood profile was adopted by multiple researchers around the world (e.g. Tremblay et al., 2018; Grelet et al., 2019; Xu et al., 2019; Girma et al., 2024). Subsequently, the method was translated, in collaboration with a visiting researcher from Iran, into a genome wide association study involving multiple industry partners from the Netherlands (Atashi et al., 2020). It illustrates my capability of working with multiple stakeholders, across several domains (phenotype and genotypes), and attracting visiting researchers.
+
+### SenseOfSensors
+
+During my appointment as Assistant Professor at Utrecht University between 2018 and 2023, my scientific output was boosted due to the daily supervision of 5 PhD students (Liseune A., Hut P., Scheurwater J., Salamone M. and Chen Y.). All of them were applying some of my previous work (such as the Milkbot model) as well as novel data science methods (including artificial intelligence) and precision dairy farming techniques to monitor and predict dairy cow health and behavior. I consider the following paper as key output from that 5 year period.
+
+Hut, P. R., Kuiper, S. E. M., Nielen, M., Hulsen, J. H. J. L., Stassen, E. N., & Hostens, M. M. (2022). Sensor based time budgets in commercial Dutch dairy herds vary over lactation cycles and within 24 hours. *PloS one*, *17*(2), e0264392. <https://doi.org/10.1371/journal.pone.0264392>
+
+It illustrates several important aspects of my research philosophy:
+
+-   The article demonstrates the enormous potential of using and combining real-world farm data to test field assumptions made about cow behavior.
+
+-   The article started as an MSc project in Veterinary Medicine. The student (listed as second author) was illiterate in data science at the beginning of the project, but through my daily supervision and training was successful in converting this project into a peer-reviewed paper. It illustrates my active approach to train the next generation student in data-driven Veterinary Medicine.
+
+-   The methodology of the article was also made publicly available (open-source/open-code), demonstrating my current default strategy when publishing data-driven dairy science as it supports training and dissemination.
+
+### Resilience
+
+Around the same time, I still had an active appointment at Ghent University, through which I successfully applied for a Flemish VLAIO with collaborators from Bio-science engineering at UGent and the KULeuven. The aim of the project was to create data-driven tools applying artificial intelligence to monitor the transition success of dairy cows at individual level and herd level. The project, using real-world farm data yielded several publications in the highly ranked Journal Computers and Electronics in Agriculture (impact factor 7.7), of which is I value the following as key output: 
+
+Liseune, A., Salamone, M., Van den Poel, D., Van Ranst, B., & Hostens, M. (2020). Leveraging latent representations for milk yield prediction and interpolation using deep learning. *Computers and Electronics in Agriculture*, *175*, 105600. <https://doi.org/10.1016/j.compag.2020.105600>
+
+The article was foundational for my research group because
+
+-   It served 5 other papers of my group using the same AI method to predict milk production (Liseune et al 2021, Salamone et al., 2022), metabolic health (Salamone et al., 2024; van Leerdam et al., 2024) and behavior (Liseune et al., 2021) in dairy cows.
+
+-   It is currently used as base-model to create a digital twin of a dairy cow including milk components, body weight, feed intake and cow behavior in the current work of 2 of my current PhD students (Hayu S. and van Leerdam M.)
+
+The model is also being integrated with Large Language Models (LLM) by my current post-doctoral fellow Liu E. to allow farmers to interact with the model using natural languages instead of complex computer interfaces.

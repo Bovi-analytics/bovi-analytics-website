@@ -1,0 +1,41 @@
+## Research focus
+
+-   **Sustainable dairy and veterinary systems**
+
+    Advancing resilient, efficient, and socially accepted dairy production systems that balance productivity with animal health, welfare, environmental impact, and food safety.
+
+-   **Precision livestock farming (PLF) and real‑world evidence**
+
+    Leveraging sensor‑based technologies (production, behavior, health, emissions) to generate continuous, real‑time data streams that support early detection, monitoring, and management decisions at animal and herd level.
+
+-   **Large‑scale dairy data integration and reuse**
+
+    Exploiting heterogeneous, real‑world datasets from platforms such as dairydatawarehouse and MmmooOgle to move beyond isolated experiments toward scalable, generalizable insights across farms, regions, and production systems.
+
+-   **Privacy‑preserving data science for agriculture**
+
+    Developing methodological frameworks that address data ownership, privacy, security, and governance, enabling collaboration without centralizing sensitive farm data.
+
+-   **Federated learning for dairy and veterinary science**
+
+    Pioneering the application of federated learning to train statistical, machine‑learning, and AI models across distributed farm, industry, and research data sources by “bringing the code to the data.”
+
+-   **Ontologies and semantic interoperability**
+
+    Creating and applying ontologies to harmonize heterogeneous data sources, support causal inference, and enable interoperability across technologies, institutions, and countries.
+
+-   **Digital twins of cows and farms**
+
+    Building data‑driven digital twins for simulation, hypothesis testing, training, and decision support, integrating historical experimental data with real‑time PLF data.
+
+-   **AI‑driven decision support and prediction**
+
+    Using advanced analytics, machine learning, and artificial intelligence to predict disease events, performance outcomes, and sustainability indicators at animal, herd, and system levels.
+
+-   **Human‑centered AI interfaces**
+
+    Integrating fine‑tuned large language models (LLMs) and retrieval‑augmented generation (RAG) to allow farmers, veterinarians, and policymakers to interact with complex models through natural language.
+
+-   **Translation from research to practice**
+
+    Ensuring that advanced analytics are deployable on commercial farms, including small and medium‑sized operations, and directly support decision‑making in daily management and policy contexts.

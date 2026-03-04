@@ -1,267 +1,243 @@
 ## Contributions to Congresses, Symposia and Workshops
 
+### Presentations available online
+
+{{< video https://www.youtube.com/watch?v=mEnP4GJVhRM >}}
+
+{{< video https://youtu.be/ibMIYSSPNwc?si=HYCIoTuj-OCwhyWo >}}
+
+{{< video https://youtu.be/hh8AELptzH0?si=n7MAJlp_xPd9Ug2P >}}
+
 ### Invited speaker
 
--   Fresh Cow -- Risiken und chancen. Was Sie darüber unbedingt wissen sollten! 2011. Presentation on Rinder-Gesundheitstag, Giesen, Germany.
-
--   Visualisation of fertility records in dairy herds. 2012. Preconference seminar for SIVAR, Cremona, Italy.
-
--   The use of dairy data in herd health management. 2014. Northeast Dairy Production Medicine Symposium, New York, United States.
-
--   The economics of breeding protocols in dairy cows. 2015. Consensus conference on breeding protocols. Nice, France.
-
--   The past, the present and the future of bovine herd health management. 2015. 10^th^ meeting of the European College of Bovine Herd Health Management, Maribor, Slovenia.
-
--   Bovi-Analytics: an e-learning platform to educate veterinary students big data in dairy cows. 2015. Voorjaarsdagen. Amsterdam, The Netherlands.
-
--   Challenges for data-intensive projects. 2016. EU Commission workshop on animal genomics and breeding for sustainable production, Brussels, Belgium.
-
--   From Big Data to Decisions in Dairy Cows, 2016. Spark Summit, Brussels, Belgium.
-
--   Big Dairy in Dairy Cows, 2016. ADSA Discovery Conference on Big Data in Dairy Cows, Chicago, United States.
-
--   Visualisation and analysis of reproductive performance, 2017. Total Dairy Seminar, Keele, United Kingdom.
-
--   Pitfalls in Dairy Analytics (advanced technical), 2017. Total Dairy Seminar, Keele, United Kingdom.
-
--   Analysis of reproductive performance (farmer orientated), 2017. Total Dairy Seminar, Keele, United Kingdom.
-
--   Transition management as a key to fertility success, 2017. Total Dairy Seminar, Keele, United Kingdom.
-
--   How to monitor productive performance on a small vs large dairy, 2017. Anembe congress, Pamplona, Spain.
-
--   Common analytical data pitfalls every practitioner should know about, 2017. Anembe congress, Pamplona, Spain.
-
--   Will semantics help disentangle the Gordian knot of Big Data in animal health, 2017. Semantics conference, Amsterdam, Belgium.
-
--   Monitoring fertility control programs in small and large dairy herds , 2017, The 7^th^ National & 1^st^ International Congress of Veterinary Gynecology, Marmaris, Turkey
-
--   Opening keynote: A novel approach to data mining and prediction modelling in dairy cows, 2017. Big Data Conference, Vilnius, Lithuania.
-
--   Opening Keynote: BigData Moscow: A Novel Approach to Data Mining And Prediction Modelling in Dairy Cows, 2018. Moscow, Russia.
-
--   Transforming Big Data into Value: Put Data to Work for Your Dairy, 2018. Connect Summit, Beaver Creek, USA.
-
--   Transforming Big Data into Value: Put Data to Work for Your Dairy, 2018. CDCB -- 10 years of genomics, Reno, USA.
-
--   Metabolic clustering of dairy cows at early and peak lactation. Global Genetics Pathfinder Initiative, Rome, Italy, 2018.
-
--   Dairy Intelligence and Turning Data Into Information. 2019. Connect Summit, Beaver Creek, USA.
-
--   Predicting the Moment of Birth using Sensor Data in Dairy Cows. 2019. Big Data Conference, Vilnius, Lithuania.
-
--   What makes a biomarker a good one? 2019. Tartu, Estonia.
-
--   Put Data to Work for the Dairy Industry. 2020. National DHIA Leadership and Annual Meeting, Savannah, USA.
-
--   Agricultural Genome to Phenome Initiative. AG2PI meeting 2020. Online meeting.
-
--   Monitoring transition cows using novel techniques. ADSA 39^th^ Discover meeting 2021. Online meeting.
-
--   Using data to embrace excellence in hoof health -- challenges and opportunities. 2022. 21^st^ International symposium & 13^th^ international conference on lameness in ruminants, Bloomington, USA. [(Link to presentation)](https://prezi.com/view/MRa09aTFjp0QhtfywUo2/)
-
--   How to Make Sense of 24x7 Sensor Data. 2022. Dairy Cattle Improvement Industry Forum, Lactanet, Toronto, Canada. [(Link to presentation)](https://prezi.com/view/nLVoBNJdVJIOyIhyeOL3/)
-
--   Sustainable dairy production, EU within a global perspective. VetCVE meeting 2023, Cork, Ireland ([Link to presentation](https://prezi.com/view/B3JPoKLALciOshVXXrRh/)).
-
--   Sustainable dairy production from a global perspective, www.boerensymposium.nl, Groningen, The Netherlands ([Link to presentation](https://prezi.com/view/ZOLHC3p0xZsuagi4bjyF/)).
-
--   The Finnish Veterinary Congress, 2023, Helsinki, Finland.
-
-    -   [Link to presentation 1](https://prezi.com/view/ZqjPIpMl6FbaT4UDE7hE/)
-
-    -   [Link to presentation 2](https://prezi.com/view/puBrsfmog5XBRI2fQyGC/)
-
-    -   [Link to presentation 3](https://prezi.com/view/RVjxVRcjUdop0ulRPlNy/)
-
--   Een toekomst voor de veehouderij in Nederland, Europa en ver daarbuiten? DAMB, 2024. The Netherlands ([Link to presentation](https://prezi.com/view/1bcqp5GXaN9lzhFyoVLb/)).
-
--   European Perspective on Longevity- the Data and Technology. Novus, 2024, Watkins Glen, USA ([Link to presentation](https://prezi.com/view/TSLnUGj8Prs4nmhoqUME/)).
-
--   Advancing precision dairy farming through AI. Annual Meeting American Dairy Science Association, 2024, ([Link to presentation](https://prezi.com/view/bFj1yT62ZGACMh6FnHLr/)).
-
--   Digital Dairy Farming, CIDA Symposium, 2024, Ithaca, USA ([Link to presentation](https://prezi.com/view/z8wnDQHiyT8WQs63Erna/)).
-
--   Cattle Camp, 2024, Triesdorf, Germany.
-
-    -   [Link to presentation 1](https://prezi.com/view/8UAHuRo7iv1E4CdMQ1hm/)
-
-    -   [Link to presentation 2](https://prezi.com/view/w4L0dtz6sheWLCuTpmVr/)
-
--   How can AI change the dairy industry? 2024, Tri-State Field Day, Montpelier, USA ([Link to presentation](https://prezi.com/view/IOtYovVDtAGdggjkc2x6/)).
-
--   CIDA Seminar, 2025, Ithaca, USA ([Link to presentation](https://prezi.com/view/z8wnDQHiyT8WQs63Erna/)).
-
--   What can camera technology and artificial intelligence bring to a dairy in 2025? Operations Managers Conference, 2025, Syracuse, USA ([Link to presentation](https://prezi.com/view/9q7NlCyMisLRT8Xkmbw2/)).
-
--   How artificial intelligence can transform an entire agricultural industry, or NOT? IEEE MeAVeAS, 2025, Pisa, Italy ([Link to presentation](https://prezi.com/view/kd0XP8ubYMPYWvc1d6Cj/)).
-
--   Effectively Implementing AI at the Interface Between Veterinary and Dairy Science. Savy, 2025, Ithaca, USA ([Link to presentation](https://prezi.com/view/G0ybeFsLJbJpS93LGhlo/)).
-
--   Effectively Implementing AI at the Interface Between Veterinary and Dairy Science. VEE, 2025, Brussels, Belgium ([Link to presentation](https://prezi.com/view/FIEVxDgrACf0K6VwNPTz/)).
-
--   How artificial intelligence can transform an entire agricultural industry, or NOT? AABP, 2025, USA ([Link to presentation](https://prezi.com/view/TszKFVppAoueipQljo6O/)).
-
--   How artificial intelligence can transform an entire agricultural industry, or NOT? Georgia Dairy Conference, 2026, Savanah, USA ([Link to presentation](https://prezi.com/view/fzhVjeu6SevmvdmxAYHk/)).
-
--   Growing with AI - Input Optimization Webinar. 2026. Washington State Academy of Sciences. Online Webinar, USA ([Link to presentation](https://prezi.com/view/GigE4M1jXg5jfO3USDYC/)).
++---------------------------------------------------------------------------------------------------------------+------+------------------------------------------------------------------------+
+| Title                                                                                                         | Year | Presentation link                                                      |
++===============================================================================================================+:====:+========================================================================+
+| Fresh Cow — Risiken und chancen. Was Sie darüber unbedingt wissen sollten!                                    | 2011 | —                                                                      |
++---------------------------------------------------------------------------------------------------------------+------+------------------------------------------------------------------------+
+| Visualisation of fertility records in dairy herds                                                             | 2012 | —                                                                      |
++---------------------------------------------------------------------------------------------------------------+------+------------------------------------------------------------------------+
+| The use of dairy data in herd health management                                                               | 2014 | —                                                                      |
++---------------------------------------------------------------------------------------------------------------+------+------------------------------------------------------------------------+
+| The economics of breeding protocols in dairy cows                                                             | 2015 | —                                                                      |
++---------------------------------------------------------------------------------------------------------------+------+------------------------------------------------------------------------+
+| The past, the present and the future of bovine herd health management                                         | 2015 | —                                                                      |
++---------------------------------------------------------------------------------------------------------------+------+------------------------------------------------------------------------+
+| Bovi‑Analytics: an e‑learning platform to educate veterinary students big data in dairy cows                  | 2015 | —                                                                      |
++---------------------------------------------------------------------------------------------------------------+------+------------------------------------------------------------------------+
+| Challenges for data‑intensive projects                                                                        | 2016 | —                                                                      |
++---------------------------------------------------------------------------------------------------------------+------+------------------------------------------------------------------------+
+| From Big Data to Decisions in Dairy Cows                                                                      | 2016 | —                                                                      |
++---------------------------------------------------------------------------------------------------------------+------+------------------------------------------------------------------------+
+| Big Dairy in Dairy Cows                                                                                       | 2016 | —                                                                      |
++---------------------------------------------------------------------------------------------------------------+------+------------------------------------------------------------------------+
+| Visualisation and analysis of reproductive performance                                                        | 2017 | —                                                                      |
++---------------------------------------------------------------------------------------------------------------+------+------------------------------------------------------------------------+
+| Pitfalls in Dairy Analytics (advanced technical)                                                              | 2017 | —                                                                      |
++---------------------------------------------------------------------------------------------------------------+------+------------------------------------------------------------------------+
+| Analysis of reproductive performance (farmer orientated)                                                      | 2017 | —                                                                      |
++---------------------------------------------------------------------------------------------------------------+------+------------------------------------------------------------------------+
+| Transition management as a key to fertility success                                                           | 2017 | —                                                                      |
++---------------------------------------------------------------------------------------------------------------+------+------------------------------------------------------------------------+
+| How to monitor productive performance on a small vs large dairy                                               | 2017 | —                                                                      |
++---------------------------------------------------------------------------------------------------------------+------+------------------------------------------------------------------------+
+| Common analytical data pitfalls every practitioner should know about                                          | 2017 | —                                                                      |
++---------------------------------------------------------------------------------------------------------------+------+------------------------------------------------------------------------+
+| Will semantics help disentangle the Gordian knot of Big Data in animal health                                 | 2017 | —                                                                      |
++---------------------------------------------------------------------------------------------------------------+------+------------------------------------------------------------------------+
+| Monitoring fertility control programs in small and large dairy herds                                          | 2017 | —                                                                      |
++---------------------------------------------------------------------------------------------------------------+------+------------------------------------------------------------------------+
+| Opening keynote: A novel approach to data mining and prediction modelling in dairy cows                       | 2017 | —                                                                      |
++---------------------------------------------------------------------------------------------------------------+------+------------------------------------------------------------------------+
+| Opening Keynote: BigData Moscow — A Novel Approach to Data Mining and Prediction Modelling in Dairy Cows      | 2018 | —                                                                      |
++---------------------------------------------------------------------------------------------------------------+------+------------------------------------------------------------------------+
+| Transforming Big Data into Value: Put Data to Work for Your Dairy (Connect Summit)                            | 2018 | —                                                                      |
++---------------------------------------------------------------------------------------------------------------+------+------------------------------------------------------------------------+
+| Transforming Big Data into Value: Put Data to Work for Your Dairy (CDCB – 10 years of genomics)               | 2018 | —                                                                      |
++---------------------------------------------------------------------------------------------------------------+------+------------------------------------------------------------------------+
+| Metabolic clustering of dairy cows at early and peak lactation                                                | 2018 | —                                                                      |
++---------------------------------------------------------------------------------------------------------------+------+------------------------------------------------------------------------+
+| Dairy Intelligence and Turning Data Into Information                                                          | 2019 | —                                                                      |
++---------------------------------------------------------------------------------------------------------------+------+------------------------------------------------------------------------+
+| Predicting the Moment of Birth using Sensor Data in Dairy Cows                                                | 2019 | —                                                                      |
++---------------------------------------------------------------------------------------------------------------+------+------------------------------------------------------------------------+
+| What makes a biomarker a good one?                                                                            | 2019 | —                                                                      |
++---------------------------------------------------------------------------------------------------------------+------+------------------------------------------------------------------------+
+| Put Data to Work for the Dairy Industry                                                                       | 2020 | —                                                                      |
++---------------------------------------------------------------------------------------------------------------+------+------------------------------------------------------------------------+
+| Agricultural Genome to Phenome Initiative (AG2PI)                                                             | 2020 | —                                                                      |
++---------------------------------------------------------------------------------------------------------------+------+------------------------------------------------------------------------+
+| Monitoring transition cows using novel techniques                                                             | 2021 | —                                                                      |
++---------------------------------------------------------------------------------------------------------------+------+------------------------------------------------------------------------+
+| Using data to embrace excellence in hoof health — challenges and opportunities                                | 2022 | [Link to presentation](https://prezi.com/view/MRa09aTFjp0QhtfywUo2/)   |
++---------------------------------------------------------------------------------------------------------------+------+------------------------------------------------------------------------+
+| How to Make Sense of 24×7 Sensor Data                                                                         | 2022 | [Link to presentation](https://prezi.com/view/nLVoBNJdVJIOyIhyeOL3/)   |
++---------------------------------------------------------------------------------------------------------------+------+------------------------------------------------------------------------+
+| Sustainable dairy production, EU within a global perspective                                                  | 2023 | [Link to presentation](https://prezi.com/view/B3JPoKLALciOshVXXrRh/)   |
++---------------------------------------------------------------------------------------------------------------+------+------------------------------------------------------------------------+
+| Sustainable dairy production from a global perspective                                                        | 2023 | [Link to presentation](https://prezi.com/view/ZOLHC3p0xZsuagi4bjyF/)   |
++---------------------------------------------------------------------------------------------------------------+------+------------------------------------------------------------------------+
+| The Finnish Veterinary Congress (Helsinki, Finland)                                                           | 2023 | [Link to presentation 1](https://prezi.com/view/ZqjPIpMl6FbaT4UDE7hE/) |
+|                                                                                                               |      |                                                                        |
+|                                                                                                               |      | [Link to presentation 2](https://prezi.com/view/puBrsfmog5XBRI2fQyGC/) |
+|                                                                                                               |      |                                                                        |
+|                                                                                                               |      | [Link to presentation 3](https://prezi.com/view/RVjxVRcjUdop0ulRPlNy/) |
++---------------------------------------------------------------------------------------------------------------+------+------------------------------------------------------------------------+
+| Een toekomst voor de veehouderij in Nederland, Europa en ver daarbuiten?                                      | 2024 | [Link to presentation](https://prezi.com/view/1bcqp5GXaN9lzhFyoVLb/)   |
++---------------------------------------------------------------------------------------------------------------+------+------------------------------------------------------------------------+
+| European Perspective on Longevity — the Data and Technology                                                   | 2024 | [Link to presentation](https://prezi.com/view/TSLnUGj8Prs4nmhoqUME/)   |
++---------------------------------------------------------------------------------------------------------------+------+------------------------------------------------------------------------+
+| Advancing precision dairy farming through AI                                                                  | 2024 | [Link to presentation](https://prezi.com/view/bFj1yT62ZGACMh6FnHLr/)   |
++---------------------------------------------------------------------------------------------------------------+------+------------------------------------------------------------------------+
+| Digital Dairy Farming (CIDA Symposium)                                                                        | 2024 | [Link to presentation](https://prezi.com/view/z8wnDQHiyT8WQs63Erna/)   |
++---------------------------------------------------------------------------------------------------------------+------+------------------------------------------------------------------------+
+| Cattle Camp (Triesdorf, Germany)                                                                              | 2024 | [Link to presentation 1](https://prezi.com/view/8UAHuRo7iv1E4CdMQ1hm/) |
+|                                                                                                               |      |                                                                        |
+|                                                                                                               |      | [Link to presentation 2](https://prezi.com/view/w4L0dtz6sheWLCuTpmVr/) |
++---------------------------------------------------------------------------------------------------------------+------+------------------------------------------------------------------------+
+| How can AI change the dairy industry?                                                                         | 2024 | [Link to presentation](https://prezi.com/view/IOtYovVDtAGdggjkc2x6/)   |
++---------------------------------------------------------------------------------------------------------------+------+------------------------------------------------------------------------+
+| CIDA Seminar (Ithaca, USA)                                                                                    | 2025 | [Link to presentation](https://prezi.com/view/z8wnDQHiyT8WQs63Erna/)   |
++---------------------------------------------------------------------------------------------------------------+------+------------------------------------------------------------------------+
+| What can camera technology and artificial intelligence bring to a dairy in 2025?                              | 2025 | [Link to presentation](https://prezi.com/view/9q7NlCyMisLRT8Xkmbw2/)   |
++---------------------------------------------------------------------------------------------------------------+------+------------------------------------------------------------------------+
+| How artificial intelligence can transform an entire agricultural industry, or NOT? (IEEE MeAVeAS)             | 2025 | [Link to presentation](https://prezi.com/view/kd0XP8ubYMPYWvc1d6Cj/)   |
++---------------------------------------------------------------------------------------------------------------+------+------------------------------------------------------------------------+
+| Effectively Implementing AI at the Interface Between Veterinary and Dairy Science (Savy)                      | 2025 | [Link to presentation](https://prezi.com/view/G0ybeFsLJbJpS93LGhlo/)   |
++---------------------------------------------------------------------------------------------------------------+------+------------------------------------------------------------------------+
+| Effectively Implementing AI at the Interface Between Veterinary and Dairy Science (VEE)                       | 2025 | [Link to presentation](https://prezi.com/view/FIEVxDgrACf0K6VwNPTz/)   |
++---------------------------------------------------------------------------------------------------------------+------+------------------------------------------------------------------------+
+| How artificial intelligence can transform an entire agricultural industry, or NOT? (AABP)                     | 2025 | [Link to presentation](https://prezi.com/view/TszKFVppAoueipQljo6O/)   |
++---------------------------------------------------------------------------------------------------------------+------+------------------------------------------------------------------------+
+| How artificial intelligence can transform an entire agricultural industry, or NOT? (Georgia Dairy Conference) | 2026 | [Link to presentation](https://prezi.com/view/fzhVjeu6SevmvdmxAYHk/)   |
++---------------------------------------------------------------------------------------------------------------+------+------------------------------------------------------------------------+
+| Growing with AI — Input Optimization Webinar                                                                  | 2026 | [Link to presentation](https://prezi.com/view/GigE4M1jXg5jfO3USDYC/)   |
++---------------------------------------------------------------------------------------------------------------+------+------------------------------------------------------------------------+
 
 ### Oral conference presentation
 
--   The effect of marine algae supplementation in the ration of high yielding dairy cows during transition and its effect on metabolic parameters in the serum and follicular fluid around parturition. 2009. Oral presentation on the XI International Symposium on Ruminant Physiology, Clermont-Ferrand, France.
-
--   On-farm evaluation of the effect of metabolic diseases on the shape of the lactation curve in dairy cows through the milkbot lactation model. 2012. Oral presentation on the 27^th^ World Buiatrics Congress, Lisbon, Portugal.
-
--   Potential for novel glycan measurements in milk as biomarker phenotypes for dairy traits. 2016. Oral presentation on 67^th^ Annual Conference of the European Federation of Animal Science, Belfast, United Kingdom.
-
--   MmmooOgle: From Big Data to Decisions for Dairy Cows. Data + AI summit 2016. Brussels. Belgium.
-
--   Data Mining and Prediction Modelling in the Dairy Industry Using Time Series and Sliding Windows with Apache Spark 2. Data + AI summit 2016. Dublin. Ireland.
-
--   Exploratory classification of multiparous dairy cows based on fertility related phenotypes. 2017. Oral presentation on 68^th^ Annual Conference of the European Federation of Animal Science, Tallinn, Estonia.
-
--   Investigating metabolic phenotypes in multiparous dairy cows by component analysis and clustering. 2017. Oral presentation on 68^th^ Annual Conference of the European Federation of Animal Science, Tallinn, Estonia.
-
--   The use of technologies in dairy innovation. 2018. European Regions Research and Innovation Conference -- Food Safety 2020 -  Seinäjoki, Finland.
-
--   Can artificial intelligence be used on historical cow data to improve data quality and standardization of disease records. 2019. ICAR Annual meeting. Prague, Czech Republic.
-
--   Predicting the next life event of cows by applying deep learning on sequential and pictorial data. 2019. 9^th^ European Conference on Precision Livestock Farming Cork, Ireland.
-
--   Big Data for Dairy and Monitoring Cow Health and Performance. Global Dairy Series Phibro Academy 2020. Online meeting.
-
--   The veterinary toolbox for reproductive herd health management now and in the (near) future. Zoetis Poland 2020. Online meeting.
-
--   Modern tools for milk recording management.ICAR Annual meeting. Leeuwarden, the Netherlands. 2021. Online meeting.
-
--   The importance of sensor data in transition cow monitoring. Alta Vet-to-vet webinar 2021. Online meeting.
-
--   Detecting the subclinical diseased transition cow: how novel phenotyping strategies can help. Elanco Scientific Symposium 2021. Rotterdam. The Netherlands.
-
--   Prediction of persistency at day 305 in lactation at the moment of the insemination decision. ICAR Conference 2023. Toledo. Spain. (Link to presentation)
-
--   A predictive model for hypocalcemia in dairy cows utilizing behavioural sensor data combined with deep learning. ADSA Annual Meeting. 2023. Ottawa. Canada.
-
--   Generative AI in agriculture. CIDA Symposium 2024. Ithaca \[[Link to presentation](https://prezi.com/view/z8wnDQHiyT8WQs63Erna/)\].
-
--   A Foundational Framework for Animal Behavior Analysis Using Computer Vision. AI4AS. Zurich, Switzerland. \[[Link to presentation](https://prezi.com/view/DQDjSybENZwwYGDND86L/)\].
-
--   ICAR IDF initiative on sensor data for functional traits: Genetics and reference standards for rumination4th Precision Dairy Farming Conference. Christchurch, New Zealand.
-
--   A Foundational Framework for Animal Behavior Analysis Using Computer Vision. 4th Precision Dairy Farming Conference. Christchurch, New Zealand. \[[Link to presentation](https://prezi.com/view/hUL4WyzK04Q4saxgJbqI/)\].
+| Title | Year | Presentation link |
+|----|:--:|----|
+| The effect of marine algae supplementation in the ration of high‑yielding dairy cows during transition and its effect on metabolic parameters in the serum and follicular fluid around parturition | 2009 | — |
+| On‑farm evaluation of the effect of metabolic diseases on the shape of the lactation curve in dairy cows through the MilkBot lactation model | 2012 | — |
+| Potential for novel glycan measurements in milk as biomarker phenotypes for dairy traits | 2016 | — |
+| MmmooOgle: From Big Data to Decisions for Dairy Cows | 2016 | — |
+| Data Mining and Prediction Modelling in the Dairy Industry Using Time Series and Sliding Windows with Apache Spark 2 | 2016 | — |
+| Exploratory classification of multiparous dairy cows based on fertility‑related phenotypes | 2017 | — |
+| Investigating metabolic phenotypes in multiparous dairy cows by component analysis and clustering | 2017 | — |
+| The use of technologies in dairy innovation | 2018 | — |
+| Can artificial intelligence be used on historical cow data to improve data quality and standardization of disease records | 2019 | — |
+| Predicting the next life event of cows by applying deep learning on sequential and pictorial data | 2019 | — |
+| Big Data for Dairy and Monitoring Cow Health and Performance | 2020 | — |
+| The veterinary toolbox for reproductive herd health management now and in the (near) future | 2020 | — |
+| Modern tools for milk recording management | 2021 | — |
+| The importance of sensor data in transition cow monitoring | 2021 | — |
+| Detecting the subclinical diseased transition cow: how novel phenotyping strategies can help | 2021 | — |
+| Prediction of persistency at day 305 in lactation at the moment of the insemination decision | 2023 | — |
+| A predictive model for hypocalcemia in dairy cows utilizing behavioural sensor data combined with deep learning | 2023 | — |
+| Generative AI in agriculture | 2024 | [Link to presentation](https://prezi.com/view/z8wnDQHiyT8WQs63Erna/) |
+| A Foundational Framework for Animal Behavior Analysis Using Computer Vision (AI4AS, Zurich) | 2024 | [Link to presentation](https://prezi.com/view/DQDjSybENZwwYGDND86L/) |
+| ICAR–IDF initiative on sensor data for functional traits: genetics and reference standards for rumination | 2024 | — |
+| A Foundational Framework for Animal Behavior Analysis Using Computer Vision (Precision Dairy Farming Conference, Christchurch) | 2024 | [Link to presentation](https://prezi.com/view/hUL4WyzK04Q4saxgJbqI/) |
 
 ### Extension workshops
 
--   How we practitioners should implement our nutrition knowledge to help our farmers? 2011. Workshop on the 6^th^ European Congress of Bovine Health Management, Liège, Belgium.
-
--   Technology in dairy. 2012. Masterclasses for Zoetis, Cremona, Italy.
-
--   HACCP approaches for fertility management in livestock. 2013. Workshop on the 17^th^ ESDAR Conference, Bologna, Italy.
-
--   Herd Health Management: The future for bovine practioners: challenge or opportunity. 2013. Masterclasses for Zoetis, Germany.
-
--   Visualisation of heat detection and conception rates in small and large dairy herds. 2013. Masterclasses for Zoetis, The Netherlands.
-
--   Transition management and its influence on fertility. 2013. Presentation for Proveto, The Netherlands.
-
--   Pitfalls in the analysis of reproductive records in dairy herds. 2013. Presentation for Proveto, The Netherlands.
-
--   Subclinical ketosis during the transition period. 2013. Launch Events Exxit Ketose, Elanco, Belgium.
-
--   Masterclasses reproductive management in dairy cows. 2014. Zoetis, The Netherlands.
-
--   Visualisation and interpretation of reproductive herd records. 2014. International Cow Fertility Conference 'New Science -- New Practices', Westport, Ireland.
-
--   Masterclasses reproductive management in dairy cows. 2015. Zoetis, Belgium.
-
--   Masterclasses Transition Management. 2015. Zoetis, The Netherlands.
-
--   Transforming Big Data into real world evidence for SARA. 2016. DairyCare Workshop on Sub-Acute Ruminal Acidosis, Glasgow, United Kingdom.
-
--   Bovine herd health management. 2016. Workshop on the 20^th^ ESDAR Conference, Lisbon, Portugal.
-
--   Dairy data management, where to start. 2017. Workshop on the ANEMBE Conference, Pamplona, Spain.
-
--   How to monitor reproductive performance, 2017. Workshop on ANEMBE Conference, Pamplona, Spain.
-
--   Multiple sessions for the Ruminant Specialisation 2017-2018, Merelbeke, Belgium.
-
-    -   General introduction to dairy data analytics
-
-    -   Common analytical data pitfalls every practitioner should know about
-
-    -   Monitoring production
-
-    -   Monitoring reproduction
-
-    -   Insemination strategy
-
-    -   Conception strategy
-
-    -   Improve dairy cow fertility
-
--   The truth about transition disease in dairy cows, 2017. Dechra, Tielt, Belgium.
-
--   First results of the GplusE project, 2017. Post-Education in Veterinary Medicine, Merelbeke, Belgium.
-
--   Ruminant clinical cases, 2017. Institute for continued education at Ughent, Merelbeke, Belgium.
-
--   Monitoring reproduction in high yielding dairy cows. Dyrlaeger & Ko, Vintermøde, 2018, Hovborg Kro, Denmark.
-
--   Feeding the dairy cow -- Basics of high yielding dairy cows. Vakdierenarts rund 2018-2019, Merelbeke, Belgium.
-
--   Feeding the dairy cow --Feeding high intake and milk composition. Vakdierenarts rund 2018-2019, Merelbeke, Belgium.
-
--   Zoetis Advanced Fertilitiy Consulting 2018-2019
-
--   Act, think and work like a datascientist. Bio-Informatics Course 2018, UCD Dublin, Ireland.
-
--   GplusE Training School, 2018. Bucarest, Roumania/ Madrid, Spain.
-
--   Not only a success story: A workshop on lessons learned from the past and what is really needed to move from precision to smart dairy farming! Workshop on the 10^th^ ECPLF conference. Vienna, Austria. 2022.
-
--   Sustainable Ruminant Health. How to manage it successfully. 2023. Utrecht, The Netherlands \[[Link to presentation](https://prezi.com/view/mPsEJBmrGvacshFmgKkx/)\].
-
--   Sustainable Ruminant Health. Presentation for DAP Oostland. 2023. Halle, The Netherlands \[[Link to presentation](https://prezi.com/view/QOyh0ollFwsmMxHjokJ5/)\].
-
--   Duurzame melkveehouderij vanuit een internationaal perspectief. Boerensymposium. Groningen, The Netherlands [\[Link to presentation\]](https://prezi.com/view/ZOLHC3p0xZsuagi4bjyF/).
-
--   Meer melk uit (ruw)voer. Klantenavond 2023 Dierenkliniek Wolvega. Wolvega, The Netherlands. [\[Link to presentation\]](https://prezi.com/view/0FNmDeFp8jgUfrzZ6iV9/).
-
--   NutriVice studie bijeenkomst 2023. Een toekomst voor de Nederlandse melkveehouderij. Ane & Velden, The Netherlands [\[Link to presentation\]](https://prezi.com/view/0FNmDeFp8jgUfrzZ6iV9/).
-
--   Evolution or revolution. Future Food Utrecht Symposium 2023. Driebergen, The Netherlands [\[Link to presentation\]](https://prezi.com/view/7pMuqV5fnZl7u46ci6Of/).
-
--   Toekomst van de melkveehouderij in Nederland, Europa en daarbuiten. 2024. DAMB. Ithaca \[[Link to presentation](https://prezi.com/view/1bcqp5GXaN9lzhFyoVLb/)\].
-
--   Toekomst van de melkveehouderij in Nederland, Europa en daarbuiten. 2024. Boerensymposium. Markelo \[[Link to presentation](https://prezi.com/view/0hMkswYpDDG2ArA89jtT/)\].
-
--   How artificial intelligence can transform an entire agricultural industry, or NOT? Dairy Center of Excellence. 2025. Ithaca, USA \[[Link to presentation](https://prezi.com/view/k7gYvnhrPkZUJqz4d7La/)\].
-
--   Eine Zukunft für die Milchwirtschaft. 2025. Hofheim. Germany. \[[Link to presentation](https://prezi.com/view/P47z3gjBDPhV7Gvn9lTM/)\].
-
--   Effectively Implementing AI at the Interface Between Veterinary and Dairy Science. Bovine Practitioners Meeting, 2025, Hofheim, Germany.
-
-    -   [Introduction bovi-analytics](https://prezi.com/view/JEGbdXfpraUQyyhj4d98/)
-
-    -   [General introduction to AI](https://prezi.com/view/1JtWOiLccl4aZwITMEkk/)
-
-    -   [Application of AI in performance analysis](https://prezi.com/view/of1D9pHC9rS7f4SjPXly/)
-
-    -   [Application of AI in camera analysis](https://prezi.com/view/bibFyFyrUFkE3VC90KSw/)
-
-    -   [Application of AI in transition management](https://prezi.com/view/RMueLhxCwovV2jQm2FQH/)
-
--   Effectively Implementing AI at the Interface Between Veterinary and Dairy Science. Ohio Veterinarians Meeting, 2026, Columbus, USA.
-
-    -   [Introduction bovi-analytics](https://prezi.com/view/JEGbdXfpraUQyyhj4d98/)
-
-    -   [General introduction to AI](https://prezi.com/view/1JtWOiLccl4aZwITMEkk/)
-
-    -   [Application of AI in performance analysis](https://prezi.com/view/of1D9pHC9rS7f4SjPXly/)
-
-    -   [Application of AI in camera analysis](https://prezi.com/view/bibFyFyrUFkE3VC90KSw/)
-
-    -   [Application of AI in transition management](https://prezi.com/view/RMueLhxCwovV2jQm2FQH/)
-
--   Toekomst van de melkveehouderij in Vlaanderen, Europa en daarbuiten. 2025. Brugse Dierenartsen Congress. Moerkerke, Belgium. \[[Link to presentation](https://prezi.com/view/nDpCHfZSFvSpU7pzRvtK/)\].
++------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+------------------------------------------------------------------------+
+| Title                                                                                                                                                            | Year | Presentation link                                                      |
++==================================================================================================================================================================+:====:+========================================================================+
+| How we practitioners should implement our nutrition knowledge to help our farmers?                                                                               | 2011 | —                                                                      |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+------------------------------------------------------------------------+
+| Technology in dairy                                                                                                                                              | 2012 | —                                                                      |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+------------------------------------------------------------------------+
+| HACCP approaches for fertility management in livestock                                                                                                           | 2013 | —                                                                      |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+------------------------------------------------------------------------+
+| Herd Health Management: The future for bovine practitioners: challenge or opportunity                                                                            | 2013 | —                                                                      |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+------------------------------------------------------------------------+
+| Visualisation of heat detection and conception rates in small and large dairy herds                                                                              | 2013 | —                                                                      |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+------------------------------------------------------------------------+
+| Transition management and its influence on fertility                                                                                                             | 2013 | —                                                                      |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+------------------------------------------------------------------------+
+| Pitfalls in the analysis of reproductive records in dairy herds                                                                                                  | 2013 | —                                                                      |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+------------------------------------------------------------------------+
+| Subclinical ketosis during the transition period                                                                                                                 | 2013 | —                                                                      |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+------------------------------------------------------------------------+
+| Masterclasses reproductive management in dairy cows                                                                                                              | 2014 | —                                                                      |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+------------------------------------------------------------------------+
+| Visualisation and interpretation of reproductive herd records                                                                                                    | 2014 | —                                                                      |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+------------------------------------------------------------------------+
+| Masterclasses reproductive management in dairy cows                                                                                                              | 2015 | —                                                                      |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+------------------------------------------------------------------------+
+| Masterclasses Transition Management                                                                                                                              | 2015 | —                                                                      |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+------------------------------------------------------------------------+
+| Transforming Big Data into real world evidence for SARA                                                                                                          | 2016 | —                                                                      |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+------------------------------------------------------------------------+
+| Bovine herd health management                                                                                                                                    | 2016 | —                                                                      |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+------------------------------------------------------------------------+
+| Dairy data management, where to start                                                                                                                            | 2017 | —                                                                      |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+------------------------------------------------------------------------+
+| How to monitor reproductive performance                                                                                                                          | 2017 | —                                                                      |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+------------------------------------------------------------------------+
+| Multiple sessions for the Ruminant Specialisation (General intro, pitfalls, monitoring production & reproduction, insemination & conception strategy, fertility) | 2017 | —                                                                      |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+------------------------------------------------------------------------+
+| The truth about transition disease in dairy cows                                                                                                                 | 2017 | —                                                                      |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+------------------------------------------------------------------------+
+| First results of the GplusE project                                                                                                                              | 2017 | —                                                                      |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+------------------------------------------------------------------------+
+| Ruminant clinical cases                                                                                                                                          | 2017 | —                                                                      |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+------------------------------------------------------------------------+
+| Monitoring reproduction in high yielding dairy cows                                                                                                              | 2018 | —                                                                      |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+------------------------------------------------------------------------+
+| Feeding the dairy cow — Basics of high yielding dairy cows                                                                                                       | 2018 | —                                                                      |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+------------------------------------------------------------------------+
+| Feeding the dairy cow — Feeding high intake and milk composition                                                                                                 | 2018 | —                                                                      |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+------------------------------------------------------------------------+
+| Zoetis Advanced Fertility Consulting                                                                                                                             | 2018 | —                                                                      |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+------------------------------------------------------------------------+
+| Act, think and work like a datascientist                                                                                                                         | 2018 | —                                                                      |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+------------------------------------------------------------------------+
+| GplusE Training School                                                                                                                                           | 2018 | —                                                                      |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+------------------------------------------------------------------------+
+| Not only a success story: lessons learned moving from precision to smart dairy farming                                                                           | 2022 | —                                                                      |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+------------------------------------------------------------------------+
+| Sustainable Ruminant Health: How to manage it successfully                                                                                                       | 2023 | [Link to presentation](https://prezi.com/view/mPsEJBmrGvacshFmgKkx/)   |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+------------------------------------------------------------------------+
+| Sustainable Ruminant Health (DAP Oostland)                                                                                                                       | 2023 | [Link to presentation](https://prezi.com/view/QOyh0ollFwsmMxHjokJ5/)   |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+------------------------------------------------------------------------+
+| Duurzame melkveehouderij vanuit een internationaal perspectief                                                                                                   | 2023 | [Link to presentation](https://prezi.com/view/ZOLHC3p0xZsuagi4bjyF/)   |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+------------------------------------------------------------------------+
+| Meer melk uit (ruw)voer                                                                                                                                          | 2023 | [Link to presentation](https://prezi.com/view/0FNmDeFp8jgUfrzZ6iV9/)   |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+------------------------------------------------------------------------+
+| NutriVice studie bijeenkomst — Een toekomst voor de Nederlandse melkveehouderij                                                                                  | 2023 | [Link to presentation](https://prezi.com/view/0FNmDeFp8jgUfrzZ6iV9/)   |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+------------------------------------------------------------------------+
+| Evolution or revolution                                                                                                                                          | 2023 | [Link to presentation](https://prezi.com/view/7pMuqV5fnZl7u46ci6Of/)   |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+------------------------------------------------------------------------+
+| Toekomst van de melkveehouderij in Nederland, Europa en daarbuiten (DAMB)                                                                                        | 2024 | [Link to presentation](https://prezi.com/view/1bcqp5GXaN9lzhFyoVLb/)   |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+------------------------------------------------------------------------+
+| Toekomst van de melkveehouderij in Nederland, Europa en daarbuiten (Boerensymposium)                                                                             | 2024 | [Link to presentation](https://prezi.com/view/0hMkswYpDDG2ArA89jtT/)   |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+------------------------------------------------------------------------+
+| How artificial intelligence can transform an entire agricultural industry, or NOT? (Dairy Center of Excellence)                                                  | 2025 | [Link to presentation](https://prezi.com/view/k7gYvnhrPkZUJqz4d7La/)   |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+------------------------------------------------------------------------+
+| Eine Zukunft für die Milchwirtschaft                                                                                                                             | 2025 | [Link to presentation](https://prezi.com/view/P47z3gjBDPhV7Gvn9lTM/)   |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+------------------------------------------------------------------------+
+| Effectively Implementing AI at the Interface Between Veterinary and Dairy Science (Bovine Practitioners Meeting)                                                 | 2025 | [Link to presentation 1](https://prezi.com/view/JEGbdXfpraUQyyhj4d98/) |
+|                                                                                                                                                                  |      |                                                                        |
+|                                                                                                                                                                  |      | [Link to presentation 2](https://prezi.com/view/1JtWOiLccl4aZwITMEkk/) |
+|                                                                                                                                                                  |      |                                                                        |
+|                                                                                                                                                                  |      | [Link to presentation 3](https://prezi.com/view/of1D9pHC9rS7f4SjPXly/) |
+|                                                                                                                                                                  |      |                                                                        |
+|                                                                                                                                                                  |      | [Link to presentation 4](https://prezi.com/view/bibFyFyrUFkE3VC90KSw/) |
+|                                                                                                                                                                  |      |                                                                        |
+|                                                                                                                                                                  |      | [Link to presentation 5](https://prezi.com/view/RMueLhxCwovV2jQm2FQH/) |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+------------------------------------------------------------------------+
+| Effectively Implementing AI at the Interface Between Veterinary and Dairy Science (Ohio Veterinarians Meeting)                                                   | 2026 | [Link to presentation 1](https://prezi.com/view/JEGbdXfpraUQyyhj4d98/) |
+|                                                                                                                                                                  |      |                                                                        |
+|                                                                                                                                                                  |      | [Link to presentation 2](https://prezi.com/view/1JtWOiLccl4aZwITMEkk/) |
+|                                                                                                                                                                  |      |                                                                        |
+|                                                                                                                                                                  |      | [Link to presentation 3](https://prezi.com/view/of1D9pHC9rS7f4SjPXly/) |
+|                                                                                                                                                                  |      |                                                                        |
+|                                                                                                                                                                  |      | [Link to presentation 4](https://prezi.com/view/bibFyFyrUFkE3VC90KSw/) |
+|                                                                                                                                                                  |      |                                                                        |
+|                                                                                                                                                                  |      | [Link to presentation 5](https://prezi.com/view/RMueLhxCwovV2jQm2FQH/) |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+------------------------------------------------------------------------+
+| Toekomst van de melkveehouderij in Vlaanderen, Europa en daarbuiten                                                                                              | 2025 | [Link to presentation](https://prezi.com/view/nDpCHfZSFvSpU7pzRvtK/)   |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+------------------------------------------------------------------------+

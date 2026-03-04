@@ -20,7 +20,13 @@ website:
     background: "#4287f5"
     right:
       - text: "Miel Hostens"
-        href: researchers/miel-hostens.qmd
+        href: miel-hostens/cv.qmd
+      - text: "Miel Hostens"
+        menu:
+          - text: "Curriculum vitae"
+            href: miel-hostens/cv.qmd
+          - text: "Biosketch"
+            href: miel-hostens/short-cv.qmd
       - text: "Researchers"
         href: researchers/index.qmd
       - text: "Open positions"
