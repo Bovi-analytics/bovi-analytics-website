@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.27">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="description" content="Use modern data analytical tools for dairy science">
+
+<title>output – Bovi-Analytics</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../..//files/img/Bovi-Analytics-SmallLogo.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-9e15f8fb9e1f2f288bfbe28f6ca11029.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-df50d828f362f9cf9ec7271a2717e599.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Bovi-Analytics</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../miel-hostens/cv.html"> 
+<span class="menu-text">Miel Hostens</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-miel-hostens" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Miel Hostens</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-miel-hostens">    
+        <li>
+    <a class="dropdown-item" href="../../miel-hostens/cv.html">
+ <span class="dropdown-text">Curriculum vitae</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../miel-hostens/short-cv.html">
+ <span class="dropdown-text">Biosketch</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="../../researchers/index.html"> 
+<span class="menu-text">Researchers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../open-positions/index.html"> 
+<span class="menu-text">Open positions</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://portal.bovi-analytics.org"> 
+<span class="menu-text">Portal</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../projects/index.html"> 
+<span class="menu-text">Projects</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../tutorials/index.html"> 
+<span class="menu-text">Tutorials</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-classes" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Classes</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-classes">    
+        <li>
+    <a class="dropdown-item" href="https://bovi-analytics.github.io/BeastsAndBytes/">
+ <span class="dropdown-text">ANSC4040</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://bovi-analytics.github.io/DigitalDairyManagementandDataAnalytics/">
+ <span class="dropdown-text">ANSC4940</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://bovi-analytics.slack.com"> <i class="bi bi-slack" role="img" aria-label="Slack">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/Bovi-Analytics/"> <i class="bi bi-github" role="img" aria-label="GitHub">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#significant-output" id="toc-significant-output" class="nav-link active" data-scroll-target="#significant-output">Significant output</a>
+  <ul class="collapse">
+  <li><a href="#first-peer-reviewed-paper" id="toc-first-peer-reviewed-paper" class="nav-link" data-scroll-target="#first-peer-reviewed-paper">First peer-reviewed paper</a></li>
+  <li><a href="#dairydatawarehouse-mmmooogle" id="toc-dairydatawarehouse-mmmooogle" class="nav-link" data-scroll-target="#dairydatawarehouse-mmmooogle">DairyDataWarehouse &amp; MmmooOgle</a></li>
+  <li><a href="#gpluse" id="toc-gpluse" class="nav-link" data-scroll-target="#gpluse">GplusE</a></li>
+  <li><a href="#senseofsensors" id="toc-senseofsensors" class="nav-link" data-scroll-target="#senseofsensors">SenseOfSensors</a></li>
+  <li><a href="#resilience" id="toc-resilience" class="nav-link" data-scroll-target="#resilience">Resilience</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+
+
+
+
+<section id="significant-output" class="level2">
+<h2 class="anchored" data-anchor-id="significant-output">Significant output</h2>
+<p>In my research domain, first, second and last authors have made significant contributions. As my research group focuses on applied research, a large international network and participation in consortia or advisory committees are globally also acknowledged as important output. My current h-index is 35 (<a href="https://scholar.google.com/citations?user=fZ1xfdQAAAAJ&amp;hl=nl" class="uri">https://scholar.google.com/citations?user=fZ1xfdQAAAAJ&amp;hl=nl</a>). I consider the following papers/achievements as my personal best output, although I have other clinically important output due to active collaborations within the veterinary domain (Pardon et al.; Kemel et al.). I have ordered and grouped output together given common projects or background. A clear move from the veterinary and dairy domain towards the precision livestock farming and data science domain can be seen in my key output.</p>
+<section id="first-peer-reviewed-paper" class="level3">
+<h3 class="anchored" data-anchor-id="first-peer-reviewed-paper">First peer-reviewed paper</h3>
+<p><strong>Hostens, M.,</strong> Ehrlich, J., Van Ranst, B., &amp; Opsomer, G. (2012). On-farm evaluation of the effect of metabolic diseases on the shape of the lactation curve in dairy cows through the MilkBot lactation model.&nbsp;<em>Journal of dairy science</em>,&nbsp;<em>95</em>(6), 2988–3007. <a href="https://doi.org/10.3168/jds.2011-4791" class="uri">https://doi.org/10.3168/jds.2011-4791</a></p>
+<p>The first paper from my PhD work extended a data warehouse architecture I created during my PhD with a novel Bayesian lactation curve model applied to dairy cow transition disease. It was initiated through an international collaboration with Jim Ehrlich, a veterinarian from New York (USA). This collaboration eventually led to the co-organization of the 31st Discover Conference on Big Data Dairy Management in 2016 (Chicago, USA). Ultimately, the paper even contributed to me taking the lead organization of the 46th ADSA Discover Conference on Milking the Data: Value-Driven Dairy Farming in Chicago (USA).</p>
+<p>The paper has initiated other researchers to use the methodology leading to several co-authorships (Charlier et al., 2012; Verschave et al., 2014). Through my current position as Chair of the Milk Recording Working Group within the International Committee of Animal Recording, the model is being evaluated as one of the newer models to be applied in the milk recording industry. The paper also had 2 follow-up papers (Probo et al., 2018; Pascottini et al., 2020) re-using the same dataset using novel machine learning techniques which illustrates me actively advocating and applying open-code, open-source and FAIR principles, motivating other researchers to follow the approach.</p>
+</section>
+<section id="dairydatawarehouse-mmmooogle" class="level3">
+<h3 class="anchored" data-anchor-id="dairydatawarehouse-mmmooogle">DairyDataWarehouse &amp; MmmooOgle</h3>
+<p>The data warehouse architecture developed during the previous paper was eventually acquired by Delaval, a leading milking software and hardware provider, from the department of Reproduction, Obstetrics and Herd health and transformed into <u>www.DairyDataWarehouse.com</u>. The product is still actively used across the world. Ghent University was compensated for this acquisition in 2012. After this, I re-initiated a new software company with the original co-creator of the data warehouse, focusing on creating the next-generation data-science platform ready for the multitude in PLF technologies being installed on dairy farms called <u>www.MmmooOgle.com</u>. This illustrates my academic entrepreneurship, which:</p>
+<ul>
+<li><p>accelerated my scientific output as it provided me with unlimited access to data from dairy farms around the world.</p></li>
+<li><p>because of the combined expertise in data and dairy science attracted several successful project consortia (GPLUS, VEERKRACHT, DECIDE, GREENFEED, see appendix 3)</p></li>
+<li><p>illustrates my academic drive to create decision support tools which can be implemented in the dairy industry at sufficient technology-readiness-level.</p></li>
+</ul>
+</section>
+<section id="gpluse" class="level3">
+<h3 class="anchored" data-anchor-id="gpluse">GplusE</h3>
+<p>In 2013, my PhD supervisor Prof.&nbsp;dr. Geert Opsomer and me were approached to join a large FP7 consortium called GplusE. This multi-institutional international project resulted in a large amount of peer reviewed articles (see Appendix 3). Our team was responsible for the data intensive work packages integrating research data from heterogeneous farms and creating best practices for data pipelines within the project. The project resulted in my first article as last author:</p>
+<p>De Koster, J., Salavati, M., Grelet, C., Crowe, M. A., Matthews, E., O’Flaherty, R., Opsomer, G., Foldager, L., GplusE, &amp; <strong>Hostens, M.</strong> (2019). Prediction of metabolic clusters in early-lactation dairy cows using models based on milk biomarkers.&nbsp;<em>Journal of dairy science</em>,&nbsp;<em>102</em>(3), 2631–2644. <a href="https://doi.org/10.3168/jds.2018-15533" class="uri">https://doi.org/10.3168/jds.2018-15533</a></p>
+<p>The article compared several biomarkers with a standardized prediction methods for novel indicators for dairy cow resilience. The methodology was built using 2 ‘Microsoft for Research awards’ mentioned in this application, implementing highly innovative techniques such as scalable machine learning and artificial intelligence in its early stages. The methodology of clustering cows according to their metabolic blood profile was adopted by multiple researchers around the world (e.g.&nbsp;Tremblay et al., 2018; Grelet et al., 2019; Xu et al., 2019; Girma et al., 2024). Subsequently, the method was translated, in collaboration with a visiting researcher from Iran, into a genome wide association study involving multiple industry partners from the Netherlands (Atashi et al., 2020). It illustrates my capability of working with multiple stakeholders, across several domains (phenotype and genotypes), and attracting visiting researchers.</p>
+</section>
+<section id="senseofsensors" class="level3">
+<h3 class="anchored" data-anchor-id="senseofsensors">SenseOfSensors</h3>
+<p>During my appointment as Assistant Professor at Utrecht University between 2018 and 2023, my scientific output was boosted due to the daily supervision of 5 PhD students (Liseune A., Hut P., Scheurwater J., Salamone M. and Chen Y.). All of them were applying some of my previous work (such as the Milkbot model) as well as novel data science methods (including artificial intelligence) and precision dairy farming techniques to monitor and predict dairy cow health and behavior. I consider the following paper as key output from that 5 year period.</p>
+<p>Hut, P. R., Kuiper, S. E. M., Nielen, M., Hulsen, J. H. J. L., Stassen, E. N., &amp; Hostens, M. M. (2022). Sensor based time budgets in commercial Dutch dairy herds vary over lactation cycles and within 24 hours.&nbsp;<em>PloS one</em>,&nbsp;<em>17</em>(2), e0264392. <a href="https://doi.org/10.1371/journal.pone.0264392" class="uri">https://doi.org/10.1371/journal.pone.0264392</a></p>
+<p>It illustrates several important aspects of my research philosophy:</p>
+<ul>
+<li><p>The article demonstrates the enormous potential of using and combining real-world farm data to test field assumptions made about cow behavior.</p></li>
+<li><p>The article started as an MSc project in Veterinary Medicine. The student (listed as second author) was illiterate in data science at the beginning of the project, but through my daily supervision and training was successful in converting this project into a peer-reviewed paper. It illustrates my active approach to train the next generation student in data-driven Veterinary Medicine.</p></li>
+<li><p>The methodology of the article was also made publicly available (open-source/open-code), demonstrating my current default strategy when publishing data-driven dairy science as it supports training and dissemination.</p></li>
+</ul>
+</section>
+<section id="resilience" class="level3">
+<h3 class="anchored" data-anchor-id="resilience">Resilience</h3>
+<p>Around the same time, I still had an active appointment at Ghent University, through which I successfully applied for a Flemish VLAIO with collaborators from Bio-science engineering at UGent and the KULeuven. The aim of the project was to create data-driven tools applying artificial intelligence to monitor the transition success of dairy cows at individual level and herd level. The project, using real-world farm data yielded several publications in the highly ranked Journal Computers and Electronics in Agriculture (impact factor 7.7), of which is I value the following as key output:&nbsp;</p>
+<p>Liseune, A., Salamone, M., Van den Poel, D., Van Ranst, B., &amp; Hostens, M. (2020). Leveraging latent representations for milk yield prediction and interpolation using deep learning.&nbsp;<em>Computers and Electronics in Agriculture</em>,&nbsp;<em>175</em>, 105600. <a href="https://doi.org/10.1016/j.compag.2020.105600" class="uri">https://doi.org/10.1016/j.compag.2020.105600</a></p>
+<p>The article was foundational for my research group because</p>
+<ul>
+<li><p>It served 5 other papers of my group using the same AI method to predict milk production (Liseune et al 2021, Salamone et al., 2022), metabolic health (Salamone et al., 2024; van Leerdam et al., 2024) and behavior (Liseune et al., 2021) in dairy cows.</p></li>
+<li><p>It is currently used as base-model to create a digital twin of a dairy cow including milk components, body weight, feed intake and cow behavior in the current work of 2 of my current PhD students (Hayu S. and van Leerdam M.)</p></li>
+</ul>
+<p>The model is also being integrated with Large Language Models (LLM) by my current post-doctoral fellow Liu E. to allow farmers to interact with the model using natural languages instead of complex computer interfaces.</p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/github\.com\/Bovi-analytics\/bovi-analytics-website");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>Content <i class="fa-brands fa-creative-commons" aria-label="creative-commons"></i> 2024 by <a href="https://bovi-analytics.org/researchers/miel-hostens.html">Miel Hostens</a> <br> All content licensed under a <i class="fa-brands fa-creative-commons" aria-label="creative-commons"></i> <i class="fa-brands fa-creative-commons-by" aria-label="creative-commons-by"></i> <i class="fa-brands fa-creative-commons-nc" aria-label="creative-commons-nc"></i> <a href="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International license (CC BY-NC 4.0)</a> and <a href="https://opensource.org/license/mit">MIT License</a></p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p>Made with <i class="fa-brands fa-r-project" aria-label="r-project"></i> and <a href="https://quarto.org/">Quarto</a><br> <a href="https://github.com/Bovi-Analytics/">View the source at <i class="fa-brands fa-github" aria-label="github"></i> GitHub</a></p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

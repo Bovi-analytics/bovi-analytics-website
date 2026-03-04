@@ -1,0 +1,1148 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.27">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="description" content="Use modern data analytical tools for dairy science">
+
+<title>education – Bovi-Analytics</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../..//files/img/Bovi-Analytics-SmallLogo.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-9e15f8fb9e1f2f288bfbe28f6ca11029.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-df50d828f362f9cf9ec7271a2717e599.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Bovi-Analytics</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../miel-hostens/cv.html"> 
+<span class="menu-text">Miel Hostens</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-miel-hostens" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Miel Hostens</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-miel-hostens">    
+        <li>
+    <a class="dropdown-item" href="../../miel-hostens/cv.html">
+ <span class="dropdown-text">Curriculum vitae</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../miel-hostens/short-cv.html">
+ <span class="dropdown-text">Biosketch</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="../../researchers/index.html"> 
+<span class="menu-text">Researchers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../open-positions/index.html"> 
+<span class="menu-text">Open positions</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://portal.bovi-analytics.org"> 
+<span class="menu-text">Portal</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../projects/index.html"> 
+<span class="menu-text">Projects</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../tutorials/index.html"> 
+<span class="menu-text">Tutorials</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-classes" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Classes</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-classes">    
+        <li>
+    <a class="dropdown-item" href="https://bovi-analytics.github.io/BeastsAndBytes/">
+ <span class="dropdown-text">ANSC4040</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://bovi-analytics.github.io/DigitalDairyManagementandDataAnalytics/">
+ <span class="dropdown-text">ANSC4940</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://bovi-analytics.slack.com"> <i class="bi bi-slack" role="img" aria-label="Slack">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/Bovi-Analytics/"> <i class="bi bi-github" role="img" aria-label="GitHub">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#education" id="toc-education" class="nav-link active" data-scroll-target="#education">Education</a></li>
+  <li><a href="#post-academic-training" id="toc-post-academic-training" class="nav-link" data-scroll-target="#post-academic-training">Post-academic training</a>
+  <ul class="collapse">
+  <li><a href="#dairy-science-domain" id="toc-dairy-science-domain" class="nav-link" data-scroll-target="#dairy-science-domain">Dairy Science Domain</a></li>
+  <li><a href="#informatics-data-science-and-statistical-domain" id="toc-informatics-data-science-and-statistical-domain" class="nav-link" data-scroll-target="#informatics-data-science-and-statistical-domain">Informatics, data science and statistical domain</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+
+
+
+
+<section id="education" class="level2">
+<h2 class="anchored" data-anchor-id="education">Education</h2>
+<ul>
+<li><p>PhD in Veterinary Medicine, University of Ghent, 2013:</p>
+<ul>
+<li>“<a href="../../miel-hostens/assets/pdf/miel-hostens-phd.pdf">Health and Fertility Challenges in High Yielding Dairy Cows during the Transition Period and the Use of Dietary Fatty Acids as an Optimization Strategy</a>”</li>
+</ul></li>
+<li><p>Master in Veterinary Medicine, University of Ghent, 2006 (<em>cum laude</em>).</p></li>
+<li><p>Bachelor in Veterinary Medicine, University of Ghent, 2003 (<em>cum laude</em>).</p></li>
+</ul>
+</section>
+<section id="post-academic-training" class="level2">
+<h2 class="anchored" data-anchor-id="post-academic-training">Post-academic training</h2>
+<section id="dairy-science-domain" class="level3">
+<h3 class="anchored" data-anchor-id="dairy-science-domain">Dairy Science Domain</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Title of degree or diploma</th>
+<th>Grade obtained</th>
+<th>Institution</th>
+<th>Date</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Cursus rundveevoeding: recente ontwikkelingen en nieuwe inzichten</td>
+<td>Certificate of attendance</td>
+<td>Wageningen Business School, The Netherlands</td>
+<td>2007</td>
+</tr>
+<tr class="even">
+<td>BASF, Tagungsveranstaltung</td>
+<td>Certificate of attendance</td>
+<td>Haus Riswick, Germany</td>
+<td>2007</td>
+</tr>
+<tr class="odd">
+<td>WIAS Seminar: Strategies to improve health and fertility in dairy cows</td>
+<td>Certificate of attendance</td>
+<td>Wageningen University &amp; Research, The Netherlands</td>
+<td>2008</td>
+</tr>
+<tr class="even">
+<td>ITB Schulung Februar</td>
+<td>Certificate of attendance</td>
+<td>DSP Agrosoft, Verden, Germany</td>
+<td>2008</td>
+</tr>
+<tr class="odd">
+<td>14th DISCOVER Conference: Lipids for Dairy Cattle: Today’s Issues, Tomorrow’s Challenges</td>
+<td>Certificate of attendance</td>
+<td>ADSA, Nashville, Indiana, United States</td>
+<td>2008</td>
+</tr>
+<tr class="even">
+<td>25th World Buiatrics Congress</td>
+<td>Certificate of attendance</td>
+<td>World Buiatrics Association, Budapest, Hungary</td>
+<td>2008</td>
+</tr>
+<tr class="odd">
+<td>International symposium: Nutritional strategies to manage the challenges of today’s dairy cows</td>
+<td>Certificate of attendance</td>
+<td>Wageningen University &amp; Research, The Netherlands</td>
+<td>2009</td>
+</tr>
+<tr class="even">
+<td>International Symposium on Ruminant Physiology</td>
+<td>Certificate of attendance</td>
+<td>ISRP, Clermont-Ferrand, France</td>
+<td>2009</td>
+</tr>
+<tr class="odd">
+<td>Rindergesundheitstag – Milch und gute Fruchtbarkeit: Die besten Strategien</td>
+<td>Certificate of attendance</td>
+<td>Leipzig, Germany</td>
+<td>2009</td>
+</tr>
+<tr class="even">
+<td>ITB Schulung August</td>
+<td>Certificate of attendance</td>
+<td>DSP Agrosoft, Verden, Germany</td>
+<td>2009</td>
+</tr>
+<tr class="odd">
+<td>17th DISCOVER Conference: Dairy Herd Analytics</td>
+<td>Certificate of attendance</td>
+<td>ADSA, Nashville, United States</td>
+<td>2009</td>
+</tr>
+<tr class="even">
+<td>20th Discover Conference: The Transition Cow: Biology and Management</td>
+<td>Certificate of attendance</td>
+<td>ADSA, Champaign, United States</td>
+<td>2010</td>
+</tr>
+<tr class="odd">
+<td>Dairy Solutions Symposium – Rumen Health: A 360° Analysis</td>
+<td>Certificate of attendance</td>
+<td>Utrecht University, The Netherlands</td>
+<td>2010</td>
+</tr>
+<tr class="even">
+<td>Alta Value Services Konferenz</td>
+<td>Certificate of attendance</td>
+<td>Alta, Bremen, Germany</td>
+<td>2010</td>
+</tr>
+<tr class="odd">
+<td>14th International Conference on Production Diseases in Farm Animals</td>
+<td>Certificate of attendance</td>
+<td>ISRP, Ghent, Belgium</td>
+<td>2010</td>
+</tr>
+<tr class="even">
+<td>International Reproduction Conference</td>
+<td>Certificate of attendance</td>
+<td>Anchorage, United States</td>
+<td>2010</td>
+</tr>
+<tr class="odd">
+<td>Bovine Professionals Meeting, Fertility and Rumen Health</td>
+<td>Certificate of attendance</td>
+<td>BFP, Hofheim, Germany</td>
+<td>2010</td>
+</tr>
+<tr class="even">
+<td>21st Discover Conference: Improving Reproductive Efficiency of Lactating Dairy Cattle</td>
+<td>Certificate of attendance</td>
+<td>ADSA, Itasca, United States</td>
+<td>2011</td>
+</tr>
+<tr class="odd">
+<td>22nd Discover Conference: Milk Components: Opportunities for Maximizing Farm Gate Returns</td>
+<td>Certificate of attendance</td>
+<td>ADSA, Chicago, United States</td>
+<td>2011</td>
+</tr>
+<tr class="even">
+<td>Rindergesundheitstag</td>
+<td>Certificate of attendance</td>
+<td>University of Giessen, Germany</td>
+<td>2011</td>
+</tr>
+<tr class="odd">
+<td>European Buiatrics Forum</td>
+<td>Certificate of attendance</td>
+<td>EBF, Marseille, France</td>
+<td>2011</td>
+</tr>
+<tr class="even">
+<td>Meeting American Association for Bovine Practitioners</td>
+<td>Certificate of attendance</td>
+<td>AABP, Louisville, United States</td>
+<td>2011</td>
+</tr>
+<tr class="odd">
+<td>25th Discover Conference: New Developments in Immunity, Nutrition, and Management of the Preruminant Calf</td>
+<td>Certificate of attendance</td>
+<td>ADSA, Chicago, United States</td>
+<td>2012</td>
+</tr>
+<tr class="even">
+<td>27th World Buiatrics Congress</td>
+<td>Certificate of attendance</td>
+<td>World Buiatrics Association, Lisbon, Portugal</td>
+<td>2012</td>
+</tr>
+<tr class="odd">
+<td>Meeting American Association for Bovine Practitioners</td>
+<td>Certificate of attendance</td>
+<td>AABP, Toronto, Canada</td>
+<td>2012</td>
+</tr>
+<tr class="even">
+<td>14th International Congress of SIVAR</td>
+<td>Certificate of attendance</td>
+<td>SIVAR, Cremona, Italy</td>
+<td>2012</td>
+</tr>
+<tr class="odd">
+<td>Bovine Professionals Meeting, Claw Health and Transition Management</td>
+<td>Certificate of attendance</td>
+<td>BPM, Hofheim, Germany</td>
+<td>2012</td>
+</tr>
+<tr class="even">
+<td>26th Discover Conference: Dairy Feed Efficiency</td>
+<td>Certificate of attendance</td>
+<td>ADSA, Chicago, United States</td>
+<td>2013</td>
+</tr>
+<tr class="odd">
+<td>Meeting of the European Society for Domestic Animal Reproduction</td>
+<td>Certificate of attendance</td>
+<td>ESDAR, Milano, Italy</td>
+<td>2013</td>
+</tr>
+<tr class="even">
+<td>Dairyland Initiative Meeting on Transition Cow and Positive Pressure Tube Ventilation</td>
+<td>Certificate of attendance</td>
+<td>Dairyland Initiative, Madison, United States</td>
+<td>2013</td>
+</tr>
+<tr class="odd">
+<td>28th Discover Conference: Starch for Ruminants</td>
+<td>Certificate of attendance</td>
+<td>ADSA, Chicago, United States</td>
+<td>2014</td>
+</tr>
+<tr class="even">
+<td>Annual National Mastitis Council Meeting</td>
+<td>Certificate of attendance</td>
+<td>NMC, Fort Worth, United States</td>
+<td>2014</td>
+</tr>
+<tr class="odd">
+<td>Joint ASA–ADSA Annual Meeting</td>
+<td>Certificate of attendance</td>
+<td>ADSA, Kansas City, United States</td>
+<td>2014</td>
+</tr>
+<tr class="even">
+<td>65th Annual Conference of the European Federation of Animal Science</td>
+<td>Certificate of attendance</td>
+<td>EAAP, Copenhagen, Denmark</td>
+<td>2014</td>
+</tr>
+<tr class="odd">
+<td>Blanca Reproduction Workshop</td>
+<td>Certificate of attendance</td>
+<td>Blanca, Barcelona, Spain</td>
+<td>2015</td>
+</tr>
+<tr class="even">
+<td>ICAR Technical Meeting</td>
+<td>Certificate of attendance</td>
+<td>ICAR, Cracow, Poland</td>
+<td>2015</td>
+</tr>
+<tr class="odd">
+<td>66th Annual Conference of the European Federation of Animal Science</td>
+<td>Certificate of attendance</td>
+<td>EAAP, Warsaw, Poland</td>
+<td>2015</td>
+</tr>
+<tr class="even">
+<td>7th European Conference on Precision Livestock Farming</td>
+<td>Certificate of attendance</td>
+<td>EC‑PLF, Milan, Italy</td>
+<td>2015</td>
+</tr>
+<tr class="odd">
+<td>Large Dairy Herd Management Conference</td>
+<td>Certificate of attendance</td>
+<td>ADSA, Chicago, United States</td>
+<td>2016</td>
+</tr>
+<tr class="even">
+<td>67th Annual Conference of the European Federation of Animal Science</td>
+<td>Certificate of attendance</td>
+<td>EAAP, Belfast, United Kingdom</td>
+<td>2016</td>
+</tr>
+<tr class="odd">
+<td>68th Annual Conference of the European Federation of Animal Science</td>
+<td>Certificate of attendance</td>
+<td>EAAP, Tallinn, Estonia</td>
+<td>2017</td>
+</tr>
+<tr class="even">
+<td>70th Annual Conference of the European Federation of Animal Science</td>
+<td>Certificate of attendance</td>
+<td>EAAP, Ghent, Belgium</td>
+<td>2019</td>
+</tr>
+<tr class="odd">
+<td>ADSA Annual Meeting</td>
+<td>Certificate of attendance</td>
+<td>ADSA, Cincinnati, Ohio</td>
+<td>2019</td>
+</tr>
+<tr class="even">
+<td>Annual ICAR Meeting</td>
+<td>Certificate of attendance</td>
+<td>ICAR, Prague, Czech Republic</td>
+<td>2019</td>
+</tr>
+<tr class="odd">
+<td>9th European Conference on Precision Livestock Farming</td>
+<td>Certificate of attendance</td>
+<td>EC‑PLF, Cork, Ireland</td>
+<td>2019</td>
+</tr>
+<tr class="even">
+<td>39th Discover Conference: The Transition Period – From Physiology to Management (online)</td>
+<td>Certificate of attendance</td>
+<td>ADSA, Itasca, United States</td>
+<td>2020</td>
+</tr>
+<tr class="odd">
+<td>Annual ICAR Conference</td>
+<td>Certificate of attendance</td>
+<td>ICAR, Leeuwarden, The Netherlands</td>
+<td>2021</td>
+</tr>
+<tr class="even">
+<td>Dairy InnovCongress</td>
+<td>Certificate of attendance</td>
+<td>ULiege–Gembloux, Namur, Belgium</td>
+<td>2022</td>
+</tr>
+<tr class="odd">
+<td>Annual ICAR Conference</td>
+<td>Certificate of attendance</td>
+<td>ICAR, Montreal, Canada</td>
+<td>2022</td>
+</tr>
+<tr class="even">
+<td>10th European Conference on Precision Livestock Farming</td>
+<td>Certificate of attendance</td>
+<td>EC‑PLF, Vienna, Austria</td>
+<td>2022</td>
+</tr>
+<tr class="odd">
+<td>43rd Discover Conference: Dairy Cattle Reproduction – Lessons learned and future frontiers</td>
+<td>Certificate of attendance</td>
+<td>ADSA, Itasca, United States</td>
+<td>2022</td>
+</tr>
+<tr class="even">
+<td>Joint Committee for Dairy Diagnostics</td>
+<td>Certificate of attendance</td>
+<td>Zoetis, Rome, Italy</td>
+<td>2022</td>
+</tr>
+<tr class="odd">
+<td>21st International Symposium &amp; 13th International Conference on Lameness in Ruminants</td>
+<td>Certificate of attendance</td>
+<td>LIR, Bloomington, USA</td>
+<td>2023</td>
+</tr>
+<tr class="even">
+<td>11th European Conference on Precision Livestock Farming</td>
+<td>Certificate of attendance</td>
+<td>EC‑PLF, Milan, Italy</td>
+<td>2024</td>
+</tr>
+<tr class="odd">
+<td>Annual Meeting American Dairy Science Association</td>
+<td>Certificate of attendance</td>
+<td>ADSA, West Palm Beach, USA</td>
+<td>2024</td>
+</tr>
+<tr class="even">
+<td>Annual Meeting American Dairy Science Association</td>
+<td>Certificate of attendance</td>
+<td>ADSA, Louisville, USA</td>
+<td>2025</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="informatics-data-science-and-statistical-domain" class="level3">
+<h3 class="anchored" data-anchor-id="informatics-data-science-and-statistical-domain">Informatics, data science and statistical domain</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Title of degree or diploma</th>
+<th>Grade obtained</th>
+<th>Institution</th>
+<th>Date</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Post-graduate courses in applied informatics</td>
+<td>Certificate of attendance</td>
+<td>HoGent, Belgium</td>
+<td>2007–2010</td>
+</tr>
+<tr class="even">
+<td>EPI on the Island 2009: An introduction to multilevel modeling</td>
+<td>Certificate</td>
+<td>Prince Edward Island, Canada</td>
+<td>2009</td>
+</tr>
+<tr class="odd">
+<td>Introduction to SAS</td>
+<td>Doctoral School Credit</td>
+<td>Institute for Continued Education, Ghent, Belgium</td>
+<td>2009</td>
+</tr>
+<tr class="even">
+<td>Introductory Statistics: Basics of Statistical Inference</td>
+<td>Doctoral School Credit</td>
+<td>Institute for Continued Education, Ghent, Belgium</td>
+<td>2009</td>
+</tr>
+<tr class="odd">
+<td>Analysis of Variance</td>
+<td>Doctoral School Credit</td>
+<td>Institute for Continued Education, Ghent, Belgium</td>
+<td>2009</td>
+</tr>
+<tr class="even">
+<td>Applied Linear Regression</td>
+<td>Doctoral School Credit</td>
+<td>Institute for Continued Education, Ghent, Belgium</td>
+<td>2010</td>
+</tr>
+<tr class="odd">
+<td>Applied Logistic Regression</td>
+<td>Doctoral School Credit</td>
+<td>Institute for Continued Education, Ghent, Belgium</td>
+<td>2011</td>
+</tr>
+<tr class="even">
+<td>Multilevel Analysis for Grouped and Longitudinal Data</td>
+<td>Doctoral School Credit</td>
+<td>Institute for Continued Education, Ghent, Belgium</td>
+<td>2011</td>
+</tr>
+<tr class="odd">
+<td>Design and Analysis of Clinical Trials</td>
+<td>Doctoral School Credit</td>
+<td>Ghent University, Belgium</td>
+<td>2011</td>
+</tr>
+<tr class="even">
+<td>Survival Analysis</td>
+<td>Doctoral School Credit</td>
+<td>Ghent University, Belgium</td>
+<td>2012</td>
+</tr>
+<tr class="odd">
+<td>Introduction to R</td>
+<td>Doctoral School Credit</td>
+<td>Institute for Continued Education, Ghent, Belgium</td>
+<td>2013</td>
+</tr>
+<tr class="even">
+<td>Tech Transfer Skills Workshop</td>
+<td>Doctoral School Credit</td>
+<td>Institute for Continued Education, Ghent, Belgium</td>
+<td>2013</td>
+</tr>
+<tr class="odd">
+<td>Multivariate Data Analysis</td>
+<td>Doctoral School Credit</td>
+<td>Institute for Continued Education, Ghent, Belgium</td>
+<td>2014</td>
+</tr>
+<tr class="even">
+<td>An Introduction to Big Data</td>
+<td>Doctoral School Credit</td>
+<td>Institute for Continued Education, Ghent, Belgium</td>
+<td>2015</td>
+</tr>
+<tr class="odd">
+<td>Professional Certificate in Bioinformatics</td>
+<td>Professional Certificate</td>
+<td>University College Dublin, Ireland</td>
+<td>2016</td>
+</tr>
+<tr class="even">
+<td>Principles of Statistical Data Analysis</td>
+<td>ECTS</td>
+<td>Ghent University, Belgium</td>
+<td>2016</td>
+</tr>
+<tr class="odd">
+<td>Statistical Modelling</td>
+<td>ECTS</td>
+<td>Ghent University, Belgium</td>
+<td>2016</td>
+</tr>
+<tr class="even">
+<td>Data + AI Summit</td>
+<td>Certificate of attendance</td>
+<td>Databricks, Brussels, Belgium</td>
+<td>2016</td>
+</tr>
+<tr class="odd">
+<td>Big Data Science</td>
+<td>ECTS</td>
+<td>Ghent University, Belgium</td>
+<td>2017</td>
+</tr>
+<tr class="even">
+<td>Computer-Intensive Statistical Methods</td>
+<td>ECTS</td>
+<td>Ghent University, Belgium</td>
+<td>2017</td>
+</tr>
+<tr class="odd">
+<td>Databases</td>
+<td>ECTS</td>
+<td>Ghent University, Belgium</td>
+<td>2017</td>
+</tr>
+<tr class="even">
+<td>Programming and Algorithms</td>
+<td>ECTS</td>
+<td>Ghent University, Belgium</td>
+<td>2017</td>
+</tr>
+<tr class="odd">
+<td>Statistical Computing</td>
+<td>ECTS</td>
+<td>Ghent University, Belgium</td>
+<td>2017</td>
+</tr>
+<tr class="even">
+<td>Data + AI Summit</td>
+<td>Certificate of attendance</td>
+<td>Databricks, Dublin, Ireland</td>
+<td>2017</td>
+</tr>
+</tbody>
+</table>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/github\.com\/Bovi-analytics\/bovi-analytics-website");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>Content <i class="fa-brands fa-creative-commons" aria-label="creative-commons"></i> 2024 by <a href="https://bovi-analytics.org/researchers/miel-hostens.html">Miel Hostens</a> <br> All content licensed under a <i class="fa-brands fa-creative-commons" aria-label="creative-commons"></i> <i class="fa-brands fa-creative-commons-by" aria-label="creative-commons-by"></i> <i class="fa-brands fa-creative-commons-nc" aria-label="creative-commons-nc"></i> <a href="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International license (CC BY-NC 4.0)</a> and <a href="https://opensource.org/license/mit">MIT License</a></p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p>Made with <i class="fa-brands fa-r-project" aria-label="r-project"></i> and <a href="https://quarto.org/">Quarto</a><br> <a href="https://github.com/Bovi-Analytics/">View the source at <i class="fa-brands fa-github" aria-label="github"></i> GitHub</a></p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>
