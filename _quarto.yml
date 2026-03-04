@@ -20,17 +20,17 @@ website:
     background: "#4287f5"
     right:
       - text: "Miel Hostens"
-        file: researchers/miel-hostens.qmd
+        href: researchers/miel-hostens.qmd
       - text: "Researchers"
-        file: researchers/index.qmd
+        href: researchers/index.qmd
       - text: "Open positions"
-        file: open-positions/index.qmd
+        href: open-positions/index.qmd
       - text: "Portal"
         href: "https://portal.bovi-analytics.org"
       - text: "Projects"
-        file: projects/index.qmd
+        href: projects/index.qmd
       - text: "Tutorials"
-        file: tutorials/index.qmd
+        href: tutorials/index.qmd
       - text: "Classes"
         menu:
           - text: "ANSC4040"
