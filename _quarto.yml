@@ -20,8 +20,6 @@ website:
     background: "#4287f5"
     right:
       - text: "Miel Hostens"
-        href: miel-hostens/cv.qmd
-      - text: "Miel Hostens"
         menu:
           - text: "Curriculum vitae"
             href: miel-hostens/cv.qmd
