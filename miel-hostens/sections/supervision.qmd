@@ -1,0 +1,49 @@
+## Graduate research experience
+
+### Finalized PhDs
+
+-   **Jenne De Koster** (2016), PhD title: "Influence of body condition score of dairy cows at the end of pregnancy on peripheral tissue insulin response and metabolic properties of adipose tissue".
+
+-   [**Peter Hut**](peter-hut.html) (2022), PhD title: "Sense of Sensors -- Monitoring Behaviour of Dairy Cows" focusing on using sensor technology in transition dairy cows.
+
+-   [**Arno Liseune**](arno-liseune.html) (2022), PhD title: "Using deep learning for animal monitoring to improve animal welfare in dairy cattle".
+
+-   [**Chen YongYan**](yongyan-chen.html) (2024), a PhD focusing on the non-linear lactation curve and weight loss modelling in dairy cows.
+
+### Regular supervision
+
+-   Osvaldo Bogado Pascottini (Ghent University, 2016), PhD title: “Subclinical endometritis in dairy cattle: a practical approach”.
+
+-   Josje Scheurwater (Utrecht University, 2024), PhD title: “The Happy Healthy Cow”.
+
+### Ongoing PhD supervision
+
+-   **Matthieu Salamone**, a PhD focusing on "The transition period as time window to monitor the nutritional and metabolic resilience of high productive dairy cattle -- Predictive milk production".
+
+-   **Kristof Hermans**, a PhD focusing on data quality in dairy cows as a follow up on the development of the DairyDataWarehouse.
+
+-   **Yara Sleghers**, a PhD focusing on the applying federated machine learning to disease data in poultry.
+
+-   **Saba Noor**, a PhD focusing on the use of semantic web technologies and federated learning to disease data in livestock.
+
+-   **Thomas Vandeputte,** a PhD on computer vision and sensor aided analysis of behavioural and feed intake patterns in pigs (Ghent University, expected 2025).
+
+-   **Sonam Hayu,** a PhD focusing on the use of federated vision and learning technologies in dairy production (Cornell University, expected 2028).
+
+-   **Meike van Leerdam,** a PhD focusing on the use of federated learning technologies to prediction production reproduction and animal welfare traits in dairy cows (Cornell University, expected 2029).
+
+### PhD examination committee
+
+-   Dr. Ismalia Bouba, 2024 - A data driven apporach to understand factors influencing health, welfare and performance of laying hens and Pullets.
+
+-   Dr. Mingqi Zhang, 2024 - Inter-animal variability in metabolic and oxidative status as well as in inflammatory response in Holstein cattle during the transition period.
+
+-   Dr. Yujie Liu, 2022 - Cross-species combination of cohort and intervention studies to assess the fatty acid composition in various lipid fractions of the follicular fluid in relation to blood lipid composition and embryo quality
+
+-   Dr. Zhaoju Deng, 2021 - Improving udder health management in dairy herds with automatic milking systems.
+
+-   Dr. Marlene Tremblay, 2019 - Systematic pattern recognition and modeling with imperfect data: An integration of datascience, data mining, machine learning and epidemiology.
+
+-   Dr. Wei Xu, 2019 - Energy balance and metabolic status of dairy cows: a study using metabolomics, proteomics and machine learning approaches.
+
+-   Dr. Cyriel Ververs, 2018 - Breeding on the brink of extinction: what can we learn from game-ranched white rhinoceros (Ceratotherium simum simum)?´.

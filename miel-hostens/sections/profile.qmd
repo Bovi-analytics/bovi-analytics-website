@@ -1,0 +1,26 @@
+## Profile
+
+**Robert and Anne Everett Associate Professor of Digital Dairy Management and Data Analytics**  
+Department of Animal Science, Cornell University  
+
+**Adjunct Associate Professor (unpaid)**  
+Department of Laboratory for Animal Nutrition and Animal Product Quality, Ghent University  
+
+📍 King Ferry, NY (USA) · Stekene (Belgium)  
+📧 miel.hostens@cornell.edu · miel.hostens@ugent.be  
+
+### Research focus
+- Precision dairy farming  
+- Digital twins & federated learning  
+- AI for animal health and welfare  
+- Sustainable livestock systems
+``
+
+## Presentations published online
+
+{{< video https://www.youtube.com/watch?v=mEnP4GJVhRM >}}
+
+{{< video https://youtu.be/ibMIYSSPNwc?si=HYCIoTuj-OCwhyWo >}}
+
+{{< video https://youtu.be/hh8AELptzH0?si=n7MAJlp_xPd9Ug2P >}}
+

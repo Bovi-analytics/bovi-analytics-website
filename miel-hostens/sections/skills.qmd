@@ -1,0 +1,49 @@
+## Natural Languages
+
+Mother tongue : Dutch
+
+Other:
+
+|         |               |          |         |
+|---------|---------------|----------|---------|
+|         | Understanding | Speaking | Writing |
+| English | +++           | +++      | +++     |
+| French  | ++            | \+       | ±       |
+| German  | ±             | ±        | \-      |
+| Italian | ±             | ±        | \-      |
+
+## Datascience skills
+
++------------------------+--------------------------+----------------------------+
+| ### Computer languages | ### Datascience software | ### Statistical frameworks |
++------------------------+--------------------------+----------------------------+
+| \[R\]                  | SQL Server/warehouse     | SPSS                       |
+|                        |                          |                            |
+| Python                 | Jupyter notebooks        | SAS-Project                |
+|                        |                          |                            |
+| Scala                  | Jupyter lab              | R-Project                  |
+|                        |                          |                            |
+| SQL                    | Intellij                 |                            |
+|                        |                          |                            |
+| SAS code               | Google colab             |                            |
+|                        |                          |                            |
+| Bash                   | Spark scala              |                            |
+|                        |                          |                            |
+| C++                    | Tableau                  |                            |
+|                        |                          |                            |
+|                        | Docker                   |                            |
+|                        |                          |                            |
+|                        | TensorFlow               |                            |
+|                        |                          |                            |
+|                        | Git & Github             |                            |
++------------------------+--------------------------+----------------------------+
+| ### Cloud              | ### Hardware             | ### Other                  |
++------------------------+--------------------------+----------------------------+
+| Microsoft azure        | IoT (eg LoraWAN)         |                            |
+|                        |                          |                            |
+| Google cloud           | Arduino framework        |                            |
+|                        |                          |                            |
+| Docker                 | RaspberryPi              |                            |
+|                        |                          |                            |
+| TheThingsNetwork       |                          |                            |
++------------------------+--------------------------+----------------------------+
