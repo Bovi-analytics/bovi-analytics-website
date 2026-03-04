@@ -1,0 +1,23 @@
+---
+title: "Curriculum Vitae - Miel Hostens"
+author: Miel Hostens
+subtitle: "Robert and Anne Everett Associate Professor of Digital Dairy Management"
+date: last-modified
+toc: true
+format:
+  html:
+    theme: cosmo
+    toc-location: left
+    smooth-scroll: true
+    number-sections: 
+---
+
+{{< include sections/profile.qmd >}}
+{{< include sections/appointments.qmd >}}
+{{< include sections/education.qmd >}}
+{{< include sections/research.qmd >}}
+{{< include sections/funding.qmd >}}
+{{< include sections/teaching.qmd >}}
+{{< include sections/supervision.qmd >}}
+{{< include sections/service.qmd >}}
+{{< include sections/publications.qmd >}}
