@@ -27,14 +27,16 @@ website:
             href: miel-hostens/short-cv.qmd
       - text: "Researchers"
         href: researchers/index.qmd
-      - text: "Open positions"
-        href: open-positions/index.qmd
-      - text: "Portal"
-        href: "https://portal.bovi-analytics.org"
-      - text: "Projects"
-        href: projects/index.qmd
-      - text: "Tutorials"
-        href: tutorials/index.qmd
+      - text: "Lab"
+        menu:
+          - text: "Tutorials"
+            href: tutorials/index.qmd
+          - text: "Projects"
+            href: projects/index.qmd
+          - text: "Portal"
+            href: "https://portal.bovi-analytics.org"
+          - text: "Open positions"
+            href: open-positions/index.qmd
       - text: "Classes"
         menu:
           - text: "ANSC4040"
