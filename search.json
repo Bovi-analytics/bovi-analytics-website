@@ -522,7 +522,7 @@
     "href": "researchers/miel-hostens.html#citations",
     "title": "Curriculum Vitae - Miel Hostens",
     "section": "Citations",
-    "text": "Citations\n\n\nhere() starts at /home/runner/work/bovi-analytics-website/bovi-analytics-website\n\n\nWarning in get_scholar_resp(url, attempts_left - 1): Cannot connect to Google\nScholar. Is the ID you provided correct?\n\n\nSkipping citation plot: Citation data missing expected columns."
+    "text": "Citations\n\n\nhere() starts at /home/runner/work/bovi-analytics-website/bovi-analytics-website"
   },
   {
     "objectID": "researchers/miel-hostens.html#publications",
