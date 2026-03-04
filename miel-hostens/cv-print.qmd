@@ -1,0 +1,25 @@
+---
+title: "Curriculum Vitae"
+format:
+  pdf:
+    documentclass: article
+    toc: false
+    number-sections: false
+    geometry: margin=1in
+    colorlinks: true
+    papersize: letter
+---
+
+{{< include sections/appointments.qmd >}}
+{{< include sections/education.qmd >}}
+{{< include sections/research-focus.qmd >}}
+{{< include sections/output.qmd >}}
+{{< include sections/funding.qmd >}}
+{{< include sections/supervision.qmd >}}
+{{< include sections/teaching.qmd >}}
+{{< include sections/innovation.qmd >}}
+{{< include sections/presentations.qmd >}}
+{{< include sections/service.qmd >}}
+{{< include sections/recognition.qmd >}}
+{{< include sections/skills.qmd >}}
+{{< include sections/publications.qmd >}}
