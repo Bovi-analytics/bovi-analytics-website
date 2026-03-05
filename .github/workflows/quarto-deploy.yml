@@ -28,6 +28,10 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y libglpk40
 
+      # Install TinyTeX (fix for Quarto PDF rendering)
+      - name: Install TinyTeX
+        run: quarto install tinytex --update-path
+        
       - name: Install R Dependencies
         uses: r-lib/actions/setup-renv@v2
         with:
