@@ -1,8 +1,11 @@
 ---
 title: "Curriculum Vitae"
+subtitle: "Miel Hostens"
+date: last-modified 
 format:
   pdf:
-    documentclass: article
+    output-file: miel-hostens-cv.pdf
+    documentclass: report
     toc: false
     number-sections: false
     geometry: margin=1in
@@ -10,16 +13,30 @@ format:
     papersize: letter
 ---
 
+\newpage
 {{< include sections/appointments.qmd >}}
+\newpage
 {{< include sections/education.qmd >}}
+\newpage
 {{< include sections/research-focus.qmd >}}
+\newpage
 {{< include sections/output.qmd >}}
+\newpage
 {{< include sections/funding.qmd >}}
+\newpage
 {{< include sections/supervision.qmd >}}
+\newpage
 {{< include sections/teaching.qmd >}}
+\newpage
 {{< include sections/innovation.qmd >}}
+\newpage
 {{< include sections/presentations.qmd >}}
+\newpage
 {{< include sections/service.qmd >}}
+\newpage
 {{< include sections/recognition.qmd >}}
+\newpage
 {{< include sections/skills.qmd >}}
+\newpage
 {{< include sections/publications.qmd >}}
+

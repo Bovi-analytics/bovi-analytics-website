@@ -3,7 +3,7 @@
 ### (a1) Articles published in journals listed in the ISI Web of Science
 
 | [Title]{.underline} | [Year]{.underline} | [IF]{.underline} |
-|-----------------------------------------|---------------:|---------------:|
+|-------------------------------------------------------------|-----:|----:|
 | Sitko, E. M., Hostens, M., O'Connor, J., Heffernan, C., McCarthy, J., & Butler, S. T. (2025). Predictors of reproductive outcomes in seasonal-calving, pasture-based lactating dairy cows. *Journal of Dairy Science*. https://doi.org/10.3168/jds.2025-27537 | 2025 | 3.7 |
 | Hostens, M., Franceschini, S., van Leerdam, M., Yang, H., Pokharel, S., Liu, E., Sharma, S. (2025). The future of big data and artificial intelligence on dairy farms: A proposed dairy data ecosystem. *JDS Communications*. https://doi.org/10.3168/jdsc.2025-0843 | 2025 | 2.2 |
 | Slegers, Y., Matthijs, M., Stegeman, A., Hostens, M., & de Wit, S. (2025). Applied research note: exploring the relationship between first-week mortality and performance after the first week in broiler chickens. *Journal of Applied Poultry Research*, 100611. https://doi.org/10.1016/j.japr.2025.100611 | 2025 | 2.0 |
@@ -107,7 +107,7 @@
 ### (a2) Articles published in scholarly or scientific journals with a wide distribution, international peer review
 
 | Title | Year |
-|--------------------------------------------------------|---------------:|
+|-----------------------------------------------------------------|-----:|
 | van Schaik, G., Hostens, M., Faverjon, C., Jensen, D. B., Kristensen, A. R., Ezanno, P., Frössling, J., Dórea, F., Jensen, B. B., Carmo, L. P., Steeneveld, W., Rushton, J., Gilbert, W., Bearth, A., Siegrist, M., Kaler, J., Ripperger, J., Siehler, J., de Wit, S., Garcia-Morante, B., … Nielen, M. (2023). *The DECIDE project: from surveillance data to decision-support for farmers and veterinarians*. Open Research Europe, 3, 82. https://doi.org/10.12688/openreseurope.15988.1 | 2023 |
 | Wathes, D. C., Becker, F., Buggiotti, L., Crowe, M. A., Ferris, C., Foldager, L., … GplusE Consortium. (2021). *Associations between circulating IGF-1 concentrations, disease status and the leukocyte transcriptome in early lactation dairy cows*. Ruminants, 1(2), 147–177. | 2021 |
 | Hermans, K., Opsomer, G., Waegeman, W., Moerman, S., De Koster, J., Van Eetvelde, M., Van Ranst, B., Hostens, M. (2018). *Interpretation and visualisation of data from dairy herds*. In Practice, 40(5), 195–203. | 2018 |
@@ -116,14 +116,14 @@
 ### (b2) Chapters in books
 
 | Title | Year |
-|-----------------------------------------------------------|------------:|
+|-----------------------------------------------------------------|-----:|
 | Noor, S., Bokma, J., Pardon, B., van Schaik, G., & Hostens, M. (2024). *Agri Semantics: developments to improve data interoperability to support farm information management and decision support systems in agriculture*. In **Smart farms: Improving data‑driven decision making in agriculture** (pp. 75–96). Burleigh Dodds Science Publishing Limited. | 2024 |
 | Hermans, K., Van Ranst, B., Opsomer, G., & Hostens, M. (2018). *Promises and challenges of big data associated with automated dairy cow welfare assessment*. In A. Butterworth (Ed.), **Animal Welfare in a Changing World** (pp. 199–207). CAB International. | 2018 |
 
 ### (p1) Articles in proceedings listed in the ISI Web of Science
 
 | Title | Year |
-|-----------------------------------------------------------|-------:|
+|-----------------------------------------------------------------|------:|
 | Noor, S., Degroote, J., Van Schaik, G., Pardon, B., Bokma, J., Slegers, Y., Morante, B., & Hostens, M. (2024). *Advancing precision livestock farming through ontology-driven interoperable health data management: Extending the Livestock Health Ontology (LHO) for enhanced disease surveillance*. In **11th European Conference on Precision Livestock Farming**, Bologna, Italy. | 2024 |
 | Egger-Danner, C., Klaas, I., Brito, L., Schodl, K., Bewley, J. M., Cabrera, V., Haskell, M. J., Iwersen, M., Heringstad, B., Stock, K., Stygar, A., van der Linde, R., Hostens, M., Charfeddine, N., Gengler, N., & Vasseur, E. (2024). *Improving animal health and welfare by using sensor data in herd management and dairy cattle breeding – a joint initiative of ICAR and IDF*. In **11th European Conference on Precision Livestock Farming**, Bologna, Italy. | 2024 |
 | Kemel, C., Salamone, M., Hut, P., Adriaens, I., Aernouts, B., & Hostens, M. (2024). *Association between AI‑generated milk yield residuals as measure of transition success and behavioural patterns in dairy cows*. In **11th European Conference on Precision Livestock Farming**, Bologna, Italy. | 2024 |

@@ -1,30 +1,30 @@
 ## Academic services
 
-### Scholarly services
+### Professional Service, Leadership & Editorial Activities
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------+
-| -   Scientific reviewer for several academic journals (Journal of Dairy Science, Journal of Animal Science, Animal, Dairy Research, Theriogenology, Preventive Veterinary Medicine, Frontiers, PlosOne, Journal of Computer and Electronics in Agriculture, …) | Present         |
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------+
-| -   Chair of the ‘Dairy Cattle Milk Recording Working Group’ of the International Committee for Animal Recording (<https://www.icar.org/index.php/technical-bodies/working-groups/dairy-cattle-milk-recording-working-group/>).                                | 2024 – Present  |
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------+
-| -   Executive Committee member for Cornell Institute for Digital Agriculture (https://digitalagriculture.cornell.edu/)                                                                                                                                         | 2025 – Present  |
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------+
-| -   Cornell Atkinson Center for Sustainability Faculty Fellow (https://fellows.atkinson.cornell.edu/)                                                                                                                                                          | 2024 – Present  |
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------+
-| -   Cornell Institute for Digital Agriculture Faculty Fellow (https://digitalagriculture.cornell.edu/)                                                                                                                                                         | 2024 – Present  |
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------+
-| -   Organiser of the 2024 ADSA Discover Conference on Milking the Data: Value-Driven Dairy Farming (Chicago, USA).                                                                                                                                             | 2024            |
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------+
-| -   Board member framework development of the Master in Veterinary Medicine – v2022 (<https://students.uu.nl/sites/default/files/dgk_raamplan_masteropleiding_diergeneeskunde_def.pdf> ).                                                                      | 2019 – 2022     |
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------+
-| -   Guest editor for the special issue ‘Towards Machine Learning and Artificial Intelligence in the Farm-to-Fork Industry’ in the Applied Science MDPI journal (<https://www.mdpi.com/journal/applsci/special_issues/Artificial_Intelligence_Farm_Industry>).  | 2022            |
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------+
-| -   Applied Data Science ambassador at Utrecht University (<https://www.uu.nl/en/research/applied-data-science/about-us/ambassadors>).                                                                                                                         | 2018 – 2023     |
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------+
-| -   Open Science Fellows FAIR data and software at Utrecht University (<https://www.uu.nl/en/research/open-science/tracks/fair-data-and-software> ).                                                                                                           | 2018 – 2023     |
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------+
-| -   Co-organiser of the 2016 ADSA Discover Conference on Big Data for Dairy (Chicago, USA).                                                                                                                                                                    | 2016            |
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------+
+-   **Scientific Reviewer** for leading international journals, including *Journal of Dairy Science*, *Journal of Animal Science*, *Animal*, *Dairy Research*, *Theriogenology*, *Preventive Veterinary Medicine*, *Frontiers*, *PLOS ONE*, and *Computers and Electronics in Agriculture*, among others. *(Present)*
+
+-   **Chair**, [*Dairy Cattle Milk Recording Working Group*](https://www.icar.org/index.php/technical-bodies/working-groups/dairy-cattle-milk-recording-working-group/), International Committee for Animal Recording (ICAR). *(2024 – Present)*
+
+-   **Executive Committee Member**, [Cornell Institute for Digital Agriculture.](https://digitalagriculture.cornell.edu/) *(2025 – Present)*
+
+-   **Faculty Fellow**, [Cornell Atkinson Center for Sustainability](https://fellows.atkinson.cornell.edu/). *(2024 – Present)*
+
+-   **Faculty Fellow**, [Cornell Institute for Digital Agriculture](https://digitalagriculture.cornell.edu/). *(2024 – Present)*
+
+-   **Organizer**, ADSA Discover Conference *“Milking the Data: Value-Driven Dairy Farming”*, Chicago, USA. *(2024)*
+
+-   **Board Member**, Framework Development of the Master in Veterinary Medicine (v2022).\
+    https://students.uu.nl/sites/default/files/dgk_raamplan_masteropleiding_diergeneeskunde_def.pdf\
+    *(2019 – 2022)*
+
+-   **Guest Editor**, Special Issue *“*[Towards Machine Learning and Artificial Intelligence in the Farm-to-Fork Industry](https://www.mdpi.com/journal/applsci/special_issues/Artificial_Intelligence_Farm_Industry)*”*, *Applied Sciences* (MDPI). *(2022)*
+
+-   **Applied Data Science Ambassador**, [Utrecht University](https://www.uu.nl/en/research/applied-data-science/about-us/ambassadors). *(2018 – 2023)*
+
+-   **Open Science Fellow**, F[AIR Data and Software Track](https://www.uu.nl/en/research/open-science/tracks/fair-data-and-software), Utrecht University. *(2018 – 2023)*
+
+-   **Co‑Organizer**, ADSA Discover Conference *“Big Data for Dairy”*, Chicago, USA. *(2016)*
 
 ### Professional membership
 
@@ -40,30 +40,43 @@ National Institute for Agricultural Training (NCBL)
 
 -   Multiple extension training sessions for dairy and beef herd managers on production, transition and reproductive management of dairy cows (2006-2022).
 
+## Industry and Stakeholder Engagement
+
 Active involvement in extension services for several Belgian, European and global agricultural businesses. Some examples but not limited to
 
-+---------------------------------------------------+--------------------------------------------------+---------------------------------------------------------+
-| Feed industry                                     | Milk recording organisations                     | Genetic companies                                       |
-+===================================================+==================================================+=========================================================+
-| -   [www.agrifirm.nl](http://www.agrifirm.nl)     | -   [www.lactanet.ca](http://www.lactanet.ca)    | -   [www.dhia.org](http://www.dhia.org)                 |
-|                                                   |                                                  |                                                         |
-| -   [www.aveve.be](http://www.aveve.be)           | -   [www.crv4all.nl](http://www.crv4all.nl)      | -   [www.semex.com](http://www.semex.com)               |
-|                                                   |                                                  |                                                         |
-| -   [www.forfarmers.nl](http://www.forfarmers.nl) | -   [www.uscdcb.com](http://www.uscdcb.com)      | -   [www.altagenetics.com](http://www.altagenetics.com) |
-|                                                   |                                                  |                                                         |
-| -   [www.pahc.com](http://www.pahc.com/)          |                                                  |                                                         |
-|                                                   |                                                  |                                                         |
-| -   www.nutrivice.com                             |                                                  |                                                         |
-|                                                   |                                                  |                                                         |
-| -                                                 |                                                  |                                                         |
-+---------------------------------------------------+--------------------------------------------------+---------------------------------------------------------+
-| **Pharmaceuticals**                               | **Dairy cooperations**                           | **Precision dairy farming technologies**                |
-+---------------------------------------------------+--------------------------------------------------+---------------------------------------------------------+
-| -   [www.zoetis.com](http://www.zoetis.com)       | -   [alsafidanone.com](http://alsafidanone.com/) | -   [www.delaval.com](http://www.delaval.com)           |
-|                                                   |                                                  |                                                         |
-| -   [www.msd.com](http://www.msd.com)             |                                                  | -   [www.lely.com](http://www.lely.com)                 |
-|                                                   |                                                  |                                                         |
-| -   [www.elanco.com](http://www.elanco.com)       |                                                  | -   [www.connecterra.io](http://www.connecterra.io)     |
-|                                                   |                                                  |                                                         |
-|                                                   |                                                  | -   [www.mmmooogle.com](http://www.mmmooogle.com)       |
-+---------------------------------------------------+--------------------------------------------------+---------------------------------------------------------+
+### Feed Industry
+
+-   [Agrifirm](https://www.agrifirm.nl)
+-   [AVEVE](https://www.aveve.be)
+-   [ForFarmers](https://www.forfarmers.nl)
+-   [PAHC](https://www.pahc.com)
+-   [Nutrivice](https://www.nutrivice.com)
+
+### Milk Recording Organizations
+
+-   [Lactanet](https://www.lactanet.ca)
+-   [CRV](https://www.crv4all.nl)
+-   [U.S. Council on Dairy Cattle Breeding (USCDCB)](https://www.uscdcb.com)
+
+### Genetic Companies
+
+-   [Dairy Herd Improvement Association (DHIA)](https://www.dhia.org)
+-   [Semex](https://www.semex.com)
+-   [Alta Genetics](https://www.altagenetics.com)
+
+### Pharmaceuticals
+
+-   [Zoetis](https://www.zoetis.com)
+-   [MSD Animal Health](https://www.msd.com)
+-   [Elanco](https://www.elanco.com)
+
+### Dairy Cooperatives
+
+-   [Alsafi Danone](https://alsafidanone.com)
+
+### Precision Dairy Farming Technologies
+
+-   [DeLaval](https://www.delaval.com)
+-   [Lely](https://www.lely.com)
+-   [Connecterra](https://www.connecterra.io)
+-   [MmmooOgle](https://www.mmmooogle.com)
