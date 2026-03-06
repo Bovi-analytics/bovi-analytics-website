@@ -23,10 +23,10 @@ website:
         menu:
           - text: "Curriculum vitae"
             href: miel-hostens/cv.qmd
-          - text: "Biosketch"
-            href: miel-hostens/short-cv.qmd
           - text: "Curriculum vitae PDF"
             href: https://bovi-analytics.org/miel-hostens/assets/pdf/miel-hostens-cv.pdf
+          - text: "Biosketch"
+            href: miel-hostens/short-cv.qmd
       - text: "Researchers"
         href: researchers/index.qmd
       - text: "Lab"
