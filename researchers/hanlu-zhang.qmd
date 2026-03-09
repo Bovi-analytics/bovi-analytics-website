@@ -11,7 +11,7 @@ format: html
 editor: visual
 ---
 
-\### Who am I
+### Who am I
 
 I began my academic journey in Animal Science at China Agricultural University and continued with a Master’s and PhD in Animal Nutrition at Wageningen University. During my PhD, which focused on developing an in vitro model of protein fermentation, I developed a strong interest in data analysis.
 
