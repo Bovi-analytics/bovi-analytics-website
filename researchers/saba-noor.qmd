@@ -1,5 +1,5 @@
 ---
-title: "Saba Noor Trapenese"
+title: "Saba Noor"
 subtitle: "Ontology driven animal health -- a prerequisite towards federated learning"
 author: "Lucia Trapenese"
 format: html
@@ -8,7 +8,7 @@ editor: visual
 
 # Who am I
 
-![](/files/img/researchers/saba-noor-bio.png){fig-align="right" width="297"}
+![](/files/img/headshots/SabaNoor.png){fig-align="right" width="128"}
 
 Hi I am Saba Noor. I came from Pakistan and started my phd at Feburay 2023. My research focus is on Ontology driven animal health -- a prerequisite towards federated learning.
 
