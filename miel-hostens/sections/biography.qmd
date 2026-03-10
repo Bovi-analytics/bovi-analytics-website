@@ -10,4 +10,4 @@ To ensure practical adoption, this framework is extended with **fine‑tuned lar
 
 ## Motivational insights
 
-Understanding what somebody does often starts by understanding one's motivational insights. [You can read my motivational insights](/files/pdfs/miel-hostens-insights.pdf) (created in 2022, I might have changed a little bit meanwhile :). Most of the ideas in the report can be found in the absolutely must-read "[Surrounded by Idiots](https://www.surroundedbyidiots.com/en/books/surrounded-by-idiots/)" by Thomas Erikson. His book and my own motivational insights have been a personal and academic game changer for me.
+Understanding what somebody does often starts by understanding one's motivational insights. [You can read my motivational insights](miel-hostens/assets/pdf/miel-hostens-insights.pdf) (created in 2022, I might have changed a little bit meanwhile :). Most of the ideas in the report can be found in the absolutely must-read "[Surrounded by Idiots](https://www.surroundedbyidiots.com/en/books/surrounded-by-idiots/)" by Thomas Erikson. His book and my own motivational insights have been a personal and academic game changer for me.
