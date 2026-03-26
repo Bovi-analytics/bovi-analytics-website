@@ -25,8 +25,10 @@ website:
             href: miel-hostens/cv.qmd
           - text: "Curriculum vitae PDF"
             href: https://bovi-analytics.org/miel-hostens/assets/pdf/miel-hostens-cv.pdf
-          - text: "Biosketch"
+          - text: "Biosketch Short CV"
             href: miel-hostens/short-cv.qmd
+          - text: "Biosketch Short CV PDF"
+            href: https://bovi-analytics.org/miel-hostens/assets/pdf/miel-hostens-short-cv.pdf
       - text: "Researchers"
         href: researchers/index.qmd
       - text: "Lab"
