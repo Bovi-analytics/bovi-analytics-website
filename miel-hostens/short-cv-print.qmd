@@ -4,7 +4,7 @@ subtitle: "Miel Hostens"
 date: last-modified 
 format:
   pdf:
-    output-file: miel-hostens-short-cv.pdf
+    output-file: /assets/pdf/miel-hostens-short-cv.pdf
     documentclass: report
     toc: false
     number-sections: false
