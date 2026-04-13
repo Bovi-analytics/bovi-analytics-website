@@ -4,7 +4,7 @@ subtitle: "Miel Hostens"
 date: last-modified 
 format:
   pdf:
-    output-file: /assets/pdf/miel-hostens-short-cv.pdf
+    output-file: miel-hostens-short-cv.pdf
     documentclass: report
     toc: false
     number-sections: false
@@ -16,7 +16,6 @@ format:
 \newpage
 {{< include sections/appointments.qmd >}}
 \newpage
-{{< include sections/research-focus.qmd >}}
+{{< include sections/funding.qmd >}}
 \newpage
 {{< include sections/output.qmd >}}
-

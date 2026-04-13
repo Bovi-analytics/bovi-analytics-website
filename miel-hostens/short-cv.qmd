@@ -13,5 +13,5 @@ format:
 ---
 
 {{< include sections/appointments.qmd >}}
-{{< include sections/research-focus.qmd >}}
+{{< include sections/funding.qmd >}}
 {{< include sections/output.qmd >}}
