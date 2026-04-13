@@ -4,13 +4,13 @@ subtitle: "Miel Hostens"
 date: last-modified 
 format:
   pdf:
-    output-file: miel-hostens-cv.pdf
     documentclass: report
     toc: false
     number-sections: false
     geometry: margin=1in
     colorlinks: true
     papersize: letter
+output-file: miel-hostens-cv.pdf
 output-dir: assets/pdf
 ---
 
