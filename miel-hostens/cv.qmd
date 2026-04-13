@@ -4,12 +4,6 @@ author: Miel Hostens
 subtitle: "Robert and Anne Everett Associate Professor of Digital Dairy Management"
 date: last-modified
 toc: true
-format:
-  html:
-    theme: cosmo
-    toc-location: right
-    smooth-scroll: true
-    number-sections: false
 ---
 
 {{< include sections/appointments.qmd >}}

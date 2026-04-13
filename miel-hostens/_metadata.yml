@@ -1,0 +1,6 @@
+format:
+  html:
+    theme: cosmo
+    toc-location: right
+    smooth-scroll: true
+    number-sections: false
