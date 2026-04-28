@@ -12,3 +12,4 @@ README.html
 .Rprofile
 
 **/*.quarto_ipynb
+.positai
