@@ -20,7 +20,7 @@ course-logo: /files/img/Bovi-Analytics-SmallLogo.png
 -   {{< fa university >}}   {{< var instructor.office >}}
 -   {{< fa envelope >}}   <a href='mailto:{{< var instructor.email >}}'>{{< var instructor.email >}}</a>
 -   {{< fa calendar-check >}}   [Schedule an appointment]({{< var instructor.appointment_url >}})
--   {{< fa person-chalkboard >}} [My presentations]({{< var instructor.presentations >}}
+-   {{< fa person-chalkboard >}}   [My presentations]({{< var instructor.presentations >}})
 :::
 
 ::: {.g-col-12 .g-col-sm-6 .g-col-md-4}
