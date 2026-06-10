@@ -2,13 +2,13 @@
 **Digital Dairy Management and Data Analytics**\
 Department of Animal Science
 
-Cornell University\
-273 Morrison Hall\
-Ithaca, NY 14853\
-United States
+Cornell University 273 Morrison Hall Ithaca, NY 14853 United States
 
-📞 +1 607-663-0808\
+📞 +1 607-663-0808
+
 ✉️ [miel.hostens\@cornell.edu](mailto:miel.hostens@cornell.edu)
+
+📄 [Link to pdf version](https://bovi-analytics.org/miel-hostens/miel-hostens-cv.pdf)
 
 ## Current position
 
@@ -29,7 +29,7 @@ United States
 
 \newpage
 
-## Previous Scientific and Professional Activities
+## Previous positions
 
 ### Academic Appointments & Professional Experience
 
