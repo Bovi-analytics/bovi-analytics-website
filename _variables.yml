@@ -4,7 +4,7 @@ instructor:
   name: Dr. Miel Hostens
   name_no_title: Miel Hostens
   email: miel.hostens@cornell.edu
-  url: "https://bovi-analytics.org/researchers/miel-hostens.html"
+  url: "https://bovi-analytics.org/miel-hostens/cv.html"
   twitter: "@MielHostens"
   github: "https://github.com/Bovi-Analytics/"
   office: "Morrison Hall 273, Ithaca, NY 14853"
@@ -15,7 +15,8 @@ instructor:
   google_scholar: "https://scholar.google.com/citations?hl=en&user=fZ1xfdQAAAAJ&view_op=list_works&gmla=AJsN-F6DOEcpROYxdOyxFgAREeu8df0RTIsVt3GOURyAkAdHcPwdCyx3_kJuFcTA7zgnVEoACNe-TtSPCUsDbl46SiHosZyyFYzQURxnFr_Pm8VwMoMNB20"
   scopus: "https://www.scopus.com/authid/detail.uri?authorId=25960883600"
   research_gate: "https://www.researchgate.net/profile/Miel_Hostens"
-  phd_url: "http://www.rohh.ugent.be/v3/research/phd/2012/Hostens_M.pdf"
+  phd_url: "https://bovi-analytics.org/miel-hostens/assets/pdf/miel-hostens-phd.pdf"
+  presentations: "https://bovi-analytics.org/miel-hostens/cv.html#presentations"
 
 lab:
   location: "Morrison Hall 273, Ithaca, NY 14853"
