@@ -1,9 +1,8 @@
 ---
-title: "Curriculum Vitae - Miel Hostens"
+title: "Curriculum Vitae - Miel Hostens, PhD, DVM"
 author: Miel Hostens
 subtitle: "Robert and Anne Everett Associate Professor of Digital Dairy Management"
 date: last-modified
-toc: true
 ---
 
 {{< include sections/appointments.qmd >}}

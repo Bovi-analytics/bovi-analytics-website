@@ -1,6 +1,9 @@
 format:
   html:
     theme: cosmo
-    toc-location: right
+    toc-location: left
     smooth-scroll: true
-    number-sections: false
+    toc-title: Jump to
+    other-links:
+      - text: PDF
+        href: https://bovi-analytics.org/miel-hostens/miel-hostens-cv.pdf

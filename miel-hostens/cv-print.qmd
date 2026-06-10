@@ -1,6 +1,6 @@
 ---
 title: "Curriculum Vitae"
-subtitle: "Miel Hostens"
+subtitle: "Miel Hostens, PhD, DVM"
 date: last-modified 
 format:
   pdf:
