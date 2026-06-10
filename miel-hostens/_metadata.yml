@@ -4,6 +4,7 @@ format:
     toc-location: left
     smooth-scroll: true
     toc-title: Jump to
+    toc-depth: 2
     other-links:
       - text: PDF
         href: https://bovi-analytics.org/miel-hostens/miel-hostens-cv.pdf
