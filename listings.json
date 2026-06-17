@@ -29,6 +29,7 @@
   {
     "listing": "/projects/index.html",
     "items": [
+      "/projects/federated-learning.html",
       "/projects/decide.html",
       "/projects/veerkracht.html"
     ]

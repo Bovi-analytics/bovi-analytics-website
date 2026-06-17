@@ -10,7 +10,66 @@
 <atom:link href="https://github.com/Bovi-analytics/bovi-analytics-website/projects/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.9.38</generator>
-<lastBuildDate>Thu, 01 Jul 2021 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 16 Jun 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Federated learning project</title>
+  <link>https://github.com/Bovi-analytics/bovi-analytics-website/projects/federated-learning.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="project-description" class="level2">
+<h2 class="anchored" data-anchor-id="project-description">Project Description</h2>
+<p>This project builds a privacy-first federated learning ecosystem for dairy farms. Based on the framework proposed in <span class="citation" data-cites="HOSTENS2025S9">(<span class="nocase">Hostens et al.</span> 2025)</span>, the system enables machine learning models to be trained directly on edge devices at the farm level, ensuring sensitive raw data never has to leave the premises. The framework is visualized in the following figure: <img src="https://github.com/Bovi-analytics/bovi-analytics-website/projects/system-diagram.jpg" class="img-fluid" alt="system-diagram"></p>
+<p>The framework consists of two main components: The cloud and the farms, which are connected through a secure networking layer. Farms train AI models locally using their private data. Updated model parameters are shared back to the cloud, where they are aggregated into global models. Research farms can also share raw data, which enables testing and pre-training of models inside the cloud.</p>
+<p>Global models are shared back to farms, where they can inference using the private local data. Ultimately, the farmer can use natural language in a chat interface to interact with these models. This is facilitated by an autonomous AI agent that decides which models to use and what data to collect, building upon our foundational agentic prototype <span class="citation" data-cites="LIU202514038">(<span class="nocase">E. Liu et al.</span> 2025)</span>.</p>
+<p>To successfully develop and deploy this framework, we must handle the heterogeneous data found in farms, as well as inconsistencies of how data is stored in different farms. For this, we develop an ontology for dairy farming. This will specify the various data found at a dairy farm (such as milk yield registration, cow birth, etc.) and the associated metadata. Such ontology enables conversion of each farm’s local data into a standardized format, which in turn provides researchers with a single data format to build their models upon.</p>
+</section>
+<section id="current-status" class="level2">
+<h2 class="anchored" data-anchor-id="current-status">Current Status</h2>
+<p>In 2026 up until now, we focused on developing the ontology and building the Minimum Viable Product (MVP) for the platform. Technical and research milestones include:</p>
+<ul>
+<li><strong>Ontology Development - Completed:</strong> A comprehensive ontology defining various farm events has been developed. This specification allows us to standardize heterogeneous data across different farms, creating a consistent foundation for model training.</li>
+<li><strong>Technical Architecture - Completed:</strong> We decided upon tooling, integration, and data flow, making numerous trade-offs to ensure a secure, reliable, cost-efficient and extensible platform. <img src="https://github.com/Bovi-analytics/bovi-analytics-website/projects/technical-diagram.png" class="img-fluid" alt="technical-diagram"></li>
+<li><strong>Cloud Development - Completed:</strong> All cloud components are fully operational.</li>
+<li><strong>Edge Development - 95% Done:</strong> All components with 2 exceptions are running on a development edge device. The user-facing chat UI and the agent remaining in development, guided by our benchmarking of privacy-preserving Small Language Models (SLMs) for constrained farm hardware <span class="citation" data-cites="liu2025evaluatingsmalllanguagemodels">(Enhong Liu et al. 2025)</span>.</li>
+<li><strong>Secure Connectivity - Completed:</strong> Using Tailscale, we can easily guarantee secure connectivity, providing authentication and data encryption.</li>
+<li><strong>Model Development:</strong> Several models developed in the Bovi-Analytics lab can be deployed on or built upon for usage in the federated platform:
+<ul>
+<li><strong>Lactation Curve Modeling:</strong> Utilizing various machine learning approaches to analyze and forecast milk yield.</li>
+<li><strong>Computer Vision:</strong> Memory-efficient, distilled vision pipelines optimized for edge accelerators (e.g., Jetson Orin NX) to perform individual-level monitoring and behavior classification <span class="citation" data-cites="yang2026lightweightdistillationsam3">(Yang and Hostens 2026)</span>.</li>
+<li><strong>Farm Simulation:</strong> A neural surrogate model of the Ruminant Farm Systems (RuFaS) simulation model.</li>
+<li><strong>LLM &amp; Agentic Interfaces:</strong> A conversational agent utilizing RAG for literature-backed decision support and providing a natural language interface to predictive models <span class="citation" data-cites="LIU202514038">(<span class="nocase">E. Liu et al.</span> 2025)</span>.</li>
+</ul></li>
+</ul>
+
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-HOSTENS2025S9" class="csl-entry">
+<span class="nocase">Hostens, Miel, Sébastien Franceschini, Meike van Leerdam, et al.</span> 2025. <span>“The Future of Big Data and Artificial Intelligence on Dairy Farms: A Proposed Dairy Data Ecosystem.”</span> <em>JDS Communications</em> 6: S9–14. https://doi.org/<a href="https://doi.org/10.3168/jdsc.2025-0843">https://doi.org/10.3168/jdsc.2025-0843</a>.
+</div>
+<div id="ref-liu2025evaluatingsmalllanguagemodels" class="csl-entry">
+Liu, Enhong, Haiyu Yang, and Miel Hostens. 2025. <em>Evaluating Small Language Models for Agentic on-Farm Decision Support Systems</em>. <a href="https://arxiv.org/abs/2512.14043">https://arxiv.org/abs/2512.14043</a>.
+</div>
+<div id="ref-LIU202514038" class="csl-entry">
+<span class="nocase">Liu, E., H. Yang, S. Sharma, et al.</span> 2025. <span>“Agents Are All You Need: Pioneering the Use of Agentic Artificial Intelligence to Embrace Large Language Models into Dairy Science.”</span> <em>Journal of Dairy Science</em> 108 (12): 14038–49. https://doi.org/<a href="https://doi.org/10.3168/jds.2025-26775">https://doi.org/10.3168/jds.2025-26775</a>.
+</div>
+<div id="ref-yang2026lightweightdistillationsam3" class="csl-entry">
+Yang, Haiyu, and Miel Hostens. 2026. <em>Lightweight Distillation of SAM 3 and DINOv3 for Edge-Deployable Individual-Level Livestock Monitoring and Longitudinal Visual Analytics</em>. <a href="https://arxiv.org/abs/2604.27128">https://arxiv.org/abs/2604.27128</a>.
+</div>
+</div></section></div> ]]></description>
+  <category>NSF-PDaSP</category>
+  <category>Ongoing</category>
+  <category>Cattle</category>
+  <category>Federated Learning</category>
+  <guid>https://github.com/Bovi-analytics/bovi-analytics-website/projects/federated-learning.html</guid>
+  <pubDate>Tue, 16 Jun 2026 00:00:00 GMT</pubDate>
+  <media:content url="https://github.com/Bovi-analytics/bovi-analytics-website/projects/nsf-pdasp.svg" medium="image" type="image/svg+xml"/>
+</item>
 <item>
   <title>Decide project</title>
   <link>https://github.com/Bovi-analytics/bovi-analytics-website/projects/decide.html</link>
